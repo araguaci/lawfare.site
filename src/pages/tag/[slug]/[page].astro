@@ -1,0 +1,60 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import EventoCard from '../../../components/EventoCard.astro';
+import Paginacao from '../../../components/Paginacao.astro';
+import FilterBar from '../../../components/FilterBar.astro';
+import TagFilterBar from '../../../components/TagFilterBar.astro';
+import data from '../../../data/assuntos.json';
+import { tagRegistry } from '../../../data/tagRegistry';
+
+export const getStaticPaths = (({ paginate }) => {
+  const { slugToTag } = tagRegistry;
+  return [...slugToTag.entries()].flatMap(([slug, tag]) => {
+    const eventos = data.assuntos
+      .filter(e => (e.tags as string[]).includes(tag))
+      .sort((a, b) => b.data_evento.localeCompare(a.data_evento));
+    return paginate(eventos, {
+      params: { slug },
+      pageSize: 50,
+    });
+  });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const { slug } = Astro.params;
+const tag = tagRegistry.slugToTag.get(slug!) ?? '';
+const title = `Tag: ${tag} — Lawfare Timeline${page.currentPage > 1 ? ` (pág. ${page.currentPage})` : ''}`;
+const description = `${page.total} eventos com a tag «${tag}» — Lawfare Timeline Brasil`;
+---
+
+<Base title={title} description={description} canonical={Astro.url.href}>
+  <div class="page-header">
+    <a href="/" class="back-link" data-pagefind-ignore>← Início</a>
+    <h1 class="page-title">
+      <span class="title-muted">Tag:</span>
+      <span class="title-accent">{tag}</span>
+    </h1>
+    <p class="page-sub">
+      {page.total} eventos · {page.lastPage} {page.lastPage === 1 ? 'página' : 'páginas'}
+    </p>
+  </div>
+
+  <FilterBar categoriaAtiva={null} />
+
+  <TagFilterBar tagSlugAtiva={slug ?? null} />
+
+  <div class="feed" data-pagefind-ignore>
+    {page.data.map(evento => (
+      <EventoCard evento={evento} />
+    ))}
+  </div>
+
+  <Paginacao
+    currentPage={page.currentPage}
+    lastPage={page.lastPage}
+    prevUrl={page.url.prev}
+    nextUrl={page.url.next}
+    baseUrl={`/tag/${slug}`}
+  />
+</Base>

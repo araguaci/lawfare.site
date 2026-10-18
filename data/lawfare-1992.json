@@ -1,0 +1,258 @@
+{
+  "total": 9,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1992,
+  "assuntos": [
+    {
+      "titulo": "Caso do Fórum do TRT-SP",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "sao-paulo"
+      ],
+      "descricao": "Esquema de corrupção envolvendo a construção do fórum do Tribunal Regional do Trabalho em São Paulo✧  com desvios de verbas iniciados em 1992✧  detectados por auditorias do TCU em 1995✧  e obra abandonada em 1998.Nicolau dos Santos NetoLuiz EstevãoConstrutora IncalGrupo OK",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [
+        "TCU"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 2 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\1992-01-01-caso-do-forum-do-trt-sp.md",
+      "id": 42
+    },
+    {
+      "titulo": "Escândalo da LBA",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1992"
+      ],
+      "descricao": "Desvios na Legião Brasileira de Assistência.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1992-01-01-escandalo-da-lba.md",
+      "id": 43
+    },
+    {
+      "titulo": "Escândalo da Vasp",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1992"
+      ],
+      "descricao": "Favorecimentos à companhia aérea.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1992-01-01-escandalo-da-vasp.md",
+      "id": 44
+    },
+    {
+      "titulo": "Escândalo das Estatais",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1992"
+      ],
+      "descricao": "Corrupção em empresas públicas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1992-01-01-escandalo-das-estatais.md",
+      "id": 45
+    },
+    {
+      "titulo": "Escândalo do FGTS",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1992"
+      ],
+      "descricao": "Desvios no fundo de garantia.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1992-01-01-escandalo-do-fgts.md",
+      "id": 46
+    },
+    {
+      "titulo": "Escândalo do INSS",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1992"
+      ],
+      "descricao": "Desvios na previdência social.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "INSS"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1992-01-01-escandalo-do-inss.md",
+      "id": 47
+    },
+    {
+      "titulo": "Esquema PC",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1992"
+      ],
+      "descricao": "Compra de apoio político.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1992-01-01-esquema-pc.md",
+      "id": 48
+    },
+    {
+      "titulo": "Esquema PP",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1992"
+      ],
+      "descricao": "Corrupção via Paulo César Farias.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1992-01-01-esquema-pp.md",
+      "id": 49
+    },
+    {
+      "titulo": "Operação Colômbia",
+      "data_evento": "1992-01-01",
+      "data_iso": "1992-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "narcotrafico",
+        "narcotrafico",
+        "crime-organizado"
+      ],
+      "descricao": "1992-01-01-Rio de Janeiro, RJ-narcotráfico-crime organizado",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\1992-01-01-operacao-colombia.md",
+      "id": 50
+    }
+  ]
+}

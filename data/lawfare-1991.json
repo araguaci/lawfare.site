@@ -1,0 +1,226 @@
+{
+  "total": 8,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1991,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Ação Social",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Fraudes em programas sociais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-escandalo-da-acao-social.md",
+      "id": 34
+    },
+    {
+      "titulo": "Escândalo da Ceme",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Fraudes em medicamentos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-escandalo-da-ceme.md",
+      "id": 35
+    },
+    {
+      "titulo": "Escândalo da Eletronorte",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Irregularidades em energia.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-escandalo-da-eletronorte.md",
+      "id": 36
+    },
+    {
+      "titulo": "Escândalo da Merenda",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Desvios em merenda escolar.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-escandalo-da-merenda.md",
+      "id": 37
+    },
+    {
+      "titulo": "Escândalo das Comunicações",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Concessões irregulares.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-escandalo-das-comunicacoes.md",
+      "id": 38
+    },
+    {
+      "titulo": "Escândalo do BCCI",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Lavagem de dinheiro via banco internacional.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-escandalo-do-bcci.md",
+      "id": 39
+    },
+    {
+      "titulo": "Escândalo do Fundo de Participação",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Desvios em repasses a municípios.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-escandalo-do-fundo-de-participacao.md",
+      "id": 40
+    },
+    {
+      "titulo": "Programa Nacional de Desestatização",
+      "data_evento": "1991-01-01",
+      "data_iso": "1991-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1991"
+      ],
+      "descricao": "Fraudes em privatizações.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1991-01-01-programa-nacional-de-desestatizacao.md",
+      "id": 41
+    }
+  ]
+}

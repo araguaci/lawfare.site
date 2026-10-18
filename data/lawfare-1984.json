@@ -1,0 +1,64 @@
+{
+  "total": 2,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1984,
+  "assuntos": [
+    {
+      "titulo": "Escândalo das Jóias",
+      "data_evento": "1984-01-01",
+      "data_iso": "1984-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-joao-figueiredo",
+        "1984"
+      ],
+      "descricao": "Contrabando de joias e pedras preciosas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1984-01-01-escandalo-das-joias.md",
+      "id": 22
+    },
+    {
+      "titulo": "Escândalo do Instituto Nacional de Assistência Médica do INAMPS",
+      "data_evento": "1984-01-01",
+      "data_iso": "1984-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-joao-figueiredo",
+        "1984"
+      ],
+      "descricao": "Desvios em recursos da saúde pública.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1984-01-01-escandalo-do-instituto-nacional-de-assistencia-medica-do-inamps.md",
+      "id": 23
+    }
+  ]
+}

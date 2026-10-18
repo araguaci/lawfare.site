@@ -1,0 +1,526 @@
+{
+  "total": 18,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2015,
+  "assuntos": [
+    {
+      "titulo": "Caso Delcídio do Amaral",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma",
+        "2015"
+      ],
+      "descricao": "Tentativa de obstruir Lava Jato.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2015-01-01-caso-delcidio-do-amaral.md",
+      "id": 351
+    },
+    {
+      "titulo": "Congresso Compra Flores",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "flores-luxo",
+        "gastos-desnecessarios"
+      ],
+      "descricao": "2015-01-01-Brasília, DF-legislativo-decoração",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1,2 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2015-01-01-congresso-compra-flores.md",
+      "id": 352
+    },
+    {
+      "titulo": "Escândalo da Eletronuclear",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma",
+        "2015"
+      ],
+      "descricao": "Desvios em Angra 3, ligado à Lava Jato.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2015-01-01-escandalo-da-eletronuclear.md",
+      "id": 353
+    },
+    {
+      "titulo": "Operação Águas Profundas (Caso Petrobras)",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma",
+        "2015"
+      ],
+      "descricao": "Parte da Lava Jato.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2015-01-01-operacao-aguas-profundas-caso-petrobras.md",
+      "id": 354
+    },
+    {
+      "titulo": "Operação Expresso 150",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "ce"
+      ],
+      "descricao": "Desembargadores e juízes do Ceará investigados por venda de habeas corpus e liminares durante plantões judiciais.Desembargadores Francisco Pedrosa Teixeira✧  Sergia Maria Mendonça Miranda✧  Váldsen da Silva Alves Pereira (aposentado)advogados e traficantes beneficiados",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2015-01-01-operacao-expresso-150.md",
+      "id": 355
+    },
+    {
+      "titulo": "Operação O Recebedor",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao",
+        "propina"
+      ],
+      "descricao": "2015-01-01-Rio de Janeiro, RJ-corrupção-propina",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2015-01-01-operacao-o-recebedor.md",
+      "id": 356
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma-2011-2016",
+        "2015"
+      ],
+      "descricao": "Fraudes no CARF para anular débitos fiscais via propina.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 20 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2015-01-01-operacao-zelotes.md",
+      "id": 357
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "nacional"
+      ],
+      "descricao": "Operação iniciada em março de 2015 investigando corrupção no CARF✧  com empresas pagando propinas para anular multas fiscais✧  causando prejuízo estimado de R$ 19 bilhões.GerdauBradescoSantanderRBSBanco SafraAndré GerdauGuido MantegaLuiz Claudio (filho de Lula)Lobistas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 19 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2015-01-01-operacao-zelotes.md",
+      "id": 358
+    },
+    {
+      "titulo": "Petrolão (Lava Jato)",
+      "data_evento": "2015-01-01",
+      "data_iso": "2015-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma-2011-2016",
+        "2015"
+      ],
+      "descricao": "Esquema de corrupção na Petrobras com propinas de empreiteiras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 6 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2015-01-01-petrolao-lava-jato.md",
+      "id": 359
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "data_evento": "2015-03-26",
+      "data_iso": "2015-03-26T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2015-03-26-operacao-zelotes.md",
+      "id": 360
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "data_evento": "2015-03-27",
+      "data_iso": "2015-03-27T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-fiscal",
+        "corrupcao"
+      ],
+      "descricao": "2015-03-27-Brasília, DF-fraude fiscal-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2015-03-27-operacao-zelotes.md",
+      "id": 361
+    },
+    {
+      "titulo": "Operação Acrônimo",
+      "data_evento": "2015-05-19",
+      "data_iso": "2015-05-19T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-eleitoral",
+        "fraude"
+      ],
+      "descricao": "2015-05-19-Belo Horizonte, MG-corrupção eleitoral-fraude",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2015-05-19-operacao-acronimo.md",
+      "id": 362
+    },
+    {
+      "titulo": "Operação Acrônimo — Deflagração: PF/MPF investigam financiamento ilegal da campanha Pimentel (PT/MG) via JHSF",
+      "data_evento": "2015-05-29",
+      "data_iso": "2015-05-29T12:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "P05",
+        "P07"
+      ],
+      "descricao": "A Polícia Federal e o Ministério Público Federal deflagram a Operação Acrônimo em 29 de maio de 2015, cobrindo Goiás, Minas Gerais, Rio Grande do Sul e Distrito Federal. Objeto central: esquema de caixa dois na campanha eleitoral de Fernando Pimentel (PT) ao governo de Minas Gerais em 2014. Mecanismo investigado: intermediação de empréstimo do BNDES para a construtora JHSF Participações; em contrapartida, a JHSF teria pago caixa dois simulando contrato com o instituto de pesquisas Vox Populi (R$ 750 mil). Operador identificado: empresário Benedito de Oliveira Neto ('Bené'), que assinou acordo de delação premiada. Operação atinge ao todo 6 fases documentadas entre 2015 e 2016.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2016-08/em-nova-fase-da-operacao-acronimo-pf-investiga-vox-populi-e-construtora",
+        "https://www.mpf.mp.br/pgr/noticias-pgr/acronimo-stj-recebe-denuncia-do-mpf-contra-fernando-pimentel-por-favorecimento-da-odebrecht"
+      ],
+      "pessoas_envolvidas": [
+        "Fernando Pimentel (Alvo principal — governador eleito MG / ex-ministro MDIC)",
+        "Benedito de Oliveira Neto (Operador do esquema — delator)",
+        "José Auriemo Neto (Proprietário da JHSF — confirmou planilha em depoimento à PF)"
+      ],
+      "instituicoes_envolvidas": [
+        "Polícia Federal",
+        "Ministério Público Federal",
+        "JHSF Participações",
+        "Instituto Vox Populi",
+        "BNDES"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\operacoes\\2015-05-29-operacao-acronimo-deflagracao-pfmpf-investigam-financiamento-ilegal-da-campanha-pimentel-p.md",
+      "id": 1595
+    },
+    {
+      "titulo": "TJ-SP condena Transcooper por subfaturamento de tarifas SPTrans (2005–2009) — cooperativa retinha repasses de perueiros durante presidência de Moraes",
+      "data_evento": "2015-08-26",
+      "data_iso": "2015-08-26T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P02",
+        "P05",
+        "P01"
+      ],
+      "descricao": "O juiz Adevanir Carlos Moreira da Silveira, da 4ª Vara Cível do Foro Regional de Santana (TJ-SP), condena a Transcooper por subfaturamento sistemático de tarifas. A cooperativa recebia valores da SPTrans entre 2005 e 2009 e deixava de repassar integralmente aos perueiros cooperados. A sentença (26/08/2015) determina pagamento de R$ 67.160,92. Dois acórdãos confirmam a decisão: apelação e embargos declaratórios julgados entre maio e julho de 2017. Na sentença, o juiz afirma que 'o valor da tarifa foi subfaturado pela ré ao longo do tempo de modo a reduzir a remuneração devida ao autor cooperado'. O período de 2007 a 2009 coincide com a presidência de Alexandre de Moraes na SPTrans — autoridade que supervisionava os contratos com a cooperativa. Moraes passou a advogar para a Transcooper após deixar o cargo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "https://fiquemsabendo.com.br/gastos-publicos/exclusivo-tj-condena-cooperativa-que-teve-alexandre-de-moraes-como-advogado-por-se-apropriar-de-dinheiro-de-perueiro-quando-ele-era-secretario"
+      ],
+      "pessoas_envolvidas": [
+        "Transcooper (Cooperativa condenada — retinha tarifas dos perueiros)",
+        "Alexandre de Moraes (Presidente da SPTrans (2007–2009) — autoridade supervisora dos contratos com a Transcooper; advogado da cooperativa após deixar o cargo)",
+        "Adevanir Carlos Moreira da Silveira (Juiz — prolator da sentença condenatória)"
+      ],
+      "instituicoes_envolvidas": [
+        "TJ-SP",
+        "SPTrans",
+        "Transcooper"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2015-08-26-tj-sp-condena-transcooper-por-subfaturamento-de-tarifas-sptrans-20052009-cooperativa-retin.md",
+      "id": 1598
+    },
+    {
+      "titulo": "Operação Greenfield",
+      "data_evento": "2015-09-10",
+      "data_iso": "2015-09-10T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-fundos-pensao",
+        "corrupcao"
+      ],
+      "descricao": "2015-09-10-Brasília, DF-fraude fundos pensão-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2015-09-10-operacao-greenfield.md",
+      "id": 363
+    },
+    {
+      "titulo": "Soltura De Antônio Márcio Renes Araújo E Outros",
+      "data_evento": "2015-09-12",
+      "data_iso": "2015-09-12T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "operacao-cardume",
+        "apelacao"
+      ],
+      "descricao": "2015-09-12-Brasil-Trafico Internacional-Lavagem Dinheiro",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2015-09-12-soltura-de-antonio-marcio-renes-araujo-e-outros.md",
+      "id": 364
+    },
+    {
+      "titulo": "Declarações polêmicas",
+      "data_evento": "2015-09-18",
+      "data_iso": "2015-09-18T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE",
+        "PF",
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2015-09-18-declaracoes-polemicas.md",
+      "id": 365
+    },
+    {
+      "titulo": "Caso BTG Pactual",
+      "data_evento": "2015-11-25",
+      "data_iso": "2015-11-25T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2015-11-25-caso-btg-pactual.md",
+      "id": 366
+    }
+  ]
+}

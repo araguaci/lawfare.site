@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plano v2.0 — Jekyll → Astro | lawfare-timeline @ 1400+ entradas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0b;
+    --bg2: #111113;
+    --bg3: #17171a;
+    --border: rgba(255,255,255,0.07);
+    --border2: rgba(255,255,255,0.12);
+    --text: #e8e6e0;
+    --muted: #8a8880;
+    --accent: #ff4444;
+    --accent2: #ff8800;
+    --accent3: #22d3a8;
+    --gold: #f59e0b;
+    --purple: #818cf8;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'Syne', sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+  .page { position: relative; z-index: 1; max-width: 980px; margin: 0 auto; padding: 48px 24px 96px; }
+
+  /* HEADER */
+  .header { margin-bottom: 56px; }
+  .header-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,68,68,0.1); border: 1px solid rgba(255,68,68,0.25);
+    color: var(--accent); font-size: 11px; font-weight: 600;
+    padding: 4px 12px; border-radius: 2px; letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+  .header h1 {
+    font-family: var(--sans); font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800; line-height: 1.05; letter-spacing: -0.02em;
+  }
+  .header h1 .del { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--accent); }
+  .header h1 .new { color: var(--accent3); }
+  .header h1 .scale { color: var(--gold); }
+  .header-sub { margin-top: 16px; font-size: 13px; color: var(--muted); max-width: 620px; line-height: 1.7; }
+  .header-meta {
+    display: flex; gap: 20px; flex-wrap: wrap; margin-top: 24px;
+    padding-top: 20px; border-top: 1px solid var(--border);
+  }
+  .meta-item { font-size: 12px; }
+  .meta-item .label { color: var(--muted); display: block; margin-bottom: 2px; }
+  .meta-item .val { color: var(--text); font-weight: 500; }
+  .meta-item .val.warn { color: var(--gold); }
+  .meta-item .val.ok { color: var(--accent3); }
+
+  /* ALERT BOX */
+  .alert {
+    background: rgba(245,158,11,0.07); border: 1px solid rgba(245,158,11,0.25);
+    border-left: 3px solid var(--gold); border-radius: 3px;
+    padding: 16px 20px; margin-bottom: 40px; font-size: 13px; line-height: 1.7;
+  }
+  .alert-title { color: var(--gold); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+  .alert ul { list-style: none; display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+  .alert li { display: flex; gap: 10px; align-items: flex-start; }
+  .alert li::before { content: '⚡'; font-size: 11px; flex-shrink: 0; margin-top: 2px; }
+
+  /* SECTIONS */
+  .section { margin-bottom: 52px; }
+  .section-title {
+    font-size: 11px; font-weight: 600; color: var(--muted);
+    letter-spacing: 0.1em; text-transform: uppercase;
+    margin-bottom: 20px; padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-title::before { content: '//'; color: var(--accent); }
+  .section-title .badge-new {
+    font-size: 9px; background: rgba(255,68,68,0.15); color: var(--accent);
+    padding: 2px 7px; border-radius: 2px; letter-spacing: 0.06em; margin-left: 4px;
+  }
+
+  /* SCALE IMPACT GRID */
+  .impact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 20px; }
+  .impact-card { background: var(--bg2); padding: 20px 18px; }
+  .impact-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+  .impact-val { font-family: var(--sans); font-size: 22px; font-weight: 800; line-height: 1; margin-bottom: 4px; }
+  .impact-desc { font-size: 11px; color: var(--muted); line-height: 1.5; }
+  .impact-val.red { color: var(--accent); }
+  .impact-val.green { color: var(--accent3); }
+  .impact-val.gold { color: var(--gold); }
+
+  /* STRATEGY CARDS */
+  .strategy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .strategy-card {
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: 4px; padding: 20px; position: relative; overflow: hidden;
+  }
+  .strategy-card.recommended { border-color: rgba(34,211,168,0.3); }
+  .strategy-card.recommended::before {
+    content: 'RECOMENDADO';
+    position: absolute; top: 12px; right: 12px;
+    font-size: 9px; font-weight: 600; color: var(--accent3);
+    background: rgba(34,211,168,0.1); padding: 3px 8px; border-radius: 2px;
+    letter-spacing: 0.08em;
+  }
+  .strategy-card.avoid { border-color: rgba(255,68,68,0.15); opacity: 0.7; }
+  .strategy-title { font-family: var(--sans); font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+  .strategy-sub { font-size: 11px; color: var(--muted); margin-bottom: 14px; }
+  .strategy-item { font-size: 12px; padding: 6px 0; border-bottom: 1px solid var(--border); display: flex; gap: 8px; }
+  .strategy-item:last-child { border-bottom: none; }
+  .strategy-item .ico { flex-shrink: 0; }
+  .strategy-item .ico.ok { color: var(--accent3); }
+  .strategy-item .ico.no { color: var(--accent); }
+  .strategy-item .ico.warn { color: var(--gold); }
+
+  /* PHASES */
+  .phases { display: flex; flex-direction: column; gap: 2px; }
+  .phase { background: var(--bg2); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; transition: border-color 0.2s; }
+  .phase:hover { border-color: var(--border2); }
+  .phase.updated { border-left: 2px solid var(--gold); }
+  .phase.new-phase { border-left: 2px solid var(--accent); }
+  .phase-header { display: flex; align-items: center; gap: 14px; padding: 18px 20px; cursor: pointer; user-select: none; }
+  .phase-num {
+    width: 32px; height: 32px; border-radius: 2px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--sans); font-weight: 800; font-size: 13px; flex-shrink: 0;
+  }
+  .p1 { background: rgba(255,68,68,0.15); color: var(--accent); }
+  .p2 { background: rgba(255,136,0,0.15); color: var(--accent2); }
+  .p3 { background: rgba(245,158,11,0.15); color: var(--gold); }
+  .p4 { background: rgba(34,211,168,0.15); color: var(--accent3); }
+  .p5 { background: rgba(129,140,248,0.15); color: var(--purple); }
+  .p6 { background: rgba(255,68,68,0.15); color: var(--accent); }
+  .p7 { background: rgba(34,211,168,0.15); color: var(--accent3); }
+  .phase-info { flex: 1; min-width: 0; }
+  .phase-title { font-family: var(--sans); font-weight: 700; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  .phase-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .phase-tags { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  .ptag {
+    font-size: 10px; padding: 2px 8px; border-radius: 2px; letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+  .ptag.new-tag { background: rgba(255,68,68,0.1); color: var(--accent); }
+  .ptag.upd-tag { background: rgba(245,158,11,0.1); color: var(--gold); }
+  .ptag.same-tag { background: rgba(138,136,128,0.1); color: var(--muted); }
+  .phase-time {
+    font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 2px;
+    letter-spacing: 0.06em; white-space: nowrap; flex-shrink: 0;
+  }
+  .t-red { background: rgba(255,68,68,0.1); color: var(--accent); }
+  .t-orange { background: rgba(255,136,0,0.1); color: var(--accent2); }
+  .t-gold { background: rgba(245,158,11,0.1); color: var(--gold); }
+  .t-green { background: rgba(34,211,168,0.1); color: var(--accent3); }
+  .t-purple { background: rgba(129,140,248,0.1); color: var(--purple); }
+  .phase-toggle { font-size: 12px; color: var(--muted); flex-shrink: 0; transition: transform 0.2s; }
+  .phase-toggle.open { transform: rotate(90deg); }
+
+  .phase-body { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1), padding 0.2s; }
+  .phase-body.open { max-height: 2400px; padding-bottom: 24px; }
+  .phase-inner { border-top: 1px solid var(--border); padding-top: 18px; }
+
+  /* CODE */
+  .code-block {
+    background: var(--bg3); border: 1px solid var(--border); border-radius: 4px;
+    padding: 16px; margin: 12px 0; font-size: 12px; color: #a8d8b0;
+    overflow-x: auto; line-height: 1.9;
+  }
+  .cm { color: var(--muted); }
+  .kw { color: #ff9f43; }
+  .str { color: #a8d8b0; }
+  .tag { color: #74b9ff; }
+  .attr { color: #fd79a8; }
+  .num { color: var(--gold); }
+  .hl { color: var(--accent3); }
+
+  /* STEPS */
+  .step-list { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 12px 0; }
+  .step-list li {
+    font-size: 13px; padding: 10px 14px; background: var(--bg3);
+    border-radius: 3px; display: flex; gap: 12px; align-items: flex-start;
+  }
+  .step-n { font-size: 10px; font-weight: 600; color: var(--muted); flex-shrink: 0; padding-top: 2px; letter-spacing: 0.05em; }
+  .step-hl { color: var(--accent3); font-weight: 500; }
+  .step-warn { color: var(--gold); font-weight: 500; }
+
+  /* COMPARISON */
+  .comp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+  .comp-col { background: var(--bg2); padding: 20px; }
+  .comp-head { font-family: var(--sans); font-weight: 700; font-size: 14px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+  .comp-item { font-size: 12px; padding: 7px 0; border-bottom: 1px solid var(--border); display: flex; gap: 8px; align-items: flex-start; }
+  .comp-item:last-child { border-bottom: none; }
+
+  /* ARCH TREE */
+  .arch-box { background: var(--bg3); border: 1px solid var(--border); border-radius: 4px; padding: 20px; margin: 12px 0; }
+  .arch-tree { font-family: var(--mono); font-size: 12px; line-height: 2; }
+  .arch-tree .dir { color: var(--accent3); font-weight: 600; }
+  .arch-tree .note { color: rgba(245,158,11,0.85); }
+  .arch-tree .new-f { color: var(--accent); }
+
+  /* PERFORMANCE BARS */
+  .perf-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .perf-table th { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; padding: 8px 12px; border-bottom: 1px solid var(--border); text-align: left; }
+  .perf-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  .perf-table tr:last-child td { border-bottom: none; }
+  .perf-table .metric { color: var(--muted); }
+  .bar-wrap { width: 160px; height: 6px; background: var(--bg3); border-radius: 2px; overflow: hidden; display: inline-block; vertical-align: middle; }
+  .bar { height: 100%; border-radius: 2px; }
+  .bar.bad { background: var(--accent); }
+  .bar.ok { background: var(--gold); }
+  .bar.good { background: var(--accent3); }
+  .perf-val { font-weight: 500; }
+  .perf-val.bad { color: var(--accent); }
+  .perf-val.ok { color: var(--gold); }
+  .perf-val.good { color: var(--accent3); }
+
+  /* SCHEMA */
+  .schema-box { background: var(--bg3); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+  .schema-header { padding: 10px 16px; background: rgba(34,211,168,0.06); border-bottom: 1px solid var(--border); font-size: 11px; font-weight: 600; color: var(--accent3); letter-spacing: 0.08em; text-transform: uppercase; }
+  .schema-fields { padding: 10px 16px; display: flex; flex-direction: column; gap: 4px; }
+  .field-row { display: grid; grid-template-columns: 190px 90px 1fr; gap: 14px; font-size: 12px; padding: 4px 0; }
+  .field-name { color: #fd79a8; font-weight: 500; }
+  .field-type { color: var(--gold); }
+  .field-desc { color: var(--muted); }
+
+  /* PAGEFIND HIGHLIGHT */
+  .highlight-box {
+    background: rgba(129,140,248,0.06); border: 1px solid rgba(129,140,248,0.2);
+    border-left: 3px solid var(--purple); border-radius: 3px;
+    padding: 16px 20px; margin: 12px 0; font-size: 13px; line-height: 1.7;
+  }
+  .highlight-title { color: var(--purple); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+
+  /* CHECKLIST */
+  .check-section { display: flex; flex-direction: column; gap: 4px; }
+  .check-group-title { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); padding: 12px 0 6px; font-weight: 600; }
+  .check-item {
+    display: flex; gap: 10px; align-items: flex-start;
+    font-size: 13px; padding: 8px 12px;
+    background: var(--bg2); border-radius: 3px; cursor: pointer;
+    transition: background 0.15s;
+  }
+  .check-item:hover { background: var(--bg3); }
+  .check-item.done { opacity: 0.5; }
+  .check-box {
+    width: 16px; height: 16px; border: 1px solid var(--border2); border-radius: 2px;
+    flex-shrink: 0; margin-top: 2px; display: flex; align-items: center;
+    justify-content: center; font-size: 10px; color: var(--accent3);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .check-box.checked { background: rgba(34,211,168,0.15); border-color: var(--accent3); }
+  .check-item.new-item .check-box { border-color: rgba(255,68,68,0.4); }
+  .check-tag {
+    font-size: 9px; padding: 2px 6px; border-radius: 2px; font-weight: 600;
+    letter-spacing: 0.06em; margin-left: auto; flex-shrink: 0; align-self: center;
+  }
+  .check-tag.new-t { background: rgba(255,68,68,0.1); color: var(--accent); }
+  .check-tag.upd-t { background: rgba(245,158,11,0.1); color: var(--gold); }
+
+  /* DEPLOY */
+  .deploy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
+  .deploy-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 4px; padding: 20px; }
+  .deploy-title { font-family: var(--sans); font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+  .deploy-cmd { background: var(--bg3); border: 1px solid var(--border); border-radius: 3px; padding: 8px 12px; margin: 8px 0; font-size: 11px; color: var(--accent3); }
+
+  /* TIMELINE VISUAL */
+  .tl-visual { position: relative; padding-left: 28px; display: flex; flex-direction: column; gap: 0; }
+  .tl-visual::before { content: ''; position: absolute; left: 9px; top: 8px; bottom: 8px; width: 1px; background: var(--border2); }
+  .tl-item { position: relative; padding: 10px 0 10px 20px; }
+  .tl-dot {
+    position: absolute; left: -19px; top: 14px;
+    width: 10px; height: 10px; border-radius: 50%; border: 1px solid;
+    background: var(--bg);
+  }
+  .tl-dot.d1 { border-color: var(--accent); background: rgba(255,68,68,0.2); }
+  .tl-dot.d2 { border-color: var(--accent2); background: rgba(255,136,0,0.2); }
+  .tl-dot.d3 { border-color: var(--gold); background: rgba(245,158,11,0.2); }
+  .tl-dot.d4 { border-color: var(--accent3); background: rgba(34,211,168,0.2); }
+  .tl-dot.d5 { border-color: var(--purple); background: rgba(129,140,248,0.2); }
+  .tl-label { font-family: var(--sans); font-weight: 700; font-size: 13px; }
+  .tl-desc { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .tl-time { font-size: 11px; color: var(--muted); }
+
+  /* FOOTER */
+  .footer { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+  .footer-left { font-size: 11px; color: var(--muted); }
+  .footer-right { font-size: 11px; }
+  .footer-right a { color: var(--accent3); text-decoration: none; }
+
+  /* NOTE */
+  .note-inline { font-size: 12px; color: var(--muted); margin: 8px 0; }
+  .note-inline strong { color: var(--text); }
+
+  @media (max-width: 640px) {
+    .comp-grid, .strategy-grid, .deploy-grid { grid-template-columns: 1fr; }
+    .impact-grid { grid-template-columns: 1fr; }
+    .field-row { grid-template-columns: 140px 70px 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-badge">
+      <span class="badge-dot"></span>
+      Plano v2.0 — Escala 1400+
+    </div>
+    <h1>
+      <span class="del">Jekyll</span> → <span class="new">Astro</span>
+      <span class="scale"> @1400+</span>
+    </h1>
+    <p class="header-sub">
+      Revisão completa do plano original para operar na escala real do projeto:
+      1424+ entradas, JSON único de vários MB, geração de 1400+ páginas estáticas,
+      busca de alta performance e paginação obrigatória. Todas as decisões de arquitetura
+      recalibradas para esse volume.
+    </p>
+    <div class="header-meta">
+      <div class="meta-item"><span class="label">Volume atual</span><span class="val warn">1424+ entradas</span></div>
+      <div class="meta-item"><span class="label">Próximo ID</span><span class="val warn">1425+</span></div>
+      <div class="meta-item"><span class="label">Stack alvo</span><span class="val ok">Astro 4 + TS + JSON</span></div>
+      <div class="meta-item"><span class="label">Busca</span><span class="val ok">Pagefind (estático)</span></div>
+      <div class="meta-item"><span class="label">Páginas geradas</span><span class="val warn">~1500+ estáticas</span></div>
+      <div class="meta-item"><span class="label">Tempo total</span><span class="val">3–4 dias</span></div>
+    </div>
+  </header>
+
+  <!-- ALERT — O QUE MUDOU -->
+  <div class="alert">
+    <div class="alert-title">⚡ O que mudou do plano v1.0 para v2.0</div>
+    <ul>
+      <li>Busca: <strong>Fuse.js descartado</strong> — 1400 entradas em memória no browser é pesado demais. Substituído por <strong>Pagefind</strong> (indexador estático pós-build, zero JS no cliente)</li>
+      <li>Index: <strong>paginação obrigatória</strong> — renderizar 1400 cards em uma página HTML única gera arquivo de 2–4MB. Adotado <code>/pagina/[page].astro</code></li>
+      <li>JSON: <strong>decisão sobre split ou único</strong> — análise de trade-offs documentada neste plano</li>
+      <li>Build: estimativa revisada para <strong>60–90s</strong> com 1400+ páginas (ainda 2–3× mais rápido que Jekyll)</li>
+      <li>Nova fase adicionada: <strong>Fase 0 — Auditoria e preparação do JSON</strong></li>
+      <li>Nova fase adicionada: <strong>Fase 6 — Pagefind + busca estática</strong></li>
+    </ul>
+  </div>
+
+  <!-- IMPACTO DA ESCALA -->
+  <section class="section">
+    <div class="section-title">Impacto real da escala 1400+</div>
+    <div class="impact-grid">
+      <div class="impact-card">
+        <div class="impact-label">JSON estimado</div>
+        <div class="impact-val gold">~8–15 MB</div>
+        <div class="impact-desc">Para 1400+ objetos com campos longos (título, descrição, fontes, tags). Importado no build — não vai para o cliente.</div>
+      </div>
+      <div class="impact-card">
+        <div class="impact-label">Páginas geradas</div>
+        <div class="impact-val gold">~1500+</div>
+        <div class="impact-desc">1 por evento + páginas de categoria + páginas do index paginado + páginas de pessoa/tag</div>
+      </div>
+      <div class="impact-card">
+        <div class="impact-label">Build estimado</div>
+        <div class="impact-val green">60–90s</div>
+        <div class="impact-desc">Vite paralelo. Jekyll levaria 5–10min nessa escala. Vercel cache reduz rebuilds subsequentes.</div>
+      </div>
+    </div>
+
+    <!-- PERFORMANCE TABLE -->
+    <table class="perf-table" style="margin-top:16px">
+      <thead>
+        <tr>
+          <th>Métrica</th>
+          <th>Jekyll (atual)</th>
+          <th></th>
+          <th>Astro (alvo)</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="metric">Build completo</td>
+          <td class="perf-val bad">5–10 min</td>
+          <td><div class="bar-wrap"><div class="bar bad" style="width:100%"></div></div></td>
+          <td class="perf-val good">60–90s</td>
+          <td><div class="bar-wrap"><div class="bar good" style="width:18%"></div></div></td>
+        </tr>
+        <tr>
+          <td class="metric">HMR em dev</td>
+          <td class="perf-val bad">5–15s</td>
+          <td><div class="bar-wrap"><div class="bar bad" style="width:100%"></div></div></td>
+          <td class="perf-val good">&lt;500ms</td>
+          <td><div class="bar-wrap"><div class="bar good" style="width:4%"></div></div></td>
+        </tr>
+        <tr>
+          <td class="metric">Index page size</td>
+          <td class="perf-val bad">~3MB (sem paginação)</td>
+          <td><div class="bar-wrap"><div class="bar bad" style="width:100%"></div></div></td>
+          <td class="perf-val good">~80KB / página</td>
+          <td><div class="bar-wrap"><div class="bar good" style="width:3%"></div></div></td>
+        </tr>
+        <tr>
+          <td class="metric">Busca (1400 ítens)</td>
+          <td class="perf-val bad">Fuse.js: 2–4MB JS</td>
+          <td><div class="bar-wrap"><div class="bar bad" style="width:100%"></div></div></td>
+          <td class="perf-val good">Pagefind: ~30KB</td>
+          <td><div class="bar-wrap"><div class="bar good" style="width:2%"></div></div></td>
+        </tr>
+        <tr>
+          <td class="metric">Deploy Vercel</td>
+          <td class="perf-val bad">Cache limitado (Ruby)</td>
+          <td><div class="bar-wrap"><div class="bar bad" style="width:70%"></div></div></td>
+          <td class="perf-val good">Cache Node + Vite</td>
+          <td><div class="bar-wrap"><div class="bar good" style="width:20%"></div></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- DECISÃO: JSON ÚNICO vs SPLIT -->
+  <section class="section">
+    <div class="section-title">Decisão crítica — JSON único vs split por ano</div>
+    <div class="strategy-grid">
+      <div class="strategy-card recommended">
+        <div class="strategy-title" style="color:var(--accent3)">JSON único — <code>assuntos.json</code></div>
+        <div class="strategy-sub">Import estático, Astro processa no build</div>
+        <div class="strategy-item"><span class="ico ok">✓</span><span>Workflow simples: edita um arquivo, push, deploy</span></div>
+        <div class="strategy-item"><span class="ico ok">✓</span><span>Zero complexidade de merge entre arquivos</span></div>
+        <div class="strategy-item"><span class="ico ok">✓</span><span>IDs sequenciais fáceis de manter (1425, 1426...)</span></div>
+        <div class="strategy-item"><span class="ico ok">✓</span><span>O JSON vai <strong>somente para o build</strong> — não é enviado ao browser</span></div>
+        <div class="strategy-item"><span class="ico warn">~</span><span>Arquivo grande (~8–15MB) mas sem impacto no cliente</span></div>
+        <div class="strategy-item"><span class="ico warn">~</span><span>Git diff de um JSON de 15MB pode ser lento — usar <code>.gitattributes</code></span></div>
+      </div>
+      <div class="strategy-card avoid">
+        <div class="strategy-title" style="color:var(--muted)">Split por ano — <code>1979.json</code>, <code>1980.json</code>...</div>
+        <div class="strategy-sub">Múltiplos arquivos, import dinâmico</div>
+        <div class="strategy-item"><span class="ico no">✕</span><span>Adicionar evento = saber qual arquivo do ano editar</span></div>
+        <div class="strategy-item"><span class="ico no">✕</span><span>IDs podem colidir entre arquivos sem validação extra</span></div>
+        <div class="strategy-item"><span class="ico no">✕</span><span>Lógica de build mais complexa para juntar os dados</span></div>
+        <div class="strategy-item"><span class="ico warn">~</span><span>Melhor para colaboração com múltiplos autores por período</span></div>
+        <div class="strategy-item"><span class="ico warn">~</span><span>Git diff mais legível por arquivo menor</span></div>
+      </div>
+    </div>
+    <p class="note-inline" style="margin-top:14px">
+      <strong>Decisão:</strong> JSON único. Para o lawfare-timeline — projeto solo com fluxo de adicionar entradas sequenciais —
+      o split traz complexidade sem benefício real. Se o arquivo crescer além de 20MB (estimativa: ~3000+ entradas),
+      revisar split por décadas.
+    </p>
+  </section>
+
+  <!-- DECISÃO: BUSCA -->
+  <section class="section">
+    <div class="section-title">Decisão crítica — busca com 1400+ entradas</div>
+    <div class="highlight-box">
+      <div class="highlight-title">✓ Solução escolhida: Pagefind</div>
+      <p>Pagefind é um indexador de busca estático criado especificamente para sites Astro/Jekyll/Hugo com muitas páginas.
+      Roda <strong>após o build</strong>, indexa o HTML gerado, e entrega uma UI de busca com ~30KB de JS no cliente.
+      Para 1400 páginas, o índice fica em ~500KB–1MB (servido em chunks, só o necessário por query).</p>
+    </div>
+    <div class="comp-grid">
+      <div class="comp-col" style="opacity:0.5">
+        <div class="comp-head" style="color:var(--muted)">✕ Fuse.js (descartado)</div>
+        <div class="comp-item"><span style="color:var(--accent)">✕</span><span>Carrega <strong>todo o JSON</strong> no browser: 8–15MB</span></div>
+        <div class="comp-item"><span style="color:var(--accent)">✕</span><span>Busca lenta em arrays de 1400+ objetos no cliente</span></div>
+        <div class="comp-item"><span style="color:var(--accent)">✕</span><span>Sem highlight de termos nos resultados</span></div>
+        <div class="comp-item"><span style="color:var(--muted)">~</span><span>Simples de implementar para volumes menores</span></div>
+      </div>
+      <div class="comp-col" style="border-left: 2px solid var(--purple)">
+        <div class="comp-head" style="color:var(--purple)">✓ Pagefind (escolhido)</div>
+        <div class="comp-item"><span style="color:var(--accent3)">✓</span><span>Indexa HTML estático pós-build — zero config</span></div>
+        <div class="comp-item"><span style="color:var(--accent3)">✓</span><span>~30KB JS no cliente + chunks sob demanda</span></div>
+        <div class="comp-item"><span style="color:var(--accent3)">✓</span><span>Highlight de termos, filtros por campo, ranking</span></div>
+        <div class="comp-item"><span style="color:var(--accent3)">✓</span><span>Suporte nativo a português (stemming)</span></div>
+        <div class="comp-item"><span style="color:var(--accent3)">✓</span><span>UI pronta ou API JS para UI customizada</span></div>
+      </div>
+    </div>
+    <div class="code-block" style="margin-top:14px">
+<span class="cm"># Instalação</span>
+npm install -D pagefind
+
+<span class="cm"># package.json — rodar pagefind após o build Astro</span>
+{
+  <span class="attr">"scripts"</span>: {
+    <span class="attr">"build"</span>: <span class="str">"astro build && pagefind --site dist"</span>,
+    <span class="attr">"dev"</span>: <span class="str">"astro dev"</span>
+  }
+}
+
+<span class="cm"># No template de evento — marcar o conteúdo para indexação</span>
+&lt;<span class="tag">article</span> <span class="attr">data-pagefind-body</span>&gt;
+  &lt;<span class="tag">h1</span> <span class="attr">data-pagefind-meta</span>=<span class="str">"title"</span>&gt;{evento.titulo}&lt;/<span class="tag">h1</span>&gt;
+  &lt;<span class="tag">p</span> <span class="attr">data-pagefind-filter</span>=<span class="str">"categoria[data-cat]"</span> <span class="attr">data-cat</span>={evento.categoria}&gt;&lt;/<span class="tag">p</span>&gt;
+  &lt;<span class="tag">p</span>&gt;{evento.descricao}&lt;/<span class="tag">p</span>&gt;
+&lt;/<span class="tag">article</span>&gt;
+
+<span class="cm"># UI de busca — adicionar ao layout</span>
+&lt;<span class="tag">link</span> <span class="attr">href</span>=<span class="str">"/pagefind/pagefind-ui.css"</span> <span class="attr">rel</span>=<span class="str">"stylesheet"</span>&gt;
+&lt;<span class="tag">div</span> <span class="attr">id</span>=<span class="str">"search"</span>&gt;&lt;/<span class="tag">div</span>&gt;
+&lt;<span class="tag">script</span> <span class="attr">src</span>=<span class="str">"/pagefind/pagefind-ui.js"</span>&gt;&lt;/<span class="tag">script</span>&gt;
+&lt;<span class="tag">script</span>&gt;
+  <span class="kw">new</span> PagefindUI({ element: <span class="str">"#search"</span>, showImages: <span class="kw">false</span>, filters: { categoria: <span class="kw">true</span> } });
+&lt;/<span class="tag">script</span>&gt;
+    </div>
+  </section>
+
+  <!-- PAGINAÇÃO -->
+  <section class="section">
+    <div class="section-title">Paginação obrigatória — 1400+ cards</div>
+    <p class="note-inline" style="margin-bottom:12px">
+      <strong>Problema:</strong> renderizar 1400 cards em um único <code>index.astro</code> gera 2–4MB de HTML.
+      Solução: 50 eventos por página → ~28–30 páginas de index.
+    </p>
+    <div class="code-block">
+<span class="cm">// src/pages/pagina/[page].astro — paginação nativa do Astro</span>
+---
+<span class="kw">export const</span> getStaticPaths = (({ paginate }) => {
+  <span class="kw">import</span> data <span class="kw">from</span> <span class="str">'../../data/assuntos.json'</span>;
+
+  <span class="kw">const</span> sorted = data.assuntos.sort(
+    (a, b) => b.data_evento.localeCompare(a.data_evento)
+  );
+
+  <span class="kw">return</span> paginate(sorted, {
+    pageSize: <span class="num">50</span>,   <span class="cm">// 50 por página → ~28 páginas</span>
+  });
+}) satisfies GetStaticPaths;
+
+<span class="kw">const</span> { page } = Astro.props;
+<span class="cm">// page.data   → eventos desta página</span>
+<span class="cm">// page.total  → total de eventos</span>
+<span class="cm">// page.currentPage, page.lastPage → para UI de paginação</span>
+---
+
+<span class="cm">// src/pages/index.astro — redireciona para /pagina/1</span>
+---
+<span class="kw">return</span> Astro.redirect(<span class="str">'/pagina/1'</span>);
+---
+    </div>
+    <ul class="step-list">
+      <li><span class="step-n">↳</span><span>URL structure: <code>/pagina/1</code>, <code>/pagina/2</code>... <code>/pagina/28</code></span></li>
+      <li><span class="step-n">↳</span><span>Páginas de <strong>categoria</strong> também paginadas: <code>/categoria/lawfare/1</code></span></li>
+      <li><span class="step-n">↳</span><span>Componente <code>&lt;Paginacao&gt;</code> com prev/next + números de página</span></li>
+      <li><span class="step-n">↳</span><span>Canonical tags corretas em cada página para SEO</span></li>
+    </ul>
+  </section>
+
+  <!-- FASES COMPLETAS -->
+  <section class="section">
+    <div class="section-title">Fases de execução — plano completo v2.0</div>
+    <div class="phases">
+
+      <!-- FASE 0 -->
+      <div class="phase new-phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p1">00</div>
+          <div class="phase-info">
+            <div class="phase-title">Auditoria e preparação do JSON <span style="font-size:10px;background:rgba(255,68,68,0.1);color:var(--accent);padding:2px 7px;border-radius:2px;letter-spacing:0.06em">NOVO</span></div>
+            <div class="phase-sub">Validar integridade do assuntos.json antes de migrar</div>
+            <div class="phase-tags">
+              <span class="ptag new-tag">nova fase</span>
+              <span class="ptag same-tag">pré-requisito</span>
+            </div>
+          </div>
+          <div class="phase-time t-red">~2h</div>
+          <div class="phase-toggle">▶</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-inner">
+            <p class="note-inline" style="margin-bottom:12px">
+              Com 1400+ entradas, provavelmente existem inconsistências de schema acumuladas ao longo do tempo.
+              Antes de migrar, auditar o JSON com um script Node.
+            </p>
+            <div class="code-block">
+<span class="cm">// scripts/audit-json.mjs — rodar localmente antes do build</span>
+<span class="kw">import</span> { z } <span class="kw">from</span> <span class="str">'zod'</span>;
+<span class="kw">import</span> data <span class="kw">from</span> <span class="str">'../src/data/assuntos.json'</span> <span class="kw">assert</span> { type: <span class="str">'json'</span> };
+
+<span class="kw">const</span> EventoSchema = z.object({
+  id: z.number(),
+  titulo: z.string().min(<span class="num">1</span>),
+  data_evento: z.string().regex(<span class="str">/^\d{4}-\d{2}-\d{2}$/</span>),
+  data_iso: z.string(),
+  categoria: z.string(),
+  tags: z.array(z.string()),
+  descricao: z.string(),
+  relevancia: z.enum([<span class="str">'alta'</span>, <span class="str">'media'</span>, <span class="str">'baixa'</span>]),
+  fontes: z.array(z.string()),
+  pessoas_envolvidas: z.array(z.string()),
+  prioridade: z.number(),
+  id: z.number().positive(),
+});
+
+<span class="kw">const</span> errors = [];
+<span class="kw">const</span> ids = <span class="kw">new</span> Set();
+
+data.assuntos.forEach((evt, i) => {
+  <span class="cm">// Checar IDs duplicados</span>
+  <span class="kw">if</span> (ids.has(evt.id)) errors.push(`ID duplicado: ${evt.id} (index ${i})`);
+  ids.add(evt.id);
+
+  <span class="cm">// Validar schema</span>
+  <span class="kw">const</span> result = EventoSchema.safeParse(evt);
+  <span class="kw">if</span> (!result.success)
+    errors.push(`ID ${evt.id}: ${result.error.issues.map(e => e.message).join(', ')}`);
+});
+
+<span class="kw">if</span> (errors.length) {
+  console.error(<span class="str">`\n❌ ${errors.length} erros encontrados:\n`</span>);
+  errors.forEach(e => console.error(<span class="str">'  '</span>, e));
+  process.exit(<span class="num">1</span>);
+} <span class="kw">else</span> {
+  console.log(<span class="str">`✓ ${data.assuntos.length} entradas válidas. Próximo ID: ${Math.max(...[...ids]) + 1}`</span>);
+}
+            </div>
+            <ul class="step-list">
+              <li><span class="step-n">01</span><span>Rodar o script de auditoria — resolver todos os erros antes de iniciar o Astro</span></li>
+              <li><span class="step-n">02</span><span>Confirmar IDs sequenciais sem gaps ou duplicatas</span></li>
+              <li><span class="step-n">03</span><span>Normalizar os <code>enum</code> de <code>categoria</code> e <code>relevancia</code> — listar todos os valores únicos</span></li>
+              <li><span class="step-n">04</span><span>Adicionar ao <code>package.json</code> o script <code>"audit": "node scripts/audit-json.mjs"</code></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 1 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p2">01</div>
+          <div class="phase-info">
+            <div class="phase-title">Setup do projeto Astro</div>
+            <div class="phase-sub">Scaffold, tsconfig, astro.config, Vercel output</div>
+            <div class="phase-tags"><span class="ptag same-tag">sem mudanças</span></div>
+          </div>
+          <div class="phase-time t-orange">~2h</div>
+          <div class="phase-toggle">▶</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-inner">
+            <div class="code-block">
+npm create astro@latest lawfare-astro
+<span class="cm"># Empty, TypeScript strict</span>
+
+npm install
+npm install @astrojs/sitemap @astrojs/rss
+npm install -D @types/node pagefind zod
+            </div>
+            <div class="code-block">
+<span class="cm">// astro.config.mjs</span>
+<span class="kw">import</span> { defineConfig } <span class="kw">from</span> <span class="str">'astro/config'</span>;
+<span class="kw">import</span> sitemap <span class="kw">from</span> <span class="str">'@astrojs/sitemap'</span>;
+
+<span class="kw">export default</span> defineConfig({
+  site: <span class="str">'https://lawfare-timeline.vercel.app'</span>,
+  output: <span class="str">'static'</span>,
+  integrations: [sitemap()],
+  build: { assets: <span class="str">'_assets'</span> },
+  vite: {
+    build: {
+      <span class="cm">// Chunks menores para builds grandes</span>
+      chunkSizeWarningLimit: <span class="num">1000</span>
+    }
+  }
+});
+            </div>
+            <div class="code-block">
+<span class="cm">// package.json scripts — ATUALIZADO para incluir pagefind e audit</span>
+{
+  <span class="attr">"scripts"</span>: {
+    <span class="attr">"dev"</span>: <span class="str">"astro dev"</span>,
+    <span class="attr">"build"</span>: <span class="str">"node scripts/audit-json.mjs && astro build && pagefind --site dist"</span>,
+    <span class="attr">"preview"</span>: <span class="str">"astro preview"</span>,
+    <span class="attr">"audit"</span>: <span class="str">"node scripts/audit-json.mjs"</span>
+  }
+}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 2 -->
+      <div class="phase updated">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p3">02</div>
+          <div class="phase-info">
+            <div class="phase-title">Tipos TypeScript + schema Zod <span style="font-size:10px;background:rgba(245,158,11,0.1);color:var(--gold);padding:2px 7px;border-radius:2px;letter-spacing:0.06em">ATUALIZADO</span></div>
+            <div class="phase-sub">Inferência de tipos do JSON, validação no build, enum de categorias</div>
+            <div class="phase-tags"><span class="ptag upd-tag">enums revisados</span><span class="ptag upd-tag">helper functions</span></div>
+          </div>
+          <div class="phase-time t-gold">~2h</div>
+          <div class="phase-toggle">▶</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-inner">
+            <div class="schema-box" style="margin-bottom:14px">
+              <div class="schema-header">Schema completo — assuntos.json @ 1400+</div>
+              <div class="schema-fields">
+                <div class="field-row" style="color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px">
+                  <span>campo</span><span>tipo</span><span>obs</span>
+                </div>
+                <div class="field-row"><span class="field-name">id</span><span class="field-type">number</span><span class="field-desc">Sequencial. Próximo: 1425+</span></div>
+                <div class="field-row"><span class="field-name">titulo</span><span class="field-type">string</span><span class="field-desc">&lt;h1&gt; + meta title</span></div>
+                <div class="field-row"><span class="field-name">data_evento</span><span class="field-type">string</span><span class="field-desc">YYYY-MM-DD — regex validado</span></div>
+                <div class="field-row"><span class="field-name">data_iso</span><span class="field-type">string</span><span class="field-desc">ISO 8601 para &lt;time datetime&gt;</span></div>
+                <div class="field-row"><span class="field-name">categoria</span><span class="field-type">enum</span><span class="field-desc">Auditar valores únicos antes de fixar enum</span></div>
+                <div class="field-row"><span class="field-name">tags</span><span class="field-type">string[]</span><span class="field-desc">Navegação cruzada + filtros Pagefind</span></div>
+                <div class="field-row"><span class="field-name">descricao</span><span class="field-type">string</span><span class="field-desc">Meta description + excerpt no feed</span></div>
+                <div class="field-row"><span class="field-name">relevancia</span><span class="field-type">enum</span><span class="field-desc">alta | media | baixa — destaque visual</span></div>
+                <div class="field-row"><span class="field-name">fontes</span><span class="field-type">string[]</span><span class="field-desc">URLs arquivadas — renderizar como links</span></div>
+                <div class="field-row"><span class="field-name">pessoas_envolvidas</span><span class="field-type">string[]</span><span class="field-desc">Páginas de perfil futuras</span></div>
+                <div class="field-row"><span class="field-name">instituicoes_envolvidas</span><span class="field-type">string[]</span><span class="field-desc">Filtro por instituição</span></div>
+                <div class="field-row"><span class="field-name">prioridade</span><span class="field-type">number</span><span class="field-desc">1–5 — ordenação do feed</span></div>
+                <div class="field-row"><span class="field-name">id</span><span class="field-type">number</span><span class="field-desc">Slug da URL: /evento/1424</span></div>
+              </div>
+            </div>
+            <div class="code-block">
+<span class="cm">// src/types/evento.ts</span>
+<span class="kw">import</span> type dataRaw <span class="kw">from</span> <span class="str">'../data/assuntos.json'</span>;
+
+<span class="cm">// Tipo inferido diretamente do JSON — zero manutenção</span>
+<span class="kw">export type</span> Evento = (<span class="kw">typeof</span> dataRaw)[<span class="str">'assuntos'</span>][number];
+
+<span class="cm">// Helpers reutilizáveis</span>
+<span class="kw">export function</span> slugFromEvento(e: Evento): <span class="kw">string</span> {
+  <span class="kw">return</span> String(e.id);
+}
+
+<span class="kw">export function</span> formatDate(iso: <span class="kw">string</span>): <span class="kw">string</span> {
+  <span class="kw">return new</span> Date(iso).toLocaleDateString(<span class="str">'pt-BR'</span>, {
+    year: <span class="str">'numeric'</span>, month: <span class="str">'long'</span>, day: <span class="str">'numeric'</span>
+  });
+}
+
+<span class="kw">export function</span> relevanciaColor(r: Evento[<span class="str">'relevancia'</span>]): <span class="kw">string</span> {
+  <span class="kw">return</span> { alta: <span class="str">'#ff4444'</span>, media: <span class="str">'#f59e0b'</span>, baixa: <span class="str">'#8a8880'</span> }[r] ?? <span class="str">'#8a8880'</span>;
+}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 3 -->
+      <div class="phase updated">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p3">03</div>
+          <div class="phase-info">
+            <div class="phase-title">Geração de páginas — index paginado + evento <span style="font-size:10px;background:rgba(245,158,11,0.1);color:var(--gold);padding:2px 7px;border-radius:2px;letter-spacing:0.06em">ATUALIZADO</span></div>
+            <div class="phase-sub">getStaticPaths com paginate(), rotas de categoria, evento individual</div>
+            <div class="phase-tags"><span class="ptag upd-tag">paginação adicionada</span><span class="ptag upd-tag">categoria paginada</span></div>
+          </div>
+          <div class="phase-time t-gold">~5h</div>
+          <div class="phase-toggle">▶</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-inner">
+            <div class="arch-box">
+              <div class="arch-tree">
+src/pages/
+├── index.astro                  <span class="note"> → redirect para /pagina/1</span>
+├── <span class="dir">pagina/</span>
+│   └── [page].astro             <span class="new-f"> → feed paginado, 50/página (~28 páginas)</span>
+├── <span class="dir">evento/</span>
+│   └── [id].astro               <span class="note"> → 1400+ páginas individuais</span>
+├── <span class="dir">categoria/</span>
+│   └── [cat]/
+│       └── [page].astro         <span class="new-f"> → feed por categoria, paginado</span>
+├── <span class="dir">pessoa/</span>
+│   └── [slug].astro             <span class="note"> → agrupamento por pessoa (futuro)</span>
+├── sobre.astro
+├── rss.xml.ts
+└── sitemap.xml                  <span class="note"> → gerado pelo @astrojs/sitemap</span>
+              </div>
+            </div>
+            <div class="code-block">
+<span class="cm">// src/pages/evento/[id].astro — 1400+ páginas estáticas</span>
+---
+<span class="kw">import</span> type { GetStaticPaths } <span class="kw">from</span> <span class="str">'astro'</span>;
+<span class="kw">import</span> Layout <span class="kw">from</span> <span class="str">'../../layouts/Base.astro'</span>;
+<span class="kw">import</span> { formatDate, relevanciaColor } <span class="kw">from</span> <span class="str">'../../types/evento'</span>;
+<span class="kw">import</span> data <span class="kw">from</span> <span class="str">'../../data/assuntos.json'</span>;
+
+<span class="kw">export const</span> getStaticPaths = (() => {
+  <span class="kw">return</span> data.assuntos.map(evento => ({
+    params: { id: String(evento.id) },
+    props: { evento }
+  }));
+}) satisfies GetStaticPaths;
+
+<span class="kw">const</span> { evento } = Astro.props;
+---
+&lt;<span class="tag">Layout</span> <span class="attr">title</span>={evento.titulo} <span class="attr">description</span>={evento.descricao}&gt;
+  &lt;<span class="tag">article</span> <span class="attr">data-pagefind-body</span>&gt;
+    &lt;<span class="tag">span</span>
+      <span class="attr">data-pagefind-filter</span>=<span class="str">"categoria"</span>
+      <span class="attr">data-pagefind-meta</span>=<span class="str">"categoria"</span>
+      <span class="attr">style</span>=<span class="str">"display:none"</span>
+    &gt;{evento.categoria}&lt;/<span class="tag">span</span>&gt;
+    &lt;<span class="tag">time</span> <span class="attr">datetime</span>={evento.data_iso}&gt;{formatDate(evento.data_iso)}&lt;/<span class="tag">time</span>&gt;
+    &lt;<span class="tag">h1</span> <span class="attr">data-pagefind-meta</span>=<span class="str">"title"</span>&gt;{evento.titulo}&lt;/<span class="tag">h1</span>&gt;
+    &lt;<span class="tag">p</span>&gt;{evento.descricao}&lt;/<span class="tag">p</span>&gt;
+  &lt;/<span class="tag">article</span>&gt;
+&lt;/<span class="tag">Layout</span>&gt;
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 4 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p4">04</div>
+          <div class="phase-info">
+            <div class="phase-title">Design system — tema editorial escuro</div>
+            <div class="phase-sub">Layout, tipografia, componentes, linha do tempo visual</div>
+            <div class="phase-tags"><span class="ptag same-tag">sem mudanças</span></div>
+          </div>
+          <div class="phase-time t-green">~4h</div>
+          <div class="phase-toggle">▶</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-inner">
+            <ul class="step-list">
+              <li><span class="step-n">01</span><span>Manter o aesthetic editorial escuro do Chirpy — IBM Plex Mono + tipografia monospace</span></li>
+              <li><span class="step-n">02</span><span>CSS Variables: <span class="step-hl">cores por categoria</span> — cada categoria do lawfare tem sua cor de accent no card</span></li>
+              <li><span class="step-n">03</span><span>Componente <code>&lt;EventoCard&gt;</code> — exibe relevância por cor de borda, data, categoria, excerpt</span></li>
+              <li><span class="step-n">04</span><span>Componente <code>&lt;Paginacao&gt;</code> — prev/next + número de páginas atual/total</span></li>
+              <li><span class="step-n">05</span><span>Componente <code>&lt;FilterBar&gt;</code> — links estáticos de categoria (não JS) — SEO-friendly</span></li>
+              <li><span class="step-n">06</span><span>Componente <code>&lt;Timeline&gt;</code> — linha do tempo vertical para visualização cronológica</span></li>
+              <li><span class="step-n">07</span><span>Meta OG + JSON-LD (<code>Event</code> schema) automático por evento — compartilhamento e SEO</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 5 -->
+      <div class="phase new-phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p5">05</div>
+          <div class="phase-info">
+            <div class="phase-title">Pagefind — busca estática pós-build <span style="font-size:10px;background:rgba(255,68,68,0.1);color:var(--accent);padding:2px 7px;border-radius:2px;letter-spacing:0.06em">NOVO</span></div>
+            <div class="phase-sub">Indexação de 1400+ páginas, filtros por categoria, UI customizada</div>
+            <div class="phase-tags"><span class="ptag new-tag">nova fase</span><span class="ptag new-tag">substitui Fuse.js</span></div>
+          </div>
+          <div class="phase-time t-purple">~3h</div>
+          <div class="phase-toggle">▶</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-inner">
+            <p class="note-inline" style="margin-bottom:12px">
+              Pagefind roda <strong>depois</strong> do <code>astro build</code>, varre o HTML gerado em <code>dist/</code>
+              e cria um índice em <code>dist/pagefind/</code>. No dev local, usar <code>astro preview</code> para testar busca.
+            </p>
+            <ul class="step-list">
+              <li><span class="step-n">01</span><span>Marcar conteúdo indexável com <code>data-pagefind-body</code> no template de evento</span></li>
+              <li><span class="step-n">02</span><span>Configurar filtros Pagefind: <code>data-pagefind-filter="categoria"</code> e <code>data-pagefind-filter="relevancia"</code></span></li>
+              <li><span class="step-n">03</span><span>Excluir da indexação: nav, footer, pagination — <code>data-pagefind-ignore</code></span></li>
+              <li><span class="step-n">04</span><span><span class="step-hl">Opção A</span>: UI padrão do Pagefind (rápido, funciona) — customizar via CSS vars</span></li>
+              <li><span class="step-n">05</span><span><span class="step-warn">Opção B</span>: API JS do Pagefind com UI própria — mais trabalho, total controle do visual</span></li>
+              <li><span class="step-n">06</span><span>Testar via <code>npm run preview</code> — Pagefind não funciona com <code>astro dev</code></span></li>
+            </ul>
+            <div class="code-block">
+<span class="cm">// pagefind.config.yml — configuração opcional</span>
+source: dist
+bundle_dir: pagefind
+language: pt
+glob: <span class="str">"**/*.html"</span>
+exclude_selectors:
+  - <span class="str">"nav"</span>
+  - <span class="str">"footer"</span>
+  - <span class="str">".pagination"</span>
+  - <span class="str">".filter-bar"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 6 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p6">06</div>
+          <div class="phase-info">
+            <div class="phase-title">Deploy Vercel + CI/CD com validação de JSON</div>
+            <div class="phase-sub">Build pipeline, GitHub Actions, swap de domínio</div>
+            <div class="phase-tags"><span class="ptag upd-tag">audit no CI</span></div>
+          </div>
+          <div class="phase-time t-red">~1h</div>
+          <div class="phase-toggle">▶</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-inner">
+            <div class="deploy-grid">
+              <div class="deploy-card">
+                <div class="deploy-title" style="color:var(--accent3)">Vercel — zero config</div>
+                <div class="deploy-cmd">Build: npm run build</div>
+                <div class="deploy-cmd">Output: dist/</div>
+                <p style="font-size:12px;color:var(--muted);margin-top:8px">
+                  Astro é detectado automaticamente. O <code>pagefind</code> roda como parte do build script.
+                </p>
+              </div>
+              <div class="deploy-card">
+                <div class="deploy-title" style="color:var(--gold)">GitHub Actions — PR guard</div>
+                <div class="deploy-cmd">node scripts/audit-json.mjs</div>
+                <div class="deploy-cmd">npx astro check</div>
+                <p style="font-size:12px;color:var(--muted);margin-top:8px">
+                  Bloqueia PRs com JSON inválido — schema errado ou ID duplicado nunca chega ao deploy.
+                </p>
+              </div>
+            </div>
+            <div class="code-block">
+<span class="cm"># .github/workflows/validate.yml</span>
+name: Validate JSON
+on: [pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        <span class="kw">with</span>: { node-version: <span class="str">'20'</span> }
+      - run: npm ci
+      - run: npm run audit     <span class="cm"># falha se JSON inválido</span>
+      - run: npx astro check   <span class="cm"># falha se TypeScript errado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ESTRUTURA FINAL -->
+  <section class="section">
+    <div class="section-title">Estrutura final do repositório — v2.0</div>
+    <div class="arch-box">
+      <div class="arch-tree">
+lawfare-astro/
+├── <span class="dir">src/</span>
+│   ├── <span class="dir">data/</span>
+│   │   └── assuntos.json              <span class="note">← fonte única (1424+ entradas)</span>
+│   ├── <span class="dir">pages/</span>
+│   │   ├── index.astro                <span class="note">← redirect → /pagina/1</span>
+│   │   ├── pagina/[page].astro        <span class="new-f">← feed paginado (50/pág) NOVO</span>
+│   │   ├── evento/[id].astro          <span class="note">← 1400+ páginas individuais</span>
+│   │   ├── categoria/[cat]/[page].astro <span class="new-f">← feed por categoria NOVO</span>
+│   │   ├── sobre.astro
+│   │   └── rss.xml.ts
+│   ├── <span class="dir">layouts/</span>
+│   │   └── Base.astro                 <span class="note">← html, SEO, Pagefind UI no &lt;head&gt;</span>
+│   ├── <span class="dir">components/</span>
+│   │   ├── EventoCard.astro
+│   │   ├── Timeline.astro
+│   │   ├── FilterBar.astro            <span class="note">← links estáticos, sem JS</span>
+│   │   ├── Paginacao.astro            <span class="new-f">← prev/next + páginas NOVO</span>
+│   │   └── Search.astro              <span class="new-f">← Pagefind UI wrapper NOVO</span>
+│   ├── <span class="dir">styles/</span>
+│   │   └── global.css
+│   └── <span class="dir">types/</span>
+│       └── evento.ts
+├── <span class="dir">scripts/</span>
+│   └── audit-json.mjs                 <span class="new-f">← validação pré-build NOVO</span>
+├── <span class="dir">public/</span>
+│   └── favicon.svg
+├── astro.config.mjs
+├── pagefind.config.yml                <span class="new-f">← config Pagefind NOVO</span>
+├── tsconfig.json
+└── package.json
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE DE EXECUÇÃO -->
+  <section class="section">
+    <div class="section-title">Timeline de execução — 3–4 dias</div>
+    <div class="tl-visual">
+      <div class="tl-item">
+        <div class="tl-dot d1"></div>
+        <div class="tl-time">Dia 1 — manhã</div>
+        <div class="tl-label">Fase 0: Auditoria do JSON</div>
+        <div class="tl-desc">Script de validação, corrigir inconsistências, confirmar IDs</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot d1"></div>
+        <div class="tl-time">Dia 1 — tarde</div>
+        <div class="tl-label">Fase 1: Setup Astro</div>
+        <div class="tl-desc">Scaffold, config, Vercel conectado, primeiro deploy vazio</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot d2"></div>
+        <div class="tl-time">Dia 2 — manhã</div>
+        <div class="tl-label">Fase 2 + 3: Tipos e páginas</div>
+        <div class="tl-desc">TypeScript inferido, getStaticPaths, paginação, categorias</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot d3"></div>
+        <div class="tl-time">Dia 2 — tarde</div>
+        <div class="tl-label">Fase 4: Design system</div>
+        <div class="tl-desc">Layout, CSS vars, componentes, linha do tempo visual</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot d4"></div>
+        <div class="tl-time">Dia 3 — manhã</div>
+        <div class="tl-label">Fase 5: Pagefind</div>
+        <div class="tl-desc">Indexação, filtros de categoria, UI de busca, testes</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot d5"></div>
+        <div class="tl-time">Dia 3 — tarde</div>
+        <div class="tl-label">Fase 6: Deploy + swap</div>
+        <div class="tl-desc">CI/CD, validação final, swap de domínio, deprecar Jekyll</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section class="section">
+    <div class="section-title">Checklist completo — v2.0</div>
+    <div class="check-section" id="checklist">
+
+      <div class="check-group-title">// Fase 0 — Auditoria do JSON</div>
+      <div class="check-item new-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Criar script <code>scripts/audit-json.mjs</code> com validação Zod + detecção de IDs duplicados</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item new-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Rodar auditoria e resolver todos os erros no JSON existente</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item new-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Listar todos os valores únicos de <code>categoria</code> para fixar o enum TypeScript</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+
+      <div class="check-group-title">// Fase 1 — Setup</div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Criar repositório <code>lawfare-astro</code> no GitHub (paralelo ao Jekyll)</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Scaffold Astro + instalar dependências (<code>pagefind</code>, <code>zod</code>, <code>@astrojs/sitemap</code>, <code>@astrojs/rss</code>)</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Configurar <code>astro.config.mjs</code> com site URL e output static</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Configurar scripts no <code>package.json</code>: build = audit + astro build + pagefind</span>
+        <span class="check-tag upd-t">ATUALIZADO</span>
+      </div>
+
+      <div class="check-group-title">// Fase 2 — Dados</div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Copiar <code>assuntos.json</code> para <code>src/data/</code></span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Criar <code>src/types/evento.ts</code> com tipo inferido do JSON + helpers</span>
+        <span class="check-tag upd-t">ATUALIZADO</span>
+      </div>
+
+      <div class="check-group-title">// Fase 3 — Páginas</div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Implementar <code>src/pages/pagina/[page].astro</code> — feed paginado (50/página)</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Implementar <code>src/pages/evento/[id].astro</code> com atributos Pagefind</span>
+        <span class="check-tag upd-t">ATUALIZADO</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Implementar <code>src/pages/categoria/[cat]/[page].astro</code> — paginado</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Implementar RSS feed <code>/rss.xml.ts</code></span>
+      </div>
+
+      <div class="check-group-title">// Fase 4 — Design</div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Layout base <code>Base.astro</code> com SEO, meta OG, JSON-LD</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Componente <code>&lt;EventoCard&gt;</code> com cor por relevância e categoria</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Componente <code>&lt;Paginacao&gt;</code> prev/next + páginas</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Componente <code>&lt;FilterBar&gt;</code> — links estáticos por categoria (sem JS)</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Componente <code>&lt;Timeline&gt;</code> — linha do tempo vertical</span>
+      </div>
+
+      <div class="check-group-title">// Fase 5 — Busca</div>
+      <div class="check-item new-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Adicionar atributos Pagefind em todos os templates (<code>data-pagefind-body</code>, filtros, meta)</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item new-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Criar <code>pagefind.config.yml</code> com exclusões de nav/footer/pagination</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item new-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Criar componente <code>&lt;Search&gt;</code> com UI do Pagefind integrada ao tema</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+      <div class="check-item new-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Testar busca via <code>npm run preview</code> (Pagefind requer build completo)</span>
+        <span class="check-tag new-t">NOVO</span>
+      </div>
+
+      <div class="check-group-title">// Fase 6 — Deploy</div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Conectar <code>lawfare-astro</code> na Vercel — novo projeto paralelo</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Adicionar GitHub Actions workflow para validação de JSON em PRs</span>
+        <span class="check-tag upd-t">ATUALIZADO</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Validar todas as rotas geradas (1400+ eventos + paginação + categorias)</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Validar sitemap.xml — deve listar todas as páginas</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Swap de domínio na Vercel — apontar <code>lawfare-timeline.vercel.app</code> para o novo projeto</span>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <div class="check-box">✓</div>
+        <span>Deprecar projeto Jekyll na Vercel (manter repositório como arquivo histórico)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">lawfare-timeline — Plano de Migração v2.0 | IDs 1424+ | Próximo: 1425+</div>
+    <div class="footer-right"><a href="https://lawfare-timeline.vercel.app" target="_blank">lawfare-timeline.vercel.app ↗</a></div>
+  </footer>
+
+</div>
+<script>
+  function togglePhase(header) {
+    const body = header.nextElementSibling;
+    const toggle = header.querySelector('.phase-toggle');
+    const isOpen = body.classList.contains('open');
+    body.classList.toggle('open');
+    if (toggle) toggle.classList.toggle('open', !isOpen);
+  }
+  function toggleCheck(el) {
+    const box = el.querySelector('.check-box');
+    box.classList.toggle('checked');
+    el.classList.toggle('done');
+  }
+  // Abrir fase 0 por padrão
+  document.querySelector('.phase-header').click();
+</script>
+</body>
+</html>

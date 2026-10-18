@@ -1,0 +1,3458 @@
+{
+  "total": 109,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2020,
+  "assuntos": [
+    {
+      "titulo": "Abin Espionagem Ilegal",
+      "data_evento": "2020-01-01",
+      "data_iso": "2020-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-bolsonaro",
+        "2020"
+      ],
+      "descricao": "Uso da Abin para monitorar ilegalmente adversários e família.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2020-01-01-abin-espionagem-ilegal.md",
+      "id": 479
+    },
+    {
+      "titulo": "Caso Witzel",
+      "data_evento": "2020-01-01",
+      "data_iso": "2020-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "rio-de-janeiro"
+      ],
+      "descricao": "Investigação sobre esquema de corrupção durante a gestão do ex-governador Wilson Witzel✧  com condenações de desembargadores.Wilson WitzelDesembargadores condenados",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2020-01-01-caso-witzel.md",
+      "id": 480
+    },
+    {
+      "titulo": "Em 08 de janeiro de 2020, o ministro Dias Toffoli mandou notificar Weintraub por ter chamado a UNE de máfia.",
+      "data_evento": "2020-01-01",
+      "data_iso": "2020-01-01T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "mandou",
+        "weintraub"
+      ],
+      "descricao": "2020-01-01-cartacapital-Governo Federal-Mandou",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-01-01-em-08-de-janeiro-de-2020.md",
+      "id": 481
+    },
+    {
+      "titulo": "Operação Cravada",
+      "data_evento": "2020-01-01",
+      "data_iso": "2020-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-contratos",
+        "fraude"
+      ],
+      "descricao": "2020-01-01-Porto Alegre, RS-corrupção contratos-fraude",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2020-01-01-operacao-cravada.md",
+      "id": 482
+    },
+    {
+      "titulo": "BYD instala fábrica de baterias no Polo Industrial de Manaus",
+      "data_evento": "2020-01-01",
+      "data_iso": "2020-01-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "bancos",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "A fabricante chinesa BYD instala unidade fabril de baterias no PIM, iniciando trajetória de expansão que inclui, em 2024, nova linha de produção de blades (módulos de bateria de nova geração) e barramentos, e em 2026 estudos para ampliar produção de componentes para veículos elétricos.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://jcam.com.br/colunas/fabrica-de-baterias-da-byd-em-manaus-expande-operacoes-e-investe-em-inovacao-tecnologica/",
+        "https://revistaempreende.com.br/byd-avalia-ampliar-producao-de-componentes-para-veiculos-eletricos-em-manaus/"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "BYD",
+        "Suframa"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2020-01-01-id1675-byd-instala-fabrica-de-baterias-no-polo-industrial-de-manaus.md",
+      "id": 1675
+    },
+    {
+      "titulo": "Encontro no Planalto",
+      "data_evento": "2020-02-11",
+      "data_iso": "2020-02-11T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "palacio-do-planalto",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-02-11-encontro-no-planalto.md",
+      "id": 483
+    },
+    {
+      "titulo": "Operação Último Lance",
+      "data_evento": "2020-03-03",
+      "data_iso": "2020-03-03T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "fraude",
+        "fraude-empresarial",
+        "lavagem"
+      ],
+      "descricao": "2020-03-03-São Paulo, SP-fraude empresarial-lavagem",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2020-03-03-operacao-ultimo-lance.md",
+      "id": 484
+    },
+    {
+      "titulo": "Em 21 de março de 2020, o STF deu 30 dias para Bolsonaro responder quanto investiu no SUS.",
+      "data_evento": "2020-03-21",
+      "data_iso": "2020-03-21T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "prazo",
+        "bolsonaro"
+      ],
+      "descricao": "2020-03-21-ptsaopaulo-Governo Federal-Prazo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-21-em-21-de-marco-de-2020.md",
+      "id": 485
+    },
+    {
+      "titulo": "Em 22 de março de 2020, o ministro Alexandre de Moraes autorizou o estado de São Paulo a suspender o pagamento de dívidas com a União e a usar o dinheiro contra a Covid-19.",
+      "data_evento": "2020-03-22",
+      "data_iso": "2020-03-22T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "uniao"
+      ],
+      "descricao": "2020-03-22-g1-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-22-em-22-de-marco-de-2020.md",
+      "id": 486
+    },
+    {
+      "titulo": "Em 23 de março de 2020, o ministro Alexandre de Moraes autorizou o estado da Bahia a suspender o pagamento de dívidas com a União e a usar o dinheiro contra a Covid-19.",
+      "data_evento": "2020-03-23",
+      "data_iso": "2020-03-23T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "cv19"
+      ],
+      "descricao": "2020-03-23-g1-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-23-em-23-de-marco-de-2020.md",
+      "id": 487
+    },
+    {
+      "titulo": "Em 24 de março de 2020, o ministro Marco Aurélio autorizou as medidas restritivas dos estados para combater a Covid-19. A medida retirou forças do Executivo Federal, visto que, a partir desse momento, os estados e os municípios podiam decretar lockdown, contrariando a legislação e as normas da União e tendo força superior às dela.",
+      "data_evento": "2020-03-24",
+      "data_iso": "2020-03-24T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "cv19",
+        "marco-aurelio"
+      ],
+      "descricao": "2020-03-24-senado-Governo Federal-CV19",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-24-em-24-de-marco-de-2020.md",
+      "id": 488
+    },
+    {
+      "titulo": "Em 26 de março de 2020, o ministro Alexandre de Moraes reverteu a medida provisória que desobrigava o atendimento de prazos de prestação de informações segundo a Lei de Acesso à Informação durante a situação de emergência da Covid-19.",
+      "data_evento": "2020-03-26",
+      "data_iso": "2020-03-26T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "reverteu"
+      ],
+      "descricao": "2020-03-26-folha-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-26-em-26-de-marco-de-2020.md",
+      "id": 489
+    },
+    {
+      "titulo": "Em 27 de março de 2020, o ministro Alexandre de Moraes negou suspender os prazos das medidas provisórias do Executivo Federal.",
+      "data_evento": "2020-03-27",
+      "data_iso": "2020-03-27T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "mp"
+      ],
+      "descricao": "2020-03-27-poder360-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-27-em-27-de-marco-de-2020.md",
+      "id": 490
+    },
+    {
+      "titulo": "Em 29 de março de 2020, o ministro Alexandre de Moraes suspendeu a exigência de Lei de Responsabilidade Fiscal e Lei de Diretrizes Orçamentárias na viabilização do combate à Covid-19.",
+      "data_evento": "2020-03-29",
+      "data_iso": "2020-03-29T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "cv19"
+      ],
+      "descricao": "2020-03-29-camara-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-29-em-29-de-marco-de-2020.md",
+      "id": 491
+    },
+    {
+      "titulo": "Em 31 de março de 2020, o ministro Marco Aurélio encaminhou à PGR o pedido de afastamento de Bolsonaro.",
+      "data_evento": "2020-03-31",
+      "data_iso": "2020-03-31T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "marco-aurelio"
+      ],
+      "descricao": "2020-03-31-em-Governo Federal-Marco Aurélio",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "PGR"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-03-31-em-31-de-marco-de-2020.md",
+      "id": 492
+    },
+    {
+      "titulo": "Em 01 de abril de 2020, o ministro Alexandre de Moraes deu prazo de 48 horas para Bolsonaro informar as medidas adotadas contra Covid-19.",
+      "data_evento": "2020-04-01",
+      "data_iso": "2020-04-01T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "prazo",
+        "alexandre-de-moraes"
+      ],
+      "descricao": "2020-04-01-g1-Governo Federal-Prazo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-01-em-01-de-abril-de-2020.md",
+      "id": 493
+    },
+    {
+      "titulo": "Soltura De Gerson Palermo",
+      "data_evento": "2020-04-01",
+      "data_iso": "2020-04-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "alta-periculosidade",
+        "fuga"
+      ],
+      "descricao": "2020-04-01-Mato Grosso do Sul-Trafico de Drogas-Organização Criminosa",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-04-01-soltura-de-gerson-palermo.md",
+      "id": 494
+    },
+    {
+      "titulo": "Soltura De José Ivan Do Carmo De Brito",
+      "data_evento": "2020-04-01",
+      "data_iso": "2020-04-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "transferencia-penitenciaria",
+        "ameacas"
+      ],
+      "descricao": "2020-04-01-Brasil-Trafico Internacional-Homicídio",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-04-01-soltura-de-jose-ivan-do-carmo-de-brito.md",
+      "id": 495
+    },
+    {
+      "titulo": "Em 8 de abril de 2020, o ministro Alexandre de Moraes proibiu o Executivo Federal de vetar o isolamento social nos estados.",
+      "data_evento": "2020-04-08",
+      "data_iso": "2020-04-08T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "proibiu"
+      ],
+      "descricao": "2020-04-08-g1-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-08-em-8-de-abril-de-2020.md",
+      "id": 496
+    },
+    {
+      "titulo": "Entrevista ao UOL",
+      "data_evento": "2020-04-08",
+      "data_iso": "2020-04-08T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-04-08-entrevista-ao-uol.md",
+      "id": 497
+    },
+    {
+      "titulo": "Operação Plantão",
+      "data_evento": "2020-04-09",
+      "data_iso": "2020-04-09T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "venda-de-sentencas",
+        "corrupcao-judicial",
+        "milicianos",
+        "traficantes",
+        "organizacao-criminosa",
+        "siro-darlan",
+        "outras-quatro-pessoas-presas",
+        "sistema-judiciario",
+        "sociedade-rio-grandense",
+        "quatro-prisoes-temporarias",
+        "15-mandados-de-busca-e-apreensao",
+        "afastamento-do-desembargador-por-180-dias",
+        "proibicao-de-contato-entre-investigados",
+        "gravidade-alta",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 50 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2020-04-09-operacao-plantao.md",
+      "id": 498
+    },
+    {
+      "titulo": "Em 15 de abril de 2020, sob o argumento de combater a Covid-19, o STF deu poder para os estados e municípios contrariarem a legislação federal.",
+      "data_evento": "2020-04-15",
+      "data_iso": "2020-04-15T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "cv19",
+        "autonomia"
+      ],
+      "descricao": "2020-04-15-uol-Governo Federal-CV19",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-15-em-15-de-abril-de-2020.md",
+      "id": 499
+    },
+    {
+      "titulo": "Instauração do Inquérito dos Atos Antidemocráticos após o Dia do Exército",
+      "data_evento": "2020-04-21",
+      "data_iso": "2020-04-21T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "liberdade-de-associacao",
+        "separacao-de-poderes",
+        "devido-processo-legal",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/04/21 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-04-21-instauracao-do-inquerito-dos-atos-antidemocraticos-apos-o-dia-do-exercito.md",
+      "id": 500
+    },
+    {
+      "titulo": "Em 22 de abril de 2020, o ministro Alexandre de Moraes deu prazo de 5 dias para Bolsonaro explicar as medidas de divulgação de dados da Covid-19.",
+      "data_evento": "2020-04-22",
+      "data_iso": "2020-04-22T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "cv19"
+      ],
+      "descricao": "2020-04-22-cnn-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-22-em-22-de-abril-de-2020.md",
+      "id": 501
+    },
+    {
+      "titulo": "Em 27 de abril de 2020, o ministro Celso de Mello abriu um inquérito contra Bolsonaro com base nas supostas irregularidades denunciadas por Sérgio Moro.",
+      "data_evento": "2020-04-27",
+      "data_iso": "2020-04-27T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "celso-de-mello",
+        "sergio-moro"
+      ],
+      "descricao": "2020-04-27-uol-Governo Federal-Celso de Mello",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-27-em-27-de-abril-de-2020.md",
+      "id": 502
+    },
+    {
+      "titulo": "Em 29 de abril de 2020, o ministro Celso de Mello abriu um inquérito contra o ministro da educação Abraham Weintraub para apurar um suposto crime de racismo.",
+      "data_evento": "2020-04-29",
+      "data_iso": "2020-04-29T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "celso-de-mello",
+        "weintraub"
+      ],
+      "descricao": "2020-04-29-congressoemfoco-Governo Federal-Celso de Mello",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-29-em-29-de-abril-de-2020.md",
+      "id": 503
+    },
+    {
+      "titulo": "Suspensão da nomeação de Alexandre Ramagem para diretor da PF",
+      "data_evento": "2020-04-29",
+      "data_iso": "2020-04-29T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "separacao-de-poderes",
+        "proporcionalidade",
+        "devido-processo-legal",
+        "seguranca-juridica",
+        "alexandre-de-moraes",
+        "alexandre-ramagem",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/04/29 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-04-29-suspensao-da-nomeacao-de-alexandre-ramagem-para-diretor-da-pf.md",
+      "id": 504
+    },
+    {
+      "titulo": "Também em 29 de abril de 2020, o ministro Alexandre de Moraes suspendeu a nomeação de Ramagem para a Polícia Federal.",
+      "data_evento": "2020-04-29",
+      "data_iso": "2020-04-29T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "nomeacao"
+      ],
+      "descricao": "2020-04-29-conjur-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-29-tambem-em-29-de-abril-de-2020.md",
+      "id": 505
+    },
+    {
+      "titulo": "Em 30 de abril de 2020, o STF deu cinco dias para a PF tomar o depoimento de Moro.",
+      "data_evento": "2020-04-30",
+      "data_iso": "2020-04-30T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "prazo",
+        "sergio-moro"
+      ],
+      "descricao": "2020-04-30-agenciabrasil-Governo Federal-Prazo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-04-30-em-30-de-abril-de-2020.md",
+      "id": 506
+    },
+    {
+      "titulo": "Em 02 de maio de 2020, o ministro Barroso suspendeu por 10 dias a expulsão de ex-diplomatas venezuelanos.",
+      "data_evento": "2020-05-02",
+      "data_iso": "2020-05-02T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "barroso",
+        "diplomatas"
+      ],
+      "descricao": "2020-05-02-gazetadopovo-Governo Federal-Barroso",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-02-em-02-de-maio-de-2020.md",
+      "id": 507
+    },
+    {
+      "titulo": "Em 04 de maio de 2020, o STF decidiu que a Covid-19 é uma doença ocupacional.",
+      "data_evento": "2020-05-04",
+      "data_iso": "2020-05-04T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "cv19",
+        "decidiu"
+      ],
+      "descricao": "2020-05-04-cut-Governo Federal-CV19",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-04-em-04-de-maio-de-2020.md",
+      "id": 508
+    },
+    {
+      "titulo": "Em 05 de maio de 2020, o ministro Alexandre de Moraes deu 10 dias para Bolsonaro explicar a recondução de Ramagem para a ABIN.",
+      "data_evento": "2020-05-05",
+      "data_iso": "2020-05-05T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "prazo"
+      ],
+      "descricao": "2020-05-05-estadao-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-05-em-05-de-maio-de-2020.md",
+      "id": 509
+    },
+    {
+      "titulo": "Em 06 de maio de 2020, o ministro Celso de Mello deu prazo de 72 horas para o Governo Federal enviar o vídeo da gravação da reunião ministerial.",
+      "data_evento": "2020-05-06",
+      "data_iso": "2020-05-06T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "celso-de-mello",
+        "reuniao-ministerial"
+      ],
+      "descricao": "2020-05-06-g1-Governo Federal-Celso de Mello",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-06-em-06-de-maio-de-2020.md",
+      "id": 510
+    },
+    {
+      "titulo": "Operação Mercadores Do Caos",
+      "data_evento": "2020-05-07",
+      "data_iso": "2020-05-07T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "fraude",
+        "fraude-saude",
+        "pandemia"
+      ],
+      "descricao": "2020-05-07-Rio de Janeiro, RJ-fraude saúde-pandemia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2020-05-07-operacao-mercadores-do-caos.md",
+      "id": 511
+    },
+    {
+      "titulo": "Em 13 de maio de 2020, o ministro Lewandowski determinou a divulgação dos exames de Bolsonaro contra a Covid-19.",
+      "data_evento": "2020-05-13",
+      "data_iso": "2020-05-13T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "lewandowski",
+        "cv19"
+      ],
+      "descricao": "2020-05-13-conjur-Governo Federal-Lewandowski",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-13-em-13-de-maio-de-2020.md",
+      "id": 512
+    },
+    {
+      "titulo": "Em 14 de maio de 2020, o Plenário do STF confirmou a dispensa da Lei de Responsabilidade Fiscal no combate à Covid-19.",
+      "data_evento": "2020-05-14",
+      "data_iso": "2020-05-14T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "confirmou",
+        "lrf"
+      ],
+      "descricao": "2020-05-14-senado-Governo Federal-Confirmou",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-14-em-14-de-maio-de-2020.md",
+      "id": 513
+    },
+    {
+      "titulo": "Em 16 de maio de 2020, o ministro Barroso vetou a expulsão de funcionários da embaixada da Venezuela até o fim da crise da Covid-19.",
+      "data_evento": "2020-05-16",
+      "data_iso": "2020-05-16T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "barroso",
+        "vetou"
+      ],
+      "descricao": "2020-05-16-correiodopovo-Governo Federal-Barroso",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-16-em-16-de-maio-de-2020.md",
+      "id": 514
+    },
+    {
+      "titulo": "Em 17 de junho de 2020, o STF formou maioria pela validade do inquérito das fake news.",
+      "data_evento": "2020-05-17",
+      "data_iso": "2020-05-17T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "fake-news",
+        "inquerito"
+      ],
+      "descricao": "2020-05-17-diariodonordeste-Governo Federal-Fake News",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-17-em-17-de-junho-de-2020.md",
+      "id": 515
+    },
+    {
+      "titulo": "Em 22 de maio de 2020, o ministro Celso de Mello mandou divulgar o vídeo da reunião ministerial do dia 22 de abril de 2020.",
+      "data_evento": "2020-05-22",
+      "data_iso": "2020-05-22T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "celso-de-mello",
+        "mandou"
+      ],
+      "descricao": "2020-05-22-bbc-Governo Federal-Celso de Mello",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-05-22-em-22-de-maio-de-2020.md",
+      "id": 516
+    },
+    {
+      "titulo": "Determinação de depoimento de Weintraub à PF por fala contra STF no inquérito fake news",
+      "data_evento": "2020-05-26",
+      "data_iso": "2020-05-26T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "separacao-de-poderes",
+        "imunidade-de-opiniao",
+        "alexandre-de-moraes",
+        "abraham-weintraub",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/05/26 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-05-26-determinacao-de-depoimento-de-weintraub-a-pf-por-fala-contra-stf-no-inquerito-fake-news.md",
+      "id": 517
+    },
+    {
+      "titulo": "Operação Placebo",
+      "data_evento": "2020-05-26",
+      "data_iso": "2020-05-26T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-pandemia",
+        "corrupcao"
+      ],
+      "descricao": "2020-05-26-Rio de Janeiro, RJ-fraude pandemia-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2020-05-26-operacao-placebo.md",
+      "id": 518
+    },
+    {
+      "titulo": "Série de entrevistas ÉPOCA",
+      "data_evento": "2020-05-26",
+      "data_iso": "2020-05-26T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-05-26-serie-de-entrevistas-epoca.md",
+      "id": 519
+    },
+    {
+      "titulo": "Deflagração da Operação Lupa com buscas contra desafetos no inquérito das fake news",
+      "data_evento": "2020-05-27",
+      "data_iso": "2020-05-27T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "imparcialidade",
+        "devido-processo-legal",
+        "liberdade-de-expressao",
+        "separacao-de-poderes",
+        "principio-acusatorio",
+        "proibicao-de-juiz-de-excecao",
+        "alexandre-de-moraes",
+        "desafetos",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/05/27 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-05-27-deflagracao-da-operacao-lupa-com-buscas-contra-desafetos-no-inquerito-das-fake-news.md",
+      "id": 520
+    },
+    {
+      "titulo": "Escândalo do TRT-SP - Desenvolvimentos Pós-Condenação",
+      "data_evento": "2020-05-31",
+      "data_iso": "2020-05-31T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "desvios-trt-sp",
+        "indulto-nicolau",
+        "corrupcao-judicial",
+        "venda-de-sentencas",
+        "nicolau-dos-santos-neto",
+        "luiz-estevao",
+        "fabio-monteiro-de-barros",
+        "erario-publico",
+        "trabalhadores",
+        "morte-do-ex-juiz",
+        "cassacao-de-aposentadoria",
+        "batalha-por-pensao",
+        "gravidade-alta",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 169 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2020-05-31-escandalo-do-trt-sp-desenvolvimentos-pos-condenacao.md",
+      "id": 521
+    },
+    {
+      "titulo": "Plenário do STF valida legalidade do INQ 4.781 por 10 votos a 1",
+      "data_evento": "2020-06-10",
+      "data_iso": "2020-06-10T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P02",
+        "P03"
+      ],
+      "descricao": "Mais de um ano após a abertura de ofício, o plenário do STF julgou ação questionando a legalidade do INQ 4.781 e decidiu, por 10 votos a 1, manter o inquérito e sua condução por Alexandre de Moraes. Único voto divergente: Marco Aurélio Mello. Votaram pela manutenção: Edson Fachin, Alexandre de Moraes, Roberto Barroso, Gilmar Mendes, Rosa Weber, Luiz Fux, Cármen Lúcia, Ricardo Lewandowski, Celso de Mello e Dias Toffoli.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/poder-justica/entenda-o-que-e-o-inquerito-das-fake-news-aberto-em-2019/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator do inquérito julgado)",
+        "Marco Aurélio Mello (Único voto divergente)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2020-06-10-plenario-do-stf-valida-legalidade-do-inq-4781-por-10-votos-a-1.md",
+      "id": 1900
+    },
+    {
+      "titulo": "Instituto Butantan e Sinovac assinam Acordo de Colaboração de Desenvolvimento Clínico para a Fase 3 da CoronaVac",
+      "data_evento": "2020-06-11",
+      "data_iso": "2020-06-11T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P05",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Com a pandemia de covid-19 já declarada pela OMS (março/2020), Butantan e Sinovac formalizam acordo específico de 21 páginas para avançar os testes clínicos da CoronaVac à Fase 3, com 9 mil voluntários em São Paulo. Documento não menciona preço ou quantidade de doses; Butantan arca com os custos e não recebe propriedade intelectual.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://www.sec.gov/Archives/edgar/data/1084201/000110465920072241/tm2022386d1_ex99-1.htm",
+        "https://www.cnnbrasil.com.br/saude/2020/11/11/acordo-define-que-butantan-custeia-coronavac-mas-sem-direito-intelectual"
+      ],
+      "pessoas_envolvidas": [
+        "João Doria (Governador de São Paulo)",
+        "Dimas Covas (Diretor do Instituto Butantan)"
+      ],
+      "instituicoes_envolvidas": [
+        "Instituto Butantan",
+        "Sinovac Biotech",
+        "Governo de São Paulo"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2020-06-11-id1649-instituto-butantan-e-sinovac-assinam-acordo-de-colaboracao-de-desenvolvimento-cl.md",
+      "id": 1649
+    },
+    {
+      "titulo": "Prisão temporária de Sara Winter e ativistas bolsonaristas",
+      "data_evento": "2020-06-15",
+      "data_iso": "2020-06-15T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "liberdade-de-expressao",
+        "alexandre-de-moraes",
+        "sara-winter",
+        "ativistas",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/06/15 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-06-15-prisao-temporaria-de-sara-winter-e-ativistas-bolsonaristas.md",
+      "id": 522
+    },
+    {
+      "titulo": "Voto pela rejeição da ADPF 572, defendendo continuidade do inquérito das fake news",
+      "data_evento": "2020-06-17",
+      "data_iso": "2020-06-17T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "imparcialidade",
+        "devido-processo-legal",
+        "principio-acusatorio",
+        "separacao-dos-poderes",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/06/17 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-06-17-voto-pela-rejeicao-da-adpf-572.md",
+      "id": 523
+    },
+    {
+      "titulo": "Em 22 de junho de 2020, o ministro Gilmar Mendes deu 48 horas para o Governo Federal se manifestar sobre a revogação de ações afirmativas na pós-graduação.",
+      "data_evento": "2020-06-22",
+      "data_iso": "2020-06-22T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "gilmar-mendes",
+        "prazo"
+      ],
+      "descricao": "2020-06-22-g1-Governo Federal-Gilmar Mendes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-06-22-em-22-de-junho-de-2020.md",
+      "id": 524
+    },
+    {
+      "titulo": "Soltura De Clovis Ruiz Ribeiro",
+      "data_evento": "2020-06-23",
+      "data_iso": "2020-06-23T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "bolivia",
+        "foragido"
+      ],
+      "descricao": "2020-06-23-Brasil-Trafico de Drogas-Quadrilha Internacional",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-06-23-soltura-de-clovis-ruiz-ribeiro.md",
+      "id": 525
+    },
+    {
+      "titulo": "Determinação de bloqueio de contas de redes sociais de investigados no inquérito fake news",
+      "data_evento": "2020-07-01",
+      "data_iso": "2020-07-01T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "censura",
+        "alexandre-de-moraes",
+        "investigados",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/07/01 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-07-01-determinacao-de-bloqueio-de-contas-de-redes-sociais-de-investigados-no-inquerito-fake-news.md",
+      "id": 526
+    },
+    {
+      "titulo": "Em 01 de julho de 2020, o ministro Celso de Mello prorrogou novamente o inquérito sobre a suposta interferência de Bolsonaro na PF.",
+      "data_evento": "2020-07-01",
+      "data_iso": "2020-07-01T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "celso-de-mello",
+        "prorrogou"
+      ],
+      "descricao": "2020-07-01-cnn-Governo Federal-Celso de Mello",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-07-01-em-01-de-julho-de-2020.md",
+      "id": 527
+    },
+    {
+      "titulo": "Nova prorrogação do inquérito das fake news por mais 180 dias",
+      "data_evento": "2020-07-01",
+      "data_iso": "2020-07-01T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "duracao-razoavel-do-processo",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/07/01 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-07-01-nova-prorrogacao-do-inquerito-das-fake-news-por-mais-180-dias.md",
+      "id": 528
+    },
+    {
+      "titulo": "Em 02 de julho de 2020, o ministro Barroso deu 48 horas para o Governo Federal se manifestar sobre as medidas contra Covid-19 entre índios.",
+      "data_evento": "2020-07-02",
+      "data_iso": "2020-07-02T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "barroso"
+      ],
+      "descricao": "2020-07-02-g1-Governo Federal-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-07-02-em-02-de-julho-de-2020.md",
+      "id": 529
+    },
+    {
+      "titulo": "Entrevista Poder em Foco",
+      "data_evento": "2020-07-06",
+      "data_iso": "2020-07-06T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-07-06-entrevista-poder-em-foco.md",
+      "id": 530
+    },
+    {
+      "titulo": "Em 08 de julho de 2020, uma liminar do ministro Barroso estabeleceu o plano de atuação do Governo Federal com medidas para proteger os índios da Covid-19.",
+      "data_evento": "2020-07-08",
+      "data_iso": "2020-07-08T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "barroso",
+        "estabeleceu"
+      ],
+      "descricao": "2020-07-08-isa-Governo Federal-Barroso",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-07-08-em-08-de-julho-de-2020.md",
+      "id": 531
+    },
+    {
+      "titulo": "Declaração sobre Exército",
+      "data_evento": "2020-07-11",
+      "data_iso": "2020-07-11T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-07-11-declaracao-sobre-exercito.md",
+      "id": 532
+    },
+    {
+      "titulo": "Declaração sobre militares",
+      "data_evento": "2020-07-12",
+      "data_iso": "2020-07-12T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-07-12-declaracao-sobre-militares.md",
+      "id": 533
+    },
+    {
+      "titulo": "Podcast sobre embate",
+      "data_evento": "2020-07-16",
+      "data_iso": "2020-07-16T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-07-16-podcast-sobre-embate.md",
+      "id": 534
+    },
+    {
+      "titulo": "Prorrogação do inquérito dos atos antidemocráticos por 90 dias",
+      "data_evento": "2020-07-22",
+      "data_iso": "2020-07-22T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "duracao-razoavel-do-processo",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/07/22 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-07-22-prorrogacao-do-inquerito-dos-atos-antidemocraticos-por-90-dias.md",
+      "id": 535
+    },
+    {
+      "titulo": "Determinação de bloqueio internacional de contas de redes sociais de investigados no inquérito fake news",
+      "data_evento": "2020-07-30",
+      "data_iso": "2020-07-30T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "censura",
+        "alexandre-de-moraes",
+        "investigados",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/07/30 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-07-30-determinacao-de-bloqueio-internacional-de-contas-de-redes-sociais-de-investigados-no-inquerito-fake-news.md",
+      "id": 536
+    },
+    {
+      "titulo": "Em 31 de julho de 2020, no âmbito do Inquérito das Fake News, o ministro Alexandre de Moraes determinou o bloqueio mundial de contas de apoiadores do presidente em redes sociais.",
+      "data_evento": "2020-07-31",
+      "data_iso": "2020-07-31T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "fake-news"
+      ],
+      "descricao": "2020-07-31-convergenciadigital-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-07-31-em-31-de-julho-de-2020.md",
+      "id": 537
+    },
+    {
+      "titulo": "Em 01 de agosto de 2020, Pressionado por STF, Facebook bloqueia globalmente contas de apoiadores de Bolsonaro.",
+      "data_evento": "2020-08-01",
+      "data_iso": "2020-08-01T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "alexandre-de-moraes",
+        "censura",
+        "bloqueio"
+      ],
+      "descricao": "2020-08-01-elpais-Alexandre Moraes-Censura",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-01-em-01-de-agosto-de-2020.md",
+      "id": 538
+    },
+    {
+      "titulo": "Quebra de sigilo bancário de 102 alvos no inquérito fake news",
+      "data_evento": "2020-08-01",
+      "data_iso": "2020-08-01T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "direito-a-privacidade",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "legalidade",
+        "alexandre-de-moraes",
+        "102-alvos",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2020/08/01 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-08-01-quebra-de-sigilo-bancario-de-102-alvos-no-inquerito-fake-news.md",
+      "id": 539
+    },
+    {
+      "titulo": "Em 03 de agosto de 2020, o ministro Fachin deu cinco dias para Câmara explicar o apoio de Bolsonaro a apoiadores bloqueados após a decisão do ministro Alexandre de Moraes.",
+      "data_evento": "2020-08-03",
+      "data_iso": "2020-08-03T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "fachin",
+        "prazo"
+      ],
+      "descricao": "2020-08-03-istoe-Governo Federal-Fachin",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "Câmara"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-03-em-03-de-agosto-de-2020.md",
+      "id": 540
+    },
+    {
+      "titulo": "Ainda em 04 de agosto de 2020, a ministra Cármen Lúcia deu 48 horas para o Ministério da Justiça explicar o relatório sobre os servidores ligados a movimentos autointitulados antifascistas.",
+      "data_evento": "2020-08-04",
+      "data_iso": "2020-08-04T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "carmen-lucia",
+        "prazo"
+      ],
+      "descricao": "2020-08-04-g1-Governo Federal-Cármen Lúcia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-04-ainda-em-04-de-agosto-de-2020.md",
+      "id": 541
+    },
+    {
+      "titulo": "Em 04 de agosto de 2020, o ministro Gilmar Mendes, via liminar, suspendeu o veto de Bolsonaro sobre a obrigatoriedade do uso de máscaras.",
+      "data_evento": "2020-08-04",
+      "data_iso": "2020-08-04T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "gilmar-mendes",
+        "cv19"
+      ],
+      "descricao": "2020-08-04-camara-Governo Federal-Gilmar Mendes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-04-em-04-de-agosto-de-2020.md",
+      "id": 542
+    },
+    {
+      "titulo": "Em 05 de agosto de 2020, o STF confirmou integralmente a liminar do ministro Barroso obrigando o Governo Federal a tomar medidas específicas para proteger povos indígenas contra a Covid-19.",
+      "data_evento": "2020-08-05",
+      "data_iso": "2020-08-05T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "barroso",
+        "obrigou"
+      ],
+      "descricao": "2020-08-05-isa-Governo Federal-Barroso",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-05-em-05-de-agosto-de-2020.md",
+      "id": 543
+    },
+    {
+      "titulo": "Remoção de perfis de redes sociais de investigados no inquérito fake news",
+      "data_evento": "2020-08-12",
+      "data_iso": "2020-08-12T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "censura",
+        "alexandre-de-moraes",
+        "investigados",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/08/12 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-08-12-remocao-de-perfis-de-redes-sociais-de-investigados-no-inquerito-fake-news.md",
+      "id": 544
+    },
+    {
+      "titulo": "Em 13 de agosto de 2020, o STF limitou a atividade de inteligência do Governo Federal.",
+      "data_evento": "2020-08-13",
+      "data_iso": "2020-08-13T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "mandou",
+        "limitou"
+      ],
+      "descricao": "2020-08-13-folha-Governo Federal-Mandou",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-13-em-13-de-agosto-de-2020.md",
+      "id": 545
+    },
+    {
+      "titulo": "Prisão de Roberto Jefferson por ataque a Moraes",
+      "data_evento": "2020-08-18",
+      "data_iso": "2020-08-18T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "presuncao-de-inocencia",
+        "alexandre-de-moraes",
+        "roberto-jefferson",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2020/08/18 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-08-18-prisao-de-roberto-jefferson-por-ataque-a-moraes.md",
+      "id": 546
+    },
+    {
+      "titulo": "Em 26 de agosto de 2020, o STF encaminhou denúncia contra Bolsonaro para PGR por ofensa a jornalista.",
+      "data_evento": "2020-08-26",
+      "data_iso": "2020-08-26T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "rosa-weber"
+      ],
+      "descricao": "2020-08-26-congressoemfoco-Governo Federal-Rosa Weber",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PGR"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-26-em-26-de-agosto-de-2020.md",
+      "id": 547
+    },
+    {
+      "titulo": "Em 29 de agosto de 2020, o STF confirmou a decisão de Gilmar Mendes que derrubou o veto do presidente sobre a obrigatoriedade do uso de máscaras.",
+      "data_evento": "2020-08-29",
+      "data_iso": "2020-08-29T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "gilmar-mendes",
+        "derrubou"
+      ],
+      "descricao": "2020-08-29-conjur-Governo Federal-Gilmar Mendes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-08-29-em-29-de-agosto-de-2020.md",
+      "id": 548
+    },
+    {
+      "titulo": "Em 01 de setembro de 2020, o ministro Barroso homologou plano de Barreiras Sanitárias para a proteção dos Povos Indígenas Isolados e de Recente Contato.",
+      "data_evento": "2020-09-01",
+      "data_iso": "2020-09-01T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "barroso",
+        "indios"
+      ],
+      "descricao": "2020-09-01-pdt-Governo Federal-Barroso",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-09-01-em-01-de-setembro-de-2020.md",
+      "id": 549
+    },
+    {
+      "titulo": "Doria assina compra antecipada de 46 milhões de doses da CoronaVac com recursos do estado de São Paulo",
+      "data_evento": "2020-09-01",
+      "data_iso": "2020-09-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P05",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Governo de São Paulo firma acordo de compra antecipada de 46 milhões de doses da vacina CoronaVac por aproximadamente US$427 milhões, usando recursos próprios do estado, à frente e paralelamente a qualquer definição do governo federal sobre imunização nacional.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://www.diariodecuyo.com.ar/noticias/brasil-comprara-46-millones-de-dosis-de-la-vacuna-china-coronavac-281355.html"
+      ],
+      "pessoas_envolvidas": [
+        "João Doria (Governador de São Paulo)"
+      ],
+      "instituicoes_envolvidas": [
+        "Governo de São Paulo",
+        "Instituto Butantan",
+        "Sinovac Biotech"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2020-09-01-id1650-doria-assina-compra-antecipada-de-46-milhoes-de-doses-da-coronavac-com-recursos.md",
+      "id": 1650
+    },
+    {
+      "titulo": "Em 03 de setembro de 2020, a ministra Cármen Lúcia deu cinco dias para Bolsonaro e o Ministro da Defesa explicarem a presença das Forças Armadas na Amazônia.",
+      "data_evento": "2020-09-03",
+      "data_iso": "2020-09-03T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "carmen-lucia",
+        "prazo"
+      ],
+      "descricao": "2020-09-03-correiobraziliense-Governo Federal-Cármen Lúcia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-09-03-em-03-de-setembro-de-2020.md",
+      "id": 550
+    },
+    {
+      "titulo": "Operação Tris In Idem",
+      "data_evento": "2020-09-09",
+      "data_iso": "2020-09-09T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-governamental"
+      ],
+      "descricao": "2020-09-09-Rio de Janeiro, RJ-corrupção governamental-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2020-09-09-operacao-tris-in-idem.md",
+      "id": 551
+    },
+    {
+      "titulo": "Em 15 de setembro de 2020, o STF declarou o voto impresso inconstitucional.",
+      "data_evento": "2020-09-15",
+      "data_iso": "2020-09-15T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "declarou",
+        "inconstitucional"
+      ],
+      "descricao": "2020-09-15-agenciabrasil-Governo Federal-Declarou",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-09-15-em-15-de-setembro-de-2020.md",
+      "id": 552
+    },
+    {
+      "titulo": "Busca contra Luciano Hang no inquérito das fake news",
+      "data_evento": "2020-09-16",
+      "data_iso": "2020-09-16T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "domicilio-violado",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "liberdade-de-expressao",
+        "alexandre-de-moraes",
+        "luciano-hang",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2020/09/16 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-09-16-busca-contra-luciano-hang-no-inquerito-das-fake-news.md",
+      "id": 553
+    },
+    {
+      "titulo": "Dois Trilhões de Suspeitas",
+      "data_evento": "2020-09-20",
+      "data_iso": "2020-09-20T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2020-09-20-dois-trilhoes-de-suspeitas.md",
+      "id": 554
+    },
+    {
+      "titulo": "Soltura De André Oliveira Macedo",
+      "data_evento": "2020-10-09",
+      "data_iso": "2020-10-09T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "faccao-criminosa",
+        "porto-santos"
+      ],
+      "descricao": "2020-10-09-São Paulo, SP-Trafico de Drogas-PCC",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-10-09-soltura-de-andre-oliveira-macedo.md",
+      "id": 555
+    },
+    {
+      "titulo": "Cerca de 231 mil presos podem ser beneficiados com soltura de André do Rap.",
+      "data_evento": "2020-10-13",
+      "data_iso": "2020-10-13T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "marco-aurelio"
+      ],
+      "descricao": "2020-10-13-metropoles-Marco Aurélio-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-10-13-cerca-de-231-mil-presos-podem-ser-beneficiados-com-soltura-de-andre-do-rap.md",
+      "id": 556
+    },
+    {
+      "titulo": "Marco Aurélio Mandou Soltar Quase 80 Presos Usando Artigo 316",
+      "data_evento": "2020-10-13",
+      "data_iso": "2020-10-13T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "prisoes-preventivas",
+        "pacote-anticrime"
+      ],
+      "descricao": "2020-10-13-Brasil-Trafico de Drogas-Organização Criminosa",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-10-13-marco-aurelio-mandou-soltar-quase-80-presos-usando-artigo-316.md",
+      "id": 557
+    },
+    {
+      "titulo": "Polícia Procura 21 Criminosos Soltos Por Marco Aurélio",
+      "data_evento": "2020-10-14",
+      "data_iso": "2020-10-14T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "andre-do-rap",
+        "prisoes-preventivas"
+      ],
+      "descricao": "2020-10-14-Brasil-PCC-Trafico de Drogas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-10-14-policia-procura-21-criminosos-soltos-por-marco-aurelio.md",
+      "id": 558
+    },
+    {
+      "titulo": "Declaração irônica sobre Fux",
+      "data_evento": "2020-10-16",
+      "data_iso": "2020-10-16T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2020-10-16-declaracao-ironica-sobre-fux.md",
+      "id": 559
+    },
+    {
+      "titulo": "Polícia Procura 21 Criminosos Soltos Por Decisões De Marco Aurélio",
+      "data_evento": "2020-10-16",
+      "data_iso": "2020-10-16T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "mandados-abertos",
+        "prisao-preventiva"
+      ],
+      "descricao": "2020-10-16-Brasil-Crime Organizado-PCC",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "CNJ"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-10-16-policia-procura-21-criminosos-soltos-por-decisoes-de-marco-aurelio.md",
+      "id": 560
+    },
+    {
+      "titulo": "Prisão de Oswaldo Eustáquio no inquérito dos atos antidemocráticos",
+      "data_evento": "2020-10-20",
+      "data_iso": "2020-10-20T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "liberdade-de-expressao",
+        "alexandre-de-moraes",
+        "oswaldo-eustaquio",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/10/20 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-10-20-prisao-de-oswaldo-eustaquio-no-inquerito-dos-atos-antidemocraticos.md",
+      "id": 561
+    },
+    {
+      "titulo": "Em 27 de outubro de 2020, o STF declarou inconstitucional a “pílula do câncer”.",
+      "data_evento": "2020-10-27",
+      "data_iso": "2020-10-27T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "derrubou",
+        "declarou"
+      ],
+      "descricao": "2020-10-27-uol-Governo Federal-Derrubou",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-10-27-em-27-de-outubro-de-2020.md",
+      "id": 562
+    },
+    {
+      "titulo": "Em 04 de novembro de 2020, o STF deu 15 dias para Bolsonaro se manifestar sobre a declaração a respeito de Flávio Dino em entrevista.",
+      "data_evento": "2020-11-04",
+      "data_iso": "2020-11-04T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "marco-aurelio",
+        "prazo"
+      ],
+      "descricao": "2020-11-04-oimparcial-Governo Federal-Marco Aurélio",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-11-04-em-04-de-novembro-de-2020.md",
+      "id": 563
+    },
+    {
+      "titulo": "Em 06 de novembro de 2020, Precisamos amar um pouco mais a Constituição, diz Marco Aurélio sobre veto a reeleição no Legislativo.",
+      "data_evento": "2020-11-06",
+      "data_iso": "2020-11-06T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "vetou",
+        "reeleicao",
+        "legislativo"
+      ],
+      "descricao": "2020-11-06-bbc-Vetou-Reeleição",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-11-06-em-06-de-novembro-de-2020.md",
+      "id": 564
+    },
+    {
+      "titulo": "Em 10 de novembro de 2020, o STF deu 48 horas para a Anvisa explicar a suspensão dos estudos da Coronavac.",
+      "data_evento": "2020-11-10",
+      "data_iso": "2020-11-10T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "lewandowski",
+        "prazo"
+      ],
+      "descricao": "2020-11-10-r7-Governo Federal-Lewandowski",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-11-10-em-10-de-novembro-de-2020.md",
+      "id": 565
+    },
+    {
+      "titulo": "Consórcio chinês CCCC + CR20 assina Contrato de Concessão nº 001/2020 para construção da Ponte Salvador-Itaparica",
+      "data_evento": "2020-11-12",
+      "data_iso": "2020-11-12T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "dragao-onca",
+        "china",
+        "bahia",
+        "ppp",
+        "infraestrutura",
+        "P05"
+      ],
+      "descricao": "O consórcio formado pelas empresas chinesas China Communications Construction Company (CCCC) e China Railway 20 Bureau Group Corporation (CR20), vencedor do leilão de dezembro de 2019, assina com o Governo do Estado da Bahia (SEINFRA) o contrato de Parceria Público-Privada para construir e operar a Ponte Salvador-Itaparica: 12,4 km sobre a Baía de Todos-os-Santos, R$7,65 bilhões, concessão de 35 anos (1 ano de estudos, 5 de construção, 29 de operação). É o evento fundador da relação Bahia-China nesta infraestrutura, referenciado por todas as renegociações posteriores do capítulo.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "Governo estadual formaliza concessão de infraestrutura crítica de longo prazo (35 anos) a consórcio integralmente chinês, sem participação federal direta no aporte original.",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.concremat.com.br/noticias/cccc-firma-contrato-para-construir-maior-ponte-da-america-latina-que-fara-ligacao-entre-salvador-e-itaparica/",
+        "https://radarppp.com/resumo-de-contratos-de-ppps/sistema-viario-do-oeste-ponte-salvador-ilha-de-itaparica-bahia/"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "SEINFRA (Secretaria de Infraestrutura da Bahia)",
+        "China Communications Construction Company (CCCC)",
+        "China Railway 20 Bureau Group Corporation (CR20)",
+        "Concessionária Ponte Salvador-Itaparica"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 7,65 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dragao-onca\\2020-11-12-id1719-ppp-ponte-salvador-itaparica-contrato-original.md",
+      "id": 1719,
+      "connections": [
+        "id_1722",
+        "id_1723",
+        "id_1725"
+      ]
+    },
+    {
+      "titulo": "Em 19 de novembro de 2020, o ministro Fachin deu prazo de cinco dias para o Governo Federal explicar critérios para seleção de reitores em universidades federais.",
+      "data_evento": "2020-11-19",
+      "data_iso": "2020-11-19T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "fachin",
+        "prazo"
+      ],
+      "descricao": "2020-11-19-correiobraziliense-Governo Federal-Fachin",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-11-19-em-19-de-novembro-de-2020.md",
+      "id": 566
+    },
+    {
+      "titulo": "Em 21 de novembro de 2020, o ministro Barroso estendeu o prazo para Bolsonaro apresentar um plano de barreiras para isolar indígenas da sociedade e evitar contaminação por Covid-19.",
+      "data_evento": "2020-11-21",
+      "data_iso": "2020-11-21T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "barroso",
+        "prazo"
+      ],
+      "descricao": "2020-11-21-estadao-Governo Federal-Barroso",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-11-21-em-21-de-novembro-de-2020.md",
+      "id": 567
+    },
+    {
+      "titulo": "Eduardo Bolsonaro acusa Huawei de espionagem via 5G; embaixada da China ameaça \"consequências negativas\"",
+      "data_evento": "2020-11-24",
+      "data_iso": "2020-11-24T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P04b",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Deputado federal Eduardo Bolsonaro, presidente da Comissão de Relações Exteriores da Câmara, publica em rede social acusação de espionagem chinesa via tecnologia 5G da Huawei, associando-se à iniciativa Clean Network do governo Trump. Embaixada da China reage classificando as declarações como \"infames\" e alertando que o Brasil poderá \"arcar com consequências negativas\".",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://www.infomoney.com.br/politica/china-reage-a-acusacao-de-eduardo-bolsonaro-sobre-5g-e-diz-que-brasil-podera-arcar-com-consequencias/"
+      ],
+      "pessoas_envolvidas": [
+        "Eduardo Bolsonaro (Deputado Federal, Presidente da Comissão de Relações Exteriores e Defesa Nacional)"
+      ],
+      "instituicoes_envolvidas": [
+        "Câmara dos Deputados",
+        "Embaixada da China no Brasil"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2020-11-24-id1651-eduardo-bolsonaro-acusa-huawei-de-espionagem-via-5g-embaixada-da-china-ameaca-co.md",
+      "id": 1651
+    },
+    {
+      "titulo": "Em 25 de novembro de 2020, o ministro Lewandowski adiantou o voto para que o Governo Federal apresentasse um plano de vacinação em 30 dias.",
+      "data_evento": "2020-11-25",
+      "data_iso": "2020-11-25T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "lewandowski",
+        "prazo"
+      ],
+      "descricao": "2020-11-25-correiobraziliense-Governo Federal-Lewandowski",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-11-25-em-25-de-novembro-de-2020.md",
+      "id": 568
+    },
+    {
+      "titulo": "Latam é condenada a indenizar em R$ 74 mil duas juízas que foram ao aeroporto errado e perderam voo de lazer",
+      "data_evento": "2020-11-26",
+      "data_iso": "2020-11-26T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos"
+      ],
+      "descricao": "As juízas do TJRJ Cristiane da Silva Brandão Lima e Larissa Nunes Pinto Sally, viajando com os quatro filhos para Nova York a lazer, dirigiram-se ao aeroporto do Galeão quando o voo de conexão para São Paulo partiria do Santos Dumont. Não conseguiram embarcar em nenhum dos dois aeroportos; a Latam, por política de no-show regulada pela ANAC, cancelou as 12 passagens de ida e volta. As juízas compraram novas passagens, pernoitaram em hotel e viajaram no dia seguinte. Processaram a companhia e o 2º Juizado Especial Cível de Niterói condenou a Latam a restituir R$ 26.963,89 e pagar R$ 10 mil de dano moral a cada uma (total R$ 73.927,78), sob o fundamento de que, ainda que as autoras tenham se dirigido ao aeroporto errado, foi abusivo o cancelamento das passagens de volta. Decisão mantida pela 5ª Turma Recursal e por negativa de seguimento a recurso extraordinário da Latam pela vice-presidente do TJRJ, desembargadora Elisabete Filizzola Assunção.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "abuso_processual",
+      "fontes": [
+        "https://www.conjur.com.br/2020-nov-26/latam-indenizar-juizas-erraram-aeroporto-perderam-voo/",
+        "https://www.migalhas.com.br/quentes/336983/latam-indenizara-juizas-que-perderam-voo-e-tiveram-passagens-canceladas",
+        "https://www.diariodocentrodomundo.com.br/essencial/juizas-erram-o-aeroporto-perdem-o-voo-e-latam-e-obrigada-a-pagar-r-74-mil-a-elas/"
+      ],
+      "pessoas_envolvidas": [
+        "Cristiane da Silva Brandão Lima (autora da ação — juíza)",
+        "Larissa Nunes Pinto Sally (autora da ação — juíza)",
+        "Elisabete Filizzola Assunção (desembargadora — negou recurso extraordinário da Latam)"
+      ],
+      "instituicoes_envolvidas": [
+        "TJRJ",
+        "Latam Airlines Brasil",
+        "ANAC"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2020-11-26-latam-e-condenada-a-indenizar-em-r-74-mil-duas-juizas-que-foram-ao-aeroporto-errado-e-perd.md",
+      "id": 1835
+    },
+    {
+      "titulo": "Em 27 de novembro de 2020, o STF prorrogou por mais 60 dias o inquérito sobre a suposta interferência de Bolsonaro na PF.",
+      "data_evento": "2020-11-27",
+      "data_iso": "2020-11-27T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "pf"
+      ],
+      "descricao": "2020-11-27-moneytimes-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-11-27-em-27-de-novembro-de-2020.md",
+      "id": 569
+    },
+    {
+      "titulo": "Prisão de Eduardo Bolsonaro no inquérito dos atos antidemocráticos",
+      "data_evento": "2020-11-27",
+      "data_iso": "2020-11-27T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "prerrogativas-parlamentares",
+        "devido-processo-legal",
+        "liberdade-de-expressao",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "eduardo-bolsonaro",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/11/27 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-11-27-prisao-de-eduardo-bolsonaro-no-inquerito-dos-atos-antidemocraticos.md",
+      "id": 570
+    },
+    {
+      "titulo": "Em 01 de dezembro de 2020, o ministro Dias Toffoli suspendeu o decreto de Bolsonaro que previa a educação de alunos com deficiência em salas e escolas especiais.",
+      "data_evento": "2020-12-01",
+      "data_iso": "2020-12-01T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "toffoli",
+        "decreto"
+      ],
+      "descricao": "2020-12-01-uol-Governo Federal-Toffoli",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-01-em-01-de-dezembro-de-2020.md",
+      "id": 571
+    },
+    {
+      "titulo": "Polícia Vai A Caça De 21 Criminosos Soltos Por Marco Aurélio",
+      "data_evento": "2020-12-02",
+      "data_iso": "2020-12-02T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "caca-criminosos",
+        "prisoes-preventivas"
+      ],
+      "descricao": "2020-12-02-Brasil-Crime Organizado-PCC",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2020-12-02-policia-vai-a-caca-de-21-criminosos-soltos-por-marco-aurelio.md",
+      "id": 572
+    },
+    {
+      "titulo": "Prorrogação do inquérito dos atos antidemocráticos por mais 90 dias",
+      "data_evento": "2020-12-10",
+      "data_iso": "2020-12-10T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "duracao-razoavel-do-processo",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2020/12/10 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2020-12-10-prorrogacao-do-inquerito-dos-atos-antidemocraticos-por-mais-90-dias.md",
+      "id": 573
+    },
+    {
+      "titulo": "Em 13 de dezembro de 2020, o ministro Lewandowski deu prazo de 48h para o ministro Pazuello responder sobre data para início da vacinação.",
+      "data_evento": "2020-12-13",
+      "data_iso": "2020-12-13T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "lewandowski",
+        "prazo"
+      ],
+      "descricao": "2020-12-13-jovempan-Governo Federal-Lewandowski",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-13-em-13-de-dezembro-de-2020.md",
+      "id": 574
+    },
+    {
+      "titulo": "Em 14 de dezembro de 2020, a ministra Cármen Lúcia deu 24 horas para a Abin e o GSI explicarem a suposta ajuda à defesa de Flávio Bolsonaro.",
+      "data_evento": "2020-12-14",
+      "data_iso": "2020-12-14T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "carmen-lucia",
+        "prazo"
+      ],
+      "descricao": "2020-12-14-oglobo-Governo Federal-Cármen Lúcia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-14-em-14-de-dezembro-de-2020.md",
+      "id": 575
+    },
+    {
+      "titulo": "Em 15 de dezembro de 2020, o STF prorrogou por mais 90 dias a ação sobre a interferência de Bolsonaro na PF.",
+      "data_evento": "2020-12-15",
+      "data_iso": "2020-12-15T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "alexandre-de-moraes",
+        "sergio-moro"
+      ],
+      "descricao": "2020-12-15-r7-Governo Federal-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-15-em-15-de-dezembro-de-2020.md",
+      "id": 576
+    },
+    {
+      "titulo": "Ainda em 17 de dezembro de 2020, o STF decidiu que União, estados e municípios poderiam obrigar a vacinação contra Covid-19.",
+      "data_evento": "2020-12-17",
+      "data_iso": "2020-12-17T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "lewandowski",
+        "decidiu"
+      ],
+      "descricao": "2020-12-17-bbc-Governo Federal-Lewandowski",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-17-ainda-em-17-de-dezembro-de-2020.md",
+      "id": 577
+    },
+    {
+      "titulo": "Em 17 de dezembro de 2020, o ministro Lewandowski, em liminar, autorizou os estados e os municípios a importar e distribuir vacinas sem aval da Anvisa.",
+      "data_evento": "2020-12-17",
+      "data_iso": "2020-12-17T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "lewandowski",
+        "autonomia"
+      ],
+      "descricao": "2020-12-17-tecmundo-Governo Federal-Lewandowski",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-17-em-17-de-dezembro-de-2020.md",
+      "id": 578
+    },
+    {
+      "titulo": "Em 23 de dezembro de 2020, a ministra Cármen Lúcia determinou que Bolsonaro e Ricardo Salles prestassem depoimento em ação sobre o desmatamento.",
+      "data_evento": "2020-12-23",
+      "data_iso": "2020-12-23T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "carmen-lucia",
+        "determinou"
+      ],
+      "descricao": "2020-12-23-correiodopovo-Governo Federal-Cármen Lúcia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-23-em-23-de-dezembro-de-2020.md",
+      "id": 579
+    },
+    {
+      "titulo": "Em 30 de dezembro de 2020, o STF prorrogou o estado de calamidade pública em decorrência da Covid-19.",
+      "data_evento": "2020-12-30",
+      "data_iso": "2020-12-30T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "lewandowski",
+        "prorrogou"
+      ],
+      "descricao": "2020-12-30-recontaai-Governo Federal-Lewandowski",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2020-12-30-em-30-de-dezembro-de-2020.md",
+      "id": 580
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "total": 12,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1994,
+  "assuntos": [
+    {
+      "titulo": "Caso Eliseu Resende",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Irregularidades em Minas Gerais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-caso-eliseu-resende.md",
+      "id": 70
+    },
+    {
+      "titulo": "Caso Ricupero",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Declarações vazadas sobre economia (Escândalo das Parabólicas).",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-caso-ricupero.md",
+      "id": 71
+    },
+    {
+      "titulo": "Compra e Venda dos Mandatos dos Deputados do PSD",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Corrupção em mandatos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-compra-e-venda-dos-mandatos-dos-deputados-do-psd.md",
+      "id": 72
+    },
+    {
+      "titulo": "Escândalo da Administração de Antônio Carlos Magalhães",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Corrupção na BA.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-da-administracao-de-antonio-carlos-magalhaes.md",
+      "id": 73
+    },
+    {
+      "titulo": "Escândalo da Administração de Roberto Requião",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Corrupção no PR.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-da-administracao-de-roberto-requiao.md",
+      "id": 74
+    },
+    {
+      "titulo": "Escândalo da Colac",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Fraudes no RS.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-da-colac.md",
+      "id": 75
+    },
+    {
+      "titulo": "Escândalo da Estacom",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Fraudes em Tocantins.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-da-estacom.md",
+      "id": 76
+    },
+    {
+      "titulo": "Escândalo da Paubrasil",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Fraudes em engenharia.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-da-paubrasil.md",
+      "id": 77
+    },
+    {
+      "titulo": "Escândalo da Prefeitura de Natal",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Corrupção no RN.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-da-prefeitura-de-natal.md",
+      "id": 78
+    },
+    {
+      "titulo": "Escândalo da Telemig",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Corrupção em telecomunicações em MG.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-da-telemig.md",
+      "id": 79
+    },
+    {
+      "titulo": "Escândalo do INAMPS",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1994"
+      ],
+      "descricao": "Desvios na previdência social.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1994-01-01-escandalo-do-inamps.md",
+      "id": 80
+    },
+    {
+      "titulo": "Operação Rio I",
+      "data_evento": "1994-01-01",
+      "data_iso": "1994-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "seguranca-publica",
+        "trafico-de-drogas",
+        "seguranca-publica"
+      ],
+      "descricao": "1994-01-01-Rio de Janeiro, RJ-tráfico de drogas-segurança pública",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\1994-01-01-operacao-rio-i.md",
+      "id": 81
+    }
+  ]
+}

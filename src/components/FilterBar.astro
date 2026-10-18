@@ -1,0 +1,39 @@
+---
+import { categoriaLabel, categoriaColor } from '../types/evento';
+import data from '../data/assuntos.json';
+
+interface Props {
+  categoriaAtiva: string | null;
+}
+
+const { categoriaAtiva } = Astro.props;
+
+// Conta eventos por categoria
+const cats = data.assuntos.reduce<Record<string, number>>((acc, e) => {
+  if (e.categoria) acc[e.categoria] = (acc[e.categoria] || 0) + 1;
+  return acc;
+}, {});
+
+const sorted = Object.entries(cats).sort((a, b) => b[1] - a[1]);
+---
+
+<nav class="filter-bar" aria-label="Filtrar por categoria" data-pagefind-ignore>
+  <a
+    href="/pagina/1"
+    class:list={['filter-item', { 'filter-item--active': categoriaAtiva === null }]}
+  >
+    <span class="filter-label">Todos</span>
+    <span class="filter-count">{data.total}</span>
+  </a>
+
+  {sorted.map(([cat, count]) => (
+    <a
+      href={`/categoria/${cat}/1`}
+      class:list={['filter-item', { 'filter-item--active': cat === categoriaAtiva }]}
+      style={`--cat-color: ${categoriaColor(cat)}`}
+    >
+      <span class="filter-label">{categoriaLabel(cat)}</span>
+      <span class="filter-count">{count}</span>
+    </a>
+  ))}
+</nav>

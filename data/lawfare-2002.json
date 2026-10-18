@@ -1,0 +1,251 @@
+{
+  "total": 9,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2002,
+  "assuntos": [
+    {
+      "titulo": "Caso Celso Daniel",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2002"
+      ],
+      "descricao": "Assassinato ligado a corrupção.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-caso-celso-daniel.md",
+      "id": 140
+    },
+    {
+      "titulo": "Caso Lunus",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2002"
+      ],
+      "descricao": "Caso Roseana Sarney com dinheiro em empresa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-caso-lunus.md",
+      "id": 141
+    },
+    {
+      "titulo": "Dossiê Cayman",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2002"
+      ],
+      "descricao": "Dossiê falso contra opositores.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-dossie-cayman.md",
+      "id": 142
+    },
+    {
+      "titulo": "Escândalo da Administração da Roseana Sarney",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2002"
+      ],
+      "descricao": "Corrupção no MA.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-escandalo-da-administracao-da-roseana-sarney.md",
+      "id": 143
+    },
+    {
+      "titulo": "Escândalo do Abafamento das CPIs no Governo do FHC",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2002"
+      ],
+      "descricao": "Bloqueio de investigações.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-escandalo-do-abafamento-das-cpis-no-governo-do-fhc.md",
+      "id": 144
+    },
+    {
+      "titulo": "Escândalo do Banpará",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2002"
+      ],
+      "descricao": "Privatização suspeita.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-escandalo-do-banpara.md",
+      "id": 145
+    },
+    {
+      "titulo": "Escândalo do Proprinoduto",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2002"
+      ],
+      "descricao": "Desvios em obras no RJ.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-escandalo-do-proprinoduto.md",
+      "id": 146
+    },
+    {
+      "titulo": "Escândalo dos Grampos Contra FHC e Aliados",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2002"
+      ],
+      "descricao": "Espionagem ilegal.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2002-01-01-escandalo-dos-grampos-contra-fhc-e-aliados.md",
+      "id": 147
+    },
+    {
+      "titulo": "Tst Compra Móveis De Luxo",
+      "data_evento": "2002-01-01",
+      "data_iso": "2002-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "moveis-luxo",
+        "gastos"
+      ],
+      "descricao": "2002-01-01-Brasília, DF-judiciario-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 800 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2002-01-01-tst-compra-moveis-de-luxo.md",
+      "id": 148
+    }
+  ]
+}

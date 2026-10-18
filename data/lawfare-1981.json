@@ -1,0 +1,66 @@
+{
+  "total": 2,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1981,
+  "assuntos": [
+    {
+      "titulo": "Caso Capemi",
+      "data_evento": "1981-01-01",
+      "data_iso": "1981-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-joao-figueiredo",
+        "1981"
+      ],
+      "descricao": "Desvio de recursos de fundo de pensão para compra superfaturada de madeira na Amazônia.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "Câmara"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1981-01-01-caso-capemi.md",
+      "id": 17
+    },
+    {
+      "titulo": "Crime da Mala",
+      "data_evento": "1981-01-01",
+      "data_iso": "1981-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-joao-figueiredo",
+        "1981"
+      ],
+      "descricao": "Assassinato ligado a contrabando e corrupção.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1981-01-01-crime-da-mala.md",
+      "id": 18
+    }
+  ]
+}

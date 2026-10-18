@@ -1,0 +1,80 @@
+{
+  "total": 2,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1989,
+  "assuntos": [
+    {
+      "titulo": "Escândalo do Contrabando das Pedras Preciosas",
+      "data_evento": "1989-01-01",
+      "data_iso": "1989-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-sarney",
+        "1989"
+      ],
+      "descricao": "Contrabando ilegal de gemas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1989-01-01-escandalo-do-contrabando-das-pedras-preciosas.md",
+      "id": 29
+    },
+    {
+      "titulo": "Irmãos Torsi (ʼNdrangheta) moldam estrutura organizacional do PCC dentro de presídios brasileiros",
+      "data_evento": "1989-01-01",
+      "data_iso": "1989-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "pcc",
+        "ndrangheta",
+        "mafia-italiana",
+        "torsi",
+        "estrutura-organizacional",
+        "sistema-prisional",
+        "origem-pcc",
+        "crime-transnacional"
+      ],
+      "descricao": "Investigações brasileiras e italianas documentam que os irmãos Torsi, membros da ʼNdrangheta presos no Brasil entre os anos 1980 e 1990, ensinaram aos detentos paulistas os fundamentos da organização mafiosa italiana: estatuto escrito, códigos de conduta, disciplina interna rígida, sintonias (núcleos divididos por atividade e território) e gestão financeira sustentável. Essas estruturas tornaram-se a espinha dorsal do PCC. Renato Torsi foi extraditado à Itália em outubro de 1994; seu irmão, no ano seguinte. Ambos mantiveram contato escrito com liderança do PCC após saída do Brasil. A origem organizacional do PCC tem DNA mafioso italiano documentado — não é coincidência estrutural, é transferência direta de conhecimento.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Renato Torsi",
+        "Irmão Torsi",
+        "Mizael (liderança PCC)"
+      ],
+      "instituicoes_envolvidas": [
+        "PCC",
+        "ʼNdrangheta",
+        "sistema prisional SP"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "N/A",
+      "id": 1481,
+      "fontes_verificadas": [
+        "https://www.brasilparalelo.com.br/noticias/descubra-como-a-mafia-italiana-ajudou-a-criar-o-pcc",
+        "https://smallwarsjournal.com/2025/04/24/the-expansion-of-the-pcc-in-portugal-challenges-impacts-and-responses/"
+      ]
+    }
+  ]
+}

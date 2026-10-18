@@ -1,0 +1,37 @@
+{
+  "total": 1,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1979,
+  "assuntos": [
+    {
+      "titulo": "Lula - Por exemplo, o Hitler, mesmo errado, tinha aquilo de que eu admiro num homem, o fogo de se propor a fazer alguma coisa e tentar fazer....",
+      "data_evento": "1979-07-01",
+      "data_iso": "1979-07-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "lula",
+        "lula",
+        "antissemitismo",
+        "admiração histórica"
+      ],
+      "descricao": "Frase dita por lula em Entrevista à Playboy",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\1979-07-01-lula-por-exemplo-o-hitler-mesm.md",
+      "id": 13
+    }
+  ]
+}

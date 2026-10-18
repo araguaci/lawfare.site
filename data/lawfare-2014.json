@@ -1,0 +1,314 @@
+{
+  "total": 10,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2014,
+  "assuntos": [
+    {
+      "titulo": "Escândalo na Copa do Mundo 2014",
+      "data_evento": "2014-01-01",
+      "data_iso": "2014-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma",
+        "2014"
+      ],
+      "descricao": "Isenções fiscais à FIFA.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2014-01-01-escandalo-na-copa-do-mundo-2014.md",
+      "id": 343
+    },
+    {
+      "titulo": "Itamaraty Compra Caviar E Salmão",
+      "data_evento": "2014-01-01",
+      "data_iso": "2014-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "alimentos-luxo",
+        "diplomacia"
+      ],
+      "descricao": "2014-01-01-Brasília, DF-executivo-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 200 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2014-01-01-itamaraty-compra-caviar-e-salmao.md",
+      "id": 344
+    },
+    {
+      "titulo": "Operação Vício",
+      "data_evento": "2014-01-01",
+      "data_iso": "2014-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-contratos",
+        "fraude"
+      ],
+      "descricao": "2014-01-01-Porto Alegre, RS-corrupção contratos-fraude",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2014-01-01-operacao-vicio.md",
+      "id": 345
+    },
+    {
+      "titulo": "Fraude na Distribuição de Processos no Fórum de São Luís",
+      "data_evento": "2014-02-12",
+      "data_iso": "2014-02-12T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "fraude-distribuicao",
+        "corrupcao-servidores",
+        "manipulacao-judicial",
+        "demissoes-cnj",
+        "quatro-servidores-do-tj-ma-nomes-nao-especificados-em-fontes",
+        "poder-judiciario",
+        "partes-processuais",
+        "sociedade-maranhense",
+        "demissao-dos-quatro-servidores-por-unanimidade-no-cnj",
+        "melhorias-no-sistema-de-distribuicao-de-processos",
+        "gravidade-media",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "CNJ"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 0, ",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2014-02-12-fraude-na-distribuicao-de-processos-no-forum-de-sao-luis.md",
+      "id": 346
+    },
+    {
+      "titulo": "Escândalo do Petrolão",
+      "data_evento": "2014-03-01",
+      "data_iso": "2014-03-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma",
+        "2014"
+      ],
+      "descricao": "Esquema de corrupção na Petrobras com desvios bilhões via propinas de empreiteiras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2014-03-01-escandalo-do-petrolao.md",
+      "id": 347
+    },
+    {
+      "titulo": "Reunião PCC na sede da Transcooper (zona leste-SP): deputado Luiz Moura flagrado com 13 suspeitos da facção",
+      "data_evento": "2014-03-01",
+      "data_iso": "2014-03-01T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P05",
+        "P01",
+        "P02"
+      ],
+      "descricao": "Em março de 2014, a Polícia Civil de São Paulo flagra, em operação de monitoramento para apurar ataques a ônibus na cidade, uma reunião na sede da Transcooper — cooperativa de transporte da zona leste — entre o deputado estadual Luiz Moura (PT), irmão do vereador Senival Moura, e ao menos 13 pessoas suspeitas de integrar o PCC. Dos 13 presentes, 11 não tinham ônibus nem vínculo formal com a cooperativa, segundo investigadores. O parlamentar alega ter participado para tratar de assuntos da categoria. A Transcooper, à época, tinha Alexandre de Moraes como advogado em 123 processos — período em que ele já havia deixado a presidência da SPTrans (cargo exercido entre 2007 e 2010, durante o qual a cooperativa era objeto de fiscalização da própria SPTrans).",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "https://www.band.com.br/noticias/onibus-do-pcc-entenda-o-esquema-da-faccao-com-o-transporte-publico-de-sp-16517221",
+        "https://fiquemsabendo.com.br/gastos-publicos/exclusivo-tj-condena-cooperativa-que-teve-alexandre-de-moraes-como-advogado-por-se-apropriar-de-dinheiro-de-perueiro-quando-ele-era-secretario"
+      ],
+      "pessoas_envolvidas": [
+        "Luiz Moura (Deputado estadual PT-SP — flagrado na reunião)",
+        "Alexandre de Moraes (Advogado da Transcooper (123 processos) — ex-presidente da SPTrans, fiscalizador anterior da cooperativa)"
+      ],
+      "instituicoes_envolvidas": [
+        "Polícia Civil SP",
+        "GAECO",
+        "Transcooper",
+        "SPTrans"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2014-03-01-reuniao-pcc-na-sede-da-transcooper-zona-leste-sp-deputado-luiz-moura-flagrado-com-13-suspe.md",
+      "id": 1597
+    },
+    {
+      "titulo": "Operação Lava Jato - Uso de bancos para lavagem",
+      "data_evento": "2014-03-17",
+      "data_iso": "2014-03-17T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2014-03-17-operacao-lava-jato-uso-de-bancos-para-lavagem.md",
+      "id": 348
+    },
+    {
+      "titulo": "Operação Lava Jato",
+      "data_evento": "2014-03-17",
+      "data_iso": "2014-03-17T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao",
+        "propina"
+      ],
+      "descricao": "2014-03-17-Curitiba, PR-corrupção-propina",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2014-03-17-operacao-lava-jato.md",
+      "id": 349
+    },
+    {
+      "titulo": "Telexfree – esquema de pirâmide",
+      "data_evento": "2014-04-16",
+      "data_iso": "2014-04-16T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "ma",
+        "br-nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2014-04-16-telexfree-esquema-de-piramide.md",
+      "id": 350
+    },
+    {
+      "titulo": "Aécio Neves afirma ter perdido eleição de 2014 para 'organização criminosa', não para partido político",
+      "data_evento": "2014-11-30",
+      "data_iso": "2014-11-30T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04b",
+        "P09"
+      ],
+      "descricao": "Após derrota para Dilma Rousseff no segundo turno de 2014, o candidato do PSDB Aécio Neves declarou à Globo que não havia perdido para um partido político, mas para 'uma organização criminosa que se instalou no seio de algumas empresas brasileiras patrocinadas por esse grupo político'. A declaração foi feita em referência aos escândalos de corrupção então emergindo da Operação Lava Jato.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "https://oglobo.globo.com/brasil/eu-perdi-eleicao-para-uma-organizacao-criminosa-diz-aecio-neves-14636736"
+      ],
+      "pessoas_envolvidas": [
+        "Aécio Neves (Candidato à Presidência (PSDB))"
+      ],
+      "instituicoes_envolvidas": [
+        "PSDB"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2014-11-30-aecio-neves-afirma-ter-perdido-eleicao-de-2014-para-organizacao-criminosa-nao-para-partido.md",
+      "id": 1582
+    }
+  ]
+}

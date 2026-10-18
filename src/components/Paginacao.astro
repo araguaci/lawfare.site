@@ -1,0 +1,64 @@
+---
+interface Props {
+  currentPage: number;
+  lastPage: number;
+  prevUrl?: string;
+  nextUrl?: string;
+  baseUrl: string;
+}
+
+const { currentPage, lastPage, prevUrl, nextUrl, baseUrl } = Astro.props;
+
+if (lastPage <= 1) return;
+
+// Calcula janela de páginas a mostrar
+const delta = 2;
+const range: number[] = [];
+for (
+  let i = Math.max(1, currentPage - delta);
+  i <= Math.min(lastPage, currentPage + delta);
+  i++
+) {
+  range.push(i);
+}
+const showStartEllipsis = range[0] > 2;
+const showEndEllipsis = range[range.length - 1] < lastPage - 1;
+---
+
+<nav class="pagination" aria-label="Paginação" data-pagefind-ignore>
+  {prevUrl ? (
+    <a href={prevUrl} class="page-btn page-btn--nav" rel="prev">← Anterior</a>
+  ) : (
+    <span class="page-btn page-btn--disabled">← Anterior</span>
+  )}
+
+  <div class="page-numbers">
+    {!range.includes(1) && (
+      <a href={`${baseUrl}/1`} class:list={['page-btn', { 'page-btn--active': currentPage === 1 }]}>1</a>
+    )}
+    {showStartEllipsis && <span class="page-ellipsis">…</span>}
+
+    {range.map(n => (
+      <a
+        href={`${baseUrl}/${n}`}
+        class:list={['page-btn', { 'page-btn--active': n === currentPage }]}
+        aria-current={n === currentPage ? 'page' : undefined}
+      >
+        {n}
+      </a>
+    ))}
+
+    {showEndEllipsis && <span class="page-ellipsis">…</span>}
+    {!range.includes(lastPage) && (
+      <a href={`${baseUrl}/${lastPage}`} class:list={['page-btn', { 'page-btn--active': currentPage === lastPage }]}>
+        {lastPage}
+      </a>
+    )}
+  </div>
+
+  {nextUrl ? (
+    <a href={nextUrl} class="page-btn page-btn--nav" rel="next">Próxima →</a>
+  ) : (
+    <span class="page-btn page-btn--disabled">Próxima →</span>
+  )}
+</nav>

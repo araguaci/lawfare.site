@@ -1,0 +1,63 @@
+---
+import type { Evento } from '../types/evento';
+import { formatDateShort, categoriaColor, categoriaLabel, relevanciaColor, getExcerpt } from '../types/evento';
+
+interface Props {
+  evento: Evento;
+}
+
+const { evento } = Astro.props;
+const catColor = categoriaColor(evento.categoria);
+const relColor = relevanciaColor(evento.relevancia);
+const catLabel = categoriaLabel(evento.categoria);
+const excerpt = getExcerpt(evento.descricao, 190);
+const isAlta = evento.relevancia === 'alta';
+---
+
+<article
+  class:list={['evento-card', { 'evento-card--alta': isAlta }]}
+  style={`--cat-color: ${catColor}; --rel-color: ${relColor}`}
+>
+  <div class="card-left">
+    <time datetime={evento.data_iso || evento.data_evento} class="card-date">
+      {formatDateShort(evento.data_iso || evento.data_evento)}
+    </time>
+    {isAlta && (
+      <span class="card-badge-alta" title="Evento de Alta Relevância">
+        ● ALTA
+      </span>
+    )}
+  </div>
+
+  <div class="card-body">
+    <div class="card-meta">
+      <a href={`/categoria/${evento.categoria}/1`} class="card-cat">
+        {catLabel}
+      </a>
+      {(evento.tags as string[]).slice(0, 3).filter(t => t && t !== 'N/A').map(tag => (
+        <span class="card-tag">{tag}</span>
+      ))}
+    </div>
+
+    <h2 class="card-title">
+      <a href={`/evento/${evento.id}`}>{evento.titulo}</a>
+    </h2>
+
+    {excerpt && (
+      <p class="card-excerpt">{excerpt}</p>
+    )}
+
+    <div class="card-footer">
+      <span class="card-id">#{evento.id}</span>
+      {(evento.pessoas_envolvidas as string[])
+        .filter(p => p && p !== 'N/A' && !['Data','Autoridade','Frase','Local','Gravidade','Marcadores','Fontes'].includes(p))
+        .slice(0, 2)
+        .map(p => (
+          <span class="card-pessoa">
+            👤 {p}
+          </span>
+        ))
+      }
+    </div>
+  </div>
+</article>

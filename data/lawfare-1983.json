@@ -1,0 +1,64 @@
+{
+  "total": 2,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1983,
+  "assuntos": [
+    {
+      "titulo": "Caso Coroa-Brastel",
+      "data_evento": "1983-01-01",
+      "data_iso": "1983-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-joao-figueiredo",
+        "1983"
+      ],
+      "descricao": "Fraudes em contratos de telecomunicações.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1983-01-01-caso-coroa-brastel.md",
+      "id": 20
+    },
+    {
+      "titulo": "Escândalo das Polonetas",
+      "data_evento": "1983-01-01",
+      "data_iso": "1983-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-joao-figueiredo",
+        "1983"
+      ],
+      "descricao": "Corrupção em contratos de importação de equipamentos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1983-01-01-escandalo-das-polonetas.md",
+      "id": 21
+    }
+  ]
+}

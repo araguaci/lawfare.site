@@ -1,0 +1,268 @@
+{
+  "total": 9,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2009,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Renascer em Cristo",
+      "data_evento": "2009-01-01",
+      "data_iso": "2009-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2009"
+      ],
+      "descricao": "Fraudes em igreja.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2009-01-01-escandalo-da-renascer-em-cristo.md",
+      "id": 293
+    },
+    {
+      "titulo": "Judiciário Gasta Com Viagens De Luxo",
+      "data_evento": "2009-01-01",
+      "data_iso": "2009-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "viagens-luxo",
+        "gastos"
+      ],
+      "descricao": "2009-01-01-Brasília, DF-judiciario-viagens",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 10 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2009-01-01-judiciario-gasta-com-viagens-de-luxo.md",
+      "id": 294
+    },
+    {
+      "titulo": "Lula - …comportamentos irracionais de gente branca, de olhos azuis....",
+      "data_evento": "2009-01-01",
+      "data_iso": "2009-01-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "lula",
+        "lula",
+        "racismo",
+        "estereótipo racial"
+      ],
+      "descricao": "Frase dita por lula em Coletiva com Gordon Brown (Londres)",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2009-01-01-lula-comportamentos-irracionai.md",
+      "id": 295
+    },
+    {
+      "titulo": "China ultrapassa os EUA e se torna o principal parceiro comercial do Brasil",
+      "data_evento": "2009-01-01",
+      "data_iso": "2009-01-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "bancos",
+        "P10",
+        "P11",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Pela primeira vez na história, a China supera os Estados Unidos como maior parceiro comercial do Brasil — posição que mantém ininterruptamente até 2026 (17º ano consecutivo).",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "http://antigo.itamaraty.gov.br/pt-BR/ficha-pais/4926-republica-popular-da-china"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Ministério do Desenvolvimento, Indústria, Comércio e Serviços"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2009-01-01-id1644-china-ultrapassa-os-eua-e-se-torna-o-principal-parceiro-comercial-do-brasil.md",
+      "id": 1644
+    },
+    {
+      "titulo": "Operação Castelo De Areia",
+      "data_evento": "2009-03-25",
+      "data_iso": "2009-03-25T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-construcao",
+        "doacoes-ilegais"
+      ],
+      "descricao": "2009-03-25-São Paulo, SP-corrupção construção-doações ilegais",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2009-03-25-operacao-castelo-de-areia.md",
+      "id": 296
+    },
+    {
+      "titulo": "Fenômeno Da Chacina E Crime Organizado",
+      "data_evento": "2009-05-01",
+      "data_iso": "2009-05-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "crimes-interpessoais",
+        "estatais"
+      ],
+      "descricao": "2009-05-01-Brasil-Chacinas-Crime Organizado",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2009-05-01-fenomeno-da-chacina-e-crime-organizado.md",
+      "id": 297
+    },
+    {
+      "titulo": "CONSIF ajuíza ADPF 165 contratando bancas de advocacia de elite para questionar direito de poupadores a expurgos inflacionários de 1986-1991",
+      "data_evento": "2009-07-01",
+      "data_iso": "2009-07-01T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P06"
+      ],
+      "descricao": "A Confederação Nacional do Sistema Financeiro (CONSIF) ajuizou a ADPF 165 em 2009, contestando a constitucionalidade dos Planos Cruzado, Bresser (1987), Verão (1989), Collor I (1990) e Collor II (1991) e o direito de poupadores a diferenças de correção monetária (expurgos inflacionários) resultantes desses planos. A petição foi assinada pelo ex-Ministro da Justiça Márcio Tomaz Bastos, além de Sérgio Bermudes e Arnoldo Wald — contratados pela FEBRABAN e CONSIF entre os escritórios mais caros do país à época. No momento do ajuizamento, a jurisprudência consolidada em STF, STJ, TRFs e TJs já era favorável aos poupadores em ações individuais.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://idec.org.br/artigo/os-bancos-sendo-bancos-ao-final-do-acordo-dos-planos-economicos",
+        "https://www.gov.br/agu/pt-br/comunicacao/noticias/maioria-do-stf-declara-constitucionalidade-de-planos-economicos"
+      ],
+      "pessoas_envolvidas": [
+        "Confederação Nacional do Sistema Financeiro (CONSIF) (Autora da ADPF 165)",
+        "Federação Brasileira de Bancos (FEBRABAN) (Interveniente/financiadora da defesa jurídica bancária)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "CONSIF",
+        "FEBRABAN"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2009-07-01-consif-ajuiza-adpf-165-contratando-bancas-de-advocacia-de-elite-para-questionar-direito-de.md",
+      "id": 1812
+    },
+    {
+      "titulo": "Operação Caixa De Pandora",
+      "data_evento": "2009-11-27",
+      "data_iso": "2009-11-27T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-politica",
+        "compra-de-votos"
+      ],
+      "descricao": "2009-11-27-Brasília, DF-corrupção política-compra de votos",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2009-11-27-operacao-caixa-de-pandora.md",
+      "id": 298
+    },
+    {
+      "titulo": "Delação No Brasil E Impunidade",
+      "data_evento": "2009-12-21",
+      "data_iso": "2009-12-21T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "delacao",
+        "impunidade"
+      ],
+      "descricao": "2009-12-21-Brasil-Corrupção-Crime Organizado",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2009-12-21-delacao-no-brasil-e-impunidade.md",
+      "id": 299
+    }
+  ]
+}

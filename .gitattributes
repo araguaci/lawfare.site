@@ -1,0 +1,9 @@
+# Tratar JSON grande como binário no git diff (evita diff lento)
+src/data/assuntos.json binary
+
+# Fim de linha
+* text=auto
+*.astro text eol=lf
+*.ts text eol=lf
+*.mjs text eol=lf
+*.css text eol=lf

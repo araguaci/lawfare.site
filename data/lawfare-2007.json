@@ -1,0 +1,743 @@
+{
+  "total": 27,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2007,
+  "assuntos": [
+    {
+      "titulo": "Caso Agnelo Queiroz",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Diárias indevidas do COB.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-caso-agnelo-queiroz.md",
+      "id": 254
+    },
+    {
+      "titulo": "Caso Joaquim Roriz",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Corrupção no DF.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-caso-joaquim-roriz.md",
+      "id": 255
+    },
+    {
+      "titulo": "Caso José Dantas de Lira",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "rio-grande-do-norte"
+      ],
+      "descricao": "Juiz cobrava R$ 750 por liminar em esquema com filho✧  advogado✧  funcionário do tribunal e corretores✧  movimentando mais de R$ 3 milhões entre 2007 e 2009.José Dantas de LiraFilho de José Dantas de LiraIvan Holanda PereiraFuncionário do tribunalDois corretores",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 750 ",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2007-01-01-caso-jose-dantas-de-lira.md",
+      "id": 256
+    },
+    {
+      "titulo": "Caso Renan Calheiros",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Acusações éticas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-caso-renan-calheiros.md",
+      "id": 257
+    },
+    {
+      "titulo": "Caso Rubem Dário Peregrino Cunha",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "bahia"
+      ],
+      "descricao": "Desembargador cobrou R$ 400 mil para livrar prefeito de acusação de corrupção✧  além de pedir cargo para a namorada do filho.Rubem Dário Peregrino CunhaAntônio Pascoal BatistaNizan Gomes Cunha Neto",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 400 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2007-01-01-caso-rubem-dario-peregrino-cunha.md",
+      "id": 258
+    },
+    {
+      "titulo": "CPI da Crise Aérea",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Investigação da crise aéreo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-cpi-da-crise-aerea.md",
+      "id": 259
+    },
+    {
+      "titulo": "CPI das ONGs",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Investigação de ONGs.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-cpi-das-ongs.md",
+      "id": 260
+    },
+    {
+      "titulo": "CPI do Apagão Aéreo",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Crise aéreo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-cpi-do-apagao-aereo.md",
+      "id": 261
+    },
+    {
+      "titulo": "Crise no Setor Aéreo Brasileiro",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Caos em aeroportos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-crise-no-setor-aereo-brasileiro.md",
+      "id": 262
+    },
+    {
+      "titulo": "Escândalo do Corinthians",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Lavagem em futebol.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-escandalo-do-corinthians.md",
+      "id": 263
+    },
+    {
+      "titulo": "Escândalo do Ministério dos Esportes",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Uso de estrutura para festa pessoal.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-escandalo-do-ministerio-dos-esportes.md",
+      "id": 264
+    },
+    {
+      "titulo": "governo Jaques Wagner (PT)",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "O então governador da Bahia, Jaques Wagner, foi mencionado em denúncias relacionadas ao DERBA (Departamento de Infraestrutura de Transportes da Bahia), com supostos esquemas de superfaturamento e favorecimento político em obras rodoviárias.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-governo-jaques-wagner-pt.md",
+      "id": 265
+    },
+    {
+      "titulo": "Ministro da Integração Nacional (2007–2010)",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Já durante o governo Lula, havia acusações de uso político da Codevasf e liberação de verbas com fins eleitorais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 51 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-ministro-da-integracao-nacional-20072010.md",
+      "id": 266
+    },
+    {
+      "titulo": "Operação Confraria",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Corrupção no PI.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-confraria.md",
+      "id": 267
+    },
+    {
+      "titulo": "Operação Hurricane II",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Continuação de jogos ilegais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-hurricane-ii.md",
+      "id": 268
+    },
+    {
+      "titulo": "Operação Hurricane III",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Mesma série.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-hurricane-iii.md",
+      "id": 269
+    },
+    {
+      "titulo": "Operação Hurricane",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Jogos ilegais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-hurricane.md",
+      "id": 270
+    },
+    {
+      "titulo": "Operação Moeda Verde",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Corrupção ambiental em SC.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-moeda-verde.md",
+      "id": 271
+    },
+    {
+      "titulo": "Operação Navalha",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Desvios em obras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-navalha.md",
+      "id": 272
+    },
+    {
+      "titulo": "Operação Saúva",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Desvios em MS.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-sauva.md",
+      "id": 273
+    },
+    {
+      "titulo": "Operação Sétimo Céu",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Fraudes em aviação.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-setimo-ceu.md",
+      "id": 274
+    },
+    {
+      "titulo": "Operação Testamento",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Fraudes em testamentos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-testamento.md",
+      "id": 275
+    },
+    {
+      "titulo": "Operação Xeque-Mate",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2007"
+      ],
+      "descricao": "Fraudes em loterias.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2007-01-01-operacao-xeque-mate.md",
+      "id": 276
+    },
+    {
+      "titulo": "Levantamento de 2007 do FNDC/Anatel/Ministério das Comunicações identifica 173 emissoras de TV com outorgas vencidas, incluindo grandes redes nacionais",
+      "data_evento": "2007-01-01",
+      "data_iso": "2007-01-01T12:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "P06",
+        "P09"
+      ],
+      "descricao": "Estudo do Fórum Nacional pela Democratização da Comunicação (FNDC), com dados da Anatel e do então Ministério das Comunicações, identificou em 2007 pelo menos 173 emissoras de TV com outorgas de funcionamento vencidas ou a vencer naquele ano em todo o Brasil — entre elas, emissoras vinculadas às grandes redes nacionais (Globo, Band, Record, Cultura, entre outras). O dado resolve parcialmente a lacuna sobre concentração: a situação de outorga vencida não se restringe a emissoras locais ou comunitárias marginais, atingindo também afiliadas de redes dominantes no mercado de comunicação.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "http://vilsonjornalista.blogspot.com/2008/05/quem-o-dono-emissoras-de-rdio-e-tv-so.html"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Ministério das Comunicações",
+        "Anatel",
+        "FNDC"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\bancos\\2007-01-01-levantamento-de-2007-do-fndcanatelministerio-das-comunicacoes-identifica-173-emissoras-de-.md",
+      "id": 1810
+    },
+    {
+      "titulo": "Operação Hurricane",
+      "data_evento": "2007-04-13",
+      "data_iso": "2007-04-13T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "jogo-ilegal",
+        "corrupcao-judicial"
+      ],
+      "descricao": "2007-04-13-Rio de Janeiro, RJ-jogo ilegal-corrupção judicial",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2007-04-13-operacao-hurricane.md",
+      "id": 277
+    },
+    {
+      "titulo": "Operação Navalha",
+      "data_evento": "2007-05-17",
+      "data_iso": "2007-05-17T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-em-obras",
+        "corrupcao"
+      ],
+      "descricao": "2007-05-17-Brasília, DF-fraude em obras-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2007-05-17-operacao-navalha.md",
+      "id": 278
+    },
+    {
+      "titulo": "Operação Rodin",
+      "data_evento": "2007-11-22",
+      "data_iso": "2007-11-22T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-detran",
+        "corrupcao"
+      ],
+      "descricao": "2007-11-22-Porto Alegre, RS-fraude DETRAN-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2007-11-22-operacao-rodin.md",
+      "id": 279
+    }
+  ]
+}

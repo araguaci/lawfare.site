@@ -1,0 +1,253 @@
+{
+  "gerado_em": "2026-10-18",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "total_eventos": 1933,
+  "total_verificado": 1933,
+  "anos": [
+    {
+      "ano": 1,
+      "total": 63,
+      "arquivo": "lawfare-0001.json"
+    },
+    {
+      "ano": 1979,
+      "total": 1,
+      "arquivo": "lawfare-1979.json"
+    },
+    {
+      "ano": 1980,
+      "total": 3,
+      "arquivo": "lawfare-1980.json"
+    },
+    {
+      "ano": 1981,
+      "total": 2,
+      "arquivo": "lawfare-1981.json"
+    },
+    {
+      "ano": 1982,
+      "total": 1,
+      "arquivo": "lawfare-1982.json"
+    },
+    {
+      "ano": 1983,
+      "total": 2,
+      "arquivo": "lawfare-1983.json"
+    },
+    {
+      "ano": 1984,
+      "total": 2,
+      "arquivo": "lawfare-1984.json"
+    },
+    {
+      "ano": 1985,
+      "total": 1,
+      "arquivo": "lawfare-1985.json"
+    },
+    {
+      "ano": 1986,
+      "total": 1,
+      "arquivo": "lawfare-1986.json"
+    },
+    {
+      "ano": 1987,
+      "total": 2,
+      "arquivo": "lawfare-1987.json"
+    },
+    {
+      "ano": 1988,
+      "total": 1,
+      "arquivo": "lawfare-1988.json"
+    },
+    {
+      "ano": 1989,
+      "total": 2,
+      "arquivo": "lawfare-1989.json"
+    },
+    {
+      "ano": 1990,
+      "total": 4,
+      "arquivo": "lawfare-1990.json"
+    },
+    {
+      "ano": 1991,
+      "total": 8,
+      "arquivo": "lawfare-1991.json"
+    },
+    {
+      "ano": 1992,
+      "total": 9,
+      "arquivo": "lawfare-1992.json"
+    },
+    {
+      "ano": 1993,
+      "total": 20,
+      "arquivo": "lawfare-1993.json"
+    },
+    {
+      "ano": 1994,
+      "total": 12,
+      "arquivo": "lawfare-1994.json"
+    },
+    {
+      "ano": 1995,
+      "total": 7,
+      "arquivo": "lawfare-1995.json"
+    },
+    {
+      "ano": 1996,
+      "total": 4,
+      "arquivo": "lawfare-1996.json"
+    },
+    {
+      "ano": 1997,
+      "total": 6,
+      "arquivo": "lawfare-1997.json"
+    },
+    {
+      "ano": 1998,
+      "total": 4,
+      "arquivo": "lawfare-1998.json"
+    },
+    {
+      "ano": 1999,
+      "total": 11,
+      "arquivo": "lawfare-1999.json"
+    },
+    {
+      "ano": 2000,
+      "total": 13,
+      "arquivo": "lawfare-2000.json"
+    },
+    {
+      "ano": 2001,
+      "total": 13,
+      "arquivo": "lawfare-2001.json"
+    },
+    {
+      "ano": 2002,
+      "total": 9,
+      "arquivo": "lawfare-2002.json"
+    },
+    {
+      "ano": 2003,
+      "total": 26,
+      "arquivo": "lawfare-2003.json"
+    },
+    {
+      "ano": 2004,
+      "total": 24,
+      "arquivo": "lawfare-2004.json"
+    },
+    {
+      "ano": 2005,
+      "total": 29,
+      "arquivo": "lawfare-2005.json"
+    },
+    {
+      "ano": 2006,
+      "total": 32,
+      "arquivo": "lawfare-2006.json"
+    },
+    {
+      "ano": 2007,
+      "total": 27,
+      "arquivo": "lawfare-2007.json"
+    },
+    {
+      "ano": 2008,
+      "total": 13,
+      "arquivo": "lawfare-2008.json"
+    },
+    {
+      "ano": 2009,
+      "total": 9,
+      "arquivo": "lawfare-2009.json"
+    },
+    {
+      "ano": 2010,
+      "total": 13,
+      "arquivo": "lawfare-2010.json"
+    },
+    {
+      "ano": 2011,
+      "total": 17,
+      "arquivo": "lawfare-2011.json"
+    },
+    {
+      "ano": 2012,
+      "total": 14,
+      "arquivo": "lawfare-2012.json"
+    },
+    {
+      "ano": 2013,
+      "total": 6,
+      "arquivo": "lawfare-2013.json"
+    },
+    {
+      "ano": 2014,
+      "total": 10,
+      "arquivo": "lawfare-2014.json"
+    },
+    {
+      "ano": 2015,
+      "total": 18,
+      "arquivo": "lawfare-2015.json"
+    },
+    {
+      "ano": 2016,
+      "total": 23,
+      "arquivo": "lawfare-2016.json"
+    },
+    {
+      "ano": 2017,
+      "total": 26,
+      "arquivo": "lawfare-2017.json"
+    },
+    {
+      "ano": 2018,
+      "total": 24,
+      "arquivo": "lawfare-2018.json"
+    },
+    {
+      "ano": 2019,
+      "total": 59,
+      "arquivo": "lawfare-2019.json"
+    },
+    {
+      "ano": 2020,
+      "total": 109,
+      "arquivo": "lawfare-2020.json"
+    },
+    {
+      "ano": 2021,
+      "total": 106,
+      "arquivo": "lawfare-2021.json"
+    },
+    {
+      "ano": 2022,
+      "total": 112,
+      "arquivo": "lawfare-2022.json"
+    },
+    {
+      "ano": 2023,
+      "total": 164,
+      "arquivo": "lawfare-2023.json"
+    },
+    {
+      "ano": 2024,
+      "total": 221,
+      "arquivo": "lawfare-2024.json"
+    },
+    {
+      "ano": 2025,
+      "total": 400,
+      "arquivo": "lawfare-2025.json"
+    },
+    {
+      "ano": 2026,
+      "total": 250,
+      "arquivo": "lawfare-2026.json"
+    }
+  ]
+}

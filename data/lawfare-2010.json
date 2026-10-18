@@ -1,0 +1,368 @@
+{
+  "total": 13,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2010,
+  "assuntos": [
+    {
+      "titulo": "Antes da posse - Pedro Novais",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2010"
+      ],
+      "descricao": "Uso de verba para motel.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2010-01-01-antes-da-posse-pedro-novais.md",
+      "id": 300
+    },
+    {
+      "titulo": "Ataques em estados da oposição",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2010"
+      ],
+      "descricao": "Ataques seletivos em SP, MG, SC.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2010-01-01-ataques-em-estados-da-oposicao.md",
+      "id": 301
+    },
+    {
+      "titulo": "Caso Jovaldo dos Santos Aguiar",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "amazonas"
+      ],
+      "descricao": "Corregedor cobrou decisão de empresário e advogado✧  deixando 31 processos parados✧  e foi denunciado por não entregar decisão negociada.Jovaldo dos Santos Aguiar",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 13 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2010-01-01-caso-jovaldo-dos-santos-aguiar.md",
+      "id": 302
+    },
+    {
+      "titulo": "Congresso Compra Tvs Plasma",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "eletronicos-luxo",
+        "gastos"
+      ],
+      "descricao": "2010-01-01-Brasília, DF-legislativo-tecnologia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2010-01-01-congresso-compra-tvs-plasma.md",
+      "id": 303
+    },
+    {
+      "titulo": "Erenice Guerra",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2010"
+      ],
+      "descricao": "Tráfico de influência na Casa Civil.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2010-01-01-erenice-guerra.md",
+      "id": 304
+    },
+    {
+      "titulo": "Mudanças na legislação prisional",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2010"
+      ],
+      "descricao": "Redução da população carcerária.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2010-01-01-mudancas-na-legislacao-prisional.md",
+      "id": 305
+    },
+    {
+      "titulo": "Operação Trânsito Livre",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-policial",
+        "trafico"
+      ],
+      "descricao": "2010-01-01-Rio de Janeiro, RJ-corrupção policial-tráfico",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2010-01-01-operacao-transito-livre.md",
+      "id": 306
+    },
+    {
+      "titulo": "PCC atua com FARC e EPP",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2010"
+      ],
+      "descricao": "Colaboração com guerrilheiros asilados.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2010-01-01-pcc-atua-com-farc-e-epp.md",
+      "id": 307
+    },
+    {
+      "titulo": "PCC vai investir em terrorismo",
+      "data_evento": "2010-01-01",
+      "data_iso": "2010-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2010"
+      ],
+      "descricao": "Alegações de expansão do PCC com FARC.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2010-01-01-pcc-vai-investir-em-terrorismo.md",
+      "id": 308
+    },
+    {
+      "titulo": "Lula e Hu Jintao assinam Plano de Ação Conjunta Brasil-China 2010-2014",
+      "data_evento": "2010-04-15",
+      "data_iso": "2010-04-15T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Documento institucionaliza metas de curto e médio prazo para a parceria estratégica, criando mecanismos permanentes de consulta e coordenação além da COSBAN.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://relacoesexteriores.com.br/relacao-bilateral-brasil-china/"
+      ],
+      "pessoas_envolvidas": [
+        "Luiz Inácio Lula da Silva (Presidente da República)",
+        "Hu Jintao (Presidente da China)"
+      ],
+      "instituicoes_envolvidas": [
+        "Presidência da República"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2010-04-15-id1645-lula-e-hu-jintao-assinam-plano-de-acao-conjunta-brasil-china-2010-2014.md",
+      "id": 1645
+    },
+    {
+      "titulo": "Tst Compra Carros Ford Fusion",
+      "data_evento": "2010-05-15",
+      "data_iso": "2010-05-15T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "carros-luxo",
+        "veiculos"
+      ],
+      "descricao": "2010-05-15-Brasília, DF-judiciario-luxo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1,9 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2010-05-15-tst-compra-carros-ford-fusion.md",
+      "id": 309
+    },
+    {
+      "titulo": "Impunidade Na Sociedade Brasileira",
+      "data_evento": "2010-11-01",
+      "data_iso": "2010-11-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "violencia"
+      ],
+      "descricao": "2010-11-01-Brasil-Homicídio-Roubo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2010-11-01-impunidade-na-sociedade-brasileira.md",
+      "id": 310
+    },
+    {
+      "titulo": "Banco Panamericano (Grupo Silvio Santos)",
+      "data_evento": "2010-11-08",
+      "data_iso": "2010-11-08T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "sp-nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [
+        "Banco Central"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2010-11-08-banco-panamericano-grupo-silvio-santos.md",
+      "id": 311
+    }
+  ]
+}

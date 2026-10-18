@@ -1,0 +1,556 @@
+{
+  "total": 20,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1993,
+  "assuntos": [
+    {
+      "titulo": "Caso Edmundo Pinto",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Assassinato ligado a corrupção.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-caso-edmundo-pinto.md",
+      "id": 51
+    },
+    {
+      "titulo": "Caso José Carlos da Rocha Lima",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Acusações de irregularidades.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-caso-jose-carlos-da-rocha-lima.md",
+      "id": 52
+    },
+    {
+      "titulo": "Caso Ney Maranhão",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Acusações de corrupção.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-caso-ney-maranhao.md",
+      "id": 53
+    },
+    {
+      "titulo": "Caso Nilo Coelho",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Acusações de corrupção em Pernambuco.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-caso-nilo-coelho.md",
+      "id": 54
+    },
+    {
+      "titulo": "Caso Queiroz Galvão",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Fraudes em contratos em Pernambuco.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-caso-queiroz-galvao.md",
+      "id": 55
+    },
+    {
+      "titulo": "Caso Restaurante Gulliver",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Tentativa de assassinato por denúncias na Sudene.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-caso-restaurante-gulliver.md",
+      "id": 56
+    },
+    {
+      "titulo": "Centro Federal de Inteligência",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Criação para combater corrupção, mas controversa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-centro-federal-de-inteligencia.md",
+      "id": 57
+    },
+    {
+      "titulo": "CPI do Detran",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Fraudes no Detran de SC.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-cpi-do-detran.md",
+      "id": 58
+    },
+    {
+      "titulo": "CPI do Pó",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Tráfico de drogas na PB.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-cpi-do-po.md",
+      "id": 59
+    },
+    {
+      "titulo": "Escândalo da Administração de Jaime Campos",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Irregularidades no MT.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-da-administracao-de-jaime-campos.md",
+      "id": 60
+    },
+    {
+      "titulo": "Escândalo da Administração de Ottomar Pinto",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Fraudes em Roraima.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-da-administracao-de-ottomar-pinto.md",
+      "id": 61
+    },
+    {
+      "titulo": "Escândalo da Cruz Vermelha Brasileira",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Desvios em ajuda humanitária.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-da-cruz-vermelha-brasileira.md",
+      "id": 62
+    },
+    {
+      "titulo": "Escândalo da Fundação Padre Francisco de Assis Castro Monteiro",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Desvios em fundação no CE.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-da-fundacao-padre-francisco-de-assis-castro-monteiro.md",
+      "id": 63
+    },
+    {
+      "titulo": "Escândalo da IBF",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Irregularidades em formulários.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-da-ibf.md",
+      "id": 64
+    },
+    {
+      "titulo": "Escândalo da Sudene de Pernambuco",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Desvios na Superintendência do Desenvolvimento do Nordeste.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-da-sudene-de-pernambuco.md",
+      "id": 65
+    },
+    {
+      "titulo": "Escândalo do DNOCS",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Fraudes em obras contra seca.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-do-dnocs.md",
+      "id": 66
+    },
+    {
+      "titulo": "Escândalo do Orçamento da União",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Desvios no orçamento federal (Anões do Orçamento).",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-escandalo-do-orcamento-da-uniao.md",
+      "id": 67
+    },
+    {
+      "titulo": "Irregularidades no Programa Nacional de Desestatização",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Fraudes em privatizações.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-irregularidades-no-programa-nacional-de-desestatizacao.md",
+      "id": 68
+    },
+    {
+      "titulo": "Jogo do Bicho",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-itamar-franco",
+        "1993"
+      ],
+      "descricao": "Ligações com crime organizado no RJ.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1993-01-01-jogo-do-bicho.md",
+      "id": 69
+    },
+    {
+      "titulo": "Brasil e China elevam relação a Parceria Estratégica — primeira desse tipo entre países em desenvolvimento",
+      "data_evento": "1993-01-01",
+      "data_iso": "1993-01-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Governo brasileiro e governo chinês estabelecem Parceria Estratégica bilateral, precedendo por uma década o ciclo de aproximação intensiva que se consolidaria a partir de 2003.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://opeb.org/2024/09/26/50-anos-das-relacoes-brasil-e-china-politica-externa-midia-e-ideologia/"
+      ],
+      "pessoas_envolvidas": [
+        "Governo brasileiro (signatário)",
+        "Governo chinês (signatário)"
+      ],
+      "instituicoes_envolvidas": [
+        "Itamaraty",
+        "Ministério das Relações Exteriores da China"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\1993-01-01-id1639-brasil-e-china-elevam-relacao-a-parceria-estrategica-primeira-desse-tipo-entre-p.md",
+      "id": 1639
+    }
+  ]
+}

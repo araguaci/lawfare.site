@@ -1,0 +1,37 @@
+{
+  "total": 1,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1982,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Brasilinvest",
+      "data_evento": "1982-01-01",
+      "data_iso": "1982-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-joao-figueiredo",
+        "1982"
+      ],
+      "descricao": "Irregularidades em investimentos e empréstimos bancários.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1982-01-01-escandalo-da-brasilinvest.md",
+      "id": 19
+    }
+  ]
+}

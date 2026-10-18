@@ -1,0 +1,233 @@
+---
+// src/components/ThemeSwitcher.astro
+---
+
+<div class="theme-switcher" id="themeSwitcher">
+  <button
+    type="button"
+    class="theme-toggle-btn"
+    id="themeToggleBtn"
+    aria-label="Trocar tema de cores"
+    aria-expanded="false"
+    aria-haspopup="true"
+    title="Alterar tema visual"
+  >
+    <span class="theme-icon-container" id="themeActiveIcon" aria-hidden="true">
+      <!-- Moon / Dark (default) -->
+      <svg class="theme-svg theme-svg--dark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+      <!-- Sun / Light -->
+      <svg class="theme-svg theme-svg--light" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5" />
+        <line x1="12" y1="1" x2="12" y2="3" />
+        <line x1="12" y1="21" x2="12" y2="23" />
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+        <line x1="1" y1="12" x2="3" y2="12" />
+        <line x1="21" y1="12" x2="23" y2="12" />
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+      </svg>
+      <!-- Navy / Midnight -->
+      <svg class="theme-svg theme-svg--navy" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+      </svg>
+      <!-- Terminal / Matrix -->
+      <svg class="theme-svg theme-svg--terminal" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="4 17 10 11 4 5" />
+        <line x1="12" y1="19" x2="20" y2="19" />
+      </svg>
+    </span>
+    <span class="theme-label" id="themeActiveLabel">Tema</span>
+    <svg class="theme-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
+  </button>
+
+  <div class="theme-dropdown" id="themeDropdown" role="menu" aria-orientation="vertical" tabindex="-1">
+    <div class="theme-dropdown-header">
+      <span>Escolher Tema</span>
+      <span class="theme-current-badge" id="themeCurrentBadge">Obsidian</span>
+    </div>
+
+    <div class="theme-options-list">
+      <button type="button" class="theme-option" data-theme-value="dark" role="menuitem">
+        <div class="theme-option-main">
+          <span class="theme-option-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </span>
+          <div class="theme-option-text">
+            <span class="theme-option-name">Obsidian Dark</span>
+            <span class="theme-option-desc">Slate escuro & verde esmeralda</span>
+          </div>
+        </div>
+        <div class="theme-swatch">
+          <span class="swatch-bg" style="background: #080c14;"></span>
+          <span class="swatch-accent" style="background: #10b981;"></span>
+        </div>
+      </button>
+
+      <button type="button" class="theme-option" data-theme-value="light" role="menuitem">
+        <div class="theme-option-main">
+          <span class="theme-option-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          </span>
+          <div class="theme-option-text">
+            <span class="theme-option-name">Editorial Light</span>
+            <span class="theme-option-desc">Papel de arquivo & rubi</span>
+          </div>
+        </div>
+        <div class="theme-swatch">
+          <span class="swatch-bg" style="background: #f8f9fa; border: 1px solid #cbd5e1;"></span>
+          <span class="swatch-accent" style="background: #0d9488;"></span>
+        </div>
+      </button>
+
+      <button type="button" class="theme-option" data-theme-value="navy" role="menuitem">
+        <div class="theme-option-main">
+          <span class="theme-option-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </span>
+          <div class="theme-option-text">
+            <span class="theme-option-name">Midnight Navy</span>
+            <span class="theme-option-desc">Azul inteligência & ciano</span>
+          </div>
+        </div>
+        <div class="theme-swatch">
+          <span class="swatch-bg" style="background: #060b17;"></span>
+          <span class="swatch-accent" style="background: #38bdf8;"></span>
+        </div>
+      </button>
+
+      <button type="button" class="theme-option" data-theme-value="terminal" role="menuitem">
+        <div class="theme-option-main">
+          <span class="theme-option-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+          </span>
+          <div class="theme-option-text">
+            <span class="theme-option-name">Cyber Terminal</span>
+            <span class="theme-option-desc">Preto puro & verde fósforo</span>
+          </div>
+        </div>
+        <div class="theme-swatch">
+          <span class="swatch-bg" style="background: #000000; border: 1px solid rgba(34,197,94,0.3);"></span>
+          <span class="swatch-accent" style="background: #22c55e;"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function initThemeSwitcher() {
+    const THEMES = {
+      dark: { label: 'Obsidian', icon: 'dark' },
+      light: { label: 'Editorial', icon: 'light' },
+      navy: { label: 'Navy', icon: 'navy' },
+      terminal: { label: 'Terminal', icon: 'terminal' }
+    };
+
+    function getCurrentTheme() {
+      return document.documentElement.getAttribute('data-theme') || 'dark';
+    }
+
+    function applyTheme(themeKey) {
+      if (!THEMES[themeKey]) themeKey = 'dark';
+      document.documentElement.setAttribute('data-theme', themeKey);
+      try {
+        localStorage.setItem('lawfare_theme', themeKey);
+      } catch (e) {}
+
+      updateUI(themeKey);
+
+      window.dispatchEvent(new CustomEvent('lawfare:theme-change', {
+        detail: { theme: themeKey }
+      }));
+    }
+
+    function updateUI(themeKey) {
+      const info = THEMES[themeKey] || THEMES.dark;
+      const labelEl = document.getElementById('themeActiveLabel');
+      const badgeEl = document.getElementById('themeCurrentBadge');
+      const switcherEl = document.getElementById('themeSwitcher');
+      if (labelEl) labelEl.textContent = info.label;
+      if (badgeEl) badgeEl.textContent = info.label;
+      if (switcherEl) switcherEl.setAttribute('data-active-theme', themeKey);
+
+      // Active state on options
+      const options = document.querySelectorAll('.theme-option');
+      options.forEach(opt => {
+        const val = opt.getAttribute('data-theme-value');
+        if (val === themeKey) {
+          opt.classList.add('theme-option--active');
+          opt.setAttribute('aria-selected', 'true');
+        } else {
+          opt.classList.remove('theme-option--active');
+          opt.setAttribute('aria-selected', 'false');
+        }
+      });
+    }
+
+    function setupEvents() {
+      const switcher = document.getElementById('themeSwitcher');
+      const toggleBtn = document.getElementById('themeToggleBtn');
+      const dropdown = document.getElementById('themeDropdown');
+      if (!switcher || !toggleBtn || !dropdown) return;
+
+      let isOpen = false;
+
+      function openMenu() {
+        isOpen = true;
+        dropdown.classList.add('theme-dropdown--open');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+      }
+
+      function closeMenu() {
+        isOpen = false;
+        dropdown.classList.remove('theme-dropdown--open');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      toggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (isOpen) closeMenu();
+        else openMenu();
+      });
+
+      document.addEventListener('click', (e) => {
+        if (isOpen && !switcher.contains(e.target)) {
+          closeMenu();
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && isOpen) {
+          closeMenu();
+          toggleBtn.focus();
+        }
+      });
+
+      const options = dropdown.querySelectorAll('.theme-option');
+      options.forEach(opt => {
+        opt.addEventListener('click', () => {
+          const val = opt.getAttribute('data-theme-value');
+          if (val) {
+            applyTheme(val);
+            closeMenu();
+          }
+        });
+      });
+
+      // Init UI state
+      updateUI(getCurrentTheme());
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', setupEvents);
+    } else {
+      setupEvents();
+    }
+  })();
+</script>

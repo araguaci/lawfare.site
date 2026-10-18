@@ -1,0 +1,724 @@
+{
+  "total": 26,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2003,
+  "assuntos": [
+    {
+      "titulo": "Abuso de Medidas Provisórias no Governo Lula entre 2003 e 2004",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Excesso de MPs.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-abuso-de-medidas-provisorias-no-governo-lula-entre-2003-e-2004.md",
+      "id": 149
+    },
+    {
+      "titulo": "Abuso de Medidas Provisórias no Governo Lula",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003-2004"
+      ],
+      "descricao": "Excesso de MPs.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-abuso-de-medidas-provisorias-no-governo-lula.md",
+      "id": 150
+    },
+    {
+      "titulo": "Caso José Eduardo Dutra",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Irregularidades na Petrobras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-caso-jose-eduardo-dutra.md",
+      "id": 151
+    },
+    {
+      "titulo": "Caso Pinheiro Landim",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Acusações de propina.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-caso-pinheiro-landim.md",
+      "id": 152
+    },
+    {
+      "titulo": "CPI do Banestado",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Evasão fiscal.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-cpi-do-banestado.md",
+      "id": 153
+    },
+    {
+      "titulo": "Escândalo da Suposta Ligação do PT com a FARC",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Apoio a guerrilha.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-da-suposta-ligacao-do-pt-com-a-farc.md",
+      "id": 154
+    },
+    {
+      "titulo": "Escândalo da Suposta Ligação do PT com o MST",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Financiamento ilegal.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-da-suposta-ligacao-do-pt-com-o-mst.md",
+      "id": 155
+    },
+    {
+      "titulo": "Escândalo de Corrupção dos Ministros no Governo Lula",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003-2010"
+      ],
+      "descricao": "Múltiplos casos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-de-corrupcao-dos-ministros-no-governo-lula.md",
+      "id": 156
+    },
+    {
+      "titulo": "Escândalo do DNIT",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Corrupção em obras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 5\n",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-do-dnit.md",
+      "id": 157
+    },
+    {
+      "titulo": "Escândalo do Proprinoduto",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Desvios em obras no RJ.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-do-proprinoduto.md",
+      "id": 158
+    },
+    {
+      "titulo": "Escândalo dos Gafanhotos",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Desvios agrícolas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-dos-gafanhotos.md",
+      "id": 159
+    },
+    {
+      "titulo": "Escândalo dos Gastos Públicos dos Ministros",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Gastos excessivos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-dos-gastos-publicos-dos-ministros.md",
+      "id": 160
+    },
+    {
+      "titulo": "Escândalo dos Grampos Contra Políticos da Bahia",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Gravações ilegais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-escandalo-dos-grampos-contra-politicos-da-bahia.md",
+      "id": 161
+    },
+    {
+      "titulo": "Governo Lula Compra Carros Blindados",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "carros-blindados",
+        "veiculos"
+      ],
+      "descricao": "2003-01-01-Brasília, DF-executivo-luxo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 2 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2003-01-01-governo-lula-compra-carros-blindados.md",
+      "id": 162
+    },
+    {
+      "titulo": "Irregularidades do Fome Zero",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Desvios em programa social.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-irregularidades-do-fome-zero.md",
+      "id": 163
+    },
+    {
+      "titulo": "Lei de Responsabilidade Fiscal (Recuos)",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003-2004"
+      ],
+      "descricao": "Descumprimento da LRF.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-lei-de-responsabilidade-fiscal-recuos.md",
+      "id": 164
+    },
+    {
+      "titulo": "Lei de Responsabilidade Fiscal",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Recuos no cumprimento.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-lei-de-responsabilidade-fiscal.md",
+      "id": 165
+    },
+    {
+      "titulo": "Licitação Para a Compra de Gêneros Básicos",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Superfaturamento.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-licitacao-para-a-compra-de-generos-basicos.md",
+      "id": 166
+    },
+    {
+      "titulo": "Operação Anaconda",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Fraudes no Judiciário.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-operacao-anaconda.md",
+      "id": 167
+    },
+    {
+      "titulo": "Operação Banestado",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "lavagem-de-dinheiro",
+        "evasao-de-divisas",
+        "lavagem-de-dinheiro"
+      ],
+      "descricao": "2003-01-01-Foz do Iguaçu, PR-evasão de divisas-lavagem de dinheiro",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2003-01-01-operacao-banestado.md",
+      "id": 168
+    },
+    {
+      "titulo": "Privatização das Estatais no Primeiro Ano do Governo Lula",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Continuação de privatizações.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-privatizacao-das-estatais-no-primeiro-ano-do-governo-lula.md",
+      "id": 169
+    },
+    {
+      "titulo": "Sistema Criminal Brasileiro E Impunidade",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "sistema-falho",
+        "homicidas-confessos"
+      ],
+      "descricao": "2003-01-01-Brasil-Homicídio-Impunidade",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2003-01-01-sistema-criminal-brasileiro-e-impunidade.md",
+      "id": 170
+    },
+    {
+      "titulo": "Várias Aberturas de Licitações da Presidência Para a Compra de Artigos de Luxo",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2003"
+      ],
+      "descricao": "Gastos luxuosos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2003-01-01-varias-aberturas-de-licitacoes-da-presidencia-para-a-compra-de-artigos-de-luxo.md",
+      "id": 171
+    },
+    {
+      "titulo": "Discurso de posse de Lula cita nominalmente necessidade de estreitar laços com China, Japão e Índia",
+      "data_evento": "2003-01-01",
+      "data_iso": "2003-01-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Em seu discurso de posse na Presidência, Luiz Inácio Lula da Silva menciona explicitamente a prioridade de estreitamento de relações com China, Japão e Índia como eixo de política externa do novo governo.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "http://www.scielo.br/j/rbpi/a/6Lv7CZfX9pcRdrHXffvH93H/?lang=pt"
+      ],
+      "pessoas_envolvidas": [
+        "Luiz Inácio Lula da Silva (Presidente da República)"
+      ],
+      "instituicoes_envolvidas": [
+        "Presidência da República"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2003-01-01-id1640-discurso-de-posse-de-lula-cita-nominalmente-necessidade-de-estreitar-lacos-com-c.md",
+      "id": 1640
+    },
+    {
+      "titulo": "Lula discursa no seminário \"Brasil-China: Um Salto Necessário\" no BNDES",
+      "data_evento": "2003-04-30",
+      "data_iso": "2003-04-30T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Presidente Lula profere discurso de abertura de seminário no BNDES definindo a aproximação com a China como \"salto necessário\" para a política externa e econômica brasileira.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "http://www.scielo.br/j/rbpi/a/6Lv7CZfX9pcRdrHXffvH93H/?lang=pt"
+      ],
+      "pessoas_envolvidas": [
+        "Luiz Inácio Lula da Silva (Presidente da República)"
+      ],
+      "instituicoes_envolvidas": [
+        "BNDES",
+        "Presidência da República"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2003-04-30-id1641-lula-discursa-no-seminario-brasil-china-um-salto-necessario-no-bndes.md",
+      "id": 1641
+    },
+    {
+      "titulo": "Operação Anaconda",
+      "data_evento": "2003-10-30",
+      "data_iso": "2003-10-30T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-judicial",
+        "venda-de-sentencas"
+      ],
+      "descricao": "2003-10-30-São Paulo, SP-corrupção judicial-venda de sentenças",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2003-10-30-operacao-anaconda.md",
+      "id": 172
+    }
+  ]
+}

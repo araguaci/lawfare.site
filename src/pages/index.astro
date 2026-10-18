@@ -1,9 +1,139 @@
 ---
-import Layout from '@layouts/Default.astro'
-import Counter from '@components/Counter'
+import Base from '../layouts/Base.astro';
+import data from '../data/assuntos.json';
+import { categoriaLabel, categoriaColor } from '../types/evento';
+import TagFilterBar from '../components/TagFilterBar.astro';
+
+const total = data.total;
+const periodo = data.periodo;
+
+const catCounts = data.assuntos.reduce<Record<string, number>>((acc, e) => {
+  if (e.categoria) acc[e.categoria] = (acc[e.categoria] || 0) + 1;
+  return acc;
+}, {});
+
+const categoriasOrdenadas = Object.entries(catCounts).sort((a, b) => b[1] - a[1]);
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Lawfare Timeline',
+  description:
+    'Cronologia documentada de abusos de poder, lawfare e escândalos políticos no Brasil.',
+  url: 'https://lawfare-timeline.vercel.app/',
+});
 ---
 
-<Layout>
-	<h1 class="text-7xl text-green-800">Hello!</h1>
-	<Counter client:idle />
-</Layout>
+<Base
+  title="Lawfare Timeline Brasil — Arquivo Cronológico Documentado"
+  description={`${total} eventos documentados (${periodo}). Cronologia rigorosa de lawfare, justiça, operações e política no Brasil.`}
+  canonical={Astro.url.href}
+  jsonLd={jsonLd}
+>
+  <div class="home-page" data-pagefind-body>
+    <header class="home-hero">
+      <div class="home-kicker-badge">
+        <span class="kicker-pulse"></span>
+        <span>Base de Dados Histórica · 1979 a 2026</span>
+      </div>
+
+      <h1 class="home-title">
+        Lawfare <span class="gradient-text">Timeline</span>
+      </h1>
+
+      <p class="home-lead">
+        Cronologia documental e auditada de eventos públicos ligados a abusos de poder,
+        instrumentalização do judiciário, operações, escândalos e decisões controversas —
+        reunindo <strong>{total} registros</strong> ao longo de <strong>{periodo}</strong>.
+      </p>
+
+      <div class="home-actions">
+        <a href="/pagina/1" class="home-cta">
+          <span>Abrir timeline completa</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <a href="/tags" class="home-cta home-cta--ghost">
+          <span>Índice temático de tags</span>
+        </a>
+      </div>
+
+      <!-- Bento Metrics Grid -->
+      <div class="home-metrics-grid">
+        <div class="metric-card">
+          <span class="metric-value">1.400+</span>
+          <span class="metric-label">Fatos e eventos catalogados</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-value">18</span>
+          <span class="metric-label">Categorias temáticas estruturadas</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-value">45 Anos</span>
+          <span class="metric-label">Série temporal ({periodo})</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-value">100%</span>
+          <span class="metric-label">Fontes públicas & registros primários</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="home-section" aria-labelledby="objetivo-heading">
+      <div class="home-section-header">
+        <h2 id="objetivo-heading" class="home-section-title">Metodologia e Objetivo</h2>
+      </div>
+      <div class="detail-section" style="border-left: 3px solid var(--accent3);">
+        <p style="font-size: 14px; line-height: 1.75; color: var(--text-sec); margin-bottom: 12px;">
+          O projeto compila eventos cronológicos detalhados com contexto, citações nominais, instituições
+          e categorias para permitir estudo comparativo, pesquisa acadêmica e jornalismo investigativo de dados.
+          Todas as fichas apontam diretamente para reportagens, autos processuais ou publicações oficiais.
+        </p>
+        <p style="font-size: 13px; color: var(--muted); line-height: 1.6;">
+          A classificação por categorias e tags funciona como taxonomia de busca e navegação histórica; não
+          substitui fontes primárias nem constitui antecipação de juízo de valor.
+        </p>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="cats-heading">
+      <div class="home-section-header">
+        <h2 id="cats-heading" class="home-section-title">Eixos Temáticos (18 Categorias)</h2>
+        <p class="home-section-desc">
+          Selecione um eixo específico para examinar desdobramentos temáticos isolados — de operações policiais e decisões do STF a escândalos de corrupção.
+        </p>
+      </div>
+      <div class="home-cat-grid">
+        {categoriasOrdenadas.map(([cat, count]) => (
+          <a
+            href={`/categoria/${cat}/1`}
+            class="home-cat-card"
+            style={`--cat-color: ${categoriaColor(cat)}`}
+          >
+            <span class="home-cat-name">{categoriaLabel(cat)}</span>
+            <span class="home-cat-count">{count}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="tags-heading">
+      <div class="home-section-header">
+        <h2 id="tags-heading" class="home-section-title">Tags em Destaque</h2>
+        <p class="home-section-desc">
+          Cruzamento transversal de nomes, atores institucionais, locais e marcos legislativos.
+        </p>
+      </div>
+      <TagFilterBar tagSlugAtiva={null} />
+    </section>
+
+    <section class="home-section home-section--footer">
+      <p class="footer-inner" style="padding: 12px 0; justify-content: flex-start; gap: 8px;">
+        <a href="/sobre">Sobre a Metodologia</a>
+        <span>·</span>
+        <a href="/rss.xml">Feed RSS</a>
+        <span>·</span>
+        <a href="/pagina/1">Acessar Timeline Geral</a>
+      </p>
+    </section>
+  </div>
+</Base>

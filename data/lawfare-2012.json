@@ -1,0 +1,404 @@
+{
+  "total": 14,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2012,
+  "assuntos": [
+    {
+      "titulo": "Caso Edgard Antônio Lippmann Júnior",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "rio-grande-do-sul",
+        "venda-de-sentencas"
+      ],
+      "descricao": "Desembargador recebeu três aposentadorias compulsórias por venda de sentenças✧  incluindo decisão para urgência no pagamento de dívida do governo.Edgard Antônio Lippmann Júnior",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 35 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2012-01-01-caso-edgard-antonio-lippmann-junior.md",
+      "id": 326
+    },
+    {
+      "titulo": "Caso Rosemary",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2012"
+      ],
+      "descricao": "Influência indevida.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2012-01-01-caso-rosemary.md",
+      "id": 327
+    },
+    {
+      "titulo": "Em 2012 - Mário Negromonte",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2012"
+      ],
+      "descricao": "Ligações com lobistas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2012-01-01-em-2012-mario-negromonte.md",
+      "id": 328
+    },
+    {
+      "titulo": "Exército Compra Cavalo Puro Sangue",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "animais-luxo",
+        "gastos-polemicos"
+      ],
+      "descricao": "2012-01-01-Brasília, DF-militar-luxo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 100 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2012-01-01-exercito-compra-cavalo-puro-sangue.md",
+      "id": 329
+    },
+    {
+      "titulo": "Fernando Pimentel",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2012"
+      ],
+      "descricao": "Tráfico de influência em consultoria.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2012-01-01-fernando-pimentel.md",
+      "id": 330
+    },
+    {
+      "titulo": "Legalização de contratos do mensalão",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2012"
+      ],
+      "descricao": "Nomeação de Ana Arraes no TCU.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "TCU"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2012-01-01-legalizacao-de-contratos-do-mensalao.md",
+      "id": 331
+    },
+    {
+      "titulo": "Operação Cavalo De Troia",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "fraude",
+        "fraude-cibernetica",
+        "corrupcao"
+      ],
+      "descricao": "2012-01-01-São Paulo, SP-fraude cibernética-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2012-01-01-operacao-cavalo-de-troia.md",
+      "id": 332
+    },
+    {
+      "titulo": "Outro em 2012 - Rosemary Noronha",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2012"
+      ],
+      "descricao": "Tráfico de influência.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2012-01-01-outro-em-2012-rosemary-noronha.md",
+      "id": 333
+    },
+    {
+      "titulo": "Rosemary Novoa de Noronha e José Weber Holanda",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2012"
+      ],
+      "descricao": "Propinas em agências reguladoras (Operação Porto Seguro).",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2012-01-01-rosemary-novoa-de-noronha-e-jose-weber-holanda.md",
+      "id": 334
+    },
+    {
+      "titulo": "Tese de Toffoli no STF",
+      "data_evento": "2012-01-01",
+      "data_iso": "2012-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2012"
+      ],
+      "descricao": "Punição apenas para crimes de sangue.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2012-01-01-tese-de-toffoli-no-stf.md",
+      "id": 335
+    },
+    {
+      "titulo": "Operação Monte Carlo",
+      "data_evento": "2012-02-09",
+      "data_iso": "2012-02-09T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "jogo-ilegal",
+        "corrupcao"
+      ],
+      "descricao": "2012-02-09-Goiânia, GO-jogo ilegal-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2012-02-09-operacao-monte-carlo.md",
+      "id": 336
+    },
+    {
+      "titulo": "Dilma Rousseff e premiê Wen Jiabao assinam Plano Decenal de Cooperação 2012-2021 no Rio de Janeiro",
+      "data_evento": "2012-06-21",
+      "data_iso": "2012-06-21T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Governo Dilma assina o Plano Decenal de Cooperação, cobrindo ciência, tecnologia, inovação, cooperação econômica e intercâmbio entre os povos, para o período 2012-2021, junto com memorando para centros culturais recíprocos.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "http://www.itamaraty.gov.br/pt-BR/notas-a-imprensa/3074-atos-assinados-por-ocasiao-da-reuniao-da-presidenta-da-republica-dilma-rousseff-com-o-primeiro-ministro-da-republica-popular-da-china-wen-jiabao-rio-de-janeiro-21-de-junho-de-2012"
+      ],
+      "pessoas_envolvidas": [
+        "Dilma Rousseff (Presidenta da República)",
+        "Wen Jiabao (Primeiro-Ministro da China)"
+      ],
+      "instituicoes_envolvidas": [
+        "Presidência da República"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2012-06-21-id1646-dilma-rousseff-e-premie-wen-jiabao-assinam-plano-decenal-de-cooperacao-2012-2021.md",
+      "id": 1646
+    },
+    {
+      "titulo": "Operação Porto Seguro",
+      "data_evento": "2012-11-22",
+      "data_iso": "2012-11-22T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-administrativa",
+        "corrupcao"
+      ],
+      "descricao": "2012-11-22-Brasília, DF-fraude administrativa-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2012-11-22-operacao-porto-seguro.md",
+      "id": 337
+    },
+    {
+      "titulo": "Liberação De Sidney Rodrigo Aparecido Piovesan",
+      "data_evento": "2012-12-01",
+      "data_iso": "2012-12-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "lider-pcc",
+        "reducao-pena"
+      ],
+      "descricao": "2012-12-01-São Paulo, SP-Trafico de Drogas-Execuções",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2012-12-01-liberacao-de-sidney-rodrigo-aparecido-piovesan.md",
+      "id": 338
+    }
+  ]
+}

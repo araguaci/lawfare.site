@@ -1,0 +1,62 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import EventoCard from '../../../components/EventoCard.astro';
+import Paginacao from '../../../components/Paginacao.astro';
+import FilterBar from '../../../components/FilterBar.astro';
+import TagFilterBar from '../../../components/TagFilterBar.astro';
+import { categoriaLabel } from '../../../types/evento';
+import data from '../../../data/assuntos.json';
+
+export const getStaticPaths = (({ paginate }) => {
+  const cats = [...new Set(data.assuntos.map(e => e.categoria).filter(Boolean))];
+  return cats.flatMap(cat => {
+    const eventos = data.assuntos
+      .filter(e => e.categoria === cat)
+      .sort((a, b) => b.data_evento.localeCompare(a.data_evento));
+    return paginate(eventos, {
+      params: { cat },
+      pageSize: 50,
+    });
+  });
+}) satisfies GetStaticPaths;
+
+// Astro.params tem { cat, page } (strings da URL) — Astro.props.page é o objeto de paginação
+// NÃO fazer spread junto: Astro.params.page ('1') sobrescreveria Astro.props.page (objeto)
+const { page } = Astro.props;
+const { cat } = Astro.params;
+const catLabel = categoriaLabel(cat);
+const title = `${catLabel} — Lawfare Timeline${page.currentPage > 1 ? ` (pág. ${page.currentPage})` : ''}`;
+const description = `${page.total} eventos na categoria ${catLabel} — Lawfare Timeline Brasil`;
+---
+
+<Base title={title} description={description} canonical={Astro.url.href}>
+  <div class="page-header">
+    <a href="/" class="back-link" data-pagefind-ignore>← Início</a>
+    <h1 class="page-title">
+      <span class="title-muted">Categoria:</span>
+      <span class="title-accent">{catLabel}</span>
+    </h1>
+    <p class="page-sub">
+      {page.total} eventos · {page.lastPage} {page.lastPage === 1 ? 'página' : 'páginas'}
+    </p>
+  </div>
+
+  <FilterBar categoriaAtiva={cat} />
+
+  <TagFilterBar tagSlugAtiva={null} />
+
+  <div class="feed" data-pagefind-ignore>
+    {page.data.map((evento) => (
+      <EventoCard evento={evento} />
+    ))}
+  </div>
+
+  <Paginacao
+    currentPage={page.currentPage}
+    lastPage={page.lastPage}
+    prevUrl={page.url.prev}
+    nextUrl={page.url.next}
+    baseUrl={`/categoria/${cat}`}
+  />
+</Base>

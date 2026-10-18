@@ -1,0 +1,367 @@
+{
+  "total": 13,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2001,
+  "assuntos": [
+    {
+      "titulo": "Caso Antônio Fernando Guimarães",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "minas-gerais"
+      ],
+      "descricao": "Desembargador teve aluguel de apartamento de luxo pago por escritório de advocacia em troca de decisões favoráveis.Antônio Fernando GuimarãesEscritório Vilhena&Vilhena",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 37 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2001-01-01-caso-antonio-fernando-guimaraes.md",
+      "id": 127
+    },
+    {
+      "titulo": "Caso Toninho do PT",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2001"
+      ],
+      "descricao": "Assassinato de prefeito.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-caso-toninho-do-pt.md",
+      "id": 128
+    },
+    {
+      "titulo": "CPI do Crime Organizado",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Crime organizado.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-cpi-do-crime-organizado.md",
+      "id": 129
+    },
+    {
+      "titulo": "Escândalo da Administração de Mão Santa",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Corrupção no PI.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-escandalo-da-administracao-de-mao-santa.md",
+      "id": 130
+    },
+    {
+      "titulo": "Escândalo da Banda Podre",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Corrupção policial.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-escandalo-da-banda-podre.md",
+      "id": 131
+    },
+    {
+      "titulo": "Escândalo da Quebra do Sigilo do Painel do Senado",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Violação de sigilo em votações.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-escandalo-da-quebra-do-sigilo-do-painel-do-senado.md",
+      "id": 132
+    },
+    {
+      "titulo": "Escândalo da Sudam",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Desvios na Superintendência da Amazônia.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 2 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-escandalo-da-sudam.md",
+      "id": 133
+    },
+    {
+      "titulo": "Escândalo da Sudene",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Fraudes no Nordeste.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1\n",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-escandalo-da-sudene.md",
+      "id": 134
+    },
+    {
+      "titulo": "Escândalo da Transbrasil",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Favorecimentos à companhia aérea.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-escandalo-da-transbrasil.md",
+      "id": 135
+    },
+    {
+      "titulo": "Escândalos no Senado em 2001",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2001"
+      ],
+      "descricao": "Múltiplos casos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2001-01-01-escandalos-no-senado-em-2001.md",
+      "id": 136
+    },
+    {
+      "titulo": "Forças Armadas Compram Equipamentos De Luxo",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "equipamentos-luxo",
+        "gastos"
+      ],
+      "descricao": "2001-01-01-Brasília, DF-militar-equipamentos",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 3 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2001-01-01-forcas-armadas-compram-equipamentos-de-luxo.md",
+      "id": 137
+    },
+    {
+      "titulo": "Operação Sanguessugas",
+      "data_evento": "2001-01-01",
+      "data_iso": "2001-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-saude",
+        "corrupcao"
+      ],
+      "descricao": "2001-01-01-Brasília, DF-fraude saúde-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2001-01-01-operacao-sanguessugas.md",
+      "id": 138
+    },
+    {
+      "titulo": "Crime Organizado E Prisões No Brasil",
+      "data_evento": "2001-05-01",
+      "data_iso": "2001-05-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "prisoes",
+        "atuacao-global"
+      ],
+      "descricao": "2001-05-01-Brasil-Crime Organizado-Sistema Prisional",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2001-05-01-crime-organizado-e-prisoes-no-brasil.md",
+      "id": 139
+    }
+  ]
+}

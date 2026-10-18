@@ -1,0 +1,33 @@
+---
+import type { Evento } from '../types/evento';
+import { formatDateShort, categoriaColor, categoriaLabel } from '../types/evento';
+
+interface Props {
+  eventos: Evento[];
+  maxItems?: number;
+}
+
+const { eventos, maxItems = 20 } = Astro.props;
+const items = eventos.slice(0, maxItems);
+---
+
+<div class="timeline" data-pagefind-ignore>
+  {items.map((evt, i) => {
+    const catColor = categoriaColor(evt.categoria);
+    return (
+      <div class="tl-item" style={`--cat-color: ${catColor}`}>
+        <div class="tl-connector">
+          <div class="tl-dot"></div>
+          {i < items.length - 1 && <div class="tl-line"></div>}
+        </div>
+        <div class="tl-content">
+          <time datetime={evt.data_iso || evt.data_evento} class="tl-date">
+            {formatDateShort(evt.data_iso || evt.data_evento)}
+          </time>
+          <a href={`/evento/${evt.id}`} class="tl-title">{evt.titulo}</a>
+          <span class="tl-cat">{categoriaLabel(evt.categoria)}</span>
+        </div>
+      </div>
+    );
+  })}
+</div>

@@ -1,0 +1,3601 @@
+{
+  "total": 112,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2022,
+  "assuntos": [
+    {
+      "titulo": "golpes operadoras de planos de saúde no pós‑Covid",
+      "data_evento": "2022-01-01",
+      "data_iso": "2022-01-01T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 30",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2022-01-01-golpes-operadoras-de-planos-de-saude-no-poscovid.md",
+      "id": 680
+    },
+    {
+      "titulo": "Judges atuando em casos de recuperação judicial",
+      "data_evento": "2022-01-01",
+      "data_iso": "2022-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "es"
+      ],
+      "descricao": "Juízes que atuaram em grandes recuperações judiciais aceitaram cargos ou consultorias em empresas envolvidas nos processos✧  violando impedimentos legais.Juiz do ES responsável por recuperações da Itapemirim e outras empresasadministradores judiciais e credores",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [
+        "CNJ"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2022-01-01-judges-atuando-em-casos-de-recuperacao-judicial.md",
+      "id": 681
+    },
+    {
+      "titulo": "Operação Clickbait",
+      "data_evento": "2022-01-01",
+      "data_iso": "2022-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "cibercrime",
+        "cibercrime",
+        "fake-news"
+      ],
+      "descricao": "2022-01-01-Brasília, DF-cibercrime-fake news",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2022-01-01-operacao-clickbait.md",
+      "id": 682
+    },
+    {
+      "titulo": "Processo contra desembargadora aposentada",
+      "data_evento": "2022-01-01",
+      "data_iso": "2022-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "amazonas"
+      ],
+      "descricao": "Ação aberta em 2022 contra uma desembargadora aposentada do Tribunal de Justiça do Amazonas✧  sob suspeita de beneficiar traficantes e outras organizações criminosas.Uma desembargadora aposentada do TJ-AM",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2022-01-01-processo-contra-desembargadora-aposentada.md",
+      "id": 683
+    },
+    {
+      "titulo": "Solturas de Líderes do PCC",
+      "data_evento": "2022-01-01",
+      "data_iso": "2022-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "soltura-chefes-pcc",
+        "excesso-prazo",
+        "progressao-regime",
+        "crime-organizado",
+        "tj-sp",
+        "rogerio-jeremias-de-simone",
+        "andre-luis-de-oliveira-fernandes",
+        "magistrados-do-tj-sp-nao-identificados",
+        "sociedade-paulista",
+        "vitimas-de-crimes-do-pcc",
+        "liberacao-de-32-lideres-do-pcc",
+        "criticas-ao-sistema-judicial",
+        "alguns-recapturados-ou-mortos",
+        "gravidade-alta",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 0, ",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2022-01-01-solturas-de-lideres-do-pcc.md",
+      "id": 684
+    },
+    {
+      "titulo": "Nova prorrogação do inquérito das fake news por mais 90 dias",
+      "data_evento": "2022-01-03",
+      "data_iso": "2022-01-03T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "duracao-razoavel-do-processo",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/01/03 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-01-03-nova-prorrogacao-do-inquerito-das-fake-news-por-mais-90-dias.md",
+      "id": 685
+    },
+    {
+      "titulo": "O ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes determinou o bloqueio das contas do Partido da Causa Operária (PCO) nas redes sociais. A medida vale para Twitter, Instagram,...",
+      "data_evento": "2022-01-20",
+      "data_iso": "2022-01-20T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "censura",
+        "alexandre-de-moraes",
+        "eleicoes"
+      ],
+      "descricao": "2022-01-20-tecnoblog-Censura-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-01-20-o-ministro-do-supremo-tribunal-federal-stf-alexandre-de-moraes-determinou-o-bloqueio-das-contas-do-partido-da-causa-operaria-pco-nas-redes-sociais.md",
+      "id": 686
+    },
+    {
+      "titulo": "Edson Fachin - A Justiça Eleitoral pode estar sob ataque de hackers, com origem principal na Rússia...",
+      "data_evento": "2022-02-01",
+      "data_iso": "2022-02-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "ameaça cibernética"
+      ],
+      "descricao": "Frase dita por Edson Fachin em criticando interferências externas nas eleições",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-02-01-edson-fachin-a-justica-eleitoral-pode-.md",
+      "id": 687
+    },
+    {
+      "titulo": "Luiz Fux - Em 2022 não há espaço para ações contra o regime democrático...",
+      "data_evento": "2022-02-01",
+      "data_iso": "2022-02-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "defesa democracia"
+      ],
+      "descricao": "Frase dita por Luiz Fux em discurso de abertura do STF, pedindo moderação",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-02-01-luiz-fux-em-2022-nao-ha-espaco-par.md",
+      "id": 688
+    },
+    {
+      "titulo": "Procurador Lucas Furtado, do TCU, recebeu auxílio-moradia mesmo com mansão em Brasília.",
+      "data_evento": "2022-02-17",
+      "data_iso": "2022-02-17T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "Luiz Fux"
+      ],
+      "descricao": "2022-02-17-metropoles-Luiz Fux-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "TCU"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-02-17-procurador-lucas-furtado.md",
+      "id": 689
+    },
+    {
+      "titulo": "Absolvição De Patrick Uelinton Salomão",
+      "data_evento": "2022-02-18",
+      "data_iso": "2022-02-18T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "lider-pcc",
+        "lavagem-dinheiro"
+      ],
+      "descricao": "2022-02-18-Brasília, DF-PCC-Trafico de Drogas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2022-02-18-absolvicao-de-patrick-uelinton-salomao.md",
+      "id": 690
+    },
+    {
+      "titulo": "Barroso participa de evento nos EUA sobre como se livrar de um presidente | Radar",
+      "data_evento": "2022-02-18",
+      "data_iso": "2022-02-18T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "Barroso"
+      ],
+      "descricao": "2022-02-18-veja-Barroso-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-02-18-barroso-participa-de-evento-nos-eua-sobre-como-se-livrar-de-um-presidente-radar.md",
+      "id": 691
+    },
+    {
+      "titulo": "Cármen Lúcia - O cupim do autoritarismo, o cupim do populismo......",
+      "data_evento": "2022-03-01",
+      "data_iso": "2022-03-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "crítica ao populismo"
+      ],
+      "descricao": "Frase dita por Cármen Lúcia em criticando políticas ambientais de Bolsonaro, em julgamento no STF",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-03-01-carmen-lucia-o-cupim-do-autoritarismo-.md",
+      "id": 692
+    },
+    {
+      "titulo": "Cristiano Zanin - Moro deve desculpas...",
+      "data_evento": "2022-03-01",
+      "data_iso": "2022-03-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "crítica à Lava Jato"
+      ],
+      "descricao": "Frase dita por Cristiano Zanin em entrevista à Veja, criticando Sergio Moro por supostos abusos na Lava Jato",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-03-01-cristiano-zanin-moro-deve-desculpas.md",
+      "id": 693
+    },
+    {
+      "titulo": "IAT licencia resort da família Massa/Ratinho para construção em área de preservação permanente do Rio Paraná",
+      "data_evento": "2022-03-01",
+      "data_iso": "2022-03-01T12:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "P10"
+      ],
+      "descricao": "O Instituto Água e Terra (IAT), órgão ambiental do governo do Paraná, concedeu em março de 2022 licença prévia ao empreendimento Tayayá Porto Rico Residence & Resort (São Pedro do Paraná, PR) autorizando parte de sua estrutura dentro de Área de Preservação Permanente (APP) do Rio Paraná — situação que colide com o Código Florestal. A responsável pelo projeto, Terras do Paraná, foi fundada em 2021 por um grupo de empresários que inclui Carlos Roberto Massa ('Ratinho'), pai do governador Carlos Massa Ratinho Junior (PSD). A empresa Gralha Azul, da família Massa, permaneceu sócia do empreendimento até maio de 2024. O Ministério Público Federal ajuizou ação civil pública em 2022 apontando ilegalidade no licenciamento; o projeto foi reformulado para excluir a APP, e as obras seguem em andamento fora da área protegida. IAT e governo estadual negaram publicamente qualquer influência política, afirmando que a análise técnica não considera a composição societária dos empreendimentos.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.diariodocentrodomundo.com.br/aval-de-orgao-do-parana-libera-resort-ligado-a-ratinho-em-area-de-preservacao/",
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/resort-ligado-a-ratinho-teve-aval-de-orgao-estadual-para-construcao-em-area-de-preservacao-no-parana/",
+        "https://timesbrasil.com.br/brasil/apresentador-ratinho-recebe-aval-do-governo-do-parana-para-construcao-de-resort-de-luxo-em-area-de-presevacao/"
+      ],
+      "pessoas_envolvidas": [
+        "Carlos Roberto Massa ('Ratinho') (Sócio-fundador da Terras do Paraná (2021) — pai do governador)",
+        "Carlos Massa Ratinho Junior (Governador do Paraná (PSD) — IAT é órgão do próprio governo estadual)",
+        "Instituto Água e Terra (IAT) (Órgão ambiental estadual — concedeu licença prévia em área de preservação permanente)"
+      ],
+      "instituicoes_envolvidas": [
+        "IAT",
+        "Governo do Estado do Paraná",
+        "Terras do Paraná",
+        "Gralha Azul",
+        "Ministério Público Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\bancos\\2022-03-01-iat-licencia-resort-da-familia-massaratinho-para-construcao-em-area-de-preservacao-permane.md",
+      "id": 1829
+    },
+    {
+      "titulo": "Tornozeleira eletrônica para Daniel Silveira",
+      "data_evento": "2022-03-11",
+      "data_iso": "2022-03-11T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "prerrogativas-parlamentares",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "dignidade-da-pessoa-humana",
+        "alexandre-de-moraes",
+        "daniel-silveira",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/03/11 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-03-11-tornozeleira-eletronica-para-daniel-silveira.md",
+      "id": 694
+    },
+    {
+      "titulo": "Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou a suspensão do aplicativo de mensagens A ordem atende a um pedido da e foi encaminhada a plataformas digitais e provedores de internet, que devem adotar os mecanismos para inviabilizar a utilização do aplicativo Telegram no país.",
+      "data_evento": "2022-03-18",
+      "data_iso": "2022-03-18T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "censura",
+        "alexandre-de-moraes",
+        "eleicoes"
+      ],
+      "descricao": "2022-03-18-g1-Censura-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-03-18-alexandre-de-moraes.md",
+      "id": 695
+    },
+    {
+      "titulo": "Prisão de Daniel Silveira por descumprir tornozeleira",
+      "data_evento": "2022-03-24",
+      "data_iso": "2022-03-24T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "prerrogativas-parlamentares",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "liberdade-de-expressao",
+        "alexandre-de-moraes",
+        "daniel-silveira",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/03/24 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-03-24-prisao-de-daniel-silveira-por-descumprir-tornozeleira.md",
+      "id": 696
+    },
+    {
+      "titulo": "Flávio Dino - Bolsonaro perderá, mas nós precisamos que o bolsonarismo volte para a sua casinha, que o demônio volte para o inferno....",
+      "data_evento": "2022-04-01",
+      "data_iso": "2022-04-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "anti-bolsonarismo"
+      ],
+      "descricao": "Frase dita por Flávio Dino em Criticando bolsonarismo, em entrevista ao Valor",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-04-01-flavio-dino-bolsonaro-perdera-mas-nos.md",
+      "id": 697
+    },
+    {
+      "titulo": "Luís Roberto Barroso - As Forças Armadas estão sendo orientadas para atacar o processo eleitoral...",
+      "data_evento": "2022-04-01",
+      "data_iso": "2022-04-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "crítica militar"
+      ],
+      "descricao": "Frase dita por Luís Roberto Barroso em em seminário na Alemanha",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-04-01-luis-roberto-barroso-as-forcas-armadas-estao-s.md",
+      "id": 698
+    },
+    {
+      "titulo": "Próteses Penianas Para Forças Armadas",
+      "data_evento": "2022-04-01",
+      "data_iso": "2022-04-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "medicamentos",
+        "escandalo"
+      ],
+      "descricao": "2022-04-01-Brasília, DF-militar-saude",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2022-04-01-proteses-penianas-para-forcas-armadas.md",
+      "id": 699
+    },
+    {
+      "titulo": "Nova prorrogação do inquérito das fake news por mais 90 dias",
+      "data_evento": "2022-04-04",
+      "data_iso": "2022-04-04T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "duracao-razoavel-do-processo",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/04/04 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-04-04-nova-prorrogacao-do-inquerito-das-fake-news-por-mais-90-dias.md",
+      "id": 700
+    },
+    {
+      "titulo": "Forças Armadas Compram Viagra",
+      "data_evento": "2022-04-11",
+      "data_iso": "2022-04-11T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "medicamentos",
+        "escandalo"
+      ],
+      "descricao": "2022-04-11-Brasília, DF-militar-saude",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2022-04-11-forcas-armadas-compram-viagra.md",
+      "id": 701
+    },
+    {
+      "titulo": "Vale declara à CVM que rejeitos 'não se enquadram na definição de ativo' — contradiz posição apresentada ao CADE em 2018",
+      "data_evento": "2022-04-14",
+      "data_iso": "2022-04-14T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "p01",
+        "p04b",
+        "p05"
+      ],
+      "descricao": "Pressionada pela CVM, a Vale assinou declaração formal de que os rejeitos de minério de ferro de suas operações no Brasil não poderiam ser registrados como ativo de nenhuma natureza. Quatro anos antes, no processo de aprovação da compra da New Steel pelo CADE, a mesma Vale havia justificado o valor de US$500 milhões citando 'expectativa de rentabilidade a longo prazo' sobre a recuperação dos finos de minério depositados nas mesmas barragens.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/o-negocio-da-lama-a-venda-bilionaria"
+      ],
+      "pessoas_envolvidas": [
+        "Gustavo Pimenta (CFO à época (signatário da declaração); atual CEO da Vale)"
+      ],
+      "instituicoes_envolvidas": [
+        "Vale S.A.",
+        "CVM",
+        "PwC",
+        "KPMG"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-04-14-vale-declara-a-cvm-que-rejeitos-nao-se-enquadram-na-definicao-de-ativo-contradiz-posicao-a.md",
+      "id": 1922
+    },
+    {
+      "titulo": "Gastos Com Lanchonete Durante Motociata",
+      "data_evento": "2022-04-15",
+      "data_iso": "2022-04-15T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "cartao-corporativo",
+        "gastos-polemicos"
+      ],
+      "descricao": "2022-04-15-São Paulo, SP-executivo-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 62 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2022-04-15-gastos-com-lanchonete-durante-motociata.md",
+      "id": 702
+    },
+    {
+      "titulo": "Condenação de Daniel Silveira a 8 anos e 9 meses de prisão",
+      "data_evento": "2022-04-20",
+      "data_iso": "2022-04-20T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "prerrogativas-parlamentares",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "daniel-silveira",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/04/20 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-04-20-condenacao-de-daniel-silveira-a-8-anos-e-9-meses-de-prisao.md",
+      "id": 703
+    },
+    {
+      "titulo": "Vale incorpora e extingue as três entidades da New Steel — patrimônio avaliado em R$78,5 milhões, 4% do valor pago em 2018",
+      "data_evento": "2022-04-29",
+      "data_iso": "2022-04-29T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "p05",
+        "p06"
+      ],
+      "descricao": "New Steel S.A., Centro Tecnológico Soluções Sustentáveis S.A. e a holding estrangeira (New Steel Global N.V./S.à r.l.) nunca registraram receita operacional entre 2019 e 2021. Vale injetou R$50,4 milhões (2020), R$70,5 milhões (2021) e R$130 milhões (jan/2022). Na incorporação, patrimônio contábil consolidado das três entidades foi avaliado em R$78,5 milhões — cerca de 4% dos R$1,9 bilhão pagos em dezembro de 2018.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/o-negocio-da-lama-a-venda-bilionaria"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Vale S.A.",
+        "Valia"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-04-29-vale-incorpora-e-extingue-as-tres-entidades-da-new-steel-patrimonio-avaliado-em-r785-milho.md",
+      "id": 1923
+    },
+    {
+      "titulo": "Edson Fachin - A liberdade deve proteger a liberdade, a democracia deve proteger a democracia...",
+      "data_evento": "2022-05-01",
+      "data_iso": "2022-05-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "regulação redes"
+      ],
+      "descricao": "Frase dita por Edson Fachin em defendendo regulação de redes sociais contra desinformação",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-05-01-edson-fachin-a-liberdade-deve-proteger.md",
+      "id": 704
+    },
+    {
+      "titulo": "Luiz Fux - Vem ao lume notícias de atos preparatórios de terrorismos contra o STF...",
+      "data_evento": "2022-05-01",
+      "data_iso": "2022-05-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "ameaça terrorismo"
+      ],
+      "descricao": "Frase dita por Luiz Fux em defendendo inquérito de fake news e Moraes, alegando sigilo necessário",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-05-01-luiz-fux-vem-ao-lume-noticias-de-a.md",
+      "id": 705
+    },
+    {
+      "titulo": "Tratoraço",
+      "data_evento": "2022-05-01",
+      "data_iso": "2022-05-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-bolsonaro",
+        "2022"
+      ],
+      "descricao": "Superfaturamento na compra de tratores com emendas parlamentares.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "PF",
+        "TCU"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2022-05-01-tratoraco.md",
+      "id": 706
+    },
+    {
+      "titulo": "Governo Zema nomeou ao Iepha prima de diretor responsável pela Tamisa",
+      "data_evento": "2022-05-01",
+      "data_iso": "2022-05-01T12:00:00Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "iepha",
+        "tamisa",
+        "zema",
+        "licenciamento",
+        "conflito-interesse",
+        "serra-do-curral",
+        "minas-gerais"
+      ],
+      "descricao": "Em maio de 2022, Zema empossou Marília Palhares Machado na presidência do Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais (Iepha), cargo que ocupou até maio de 2024. Marília é prima em primeiro grau de Guilherme Augusto Gonçalves Machado, que consta no CNPJ da Taquaril Mineração S/A (Tamisa) como diretor responsável. O Iepha é órgão consultivo obrigatório no processo de licenciamento de mineradoras e integrava o conjunto de instâncias cujas decisões impactavam diretamente a viabilidade operacional da Tamisa na Serra do Curral.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Conflito de interesse Iepha/Tamisa",
+      "fontes": [
+        "https://apublica.org/2026/04/as-digitais-de-vorcaro-zettel-e-do-governo-zema-na-destruicao-da-serra-do-curral-em-minas/"
+      ],
+      "pessoas_envolvidas": [
+        "Romeu Zema",
+        "Marília Palhares Machado",
+        "Guilherme Augusto Gonçalves Machado"
+      ],
+      "instituicoes_envolvidas": [
+        "Iepha",
+        "Tamisa / Taquaril Mineração S/A"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-05-01-governo-zema-nomeou-ao-iepha-prima-de-diretor-responsavel-pela-tamisa.md",
+      "id": 1547
+    },
+    {
+      "titulo": "Investigação por Venda de Sentenças contra Juiz Aposentado",
+      "data_evento": "2022-05-03",
+      "data_iso": "2022-05-03T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "venda-de-sentencas",
+        "improbidade-administrativa",
+        "corrupcao-judicial",
+        "aposentadoria-compulsoria",
+        "joao-luiz-amorim-franco",
+        "marcus-vinicius-farah-noronha",
+        "charles-fonseca-william-perito-judicial",
+        "erario-publico",
+        "sociedade-rio-grandense",
+        "aposentadoria-compulsoria-do-juiz-pelo-tj-rj",
+        "acao-civil-publica-por-improbidade",
+        "congelamento-de-bens",
+        "colaboracao-do-perito-com-a-justica",
+        "gravidade-alta",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 3,130,000, ",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2022-05-03-investigacao-por-venda-de-sentencas-contra-juiz-aposentado.md",
+      "id": 707
+    },
+    {
+      "titulo": "Diretor da CIA teria alertado governo Bolsonaro a não questionar eleições no Brasil",
+      "data_evento": "2022-05-05",
+      "data_iso": "2022-05-05T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "eleicoes",
+        "cia",
+        "voto-impresso"
+      ],
+      "descricao": "2022-05-05-gazetadopovo-Eleições-CIA",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-05-05-diretor-da-cia-teria-alertado-governo-bolsonaro-a-nao-questionar-eleicoes-no-brasil.md",
+      "id": 708
+    },
+    {
+      "titulo": "Diretor da CIA teria alertado governo Bolsonaro a não questionar eleições no Brasil",
+      "data_evento": "2022-05-05",
+      "data_iso": "2022-05-05T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "eleicoes",
+        "cia",
+        "voto-impresso"
+      ],
+      "descricao": "Diretor da CIA teria alertado governo Bolsonaro a não questionar eleições no Brasil. publicação 2022-05-05, veículo gazetadopovo. Temas: Eleições, CIA, Voto…",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2022-05-05-diretor-da-cia-teria-alertado-governo-bolsonaro-a-nao-questionar-eleicoes-no-brasil.md",
+      "id": 709
+    },
+    {
+      "titulo": "Preso por ordem do STF em 2021, jornalista ainda não sabe por qual crime é investigado. Jornalista Wellington Macedo ficou 42 dias preso no Complexo da Papuda até passar à prisão domiciliar.",
+      "data_evento": "2022-05-14",
+      "data_iso": "2022-05-14T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "alexandre-de-moraes",
+        "extrapola",
+        "abuso-de-autoridade"
+      ],
+      "descricao": "2022-05-14-gazetadopovo-Alexandre Moraes-Extrapola",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-05-14-preso-por-ordem-do-stf-em-2021.md",
+      "id": 710
+    },
+    {
+      "titulo": "Em 18 de maio de 2022, Toffoli rejeita pedido de Bolsonaro ao STF para investigar Alexandre Moraes por abuso de autoridade.",
+      "data_evento": "2022-05-18",
+      "data_iso": "2022-05-18T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "toffoli",
+        "rejeita",
+        "investigar"
+      ],
+      "descricao": "2022-05-18-g1-Toffoli-Rejeita",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-05-18-em-18-de-maio-de-2022.md",
+      "id": 711
+    },
+    {
+      "titulo": "Bloqueio de Telegram no Brasil por desobediência a ordens judiciais",
+      "data_evento": "2022-05-31",
+      "data_iso": "2022-05-31T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "censura",
+        "alexandre-de-moraes",
+        "telegram",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/05/31 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-05-31-bloqueio-de-telegram-no-brasil-por-desobediencia-a-ordens-judiciais.md",
+      "id": 712
+    },
+    {
+      "titulo": "Mulher de Silveira diz que Moraes bloqueou sua conta bancária. Defesa diz que não há processo ou ordem escrita no sistema do STF; Supremo afirma que processo está em sigilo...",
+      "data_evento": "2022-06-04",
+      "data_iso": "2022-06-04T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "censura",
+        "alexandre-de-moraes",
+        "eleicoes"
+      ],
+      "descricao": "2022-06-04-poder360-Censura-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-06-04-mulher-de-silveira-diz-que-moraes-bloqueou-sua-conta-bancaria.md",
+      "id": 713
+    },
+    {
+      "titulo": "Moraes bloqueia contas partidárias nas vésperas do pleito. Por determinação monocrática do Ministro do STF Alexandre de Moraes, as contas nas redes sociais do PCO foram bloqueadas.",
+      "data_evento": "2022-06-06",
+      "data_iso": "2022-06-06T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "censura",
+        "alexandre-de-moraes",
+        "eleicoes"
+      ],
+      "descricao": "2022-06-06-causaoperaria-Censura-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-06-06-moraes-bloqueia-contas-partidarias-nas-vesperas-do-pleito.md",
+      "id": 714
+    },
+    {
+      "titulo": "STF fora do controle popular é ditadura! A esquerda de conjunto precisa se levantar em defesa de uma mudança profunda no judiciário e em todo o regime político.",
+      "data_evento": "2022-06-18",
+      "data_iso": "2022-06-18T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "censura",
+        "alexandre-de-moraes",
+        "eleicoes"
+      ],
+      "descricao": "2022-06-18-causaoperaria-Censura-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-06-18-stf-fora-do-controle-popular-e-ditadura-a-esquerda-de-conjunto-precisa-se-levantar-em-defesa-de-uma-mudanca-profunda-no-judiciario-e-em-todo-o-regime-politico.md",
+      "id": 715
+    },
+    {
+      "titulo": "Entrevista à GloboNews",
+      "data_evento": "2022-06-20",
+      "data_iso": "2022-06-20T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2022-06-20-entrevista-a-globonews.md",
+      "id": 716
+    },
+    {
+      "titulo": "Jantar com políticos do PSD",
+      "data_evento": "2022-06-20",
+      "data_iso": "2022-06-20T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "tratoria-da-rosario",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2022-06-20-jantar-com-politicos-do-psd.md",
+      "id": 717
+    },
+    {
+      "titulo": "Nova prorrogação do inquérito das fake news por mais 180 dias",
+      "data_evento": "2022-06-30",
+      "data_iso": "2022-06-30T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "duracao-razoavel-do-processo",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/06/30 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-06-30-nova-prorrogacao-do-inquerito-das-fake-news-por-mais-180-dias.md",
+      "id": 718
+    },
+    {
+      "titulo": "4 ministros do STF vão a NY em evento com Merval Pereira Lide realizará o Brazil Conference em novembro nos EUA; Fux, Moraes, Toffoli e Gilmar estão confirmados...",
+      "data_evento": "2022-07-07",
+      "data_iso": "2022-07-07T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "lide",
+        "gilmar-mendes",
+        "alexandre-de-moraes",
+        "toffoli",
+        "luiz-fux",
+        "lide"
+      ],
+      "descricao": "4 ministros do STF vão a NY em evento com Merval Pereira Lide realizará o Brazil Conference em novembro nos EUA; Fux, Mo. publicação 2022-07-07, veículo…",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2022-07-07-4-ministros-do-stf-vao-a-ny-em-evento-com-merval-pereira-lide-realizara-o-brazil-conference-em-novembro-nos-eua-fux.md",
+      "id": 719
+    },
+    {
+      "titulo": "Multa diária de R$100 mil a Daniel Silveira por descumprir tornozeleira",
+      "data_evento": "2022-07-13",
+      "data_iso": "2022-07-13T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "prerrogativas-parlamentares",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "direito-a-propriedade",
+        "alexandre-de-moraes",
+        "daniel-silveira",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/07/13 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$100 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-07-13-multa-diaria-de-r100-mil-a-daniel-silveira-por-descumprir-tornozeleira.md",
+      "id": 720
+    },
+    {
+      "titulo": "Em 15 de julho de 2022, Deputado do ES tem conta do Instagram suspensa por decisão do STF.",
+      "data_evento": "2022-07-15",
+      "data_iso": "2022-07-15T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "alexandre-de-moraes",
+        "censura",
+        "deputado"
+      ],
+      "descricao": "2022-07-15-agazeta-Alexandre Moraes-Censura",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-07-15-em-15-de-julho-de-2022.md",
+      "id": 721
+    },
+    {
+      "titulo": "Gilmar Mendes - Quem posa usando armas, ameaçando as pessoas, não está usando a liberdade de expressão...",
+      "data_evento": "2022-08-01",
+      "data_iso": "2022-08-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "liberdade de expressão"
+      ],
+      "descricao": "Frase dita por Gilmar Mendes em sobre limites à expressão e caso Roberto Jefferson",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-08-01-gilmar-mendes-quem-posa-usando-armas-am.md",
+      "id": 722
+    },
+    {
+      "titulo": "Implementação de campanhas e treinamentos institucionais",
+      "data_evento": "2022-08-01",
+      "data_iso": "2022-08-01T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "nacional-brasil",
+        "usaid",
+        "cepps"
+      ],
+      "descricao": "Durante o processo eleitoral de 2022, TSE executa programas permanentes contra desinformação em parceria com USAID e CEPPS, envolvendo treinamentos internos, produção de manuais e colaboração com ONGs e plataformas digitais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-08-01-implementacao-de-campanhas-e-treinamentos-institucionais.md",
+      "id": 723
+    },
+    {
+      "titulo": "Implementação do Programa Permanente de Enfrentamento à Desinformação",
+      "data_evento": "2022-08-01",
+      "data_iso": "2022-08-01T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "nacional-brasil",
+        "usaid",
+        "cepps"
+      ],
+      "descricao": "Durante o período eleitoral, o TSE, com apoio da USAID e ONGs locais (beneficiadas com recursos internacionais), estruturou campanhas de combate à desinformação e treinamento de servidores e públicos-alvo. Foram realizados acordos de cooperação técnico-institucional, incluindo produção de material educativo e envolvimento de plataformas digitais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-08-01-implementacao-do-programa-permanente-de-enfrentamento-a-desinformacao.md",
+      "id": 724
+    },
+    {
+      "titulo": "Busca contra empresários bolsonaristas por supostas mensagens contra STF",
+      "data_evento": "2022-08-10",
+      "data_iso": "2022-08-10T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "domicilio-violado",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "direito-a-privacidade",
+        "alexandre-de-moraes",
+        "empresarios-bolsonaristas",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/08/10 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-08-10-busca-contra-empresarios-bolsonaristas-por-supostas-mensagens-contra-stf.md",
+      "id": 725
+    },
+    {
+      "titulo": "Censura à Jovem Pan por críticas ao TSE",
+      "data_evento": "2022-08-23",
+      "data_iso": "2022-08-23T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-imprensa",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "censura",
+        "alexandre-de-moraes",
+        "jovem-pan",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/08/23 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-08-23-censura-a-jovem-pan-por-criticas-ao-tse.md",
+      "id": 726
+    },
+    {
+      "titulo": "Moraes ordena busca e apreensão contra empresários bolsonaristas em 5 estados, com base em reportagem única do Metrópoles",
+      "data_evento": "2022-08-23",
+      "data_iso": "2022-08-23T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "P01",
+        "P04",
+        "vazatoga",
+        "empresarios-bolsonaristas",
+        "8-de-janeiro-precedente",
+        "eleicoes-2022",
+        "p01",
+        "p04",
+        "ev-confirmed"
+      ],
+      "descricao": "Em 23/08/2022, dez dias antes do primeiro debate presidencial, a PF cumpriu mandados de busca e apreensão em cinco estados contra empresários ligados a Jair Bolsonaro — entre eles Luciano Hang, Meyer Nigri (Tecnisa), José Koury (Barra World Shopping), Nelson Piquet, Flávio Rocha e Afrânio Barreira —, com bloqueio de contas bancárias e perfis em redes sociais. A justificativa formal citava vínculo com o inquérito da PF sobre atos antidemocráticos, mas a única base fática pública era uma reportagem de Guilherme Amado (Metrópoles, 17/08/2022) sobre mensagens do grupo de WhatsApp 'Empresários & Política'. Segundo o ex-assessor Eduardo Tagliaferro, em depoimento ao Senado (02/09/2025), a ordem partiu do gabinete com urgência: o plano original era executar as buscas na segunda-feira, mas a operação só ocorreu na terça (23/08) por atraso na montagem do material de sustentação. Hang já havia sido alvo de vazamento anterior do mesmo grupo em maio de 2022, que resultou em sua condenação por danos morais contra o padre Julio Lancellotti — ocasião em que o próprio Hang escreveu no grupo: 'Pessoal aqui no grupo temos um X9, um dedo duro...'.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "vazatoga",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/vaza-toga-a-bruxa-o-infiltrado-e",
+        "https://www.caoquefuma.com/2025/09/vaza-toga-witch-infiltrator-and.html",
+        "https://saobentoemfoco.com.br/revelado-o-infiltrado-no-grupo-de-whatsapp-dos-empresarios-de-direita/",
+        "https://www.aliadosbrasilnoticias.com.br/noticia/revelado-quem-era-o-infiltrado-que-entregou-conversas-do-grupo-de-empresarios-para-moraes"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Ordenou a operação de busca e apreensão)",
+        "Luciano Hang (Alvo — redes bloqueadas por mais de 2 anos)",
+        "Meyer Nigri (Alvo — Tecnisa)",
+        "José Koury (Alvo — Barra World Shopping)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Polícia Federal",
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2022-08-23-moraes-ordena-busca-e-apreensao-contra-empresarios-bolsonaristas-em-5-estados-com-base-em-.md",
+      "id": 1869
+    },
+    {
+      "titulo": "Moraes bloqueia contas bancárias e redes sociais de Paola da Silva Daniel, esposa e advogada de Daniel Silveira, sem que ela fosse ré em processo",
+      "data_evento": "2022-08-24",
+      "data_iso": "2022-08-24T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "p05",
+        "p05-b"
+      ],
+      "descricao": "O ministro Alexandre de Moraes determinou em 24/08/2022 o bloqueio de contas bancárias e redes sociais de Paola da Silva Daniel, esposa e advogada de defesa do deputado Daniel Silveira (PTB-RJ), após Silveira publicar vídeo criticando o STF usando o perfil dela. Decisão (sob sigilo, texto visto pela CNN Brasil) afirma que a conduta de Paola 'pretende colocar obstáculos à ação do STF' e determina depoimento à PF em 5 dias. Episódio anterior (03-04/06/2022) já havia bloqueado conta bancária dela sob suspeita de retirar bens em nome do marido, que acumulava R$ 645 mil em multas por descumprimento de tornozeleira eletrônica. Paola não era ré em nenhum processo.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/moraes-determina-bloqueio-de-bens-e-redes-sociais-da-esposa-de-daniel-silveira/",
+        "https://www.cnnbrasil.com.br/politica/moraes-bloqueia-redes-sociais-e-contas-bancarias-de-mulher-de-daniel-silveira/",
+        "https://www.correiobraziliense.com.br/politica/2022/06/5012988-inaceitavel-diz-mulher-de-silveira-apos-bens-bloqueados-por-moraes.html"
+      ],
+      "pessoas_envolvidas": [
+        "Paola da Silva Daniel (esposa e advogada de defesa de Daniel Silveira — não ré em processo próprio)",
+        "Alexandre de Moraes (relator — determinou bloqueio de bens e redes de terceira não-parte)",
+        "Daniel Silveira (deputado (PTB-RJ) — condenado, alvo original das cautelares)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Polícia Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2022-08-24-moraes-bloqueia-contas-bancarias-e-redes-sociais-de-paola-da-silva-daniel-esposa-e-advogad.md",
+      "id": 1937
+    },
+    {
+      "titulo": "Fabricação retroativa de provas: infiltrado, colaboradora informal e delegado produzem relatório com metadados falsificados para justificar operação já executada",
+      "data_evento": "2022-08-27",
+      "data_iso": "2022-08-27T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "P01",
+        "P03",
+        "vazatoga",
+        "cadeia-de-custodia",
+        "fraude-processual",
+        "p01",
+        "p03",
+        "ev-confirmed"
+      ],
+      "descricao": "Conversas de WhatsApp entre Eduardo Tagliaferro (então chefe da AEED/TSE) e a jornalista Letícia Sallorenzo ('Bruxa') mostram que, na noite de 27/08/2022, quatro dias após a operação de 23/08 (id_1869), o gabinete de Moraes pressionava por material que justificasse retroativamente a ação já realizada. Segundo Tagliaferro, a ordem para montar os documentos partiu de Airton Vieira, assessor sênior de Moraes no STF, que teria instruído a falsificação de relatórios para dar 'verniz de legalidade' à operação — sem que Moraes soubesse do envolvimento direto de Vieira, segundo o próprio Tagliaferro. Sallorenzo atuava como ponte entre o TSE e um infiltrado no grupo 'Empresários & Política', identificado por A Investigação como o jornalista e documentarista Lucas Mesquita — hoje assessor no governo Lula (Ministério do Empreendedorismo desde jan/2024), com histórico de infiltração em outros grupos de WhatsApp de direita (caso 'Parlatório'). Sallorenzo enviou prints e a exportação integral do grupo à 1h da noite de 27/08, com o objetivo declarado de 'sossegar o amigo' (Moraes). O material foi consolidado em relatório assinado pelo delegado da PF Fábio Alvarez Shor, datado formalmente de 19/08/2022 — antes da operação. Perícia forense independente contratada por A Investigação (revelada 08/10/2025) constatou que os metadados de criação do arquivo correspondem a 29/08/2022 — o mesmo dia em que Moraes levantou o sigilo do processo, não à data formal alegada. Nenhum registro formal de cadeia de custódia (arts. 158-A a 158-F do CPP) foi produzido para o material informal repassado via WhatsApp/Signal.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "vazatoga",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/vaza-toga-a-bruxa-o-infiltrado-e",
+        "https://www.ainvestigacao.com/p/exclusivo-pericia-aponta-fraude-temporal",
+        "https://www.ainvestigacao.com/p/exclusivo-alegacoes-finais-do-caso",
+        "https://claudiodantas.com.br/assessor-do-governo-lula-apontado-como-x9-empresarios/"
+      ],
+      "pessoas_envolvidas": [
+        "Eduardo Tagliaferro (Chefe da AEED/TSE à época — montou o relatório sob ordem)",
+        "Airton Vieira (Assessor sênior de Moraes no STF — segundo Tagliaferro, ordenou a falsificação)",
+        "Letícia Sallorenzo ('Bruxa' — colaboradora informal, ponte entre infiltrado e TSE)",
+        "Lucas Mesquita (Infiltrado no grupo 'Empresários & Política' — identificado por A Investigação)",
+        "Fábio Alvarez Shor (Delegado da PF — assinou relatório com metadados de criação incompatíveis com a data formal)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE",
+        "Polícia Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2022-08-27-fabricacao-retroativa-de-provas-infiltrado-colaboradora-informal-e-delegado-produzem-relat.md",
+      "id": 1870
+    },
+    {
+      "titulo": "Soltura Indevida De Sidney Aparecido Piovesan",
+      "data_evento": "2022-09-01",
+      "data_iso": "2022-09-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "explosao-caixas",
+        "tentativa-homicidio"
+      ],
+      "descricao": "2022-09-01-São Vicente, SP-Roubo-Trafico de Drogas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2022-09-01-soltura-indevida-de-sidney-aparecido-piovesan.md",
+      "id": 727
+    },
+    {
+      "titulo": "Bloqueio de salários de empresários investigados",
+      "data_evento": "2022-09-02",
+      "data_iso": "2022-09-02T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "direito-a-propriedade",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "presuncao-de-inocencia",
+        "alexandre-de-moraes",
+        "empresarios-bolsonaristas",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/09/02 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-09-02-bloqueio-de-salarios-de-empresarios-investigados.md",
+      "id": 728
+    },
+    {
+      "titulo": "Busca contra Luciano Hang por fake news eleitorais",
+      "data_evento": "2022-09-06",
+      "data_iso": "2022-09-06T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "domicilio-violado",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "luciano-hang",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/09/06 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-09-06-busca-contra-luciano-hang-por-fake-news-eleitorais.md",
+      "id": 729
+    },
+    {
+      "titulo": "Campanha de difamação e ataques virtuais contra opositores do governo durante eleições",
+      "data_evento": "2022-09-12",
+      "data_iso": "2022-09-12T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "redes-sociais",
+        "plataformas"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-09-12-campanha-de-difamacao-e-ataques-virtuais-contra-opositores-do-governo-durante-eleicoes.md",
+      "id": 730
+    },
+    {
+      "titulo": "Shows e festivais cívicos pró-democracia",
+      "data_evento": "2022-09-15",
+      "data_iso": "2022-09-15T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "sao-paulo",
+        "rio-de-janeiro",
+        "recife",
+        "grandes-capitais",
+        "usaid"
+      ],
+      "descricao": "Durante o segundo semestre de 2022, grandes artistas e coletivos culturais promoveram shows gratuitos e festivais com mensagens pelo voto consciente, combate à desinformação e defesa da democracia. Os eventos incentivaram o engajamento jovem, foram transmitidos online e promovidos por ONGs e movimentos que receberam recursos internacionais. Apesar do viés suprapartidário, as mensagens eram predominantemente críticas aos candidatos conservadores.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-09-15-shows-e-festivais-civicos-pro-democracia.md",
+      "id": 731
+    },
+    {
+      "titulo": "Campanhas de combate à desinformação e incentivo ao voto promovidas por canais do YouTube e blogueiros",
+      "data_evento": "2022-09-20",
+      "data_iso": "2022-09-20T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "online",
+        "nacional",
+        "usaid",
+        "felipe-neto"
+      ],
+      "descricao": "Durante o período eleitoral, diversos canais do YouTube e blogueiros de grande influência participaram de campanhas de incentivo ao voto, defesa do processo eleitoral e combate à desinformação, muitas vezes em parceria com ONGs e projetos apoiados por verba internacional. Os conteúdos incluíram lives, vídeos explicativos, debates com especialistas, entrevistas com lideranças políticas e séries temáticas sobre checagem de fatos e direitos políticos. Os comunicadores progressistas concentraram esf...",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-09-20-campanhas-de-combate-a-desinformacao-e-incentivo-ao-voto-promovidas-por-canais-do-youtube-e-blogueiros.md",
+      "id": 732
+    },
+    {
+      "titulo": "Juíza de Minas Gerais atacou ministros do Supremo; para corregedor do CNJ, atitude pode ter violado deveres funcionais da magistratura.",
+      "data_evento": "2022-09-21",
+      "data_iso": "2022-09-21T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "cnj",
+        "stf"
+      ],
+      "descricao": "2022-09-21-g1-CNJ-STF",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "CNJ"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-09-21-juiza-de-minas-gerais-atacou-ministros-do-supremo-para-corregedor-do-cnj.md",
+      "id": 733
+    },
+    {
+      "titulo": "Juíza aposentada compulsoriamente Ludmila Lins Grilo tem perfil bloqueado por crítica a Moraes e Barroso",
+      "data_evento": "2022-09-23",
+      "data_iso": "2022-09-23T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P02",
+        "P04",
+        "P10"
+      ],
+      "descricao": "Em 23/09/2022, a juíza Ludmila Lins Grilo — aposentada compulsoriamente pelo TJMG — teve perfil bloqueado via Petição 9.935/DF, após chamar Moraes e Barroso de 'perseguidores-gerais da República' em críticas à política de máscaras durante a pandemia. O caso antecede o núcleo eleitoral do cluster e não tem conteúdo eleitoral direto.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator — ordem de bloqueio)",
+        "Ludmila Lins Grilo (Alvo — ex-juíza aposentada compulsoriamente)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF/TSE",
+        "TJMG"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2022-09-23-juiza-aposentada-compulsoriamente-ludmila-lins-grilo-tem-perfil-bloqueado-por-critica-a-mo.md",
+      "id": 1786
+    },
+    {
+      "titulo": "131 delegados federais apresentam queixa-crime contra Moraes à PGR. Servidores afirmam que o ministro do STF cometeu abuso de autoridade ao autorizar ação contra empresários.",
+      "data_evento": "2022-09-26",
+      "data_iso": "2022-09-26T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "alexandre-de-moraes",
+        "extrapola",
+        "abuso-de-autoridade"
+      ],
+      "descricao": "2022-09-26-r7-Alexandre Moraes-Extrapola",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PGR"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-09-26-131-delegados-federais-apresentam-queixa-crime-contra-moraes-a-pgr.md",
+      "id": 734
+    },
+    {
+      "titulo": "STJ mantém, por unanimidade, liberdade de motorista preso com 311kg de cocaína em Goiás",
+      "data_evento": "2022-09-26",
+      "data_iso": "2022-09-26T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P01-B"
+      ],
+      "descricao": "6ª Turma do STJ (Min. Olindo Menezes, relator; acompanhado por Laurita Vaz, Sebastião Reis Júnior, Rogerio Schietti Cruz e Antonio Saldanha Palheiro) mantém, em agravo regimental interposto pelo Ministério Público de Goiás, decisão monocrática anterior (jun/2022) que revogara a prisão preventiva de motorista de caminhão flagrado com 311kg de cocaína. Fundamento: 'apesar de a quantidade de droga apreendida ser expressiva, não se verifica nenhum outro elemento no caso concreto que justifique a prisão'. Réu confessara recebimento de R$50 mil para o transporte.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.conjur.com.br/2022-set-26/stj-mantem-liberdade-acusado-transportar-311-kg-cocaina/",
+        "https://diariodopoder.com.br/justica/stj-solta-traficante-alegando-que-posse-de-311kg-de-cocaina-nao-e-suficiente-para-prisao"
+      ],
+      "pessoas_envolvidas": [
+        "Olindo Menezes (Ministro relator (desembargador convocado do TRF-1ª Região))"
+      ],
+      "instituicoes_envolvidas": [
+        "STJ",
+        "Ministério Público de Goiás",
+        "Tribunal de Justiça de Goiás"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-09-26-stj-mantem-por-unanimidade-liberdade-de-motorista-preso-com-311kg-de-cocaina-em-goias.md",
+      "id": 1805
+    },
+    {
+      "titulo": "Campanhas de engajamento digital e combate à desinformação lideradas por ONGs, artistas e influenciadores",
+      "data_evento": "2022-09-30",
+      "data_iso": "2022-09-30T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "nacional",
+        "usaid",
+        "felipe-neto",
+        "ongs"
+      ],
+      "descricao": "Durante o período eleitoral, ONGs brasileiras financiadas com verba internacional, artistas e influenciadores digitais participaram de campanhas para mobilizar jovens e combater a desinformação, promovendo pautas progressistas e cívicas. As campanhas incluíram divulgação em redes sociais, lives, shows institucionais e ações educativas, com ênfase nas plataformas digitais. Não há comprovação de financiamento estrangeiro direto para campanhas de candidatos, mas as ações beneficiaram indiretamente ...",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-09-30-campanhas-de-engajamento-digital-e-combate-a-desinformacao-lideradas-por-ongs.md",
+      "id": 735
+    },
+    {
+      "titulo": "Ciclo de palestras universitárias sobre eleições e desinformação",
+      "data_evento": "2022-09-30",
+      "data_iso": "2022-09-30T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "universidades",
+        "auditorios-de-centros-urbanos",
+        "usaid"
+      ],
+      "descricao": "Universidades públicas receberam eventos e ciclos de palestras sobre democracia, desinformação e participação política, organizados em parceria com ONGs de fact-checking e coletivos acadêmicos. As atividades, com presença de influenciadores e autoridades eleitorais, tinham como objetivo formar multiplicadores na checagem de fatos, diálogo cívico e defesa do processo eleitoral.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-09-30-ciclo-de-palestras-universitarias-sobre-eleicoes-e-desinformacao.md",
+      "id": 736
+    },
+    {
+      "titulo": "Difamação eleitoral e campanhas de desinformação com perfis falsos e influenciadores",
+      "data_evento": "2022-10-01",
+      "data_iso": "2022-10-01T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "redes-sociais",
+        "internet-nacional",
+        "plataformas"
+      ],
+      "descricao": "Perfis de fofoca e cultura pop, influenciadoras e grupos políticos promoveram campanhas para associar Jair Bolsonaro ao satanismo e outros temas negativos, visando romper vínculos do então candidato com o eleitorado evangélico. Entre os envolvidos, destacam-se os perfis Choquei, PopTime, PopOnze, QG do Pop, Fórum Pandlr, influenciadoras Bic Müller e Babi Magalhães, o deputado André Janones (Avante-MG) e o grupo Boca de Lobo. Vários perfis utilizaram imagens geradas por Inteligência Artificial. N...",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-01-difamacao-eleitoral-e-campanhas-de-desinformacao-com-perfis-falsos-e-influenciadores.md",
+      "id": 737
+    },
+    {
+      "titulo": "Grandes shows e eventos culturais com viés cívico e eleitoral",
+      "data_evento": "2022-10-01",
+      "data_iso": "2022-10-01T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "nacional",
+        "usaid"
+      ],
+      "descricao": "Artistas de renome nacional (especialmente do cenário pop e hip-hop) promoveram shows e eventos com mensagens de valorização do voto, incentivo à participação cívica e defesa da democracia. Embora os eventos fossem oficialmente suprapartidários, a maior associação se deu a pautas críticas ao conservadorismo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-01-grandes-shows-e-eventos-culturais-com-vies-civico-e-eleitoral.md",
+      "id": 738
+    },
+    {
+      "titulo": "Palestras e workshops sobre checagem e combate à desinformação eleitoral",
+      "data_evento": "2022-10-01",
+      "data_iso": "2022-10-01T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "centros-culturais",
+        "campus-universitarios",
+        "universidades",
+        "usaid",
+        "felipe-neto"
+      ],
+      "descricao": "ONGs, jornalistas e fact-checkers promoveram workshops e palestras presenciais e online para estudantes, jornalistas e ativistas, com foco em ferramentas digitais de checagem e estratégias para combater conteúdos falsos nas eleições. Diversas dessas iniciativas tiveram apoio financeiro de fundos internacionais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-01-palestras-e-workshops-sobre-checagem-e-combate-a-desinformacao-eleitoral.md",
+      "id": 739
+    },
+    {
+      "titulo": "Campanha contra Bolsonaro e apoio a Lula nas eleições de 2022",
+      "data_evento": "2022-10-02",
+      "data_iso": "2022-10-02T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "imparcialidade",
+        "principio-acusatorio",
+        "presuncao-de-inocencia",
+        "felipe-neto",
+        "jair-bolsonaro",
+        "luiz-inacio-lula-da-silva",
+        "usaid",
+        "open-society-foundations",
+        "gravidade-alta",
+        "eleicoes",
+        "influencia-politica",
+        "desinformacao",
+        "apoio-partidario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-02-campanha-contra-bolsonaro-e-apoio-a-lula-nas-eleicoes-de-2022.md",
+      "id": 740
+    },
+    {
+      "titulo": "Campanha eleitoral via Instituto Vero",
+      "data_evento": "2022-10-02",
+      "data_iso": "2022-10-02T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "imparcialidade",
+        "presuncao-de-inocencia",
+        "principio-acusatorio",
+        "instituto-vero",
+        "felipe-neto",
+        "jair-bolsonaro",
+        "luiz-inacio-lula-da-silva",
+        "gravidade-alta",
+        "campanha-eleitoral",
+        "apoio-lula",
+        "interferencia",
+        "financiamento-estrangeiro"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-02-campanha-eleitoral-via-instituto-vero.md",
+      "id": 741
+    },
+    {
+      "titulo": "Mobilização de youtubers e blogueiros para campanhas de fact-checking",
+      "data_evento": "2022-10-05",
+      "data_iso": "2022-10-05T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "redes-sociais",
+        "plataformas"
+      ],
+      "descricao": "Influenciadores digitais e youtubers participaram de ações integradas a ONGs como Lupa, Aos Fatos e Redes Cordiais, promovendo vídeos, threads e blogs de checagem eleitoral. Em alguns casos, produziram materiais multimídia educativos e participaram de debates e entrevistas institucionais promovidos por entidades parceiras do TSE.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-05-mobilizacao-de-youtubers-e-blogueiros-para-campanhas-de-fact-checking.md",
+      "id": 742
+    },
+    {
+      "titulo": "Mobilizações digitais por influenciadores e ONGs contra desinformação",
+      "data_evento": "2022-10-10",
+      "data_iso": "2022-10-10T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "tse",
+        "tse",
+        "grandes-cidades-sao-paulo",
+        "rio-de-janeiro",
+        "brasilia",
+        "usaid",
+        "felipe-neto",
+        "ongs",
+        "lupa",
+        "aos-fatos"
+      ],
+      "descricao": "Influenciadores digitais com milhões de seguidores uniram-se a ONGs e plataformas para difundir campanhas de checagem de fatos e combater notícias falsas. A campanha incluiu uso intensivo de hashtags, vídeos virais, lives temáticas e integração com movimentos ativistas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-10-mobilizacoes-digitais-por-influenciadores-e-ongs-contra-desinformacao.md",
+      "id": 743
+    },
+    {
+      "titulo": "Remoção de conteúdo de Nikolas Ferreira sobre eleições",
+      "data_evento": "2022-10-13",
+      "data_iso": "2022-10-13T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "censura",
+        "alexandre-de-moraes",
+        "nikolas-ferreira",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/10/13 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-10-13-remocao-de-conteudo-de-nikolas-ferreira-sobre-eleicoes.md",
+      "id": 744
+    },
+    {
+      "titulo": "Alegações públicas de interferência e censura eleitoral",
+      "data_evento": "2022-10-15",
+      "data_iso": "2022-10-15T00:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "censura",
+        "tse",
+        "tse",
+        "nacional",
+        "usaid"
+      ],
+      "descricao": "Após início da campanha eleitoral, lideranças políticas de direita e imprensa alternativa passam a alegar que ONGs beneficiadas com verbas da USAID praticaram censura seletiva e ajudaram a direcionar o debate público.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\tse\\2022-10-15-alegacoes-publicas-de-interferencia-e-censura-eleitoral.md",
+      "id": 745
+    },
+    {
+      "titulo": "Corregedor Benedito Gonçalves desmonetiza 4 canais a pedido da campanha de Lula; TSE vota 4 a 3, sem unanimidade",
+      "data_evento": "2022-10-18",
+      "data_iso": "2022-10-18T12:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "P04",
+        "P04b",
+        "P05",
+        "P10"
+      ],
+      "descricao": "Em 18/10/2022, o corregedor-geral Benedito Gonçalves determinou a desmonetização dos canais Brasil Paralelo, Foco do Brasil, Folha Política e Dr. News, atendendo pedido apresentado pela coligação de campanha de Lula, que alegava existência de 'ecossistema de desinformação'. O placar no plenário do TSE ficou 4 a 3: Moraes, Cármen Lúcia e Lewandowski votaram para confirmar; Araújo e Banhos divergiram parcialmente, liberando parte do conteúdo; Horbach votou para rejeitar a decisão por completo.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://noticias.uol.com.br/"
+      ],
+      "pessoas_envolvidas": [
+        "Benedito Gonçalves (Corregedor-geral da Justiça Eleitoral — decisão de desmonetização)",
+        "Alexandre de Moraes (Voto de confirmação)",
+        "Cármen Lúcia (Voto de confirmação)",
+        "Ricardo Lewandowski (Voto de confirmação)",
+        "André Ramos Tavares / Raul Araújo (Divergência parcial — liberação de parte do conteúdo)",
+        "Mauro Campbell / Banhos (Divergência parcial)",
+        "Floriano de Azevedo Marques / Horbach (Voto para rejeitar integralmente)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\bancos\\2022-10-18-corregedor-benedito-goncalves-desmonetiza-4-canais-a-pedido-da-campanha-de-lula-tse-vota-4.md",
+      "id": 1789
+    },
+    {
+      "titulo": "Censura a rádio Jovem Pan",
+      "data_evento": "2022-10-21",
+      "data_iso": "2022-10-21T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "censura",
+        "liberdade-de-imprensa",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "radio-jovem-pan",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/10/21 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-10-21-censura-a-radio-jovem-pan.md",
+      "id": 746
+    },
+    {
+      "titulo": "Cristiane Brasil tem perfil bloqueado no mesmo dia da operação da PF contra o pai, Roberto Jefferson",
+      "data_evento": "2022-10-22",
+      "data_iso": "2022-10-22T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04",
+        "P10"
+      ],
+      "descricao": "Em 22/10/2022, no âmbito do INQ 4.781/DF, foi determinado o bloqueio do perfil da ex-deputada Cristiane Brasil, no mesmo dia em que a Polícia Federal cumpriu mandado de busca e apreensão contra seu pai, Roberto Jefferson, que reagiu à operação disparando tiros e ferindo policiais.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator — ordem de bloqueio de perfil)",
+        "Cristiane Brasil (Alvo do bloqueio)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-10-22-cristiane-brasil-tem-perfil-bloqueado-no-mesmo-dia-da-operacao-da-pf-contra-o-pai-roberto-.md",
+      "id": 1778
+    },
+    {
+      "titulo": "Campanha de Bolsonaro denuncia ao TSE boicote de rádios do Norte/Nordeste; Moraes dá 24h e ameaça abrir inquérito contra a própria campanha",
+      "data_evento": "2022-10-24",
+      "data_iso": "2022-10-24T12:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "P04",
+        "tse",
+        "eleicoes-2022",
+        "radiolao",
+        "p04",
+        "ev-confirmed"
+      ],
+      "descricao": "Em coletiva no Palácio da Alvorada, o ministro das Comunicações Fábio Faria e o coordenador de campanha Fabio Wajngarten denunciaram que rádios do Norte e Nordeste teriam deixado de veicular cerca de 154 mil inserções da propaganda eleitoral de Jair Bolsonaro (PL), favorecendo Lula (PT). No mesmo despacho (Petição Cível nº 0601696-47.2022.6.00.0000), o presidente do TSE, ministro Alexandre de Moraes, deu 24 horas para apresentação de provas concretas e registrou que, não sendo comprovada, a denúncia poderia caracterizar crime eleitoral por parte de quem a apresentou — inversão do ônus que precede qualquer checagem técnica do mérito.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "tse",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/radiolao-cnj-cobra-tse-e-tre-dfsobre",
+        "https://www.cnnbrasil.com.br/politica/campanha-de-bolsonaro-apresenta-ao-tse-relatorio-sobre-denuncia-envolvendo-insercoes-em-radio/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (presidente do TSE)",
+        "Fábio Faria (ministro das Comunicações)",
+        "Fabio Wajngarten (coordenador de campanha)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE",
+        "Campanha Bolsonaro/PL"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\tse\\2022-10-24-campanha-de-bolsonaro-denuncia-ao-tse-boicote-de-radios-do-nortenordeste-moraes-da-24h-e-a.md",
+      "id": 1889
+    },
+    {
+      "titulo": "Alexandre Gomes Machado, coordenador do pool de emissoras do TSE, é retirado sob escolta e exonerado após repassar e-mail sobre inserções não veiculadas",
+      "data_evento": "2022-10-25",
+      "data_iso": "2022-10-25T12:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "P02",
+        "tse",
+        "p02",
+        "ev-confirmed"
+      ],
+      "descricao": "Na tarde de 25/10/2022, a Rádio JM FM (Uberaba/MG) enviou ao pool de emissoras um e-mail admitindo não ter veiculado cem inserções da campanha de Bolsonaro entre 7 e 10/10 — o mesmo tipo de falha que a denúncia da campanha tentava provar em escala nacional. O coordenador do pool, Alexandre Gomes Machado, encaminhou o e-mail à chefia (Fernando Maciel de Alencastro) e à chefe de gabinete da Secretaria-Geral da Presidência (Ludmila dos Santos Boldo Maluf), conforme exige a legislação do funcionalismo público diante de irregularidade constatada. Cerca de trinta minutos depois, sem processo formal ou justificativa escrita, foi retirado do prédio sob escolta de segurança e teve o crachá confiscado. A exoneração do cargo em comissão foi publicada no DOU em 26/10, sem motivação escrita. O TSE, em nota, atribuiu a saída inicialmente a \"alterações usuais\" na equipe da Presidência e, no dia seguinte, a \"reiteradas práticas de assédio moral, inclusive por motivação política\" — sem processo formal instaurado e notificado até aquele momento.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "tse",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/exonerado-do-tse-servidor-procura-pf-e-diz-ter-informado-tribunal-sobre-falhas-de-fiscalizacao-em-insercoes/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2022-10/tse-exonera-servidor-que-atuava-com-insercoes-de-propaganda-eleitoral",
+        "https://www.ainvestigacao.com/p/radiolao-cnj-cobra-tse-e-tre-dfsobre"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre Gomes Machado (coordenador do pool de emissoras, TSE/TRE-DF)",
+        "Fernando Maciel de Alencastro (chefe imediato)",
+        "Ludmila dos Santos Boldo Maluf (chefe de gabinete, SGP/TSE)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\tse\\2022-10-25-alexandre-gomes-machado-coordenador-do-pool-de-emissoras-do-tse-e-retirado-sob-escolta-e-e.md",
+      "id": 1890
+    },
+    {
+      "titulo": "Moraes arquiva denúncia do Radiolão com base em estudo que usa perfil apócrifo do Twitter como referência",
+      "data_evento": "2022-10-26",
+      "data_iso": "2022-10-26T12:00:00.000Z",
+      "categoria": "tse",
+      "tags": [
+        "P04",
+        "P04b",
+        "tse",
+        "p04",
+        "p04b",
+        "ev-confirmed"
+      ],
+      "descricao": "Dois dias após a denúncia, Moraes arquivou o caso classificando-o como \"frágil\" e \"sem provas suficientes\", com base em estudo do professor Miguel Freitas (PUC-Rio), que a decisão qualificou como análise \"direta e certeira\". Parte da base de dados do estudo de Freitas usou como referência um perfil apócrifo do Twitter chamado \"@desmentindobozo\". Moraes determinou ainda remessa à Procuradoria-Geral Eleitoral para apurar se a própria campanha de Bolsonaro cometera crime eleitoral ao apresentar a denúncia, e incluiu a documentação no Inquérito das Milícias Digitais (nº 4.874), sob sua própria relatoria no STF. Checagem posterior independente (projeto \"A Investigação\", jornalismo open source com equipe de 12 voluntários, método de audição humana de 168h de áudio) identificou erro material verificável no estudo de Freitas: peças de propaganda do primeiro turno foram contabilizadas como ausentes no segundo turno por falha de transmissão da emissora, não da auditoria original (Audiency) — nas 7 rádios reanalisadas, a checagem independente confirmou discrepância concreta a favor do PT (227,66% vs. 238,30% da Audiency, diferença de 2,13 p.p.), na mesma direção da denúncia original.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "tse",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/radiolao-cnj-cobra-tse-e-tre-dfsobre"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes",
+        "Miguel Freitas (PUC-Rio)",
+        "David Ágape (coordenador, A Investigação)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE",
+        "STF (INQ 4.874)",
+        "Audiency"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\tse\\2022-10-26-moraes-arquiva-denuncia-do-radiolao-com-base-em-estudo-que-usa-perfil-apocrifo-do-twitter-.md",
+      "id": 1891
+    },
+    {
+      "titulo": "Bloqueio de caminhoneiros pós-eleições",
+      "data_evento": "2022-10-30",
+      "data_iso": "2022-10-30T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-associacao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "liberdade-de-locomocao",
+        "alexandre-de-moraes",
+        "caminhoneiros",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/10/30 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-10-30-bloqueio-de-caminhoneiros-pos-eleicoes.md",
+      "id": 747
+    },
+    {
+      "titulo": "Instituto Democracia em Xeque e Palver monitoram termos ligados às eleições de 2022 a pedido da AEED/TSE e comemoram vitória de Lula",
+      "data_evento": "2022-10-30",
+      "data_iso": "2022-10-30T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "P10",
+        "vazatoga",
+        "palver",
+        "democracia-em-xeque",
+        "eleicoes-2022",
+        "p10",
+        "ev-confirmed"
+      ],
+      "descricao": "Mensagens reveladas na Vaza Toga 3 mostram integrante do Instituto Democracia em Xeque (DX) — identificado nas mensagens como Fernando/Fabiano Garrido — coordenando com a AEED/TSE termos de busca para monitoramento de conteúdo relacionado às eleições ('urna eletrônica', 'voto impresso', 'eleições presidenciais'), inicialmente descrito como relatório específico sobre 7 de setembro mas estendido a monitoramento de rotina do processo eleitoral. A consultoria Palver — empresa de análise de redes que hoje presta serviço comercial a veículos como Folha de S.Paulo, Lupa e CNN Brasil — aparece nas mensagens fornecendo levantamentos sobre volume de menções em grupos de direita. Em 30/10/2022, dia da vitória eleitoral de Lula, mensagens do grupo, incluindo de representantes do Instituto Democracia em Xeque, celebraram o resultado nos termos de 'vitória contra a desinformação', agradecendo o 'trabalho incansável do TSE em defesa da democracia'.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "vazatoga",
+      "fontes": [
+        "https://revistaoeste.com/politica/deputado-coleta-assinaturas-para-cpmi-da-vaza-toga/",
+        "https://imediatoonline.com/brasil/investigacao-revela-ligacoes-entre-instituto-democracia-em-xeque-palver-itau-e-usaid-em-parceria-com-tse-para-censurar-oposicao-ao-lula-nas-eleicoes/"
+      ],
+      "pessoas_envolvidas": [
+        "Fernando/Fabiano Garrido (Instituto Democracia em Xeque — coordenou termos de busca eleitoral)",
+        "Eduardo Tagliaferro (Recebeu e processou os relatórios)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE",
+        "Instituto Democracia em Xeque",
+        "Palver"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2022-10-30-instituto-democracia-em-xeque-e-palver-monitoram-termos-ligados-as-eleicoes-de-2022-a-pedi.md",
+      "id": 1887
+    },
+    {
+      "titulo": "TSE bloqueia perfil do Grupo B-38/Coronel Koury um dia após o 2º turno",
+      "data_evento": "2022-10-31",
+      "data_iso": "2022-10-31T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04",
+        "P10"
+      ],
+      "descricao": "Em 31/10/2022 — um dia após o segundo turno das eleições — decisão na petição TSE 0601823-82.2022.6.00.0000 determinou o bloqueio do perfil do grupo B-38, associado ao Coronel Koury.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator da petição TSE)",
+        "Grupo B-38 / Coronel Koury (Alvo do bloqueio)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-10-31-tse-bloqueia-perfil-do-grupo-b-38coronel-koury-um-dia-apos-o-2-turno.md",
+      "id": 1785
+    },
+    {
+      "titulo": "Flávio Dino - Eu sou contra as drogas como princípio [...] não temos condições para descriminalizar....",
+      "data_evento": "2022-11-01",
+      "data_iso": "2022-11-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "drogas"
+      ],
+      "descricao": "Frase dita por Flávio Dino em Contra descriminalização, à BBC",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-11-01-flavio-dino-eu-sou-contra-as-drogas-c.md",
+      "id": 748
+    },
+    {
+      "titulo": "Luís Roberto Barroso - Perdeu, mané, não amola...",
+      "data_evento": "2022-11-01",
+      "data_iso": "2022-11-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "indecoro"
+      ],
+      "descricao": "Frase dita por Luís Roberto Barroso em a manifestante em NY questionando urnas eletrônicas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-11-01-luis-roberto-barroso-perdeu-mane-nao-amola.md",
+      "id": 749
+    },
+    {
+      "titulo": "Gabinete paralelo aciona tenente-coronel da PM-BA para identificar e multar caminhoneiros em protesto contra eleição de Lula",
+      "data_evento": "2022-11-01",
+      "data_iso": "2022-11-01T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "P02",
+        "P10",
+        "vazatoga",
+        "caminhoneiros",
+        "eleicoes-2022",
+        "p02",
+        "p10",
+        "ev-confirmed"
+      ],
+      "descricao": "Mensagens de 08/11/2022, obtidas com exclusividade por Revista Oeste, mostram os juízes auxiliares Airton Vieira e Marco Antônio Vargas e o chefe da AEED, Eduardo Tagliaferro, articulando a aplicação de multas a caminhoneiros que seguiam para Brasília em protesto contra a eleição de Lula. O gabinete paralelo pediu ajuda ao tenente-coronel José Luiz Santos Silva, da Polícia Militar da Bahia, para identificar placas de veículos a multar e mapear possível vínculo dos caminhoneiros com 'financiadores' da manifestação. Em 01/11/2022, início das manifestações, o mesmo grupo já havia determinado a derrubada de grupos de Telegram que organizavam os protestos — cumprida em menos de 10 minutos, conforme confirmação de Tagliaferro ('Cumpridos!').",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "vazatoga",
+      "fontes": [
+        "https://revistaoeste.com/politica/tenente-coronel-da-pmba-ajudou-gabinete-paralelo-de-moraes-a-censurar-pessoas/",
+        "https://revistaoeste.com/politica/gabinete-paralelo-de-moraes-agiu-contra-protestos-de-caminhoneiros-em-2022/"
+      ],
+      "pessoas_envolvidas": [
+        "Airton Vieira",
+        "Marco Antônio Vargas",
+        "Eduardo Tagliaferro",
+        "José Luiz Santos Silva (Tenente-coronel da PM-BA — forneceu dados de veículos e empresas a pedido do gabinete)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE",
+        "Polícia Militar da Bahia"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2022-11-01-gabinete-paralelo-aciona-tenente-coronel-da-pm-ba-para-identificar-e-multar-caminhoneiros-.md",
+      "id": 1884
+    },
+    {
+      "titulo": "TSE determina remoção de conteúdo de perfil do deputado Marcel Van Hattem, sem bloqueio total",
+      "data_evento": "2022-11-03",
+      "data_iso": "2022-11-03T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04",
+        "P10"
+      ],
+      "descricao": "Em 03/11/2022, decisão na petição TSE 0601811-68.2022.6.00.0000 determinou remoção de conteúdo específico do perfil do deputado federal Marcel Van Hattem, sem bloqueio total da conta — caso que se distingue dos demais do cluster por não envolver suspensão de perfil.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator da petição TSE)",
+        "Marcel Van Hattem (Alvo — deputado federal)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-11-03-tse-determina-remocao-de-conteudo-de-perfil-do-deputado-marcel-van-hattem-sem-bloqueio-tot.md",
+      "id": 1784
+    },
+    {
+      "titulo": "Multa de R$23 milhões a caminhoneiros",
+      "data_evento": "2022-11-07",
+      "data_iso": "2022-11-07T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "direito-a-propriedade",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "liberdade-de-associacao",
+        "alexandre-de-moraes",
+        "caminhoneiros",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/11/07 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$23 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-11-07-multa-de-r23-milhoes-a-caminhoneiros.md",
+      "id": 750
+    },
+    {
+      "titulo": "Palestra no XXII CONPPREV",
+      "data_evento": "2022-11-10",
+      "data_iso": "2022-11-10T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "Local não especificado"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2022-11-10-palestra-no-xxii-conpprev.md",
+      "id": 751
+    },
+    {
+      "titulo": "Conferência nos EUA reunirá ministros do STF, Temer e Meirelles Autoridades e empresários debatem o futuro da democracia e da economia no “Lide Brazil Conference – New York” nos 14 e 15 de novembro...",
+      "data_evento": "2022-11-13",
+      "data_iso": "2022-11-13T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "lide",
+        "temer",
+        "alexandre-de-moraes"
+      ],
+      "descricao": "Conferência nos EUA reunirá ministros do STF, Temer e Meirelles Autoridades e empresários debatem o futuro da democracia. publicação 2022-11-13, veículo…",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2022-11-13-conferencia-nos-eua-reunira-ministros-do-stf.md",
+      "id": 752
+    },
+    {
+      "titulo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou o bloqueio de contas de 43 pessoas e empresas que podem ter relação com a organização de atos antidemocráticos que se espalharam pelo país após a derrota do presidente Jair Bolsonaro (PL) nas eleições.",
+      "data_evento": "2022-11-17",
+      "data_iso": "2022-11-17T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "censura",
+        "alexandre-de-moraes",
+        "eleicoes"
+      ],
+      "descricao": "2022-11-17-valor-Censura-Alexandre Moraes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-11-17-o-ministro-alexandre-de-moraes.md",
+      "id": 753
+    },
+    {
+      "titulo": "Allan dos Santos tem perfis bloqueados; remoção de reportagem da Folha é revertida pelo próprio relator 5 dias depois",
+      "data_evento": "2022-11-20",
+      "data_iso": "2022-11-20T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04",
+        "P10"
+      ],
+      "descricao": "Allan dos Santos teve dois perfis bloqueados em 11/02/2022 e, posteriormente, nova ação em 20/11/2022 (petição incluindo remoção de conteúdo do Instagram e de reportagem da Folha de S.Paulo repostada por terceiro). Essa remoção específica foi revertida pelo próprio relator em 25/11/2022, cinco dias depois.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/",
+        "https://www12.senado.leg.br/noticias/materias/2021/10/26/leia-a-integra-do-relatorio-final-da-cpi-da-pandemia"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator — ordens de bloqueio e reversão parcial)",
+        "Allan dos Santos (Alvo — blogueiro)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-11-20-allan-dos-santos-tem-perfis-bloqueados-remocao-de-reportagem-da-folha-e-revertida-pelo-pro.md",
+      "id": 1787
+    },
+    {
+      "titulo": "Gabinete paralelo ordena bloqueio dos colunistas Rodrigo Constantino e Guilherme Fiuza por críticas ao TSE",
+      "data_evento": "2022-11-22",
+      "data_iso": "2022-11-22T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "P02",
+        "P04",
+        "vazatoga",
+        "liberdade-de-imprensa",
+        "constantino",
+        "fiuza",
+        "p02",
+        "p04",
+        "ev-confirmed"
+      ],
+      "descricao": "Mensagens obtidas por Revista Oeste mostram que, em 22/11/2022, o juiz auxiliar Airton Vieira compartilhou no grupo de WhatsApp do gabinete paralelo um vídeo do colunista Rodrigo Constantino (Gazeta do Povo) criticando medidas do TSE contra a chamada 'desordem informacional', e determinou: 'Vamos bloquear tudo desse cara e prever multa.' Tagliaferro, então chefe da AEED/TSE, pediu orientação sobre como justificar o relatório contra Constantino; Vieira respondeu que explicaria por telefone e reforçou: 'Bloqueio e multa pelo STF.' Em 27/12/2022, o mesmo grupo discutiu o colunista Guilherme Fiuza; Tagliaferro enviou relatório contra ele ('Esse não precisou de muito para se comprometer'), recebendo emojis de aplausos de Marco Antônio Vargas e Airton Vieira. Vargas classificou o conteúdo de Fiuza como 'vários posts golpistas'; Tagliaferro concluiu: 'Vamos mandar bala.' Os bloqueios efetivamente ocorreram em 30/12/2022 (Constantino, id_1780) e 02/01/2023 (Fiuza, id_1779) no âmbito do INQ 4.781/DF — até esta revelação, o corpus registrava apenas o resultado (bloqueio), não a ordem interna que o originou.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "vazatoga",
+      "fontes": [
+        "https://revistaoeste.com/politica/gabinete-paralelo-de-moraes-tinha-constantino-e-fiuza-como-alvos-vamos-bloquear-tudo/",
+        "https://claudiodantas.com.br/vaza-toga-2-mensagens-indicam-ordens-contra-jornalistas-no-gabinete-de-moraes/"
+      ],
+      "pessoas_envolvidas": [
+        "Airton Vieira (Ordenou bloqueio de Constantino; classificou Fiuza)",
+        "Eduardo Tagliaferro (Produziu os relatórios que fundamentaram os bloqueios)",
+        "Marco Antônio Vargas (Classificou posts de Fiuza como 'golpistas')",
+        "Rodrigo Constantino (Alvo — colunista Gazeta do Povo)",
+        "Guilherme Fiuza (Alvo — colunista Gazeta do Povo)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2022-11-22-gabinete-paralelo-ordena-bloqueio-dos-colunistas-rodrigo-constantino-e-guilherme-fiuza-por.md",
+      "id": 1883
+    },
+    {
+      "titulo": "TSE bloqueia perfil de Flávio Gordon por petição de desinformação eleitoral; reativado 68 dias depois",
+      "data_evento": "2022-11-23",
+      "data_iso": "2022-11-23T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04",
+        "P04b",
+        "P10"
+      ],
+      "descricao": "Em 23/11/2022, decisão na petição TSE 0601963-19.2022.6.00.0000 determinou o bloqueio do perfil do colunista Flávio Gordon (Gazeta do Povo/Revista Oeste) no X, sob alegação de disseminação de desinformação eleitoral. Em 30/01/2023, a mesma numeração de petição registrou decisão de reativação, mantendo remoção de publicações específicas. Após a reativação, o perfil registrou ganho de 43.700 novos seguidores, somando 231.400.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/",
+        "https://www.intercept.com.br/",
+        "https://www.gazetadopovo.com.br/vozes/flavio-gordon/cpi-covid-quebra-sigilo-carmen-lucia/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator da petição TSE)",
+        "Flávio Gordon (Alvo do bloqueio — colunista, antropólogo)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-11-23-tse-bloqueia-perfil-de-flavio-gordon-por-peticao-de-desinformacao-eleitoral-reativado-68-d.md",
+      "id": 1782
+    },
+    {
+      "titulo": "Desmonetização de canais conservadores",
+      "data_evento": "2022-11-24",
+      "data_iso": "2022-11-24T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "direito-a-propriedade",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "canais-conservadores",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/11/24 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-11-24-desmonetizacao-de-canais-conservadores.md",
+      "id": 754
+    },
+    {
+      "titulo": "Alexandre de Moraes - A democracia foi atacada, aviltada, mas sobreviveu...",
+      "data_evento": "2022-12-01",
+      "data_iso": "2022-12-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "polêmica",
+        "defesa democracia"
+      ],
+      "descricao": "Frase dita por Alexandre de Moraes em Após eleições, em conferência",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Ministro"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2022-12-01-alexandre-de-moraes-a-democracia-foi-atacada-.md",
+      "id": 755
+    },
+    {
+      "titulo": "Gabinete paralelo avança contra o Gettr para calar Allan dos Santos; frase 'use sua criatividade' se torna símbolo da perseguição a veículos independentes",
+      "data_evento": "2022-12-01",
+      "data_iso": "2022-12-01T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "P04",
+        "vazatoga",
+        "gettr",
+        "allan-dos-santos",
+        "liberdade-de-imprensa",
+        "p04",
+        "ev-confirmed"
+      ],
+      "descricao": "A reportagem 'A fraude exposta' (Revista Oeste, Edição 285) revelou que o gabinete paralelo de Moraes avançou contra a rede social Gettr (criada por Jason Miller, ex-assessor de Donald Trump) especificamente para dificultar a circulação de conteúdo do jornalista Allan dos Santos, então nos EUA e alvo do inquérito das fake news. Em episódio anterior já documentado nas mensagens, quando Tagliaferro questionou o que reportar sobre um alvo sem conteúdo incriminador ('Não estão falando nada, o que vamos colocar?'), Airton Vieira instruiu: 'Use sua criatividade' — instrução que a reportagem registra como tradução literal, ainda que involuntária, da máxima atribuída a Lavrenti Beria ('Mostre-me o homem e eu lhe direi o crime'). A mesma reportagem documenta que a própria Revista Oeste foi desmonetizada no YouTube por mais de um ano, sem acesso a receita publicitária na plataforma, atribuindo a medida à sua cobertura crítica do STF.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "vazatoga",
+      "fontes": [
+        "https://revistaoeste.com/revista/edicao-285/a-fraude-exposta/"
+      ],
+      "pessoas_envolvidas": [
+        "Airton Vieira (Autor da instrução 'use sua criatividade')",
+        "Eduardo Tagliaferro (Destinatário da instrução; executor dos relatórios)",
+        "Allan dos Santos (Alvo indireto — bloqueio de circulação via Gettr)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE",
+        "Gettr",
+        "YouTube"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2022-12-01-gabinete-paralelo-avanca-contra-o-gettr-para-calar-allan-dos-santos-frase-use-sua-criativi.md",
+      "id": 1885
+    },
+    {
+      "titulo": "Gabinete paralelo monitora Carla Zambelli e discute bloqueio de conta antes de sua diplomação",
+      "data_evento": "2022-12-01",
+      "data_iso": "2022-12-01T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "P02",
+        "P04",
+        "vazatoga",
+        "carla-zambelli",
+        "p02",
+        "p04",
+        "ev-confirmed"
+      ],
+      "descricao": "Mensagens do gabinete paralelo, reveladas na Vaza Toga 3, mostram Marco Antônio Vargas compartilhando publicações de Carla Zambelli no Instagram, com o grupo discutindo se as postagens configurariam critério para bloqueio de conta antes de sua diplomação como deputada federal eleita. As mensagens registram menção a preservação de conteúdo via ferramenta de verificação e a expectativa de que 'o ministro' assinaria o bloqueio da conta.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "vazatoga",
+      "fontes": [
+        "https://revistaoeste.com/revista/edicao-285/a-fraude-exposta/"
+      ],
+      "pessoas_envolvidas": [
+        "Marco Antônio Vargas (Compartilhou publicações de Zambelli no grupo)",
+        "Carla Zambelli (Alvo — deputada federal eleita)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2022-12-01-gabinete-paralelo-monitora-carla-zambelli-e-discute-bloqueio-de-conta-antes-de-sua-diploma.md",
+      "id": 1886
+    },
+    {
+      "titulo": "TSE bloqueia perfil da deputada Carla Zambelli; reativado 73 dias depois",
+      "data_evento": "2022-12-05",
+      "data_iso": "2022-12-05T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04",
+        "P10"
+      ],
+      "descricao": "Em 05/12/2022, decisão na petição TSE 0601843-73.2022.6.00.0000 determinou o bloqueio do perfil da deputada federal Carla Zambelli. Em 16/02/2023, o perfil foi reativado pela mesma numeração de petição.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator da petição TSE)",
+        "Carla Zambelli (Alvo do bloqueio — deputada federal)"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-12-05-tse-bloqueia-perfil-da-deputada-carla-zambelli-reativado-73-dias-depois.md",
+      "id": 1783
+    },
+    {
+      "titulo": "Prisão de indígena José Acácio Serere por protestos",
+      "data_evento": "2022-12-09",
+      "data_iso": "2022-12-09T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "direitos-indigenas",
+        "alexandre-de-moraes",
+        "jose-acacio-serere",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/12/09 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-09-prisao-de-indigena-jose-acacio-serere-por-protestos.md",
+      "id": 756
+    },
+    {
+      "titulo": "Busca contra bolsonaristas por vandalismo em Brasília",
+      "data_evento": "2022-12-12",
+      "data_iso": "2022-12-12T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "presuncao-de-inocencia",
+        "alexandre-de-moraes",
+        "bolsonaristas",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/12/12 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-12-busca-contra-bolsonaristas-por-vandalismo-em-brasilia.md",
+      "id": 757
+    },
+    {
+      "titulo": "Quebra de sigilo telemático de bolsonaristas",
+      "data_evento": "2022-12-14",
+      "data_iso": "2022-12-14T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "direito-a-privacidade",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "bolsonaristas",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/12/14 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-14-quebra-de-sigilo-telematico-de-bolsonaristas.md",
+      "id": 758
+    },
+    {
+      "titulo": "Revogação de porte de armas de Cacique Serere",
+      "data_evento": "2022-12-15",
+      "data_iso": "2022-12-15T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "direito-a-propriedade",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "direitos-indigenas",
+        "alexandre-de-moraes",
+        "cacique-serere",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/12/15 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-15-revogacao-de-porte-de-armas-de-cacique-serere.md",
+      "id": 759
+    },
+    {
+      "titulo": "Busca contra deputado Otoni de Paula",
+      "data_evento": "2022-12-16",
+      "data_iso": "2022-12-16T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "prerrogativas-parlamentares",
+        "domicilio-violado",
+        "devido-processo-legal",
+        "liberdade-de-expressao",
+        "alexandre-de-moraes",
+        "otoni-de-paula",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/12/16 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-16-busca-contra-deputado-otoni-de-paula.md",
+      "id": 760
+    },
+    {
+      "titulo": "Ressarcimento por retenção de valores do DPVAT prescreve em 5 anos, diz STJ.",
+      "data_evento": "2022-12-22",
+      "data_iso": "2022-12-22T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "DPVAT"
+      ],
+      "descricao": "2022-12-22-conjur-DPVAT-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2022-12-22-ressarcimento-por-retencao-de-valores-do-dpvat-prescreve-em-5-anos.md",
+      "id": 761
+    },
+    {
+      "titulo": "Prisão de Cacique Serere por incitação",
+      "data_evento": "2022-12-24",
+      "data_iso": "2022-12-24T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "direitos-indigenas",
+        "alexandre-de-moraes",
+        "cacique-serere",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/12/24 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-24-prisao-de-cacique-serere-por-incitacao.md",
+      "id": 762
+    },
+    {
+      "titulo": "Bloqueio de redes sociais de canais conservadores",
+      "data_evento": "2022-12-27",
+      "data_iso": "2022-12-27T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "censura",
+        "alexandre-de-moraes",
+        "canais-conservadores",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2022/12/27 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-27-bloqueio-de-redes-sociais-de-canais-conservadores.md",
+      "id": 763
+    },
+    {
+      "titulo": "Tentativa de Soltura com Alvará Falso",
+      "data_evento": "2022-12-28",
+      "data_iso": "2022-12-28T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "alvara-falso",
+        "tentativa-soltura",
+        "roubo-ouro-guarulhos",
+        "pcc",
+        "fraude-judicial",
+        "marcelo-ferraz-da-silva-capim",
+        "advogada-nao-identificada",
+        "crime-organizado-pcc",
+        "sistema-penitenciario",
+        "sociedade-paulista",
+        "registro-de-boletim-de-ocorrencia",
+        "inquerito-policial-aberto",
+        "notificacao-ao-judiciario",
+        "gravidade-alta",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 0, ",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2022-12-28-tentativa-de-soltura-com-alvara-falso.md",
+      "id": 764
+    },
+    {
+      "titulo": "Busca contra Carlos Bolsonaro",
+      "data_evento": "2022-12-30",
+      "data_iso": "2022-12-30T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "presuncao-de-inocencia",
+        "alexandre-de-moraes",
+        "carlos-bolsonaro",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2022/12/30 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2022-12-30-busca-contra-carlos-bolsonaro.md",
+      "id": 765
+    },
+    {
+      "titulo": "Escândalo das Joias Sauditas",
+      "data_evento": "2022-12-30",
+      "data_iso": "2022-12-30T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-bolsonaro",
+        "2022"
+      ],
+      "descricao": "Recebimento e tentativa de venda ilegal de joias pela família Bolsonaro.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2022-12-30-escandalo-das-joias-sauditas.md",
+      "id": 766
+    },
+    {
+      "titulo": "Paulo Figueiredo Filho e Rodrigo Constantino têm bloqueio multiplataforma no INQ 4.781/DF",
+      "data_evento": "2022-12-30",
+      "data_iso": "2022-12-30T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04",
+        "P10"
+      ],
+      "descricao": "Em 30/12/2022, foi determinado bloqueio multiplataforma (X, YouTube, Facebook, Instagram, Telegram, Gettr, TikTok) dos perfis de Paulo Figueiredo Filho e Rodrigo Constantino, no âmbito do INQ 4.781/DF.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/leia-cada-uma-das-acoes-de-moraes-divulgadas-pelo-congresso-dos-eua/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator — ordem de bloqueio multiplataforma)",
+        "Paulo Figueiredo Filho (Alvo do bloqueio)",
+        "Rodrigo Constantino (Alvo do bloqueio)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2022-12-30-paulo-figueiredo-filho-e-rodrigo-constantino-tem-bloqueio-multiplataforma-no-inq-4781df.md",
+      "id": 1780
+    }
+  ]
+}

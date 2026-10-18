@@ -1,0 +1,64 @@
+{
+  "total": 2,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1987,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Administração de Orestes Quércia",
+      "data_evento": "1987-01-01",
+      "data_iso": "1987-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-sarney",
+        "1987"
+      ],
+      "descricao": "Corrupção no governo de São Paulo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1987-01-01-escandalo-da-administracao-de-orestes-quercia.md",
+      "id": 26
+    },
+    {
+      "titulo": "Escândalo do Ministério das Comunicações",
+      "data_evento": "1987-01-01",
+      "data_iso": "1987-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-sarney",
+        "1987"
+      ],
+      "descricao": "Concessões de rádios e TVs em troca de apoio político.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1987-01-01-escandalo-do-ministerio-das-comunicacoes.md",
+      "id": 27
+    }
+  ]
+}

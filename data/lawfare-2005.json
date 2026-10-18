@@ -1,0 +1,797 @@
+{
+  "total": 29,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2005,
+  "assuntos": [
+    {
+      "titulo": "Caixa com dólares da FARC na CPI dos Correios",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Financiamento para eleição de Lula.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-caixa-com-dolares-da-farc-na-cpi-dos-correios.md",
+      "id": 195
+    },
+    {
+      "titulo": "Caso Antônio Celso Cipriani",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Alegações de movimentações financeiras ilícitas e influência política, sem provas formais concluídas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-caso-antonio-celso-cipriani.md",
+      "id": 196
+    },
+    {
+      "titulo": "Caso Flamarion Portela",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Corrupção em RR.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-caso-flamarion-portela.md",
+      "id": 197
+    },
+    {
+      "titulo": "Caso Interbrazil Seguradora",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Contratos bilionários com estatais e apurações sobre doações políticas não contabilizadas e emissão de apólices falsas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-caso-interbrazil-seguradora.md",
+      "id": 198
+    },
+    {
+      "titulo": "Caso Toninho da Barcelona",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Assassinato ligado a narcotráfico.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-caso-toninho-da-barcelona.md",
+      "id": 199
+    },
+    {
+      "titulo": "Escândalo da CPEM",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Consultoria suspeita.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-da-cpem.md",
+      "id": 200
+    },
+    {
+      "titulo": "Escândalo da Interbrazil",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Acusações vagas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-da-interbrazil.md",
+      "id": 201
+    },
+    {
+      "titulo": "Escândalo da Novadata",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Irregularidades em tecnologia.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-da-novadata.md",
+      "id": 202
+    },
+    {
+      "titulo": "Escândalo da SEBRAE",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Dívida quitada indevidamente.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-da-sebrae.md",
+      "id": 203
+    },
+    {
+      "titulo": "Escândalo da Secom",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Irregularidades em publicidade.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-da-secom.md",
+      "id": 204
+    },
+    {
+      "titulo": "Escândalo da Usina de Itaipu",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Desvios.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-da-usina-de-itaipu.md",
+      "id": 205
+    },
+    {
+      "titulo": "Escândalo das Furnas",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Propinas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-das-furnas.md",
+      "id": 206
+    },
+    {
+      "titulo": "Escândalo do Banco Santos",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Falência fraudulenta.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-do-banco-santos.md",
+      "id": 207
+    },
+    {
+      "titulo": "Escândalo do Brasil Telecom",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Espionagem.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-do-brasil-telecom.md",
+      "id": 208
+    },
+    {
+      "titulo": "Escândalo do IRB",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Fraudes em resseguros.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-do-irb.md",
+      "id": 209
+    },
+    {
+      "titulo": "Escândalo do Leão & Leão",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Máfia do lixo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-do-leao-leao.md",
+      "id": 210
+    },
+    {
+      "titulo": "Escândalo do Mensalinho",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Esquemas locais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-do-mensalinho.md",
+      "id": 211
+    },
+    {
+      "titulo": "Escândalo do PTB",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Oferta de cargos por apoio.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-do-ptb.md",
+      "id": 212
+    },
+    {
+      "titulo": "Escândalo dos Correios",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Propina filmada.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-dos-correios.md",
+      "id": 213
+    },
+    {
+      "titulo": "Escândalo dos Dólares na Cueca",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Propina apreendida.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-escandalo-dos-dolares-na-cueca.md",
+      "id": 214
+    },
+    {
+      "titulo": "Esquema de Corrupção no Diretório Nacional do PT",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Parte do mensalão.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-esquema-de-corrupcao-no-diretorio-nacional-do-pt.md",
+      "id": 215
+    },
+    {
+      "titulo": "Ex-prefeito de Salvador",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Diversas denúncias de irregularidades administrativas, nepotismo, superfaturamento de contratos e mau uso de verbas públicas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-ex-prefeito-de-salvador.md",
+      "id": 216
+    },
+    {
+      "titulo": "Expulsão dos Políticos do PT",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Expulsões por corrupção.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-expulsao-dos-politicos-do-pt.md",
+      "id": 217
+    },
+    {
+      "titulo": "Irregularidades do Programa Restaurante Popular",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Favorecimento a prefeituras PT.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-irregularidades-do-programa-restaurante-popular.md",
+      "id": 218
+    },
+    {
+      "titulo": "Irregularidades na Bolsa-Família",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Fraudes no programa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-01-01-irregularidades-na-bolsa-familia.md",
+      "id": 219
+    },
+    {
+      "titulo": "Senado Compra Vinhos Caros",
+      "data_evento": "2005-01-01",
+      "data_iso": "2005-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "vinhos-luxo",
+        "bebidas"
+      ],
+      "descricao": "2005-01-01-Brasília, DF-legislativo-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 500 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2005-01-01-senado-compra-vinhos-caros.md",
+      "id": 220
+    },
+    {
+      "titulo": "Escândalo do Mensalão",
+      "data_evento": "2005-05-01",
+      "data_iso": "2005-05-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2005"
+      ],
+      "descricao": "Compra de votos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2005-05-01-escandalo-do-mensalao.md",
+      "id": 221
+    },
+    {
+      "titulo": "Operação Vampiro",
+      "data_evento": "2005-05-19",
+      "data_iso": "2005-05-19T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-em-saude",
+        "corrupcao"
+      ],
+      "descricao": "2005-05-19-Brasília, DF-fraude em saúde-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2005-05-19-operacao-vampiro.md",
+      "id": 222
+    },
+    {
+      "titulo": "Mensalão - Envolvimento Banco Rural",
+      "data_evento": "2005-06-06",
+      "data_iso": "2005-06-06T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2005-06-06-mensalao-envolvimento-banco-rural.md",
+      "id": 223
+    }
+  ]
+}

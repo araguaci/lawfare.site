@@ -1,0 +1,59 @@
+---
+import Base from '../layouts/Base.astro';
+import data from '../data/assuntos.json';
+
+const total = data.total;
+const periodo = data.periodo;
+---
+
+<Base
+  title="Sobre — Lawfare Timeline"
+  description="Sobre o projeto Lawfare Timeline: documentação cronológica de abusos de poder no Brasil."
+  canonical={Astro.url.href}
+>
+  <article class="sobre-page" data-pagefind-ignore>
+    <h1 class="page-title">Sobre o projeto</h1>
+
+    <section class="sobre-section">
+      <h2>O que é</h2>
+      <p>
+        Lawfare Timeline é uma cronologia documentada de eventos relacionados a
+        abusos de poder, lawfare, escândalos políticos e decisões judiciais
+        controversas no Brasil.
+      </p>
+      <p>
+        O projeto reúne <strong>{total} eventos</strong> cobrindo o período de
+        <strong>{periodo}</strong>.
+      </p>
+      <p>
+        Na <a href="/">página inicial</a> há resumo do objetivo, acesso às categorias e
+        filtros por tags; a <a href="/pagina/1">timeline</a> lista todos os eventos por data.
+      </p>
+    </section>
+
+    <section class="sobre-section">
+      <h2>Categorias e tags</h2>
+      <p>
+        Os eventos são classificados em 18 categorias (Lawfare, STF, TSE,
+        Justiça, Governo, Escândalos, Impunidade, Indecoro, Operações,
+        Crise Diplomática, Bancos, Dossiê, Estudos, Extravagância,
+        Penduricalhos, Decano, Vaza Toga e Geral). As
+        <a href="/tags">tags</a> permitem cruzar temas, pessoas e anos.
+      </p>
+    </section>
+
+    <section class="sobre-section">
+      <h2>Fontes</h2>
+      <p>
+        Cada evento inclui, quando disponível, links para fontes primárias:
+        reportagens, documentos oficiais, decisões judiciais e registros públicos.
+      </p>
+    </section>
+
+    <nav class="sobre-nav">
+      <a href="/">← Início</a>
+      <span> · </span>
+      <a href="/pagina/1">Timeline completa</a>
+    </nav>
+  </article>
+</Base>

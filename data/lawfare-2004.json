@@ -1,0 +1,686 @@
+{
+  "total": 24,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2004,
+  "assuntos": [
+    {
+      "titulo": "Câmara Compra Cadeiras Ergonômicas",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "cadeiras-luxo",
+        "moveis"
+      ],
+      "descricao": "2004-01-01-Brasília, DF-legislativo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Câmara"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2004-01-01-camara-compra-cadeiras-ergonomicas.md",
+      "id": 173
+    },
+    {
+      "titulo": "Caso Agnelo Queiroz",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Diárias indevidas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-caso-agnelo-queiroz.md",
+      "id": 174
+    },
+    {
+      "titulo": "Caso Cássio Casseb",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Irregularidades no BB.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-caso-cassio-casseb.md",
+      "id": 175
+    },
+    {
+      "titulo": "Caso Henrique Meirelles",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Irregularidades financeiras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-caso-henrique-meirelles.md",
+      "id": 176
+    },
+    {
+      "titulo": "Caso Kroll",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Espionagem.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-caso-kroll.md",
+      "id": 177
+    },
+    {
+      "titulo": "Caso Luiz Augusto Candiota",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Movimentações suspeitas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-caso-luiz-augusto-candiota.md",
+      "id": 178
+    },
+    {
+      "titulo": "Conselho Federal de Jornalismo",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Proposta controversa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-conselho-federal-de-jornalismo.md",
+      "id": 179
+    },
+    {
+      "titulo": "Escândalo da Norospar",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Irregularidades em saúde no PR.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-da-norospar.md",
+      "id": 180
+    },
+    {
+      "titulo": "Escândalo da ONG Ágora",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Desvios em convênios.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-da-ong-agora.md",
+      "id": 181
+    },
+    {
+      "titulo": "Escândalo das Fotos de Herzog",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Uso político de imagens.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-das-fotos-de-herzog.md",
+      "id": 182
+    },
+    {
+      "titulo": "Escândalo do Ministério do Trabalho",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Irregularidades em contratos.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-do-ministerio-do-trabalho.md",
+      "id": 183
+    },
+    {
+      "titulo": "Escândalo do Ministério dos Esportes",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Uso para festa pessoal.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-do-ministerio-dos-esportes.md",
+      "id": 184
+    },
+    {
+      "titulo": "Escândalo dos Bingos",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Extorsão para campanhas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-dos-bingos.md",
+      "id": 185
+    },
+    {
+      "titulo": "Escândalo dos Copos",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Licitação para copos de luxo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-dos-copos.md",
+      "id": 186
+    },
+    {
+      "titulo": "Escândalo dos Frangos",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Fraudes em Roraima.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-dos-frangos.md",
+      "id": 187
+    },
+    {
+      "titulo": "Escândalo dos Vampiros",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Fraudes em saúde.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-escandalo-dos-vampiros.md",
+      "id": 188
+    },
+    {
+      "titulo": "Irregularidades na Bolsa-Escola",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Desvios no programa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-irregularidades-na-bolsa-escola.md",
+      "id": 189
+    },
+    {
+      "titulo": "Operação Farol Da Colina",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "lavagem-de-dinheiro",
+        "corrupcao-politica"
+      ],
+      "descricao": "2004-01-01-Brasília, DF-lavagem de dinheiro-corrupção política",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2004-01-01-operacao-farol-da-colina.md",
+      "id": 190
+    },
+    {
+      "titulo": "Uso dos Assessores em Campanha Eleitoral de 2004",
+      "data_evento": "2004-01-01",
+      "data_iso": "2004-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2004"
+      ],
+      "descricao": "Abuso de estrutura.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2004-01-01-uso-dos-assessores-em-campanha-eleitoral-de-2004.md",
+      "id": 191
+    },
+    {
+      "titulo": "Crime Organizado No Brasil",
+      "data_evento": "2004-05-01",
+      "data_iso": "2004-05-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "berco-criminalidade",
+        "historiadores"
+      ],
+      "descricao": "2004-05-01-Brasil-Crime Organizado-Facções",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2004-05-01-crime-organizado-no-brasil.md",
+      "id": 192
+    },
+    {
+      "titulo": "Lula visita a China; criação da COSBAN (Comissão Sino-Brasileira de Alto Nível de Concertação e Cooperação)",
+      "data_evento": "2004-05-01",
+      "data_iso": "2004-05-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Primeira visita de Lula à China como presidente resulta na criação da COSBAN, mecanismo institucional permanente de coordenação bilateral que persiste até 2026.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "http://antigo.itamaraty.gov.br/pt-BR/ficha-pais/4926-republica-popular-da-china"
+      ],
+      "pessoas_envolvidas": [
+        "Luiz Inácio Lula da Silva (Presidente da República)",
+        "Hu Jintao (Presidente da China)"
+      ],
+      "instituicoes_envolvidas": [
+        "Presidência da República",
+        "COSBAN"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2004-05-01-id1642-lula-visita-a-china-criacao-da-cosban-comissao-sino-brasileira-de-alto-nivel-de.md",
+      "id": 1642
+    },
+    {
+      "titulo": "Organizações Criminosas No Brasil",
+      "data_evento": "2004-05-23",
+      "data_iso": "2004-05-23T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "abordagem-tecnica",
+        "republica"
+      ],
+      "descricao": "2004-05-23-Brasil-Crime Organizado-Corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2004-05-23-organizacoes-criminosas-no-brasil.md",
+      "id": 193
+    },
+    {
+      "titulo": "Operação Farol da Colina (caso Banestado)",
+      "data_evento": "2004-08-17",
+      "data_iso": "2004-08-17T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "pr",
+        "sp",
+        "rj",
+        "am",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2004-08-17-operacao-farol-da-colina-caso-banestado.md",
+      "id": 194
+    },
+    {
+      "titulo": "Hu Jintao visita o Brasil; Lula reafirma \"parceria estratégica\" publicamente",
+      "data_evento": "2004-11-12",
+      "data_iso": "2004-11-12T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Presidente chinês Hu Jintao visita o Brasil pela primeira vez desde 1995 (primeira visita de um presidente brasileiro à China desde então também ocorrera em maio do mesmo ano). Lula declara em pronunciamento oficial que a parceria estratégica \"consolida-se a cada dia\".",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://www.gov.br/mre/pt-br/centrais-de-conteudo/publicacoes/discursos-artigos-e-entrevistas/presidente-da-republica/presidente-da-republica-federativa-do-brasil-discursos/luiz-inacio-lula-da-silva-2003-2011/declaracao-a-imprensa-apos-encontro-com-o-presidente-da-china-hu-jintao-palacio-do-planalto-12-de-novembro-de-2004"
+      ],
+      "pessoas_envolvidas": [
+        "Hu Jintao (Presidente da China)",
+        "Luiz Inácio Lula da Silva (Presidente da República)"
+      ],
+      "instituicoes_envolvidas": [
+        "Presidência da República",
+        "Palácio do Planalto"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2004-11-12-id1643-hu-jintao-visita-o-brasil-lula-reafirma-parceria-estrategica-publicamente.md",
+      "id": 1643
+    }
+  ]
+}

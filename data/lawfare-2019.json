@@ -1,0 +1,1839 @@
+{
+  "total": 59,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2019,
+  "assuntos": [
+    {
+      "titulo": "Gastos Com Mercado Gourmet La Palma",
+      "data_evento": "2019-01-01",
+      "data_iso": "2019-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "gourmet",
+        "cartao-corporativo"
+      ],
+      "descricao": "2019-01-01-Brasília, DF-executivo-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 680 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2019-01-01-gastos-com-mercado-gourmet-la-palma.md",
+      "id": 429
+    },
+    {
+      "titulo": "Operação Alerta Mínimo",
+      "data_evento": "2019-01-01",
+      "data_iso": "2019-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "ambiental",
+        "mineracao-ilegal",
+        "ambiental"
+      ],
+      "descricao": "2019-01-01-Manaus, AM-mineração ilegal-ambiental",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2019-01-01-operacao-alerta-minimo.md",
+      "id": 430
+    },
+    {
+      "titulo": "Operação Efeito Colateral",
+      "data_evento": "2019-01-01",
+      "data_iso": "2019-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "fraude",
+        "fraude-saude",
+        "corrupcao"
+      ],
+      "descricao": "2019-01-01-São Paulo, SP-fraude saúde-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2019-01-01-operacao-efeito-colateral.md",
+      "id": 431
+    },
+    {
+      "titulo": "Operação Faroeste",
+      "data_evento": "2019-01-01",
+      "data_iso": "2019-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "ba",
+        "venda-de-sentencas"
+      ],
+      "descricao": "Esquema de grilagem de terras e venda de sentenças envolvendo desembargadores do TJ‑BA✧  advogados e servidores públicos.Desembargadores Maria do Socorro Barreto Santiago✧  Ilona Reis✧  Lígia Cunha✧  José Olegário Monção✧  Maria da Graça Osórioprodutores rurais✧  advogados✧  servidoras e servidores do MP‑BA",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2019-01-01-operacao-faroeste.md",
+      "id": 432
+    },
+    {
+      "titulo": "Vaza Jato Vazamento de Mensagens da Lava Jato",
+      "data_evento": "2019-01-01",
+      "data_iso": "2019-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "pr"
+      ],
+      "descricao": "Vazamento de conversas mostrando colaboração imprópria entre juiz e procuradores✧  sugerindo parcialidade.Juiz Sergio Moro✧  procurador Deltan Dallagnol✧  equipe da Lava Jato.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2019-01-01-vaza-jato-vazamento-de-mensagens-da-lava-jato.md",
+      "id": 433
+    },
+    {
+      "titulo": "Perícia da PF aponta perfuração feita pela própria Vale como gatilho direto do rompimento da B1",
+      "data_evento": "2019-01-25",
+      "data_iso": "2019-01-25T12:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "p01",
+        "p05"
+      ],
+      "descricao": "Laudo da Polícia Federal (concluído em 2021) qualificou como 'atropelo' a segunda campanha de perfurações na B1, iniciada em 20/01/2019 — 18 dias após a liberação antitruste da compra da New Steel pelo CADE (02/01/2019) — para caracterizar rejeitos e instalar instrumentos de pressão. Perfuração a 68 metros de profundidade atingiu camada de rejeitos saturados; fluido de resfriamento elevou pressão de poros, iniciando liquefação que rompeu o talude em menos de 30 segundos, matando 272 pessoas.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/o-negocio-da-lama-a-venda-bilionaria"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Vale S.A.",
+        "Polícia Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\operacoes\\2019-01-25-pericia-da-pf-aponta-perfuracao-feita-pela-propria-vale-como-gatilho-direto-do-rompimento-.md",
+      "id": 1921
+    },
+    {
+      "titulo": "Declarações sobre Lava-Jato",
+      "data_evento": "2019-02-26",
+      "data_iso": "2019-02-26T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "rio-de-janeiro",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2019-02-26-declaracoes-sobre-lava-jato.md",
+      "id": 434
+    },
+    {
+      "titulo": "Dias Toffoli instaura, por meio de Portaria nº 69 do Gabinete da Presidência do STF, o Inquérito das Fake News e designa Alexandre de Moraes como seu condutor",
+      "data_evento": "2019-03-14",
+      "data_iso": "2019-03-14T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "juiz-natural",
+        "imparcialidade",
+        "devido-processo-legal",
+        "separacao-dos-poderes",
+        "sistema-acusatorio",
+        "proibicao-de-tribunal-de-excecao",
+        "dias-toffoli",
+        "alexandre-de-moraes",
+        "stf",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2019/03/14 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2019-03-14-dias-toffoli-instaura.md",
+      "id": 435
+    },
+    {
+      "titulo": "Em 14 de março de 2019, o ministro Dias Toffoli abriu o Inquérito das Fake News e o deixou a cargo de Alexandre de Moraes.",
+      "data_evento": "2019-03-14",
+      "data_iso": "2019-03-14T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "conjur",
+        "toffoli",
+        "fake-news"
+      ],
+      "descricao": "2019-03-14-conjur-Conjur-Toffoli",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-03-14-em-14-de-marco-de-2019.md",
+      "id": 436
+    },
+    {
+      "titulo": "Dias Toffoli abriu o Inquérito das Fake News.",
+      "data_evento": "2019-03-14",
+      "data_iso": "2019-03-14T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "conjur",
+        "toffoli",
+        "fake-news",
+        "governo-federal",
+        "inquerito"
+      ],
+      "descricao": "Em 14 de março de 2019, o ministro Dias Toffoli abriu o Inquérito das Fake News e o deixou a cargo de Alexandre de Moraes.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-03-14-em-14-de-marco-de-2019.md",
+      "id": 437
+    },
+    {
+      "titulo": "Toffoli abre de ofício o INQ 4.781/DF após ofensas de procurador da Lava Jato ao Judiciário",
+      "data_evento": "2019-03-14",
+      "data_iso": "2019-03-14T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P02",
+        "P03",
+        "P10"
+      ],
+      "descricao": "O então presidente do STF, Dias Toffoli, instaurou de ofício o Inquérito 4.781/DF em 14/03/2019 (Portaria GP nº 69/2019), com relatoria de Alexandre de Moraes, motivado por manifestações do procurador da República Diogo Castor de Mattos (Operação Lava Jato) consideradas ofensivas ao Judiciário. O escopo original — apurar notícias fraudulentas, ameaças e infrações contra a honorabilidade do STF — antecede em mais de um ano a pandemia e em mais de três anos o ciclo eleitoral de 2022, que posteriormente se tornariam os focos de maior expansão do inquérito.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://lawfare-timeline.vercel.app/inq4781.html"
+      ],
+      "pessoas_envolvidas": [
+        "Dias Toffoli (Instaurador de ofício — presidente do STF à época)",
+        "Alexandre de Moraes (Relator designado)",
+        "Diogo Castor de Mattos (Procurador cujas manifestações motivaram a abertura)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "MPF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2019-03-14-toffoli-abre-de-oficio-o-inq-4781df-apos-ofensas-de-procurador-da-lava-jato-ao-judiciario.md",
+      "id": 1777
+    },
+    {
+      "titulo": "Almoço com Maia",
+      "data_evento": "2019-03-21",
+      "data_iso": "2019-03-21T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "residencia-oficial-de-rodrigo-maia",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2019-03-21-almoco-com-maia.md",
+      "id": 438
+    },
+    {
+      "titulo": "O amigo do amigo de meu pai.",
+      "data_evento": "2019-04-11",
+      "data_iso": "2019-04-11T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "odebrecht",
+        "toffoli",
+        "lava-jato"
+      ],
+      "descricao": "2019-04-11-crusoe-Odebrecht-Toffoli",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-04-11-o-amigo-do-amigo-de-meu-pai.md",
+      "id": 439
+    },
+    {
+      "titulo": "O amigo do amigo de meu pai.",
+      "data_evento": "2019-04-11",
+      "data_iso": "2019-04-11T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "odebrecht",
+        "toffoli",
+        "lava-jato"
+      ],
+      "descricao": "O amigo do amigo de meu pai. publicação 2019-04-11, veículo crusoe. Temas: Odebrecht, Toffoli, Lava Jato.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-04-11-o-amigo-do-amigo-de-meu-pai.md",
+      "id": 440
+    },
+    {
+      "titulo": "Censura a reportagem da Crusoé ligando Toffoli à Odebrecht por citar Amigo do amigo do meu pai",
+      "data_evento": "2019-04-15",
+      "data_iso": "2019-04-15T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "censura",
+        "liberdade-de-expressao",
+        "liberdade-de-imprensa",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "alexandre-de-moraes",
+        "revista-crusoe",
+        "dias-toffoli",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2019/04/15 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2019-04-15-censura-a-reportagem-da-crusoe-ligando-toffoli-a-odebrecht-por-citar-amigo-do-amigo-do-meu-pai.md",
+      "id": 441
+    },
+    {
+      "titulo": "Buscas e bloqueio de redes sociais no Inquérito das Fake News contra candidatos e internautas que criticaram o STF",
+      "data_evento": "2019-04-16",
+      "data_iso": "2019-04-16T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "liberdade-de-expressao",
+        "domicilio-violado",
+        "devido-processo-legal",
+        "separacao-de-poderes",
+        "alexandre-de-moraes",
+        "candidatos-e-internautas",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2019/04/16 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2019-04-16-buscas-e-bloqueio-de-redes-sociais-no-inquerito-das-fake-news-contra-candidatos-e-internautas-que-criticaram-o-stf.md",
+      "id": 442
+    },
+    {
+      "titulo": "Em 16 de abril de 2019, o ministro Alexandre de Moraes contrariou Raquel Dodge e manteve o inquérito das Fake News.",
+      "data_evento": "2019-04-16",
+      "data_iso": "2019-04-16T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "alexandre-de-moraes",
+        "governo-federal",
+        "fake-news"
+      ],
+      "descricao": "2019-04-16-dcomercio-Alexandre Moraes-Governo Federal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-04-16-em-16-de-abril-de-2019.md",
+      "id": 443
+    },
+    {
+      "titulo": "Em 16 de abril de 2019, o ministro Alexandre de Moraes contrariou Raquel Dodge e manteve o inquérito das Fake News.",
+      "data_evento": "2019-04-16",
+      "data_iso": "2019-04-16T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "alexandre-de-moraes",
+        "governo-federal",
+        "fake-news",
+        "contrariou",
+        "inquerito"
+      ],
+      "descricao": "Em 16 de abril de 2019, o ministro Alexandre de Moraes contrariou Raquel Dodge e manteve o inquérito das Fake News. publicação 2019-04-16, veículo…",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-04-16-em-16-de-abril-de-2019.md",
+      "id": 444
+    },
+    {
+      "titulo": ">",
+      "data_evento": "2019-04-16",
+      "data_iso": "2019-04-16T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "alexandre-de-moraes",
+        "extrapola",
+        "abuso-de-autoridade"
+      ],
+      "descricao": "2019-04-16-oglobo-Alexandre Moraes-Extrapola",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-04-16-ministro-do-stf-manda-bloquear-redes-sociais-de-general-e-outros-investigados-subversao-da-ordem.md",
+      "id": 445
+    },
+    {
+      "titulo": "Ministro do STF manda bloquear redes sociais.",
+      "data_evento": "2019-04-16",
+      "data_iso": "2019-04-16T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "alexandre-de-moraes",
+        "extrapola",
+        "abuso-de-autoridade",
+        "eleicoes",
+        "bloqueio"
+      ],
+      "descricao": "Ministro do STF manda bloquear redes sociais. publicação 2019-04-16, veículo oglobo. Temas: Alexandre Moraes, Extrapola, Abuso de Autoridade, Eleições.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-04-16-ministro-do-stf-manda-bloquear-redes-sociais-de-general-e-outros-investigados-subversao-da-ordem.md",
+      "id": 446
+    },
+    {
+      "titulo": "PGR promove o arquivamento do Inquérito nos autos; Moraes ignora a jurisprudência do STF e rejeita o arquivamento",
+      "data_evento": "2019-04-16",
+      "data_iso": "2019-04-16T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "juiz-natural",
+        "imparcialidade",
+        "devido-processo-legal",
+        "separacao-dos-poderes",
+        "sistema-acusatorio",
+        "proibicao-de-juiz-de-excecao",
+        "alexandre-de-moraes",
+        "pgr",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2019/04/16 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PGR"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2019-04-16-pgr-promove-o-arquivamento-do-inquerito-nos-autos-moraes-ignora-a-jurisprudencia-do-stf-e-rejeita-o-arquivamento.md",
+      "id": 447
+    },
+    {
+      "titulo": "Stf Licita Lagostas",
+      "data_evento": "2019-04-26",
+      "data_iso": "2019-04-26T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "refeicoes-luxo",
+        "licitacao"
+      ],
+      "descricao": "2019-04-26-Brasília, DF-judiciario-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1,1 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2019-04-26-stf-licita-lagostas.md",
+      "id": 448
+    },
+    {
+      "titulo": "Stf Licita Vinhos Premiados",
+      "data_evento": "2019-04-26",
+      "data_iso": "2019-04-26T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "bebidas-luxo",
+        "licitacao"
+      ],
+      "descricao": "2019-04-26-Brasília, DF-judiciario-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1,1 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2019-04-26-stf-licita-vinhos-premiados.md",
+      "id": 449
+    },
+    {
+      "titulo": "Operação Disfarces de Mamom (Banco Paulista)",
+      "data_evento": "2019-05-08",
+      "data_iso": "2019-05-08T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "sp-nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2019-05-08-operacao-disfarces-de-mamom-banco-paulista.md",
+      "id": 450
+    },
+    {
+      "titulo": "Corte no orçamento de universidades será julgado por Plenário do STF.",
+      "data_evento": "2019-05-10",
+      "data_iso": "2019-05-10T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "celso-de-mello",
+        "governo-federal",
+        "pdt"
+      ],
+      "descricao": "2019-05-10-diariodonordeste-Celso de Mello-Governo Federal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-05-10-corte-no-orcamento-de-universidades-sera-julgado-por-plenario-do-stf.md",
+      "id": 451
+    },
+    {
+      "titulo": "Corte no orçamento de universidades será julgado por Plenário do STF.",
+      "data_evento": "2019-05-10",
+      "data_iso": "2019-05-10T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "celso-de-mello",
+        "governo-federal",
+        "pdt"
+      ],
+      "descricao": "Corte no orçamento de universidades será julgado por Plenário do STF. publicação 2019-05-10, veículo diariodonordeste. Temas: Celso de Mello, Governo…",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-05-10-corte-no-orcamento-de-universidades-sera-julgado-por-plenario-do-stf.md",
+      "id": 452
+    },
+    {
+      "titulo": "Em 10 de maio de 2019, a ministra Rosa Weber deu cinco dias para Bolsonaro explicar o decreto que facilitou o porte de armas.",
+      "data_evento": "2019-05-10",
+      "data_iso": "2019-05-10T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "rosa-weber",
+        "governo-federal",
+        "explicar"
+      ],
+      "descricao": "2019-05-10-g1-Rosa Weber-Governo Federal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-05-10-em-10-de-maio-de-2019.md",
+      "id": 453
+    },
+    {
+      "titulo": "Em 10 de maio de 2019, a ministra Rosa Weber deu cinco dias para Bolsonaro explicar o decreto que facilitou o porte de armas.",
+      "data_evento": "2019-05-10",
+      "data_iso": "2019-05-10T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "rosa-weber",
+        "governo-federal",
+        "explicar",
+        "decreto",
+        "prazo",
+        "bolsonaro"
+      ],
+      "descricao": "Rosa Weber deu prazo a Bolsonaro para explicar decreto sobre porte de armas. Registro de 10/05/2019 no g1, com repercussão no STF e no governo federal.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-05-10-em-10-de-maio-de-2019.md",
+      "id": 454
+    },
+    {
+      "titulo": "Gastos Com Padaria No Rj",
+      "data_evento": "2019-06-01",
+      "data_iso": "2019-06-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "cartao-corporativo",
+        "padaria"
+      ],
+      "descricao": "2019-06-01-Rio de Janeiro, RJ-executivo-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 55 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2019-06-01-gastos-com-padaria-no-rj.md",
+      "id": 455
+    },
+    {
+      "titulo": "Em 12 de junho de 2019, após ação do PT, o STF formou maioria e cancelou a Extinção de Conselhos promovida pelo Governo Bolsonaro.",
+      "data_evento": "2019-06-12",
+      "data_iso": "2019-06-12T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "extinsao"
+      ],
+      "descricao": "2019-06-12-conjur-Governo Federal-Extinsão",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-06-12-em-12-de-junho-de-2019.md",
+      "id": 456
+    },
+    {
+      "titulo": "Em 12 de junho de 2019, após ação do PT, o STF formou maioria e cancelou a Extinção de Conselhos promovida pelo Governo Bolsonaro.",
+      "data_evento": "2019-06-12",
+      "data_iso": "2019-06-12T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "governo-federal",
+        "extinsao"
+      ],
+      "descricao": "Em 12 de junho de 2019, após ação do PT, o STF formou maioria e cancelou a Extinção de Conselhos promovida pelo Governo . publicação 2019-06-12, veículo…",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-06-12-em-12-de-junho-de-2019.md",
+      "id": 457
+    },
+    {
+      "titulo": "Em 24 de junho de 2019, o ministro Barroso suspendeu MP de Bolsonaro que transferia a demarcação de terras da FUNAI para o Ministério da Agricultura.",
+      "data_evento": "2019-06-24",
+      "data_iso": "2019-06-24T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "barroso",
+        "governo-federal",
+        "funai"
+      ],
+      "descricao": "2019-06-24-veja-Barroso-Governo Federal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-06-24-em-24-de-junho-de-2019.md",
+      "id": 458
+    },
+    {
+      "titulo": "Em 24 de junho de 2019, Barroso suspende MP de Bolsonaro sobre demarcação de terras indígenas.",
+      "data_evento": "2019-06-24",
+      "data_iso": "2019-06-24T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "barroso",
+        "governo-federal",
+        "funai",
+        "demarcacao"
+      ],
+      "descricao": "Em 24 de junho de 2019, Barroso suspende MP de Bolsonaro sobre demarcação de terras indígenas. publicação 2019-06-24, veículo veja. Temas: Barroso, Governo…",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2019-06-24-em-24-de-junho-de-2019.md",
+      "id": 459
+    },
+    {
+      "titulo": "Vice-presidente Mourão declara que Brasil não restringirá a Huawei no 5G, desafiando pressão dos EUA",
+      "data_evento": "2019-07-15",
+      "data_iso": "2019-07-15T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P04b",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Já no governo Bolsonaro — eleito com retórica de campanha crítica à China —, o vice-presidente Hamilton Mourão declara publicamente que o país não vai impedir a Huawei de atuar na futura rede 5G brasileira, contrariando pressão direta do governo Trump.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://www.aljazeera.com/ajimpact/defying-brazil-huawei-move-5g-network-190715210649133.html"
+      ],
+      "pessoas_envolvidas": [
+        "Hamilton Mourão (Vice-Presidente da República)"
+      ],
+      "instituicoes_envolvidas": [
+        "Presidência da República",
+        "Anatel"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2019-07-15-id1647-vice-presidente-mourao-declara-que-brasil-nao-restringira-a-huawei-no-5g-desafia.md",
+      "id": 1647
+    },
+    {
+      "titulo": "Operação Poeira Vermelha — extração de minério sob cobertura de terraplanagem em Nova Lima",
+      "data_evento": "2019-07-18",
+      "data_iso": "2019-07-18T12:00:00Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "P08",
+        "operacao-rejeito"
+      ],
+      "descricao": "PF identifica empresas que simulavam obras de terraplanagem em terrenos urbanos de Nova Lima enquanto extraíam ilegalmente minério de ferro para revenda a siderúrgicas. Mesmo estratagema replicado em mai/2021 e confirmado no 3º manuscrito apreendido em 2025.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Operação Poeira Vermelha",
+      "fontes": [
+        "Polícia Federal — Operação Poeira Vermelha"
+      ],
+      "pessoas_envolvidas": [
+        "Fleurs Global",
+        "Gute Sicht"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\operacoes\\2019-07-18-poeira-vermelha-terraplanagem-nova-lima.md",
+      "id": 1552
+    },
+    {
+      "titulo": "Operação Spoofing",
+      "data_evento": "2019-07-23",
+      "data_iso": "2019-07-23T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "cibercrime",
+        "cibercrime",
+        "vazamento-dados"
+      ],
+      "descricao": "2019-07-23-Araraquara, SP-cibercrime-vazamento dados",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2019-07-23-operacao-spoofing.md",
+      "id": 460
+    },
+    {
+      "titulo": "Em 30 de julho de 2019, o ministro Dias Toffoli proibiu o Governo Federal de bloquear verbas de Goiás em cobrança de dívidas do estado para com a União.",
+      "data_evento": "2019-07-30",
+      "data_iso": "2019-07-30T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "toffoli",
+        "governo-federal",
+        "dividas"
+      ],
+      "descricao": "2019-07-30-podergoias-Toffoli-Governo Federal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-07-30-em-30-de-julho-de-2019.md",
+      "id": 461
+    },
+    {
+      "titulo": "Em 1º de agosto de 2019, o ministro Barroso deu prazo de 15 dias para Bolsonaro explicar sua fala sobre o pai de Felipe Santa Cruz, presidente da OAB.",
+      "data_evento": "2019-08-01",
+      "data_iso": "2019-08-01T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "oab",
+        "barroso"
+      ],
+      "descricao": "2019-08-01-poder360-Governo Federal-OAB",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-08-01-em-1o-de-agosto-de-2019.md",
+      "id": 462
+    },
+    {
+      "titulo": "Soltura De Odemir Francisco Dos Santos",
+      "data_evento": "2019-08-01",
+      "data_iso": "2019-08-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "cupula-pcc",
+        "segundo-escalao"
+      ],
+      "descricao": "2019-08-01-Brasil-PCC-Lavagem Dinheiro",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2019-08-01-soltura-de-odemir-francisco-dos-santos.md",
+      "id": 463
+    },
+    {
+      "titulo": "Moraes suspende investigações da Receita Federal sobre 133 contribuintes dentro do INQ 4.781",
+      "data_evento": "2019-08-01",
+      "data_iso": "2019-08-01T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P02",
+        "P05"
+      ],
+      "descricao": "Alexandre de Moraes, relator do INQ 4.781, determinou a suspensão imediata de todos os procedimentos investigatórios instaurados pela Receita Federal com base na Nota Copes nº 48/2018, que alcançava 133 contribuintes — entre eles ministros do STF e cônjuges, incluindo Roberta Rangel, esposa do então presidente da Corte, Dias Toffoli. A decisão também determinou o afastamento cautelar de dois auditores fiscais (Wilson Nelson da Silva e Luciano Francisco Castro) sob acusação de quebra indevida de sigilo. Fundamentação citada: 'graves indícios de ilegalidade no direcionamento das apurações em andamento'.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://www.poder360.com.br/justica/moraes-suspende-investigacoes-da-receita-sobre-133-contribuintes/",
+        "https://www.jota.info/stf/do-supremo/ministro-suspende-apuracoes-da-receita-federal-sobre-133-contribuintes-01082019",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2019-08/ministro-do-stf-suspende-investigacao-da-receita-contra-autoridades"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Relator do INQ 4.781 — decisão monocrática)",
+        "Dias Toffoli (Cônjuge de contribuinte investigada; abriu o INQ 4.781 em 2019)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Receita Federal do Brasil",
+        "Sindifisco Nacional"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2019-08-01-moraes-suspende-investigacoes-da-receita-federal-sobre-133-contribuintes-dentro-do-inq-478.md",
+      "id": 1898
+    },
+    {
+      "titulo": "Em 05 de agosto de 2019, a ministra Rosa Weber deu prazo de 15 dias para Bolsonaro explicar declarações sobre Dilma Rousseff.",
+      "data_evento": "2019-08-05",
+      "data_iso": "2019-08-05T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "rosa-weber",
+        "prazo"
+      ],
+      "descricao": "2019-08-05-veja-Governo Federal-Rosa Weber",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-08-05-em-05-de-agosto-de-2019.md",
+      "id": 464
+    },
+    {
+      "titulo": "Governador João Doria (SP) inaugura escritório comercial do estado em Xangai durante \"Missão China\"",
+      "data_evento": "2019-08-09",
+      "data_iso": "2019-08-09T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "crise-diplomatica",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Governo de São Paulo abre escritório de representação comercial em Xangai e anuncia acordos genéricos de cooperação, incluindo transferência de tecnologia entre o Instituto Butantan e a Sinovac Biotech — sem qualquer menção a vacina contra coronavírus, doença ainda inexistente como problema de saúde pública global.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "incidente_diplomatico",
+      "fontes": [
+        "https://www.aosfatos.org/noticias/e-falso-que-doria-fechou-contrato-com-chineses-em-2019-para-vacina-contra-o-novo-coronavirus/"
+      ],
+      "pessoas_envolvidas": [
+        "João Doria (Governador de São Paulo)"
+      ],
+      "instituicoes_envolvidas": [
+        "Governo de São Paulo",
+        "InvestSP",
+        "Instituto Butantan",
+        "Sinovac Biotech"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2019-08-09-id1648-governador-joao-doria-sp-inaugura-escritorio-comercial-do-estado-em-xangai-duran.md",
+      "id": 1648
+    },
+    {
+      "titulo": "Entrevista ao Correio Braziliense",
+      "data_evento": "2019-09-03",
+      "data_iso": "2019-09-03T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2019-09-03-entrevista-ao-correio-braziliense.md",
+      "id": 465
+    },
+    {
+      "titulo": "Programa de entrevistas UOL e Folha",
+      "data_evento": "2019-09-14",
+      "data_iso": "2019-09-14T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2019-09-14-programa-de-entrevistas-uol-e-folha.md",
+      "id": 466
+    },
+    {
+      "titulo": "Entrevista a Folha e UOL",
+      "data_evento": "2019-09-15",
+      "data_iso": "2019-09-15T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2019-09-15-entrevista-a-folha-e-uol.md",
+      "id": 467
+    },
+    {
+      "titulo": "Busca e apreensão contra ex-PGR Rodrigo Janot",
+      "data_evento": "2019-09-27",
+      "data_iso": "2019-09-27T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "domicilio-violado",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "separacao-de-poderes",
+        "alexandre-de-moraes",
+        "rodrigo-janot",
+        "gravidade-alta"
+      ],
+      "descricao": "Ação em 2019/09/27 com violações, envolvidos, fontes e gravidade alta",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PGR"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2019-09-27-busca-e-apreensao-contra-ex-pgr-rodrigo-janot.md",
+      "id": 468
+    },
+    {
+      "titulo": ">",
+      "data_evento": "2019-09-28",
+      "data_iso": "2019-09-28T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "gilmar-mendes",
+        "lava-jato",
+        "sergio-moro"
+      ],
+      "descricao": "2019-09-28-elpais-Gilmar Mendes-Lava Jato",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-09-28-em-28-de-outubro-de-2019.md",
+      "id": 469
+    },
+    {
+      "titulo": "Laranja do PSL",
+      "data_evento": "2019-10-01",
+      "data_iso": "2019-10-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-bolsonaro",
+        "2019"
+      ],
+      "descricao": "Uso de candidaturas laranjas para desvio de fundos eleitorais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2019-10-01-laranja-do-psl.md",
+      "id": 470
+    },
+    {
+      "titulo": "Ratinho Jr inaugura expansão do TCP ao lado de autoridades chinesas",
+      "data_evento": "2019-10-10",
+      "data_iso": "2019-10-10T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "dragao-onca",
+        "china",
+        "parana",
+        "porto",
+        "P05"
+      ],
+      "descricao": "O governador Carlos Massa Ratinho Júnior inaugura as obras de ampliação do Terminal de Contêineres de Paranaguá (TCP), elevando a capacidade em 66% (1,5mi para 2,5mi TEUs/ano). Investimento de R$550 milhões, com outros R$548 milhões contratualmente previstos até 2048. Cerimônia conta com presença da ministra-conselheira de Comércio da China, Shao Yingjun, do vice-presidente do China Merchants Group, Deng Renjie, e do diretor da China Merchants Ports, Bai Jing Tao — estabelecendo relação direta e pessoal entre o governador e a estatal chinesa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "Governador participa pessoalmente de cerimônia com autoridades chinesas de alto escalão para celebrar expansão de ativo portuário estratégico sob controle de estatal estrangeira — primeiro contato direto documentado entre Ratinho Jr e a CMPort.",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.portosdoparana.pr.gov.br/Noticia/Parana-passa-ter-o-maior-terminal-para-conteineres-do-Brasil"
+      ],
+      "pessoas_envolvidas": [
+        "Carlos Massa Ratinho Júnior (Governador do Paraná)",
+        "Shao Yingjun (Ministra-Conselheira de Comércio da China)",
+        "Deng Renjie (Vice-Presidente do China Merchants Group)"
+      ],
+      "instituicoes_envolvidas": [
+        "Governo do Estado do Paraná",
+        "China Merchants Port",
+        "TCP"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 550 milhões (+ R$548mi contratados até 2048)",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dragao-onca\\2019-10-10-id1732-ratinho-inaugura-expansao-tcp.md",
+      "id": 1732,
+      "connections": [
+        "id_1731",
+        "id_1733"
+      ],
+      "lacuna_investigativa": "Fonte única identificada (Portos do Paraná, órgão oficial estadual); não localizada cobertura jornalística independente da cerimônia."
+    },
+    {
+      "titulo": "Em 21 de outubro de 2019, o ministro Gilmar Mendes suspendeu a medida provisória que dispensava publicação de editais na grande imprensa.",
+      "data_evento": "2019-10-21",
+      "data_iso": "2019-10-21T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "gilmar-mendes"
+      ],
+      "descricao": "2019-10-21-senado-Governo Federal-Gilmar Mendes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-10-21-em-21-de-outubro-de-2019.md",
+      "id": 471
+    },
+    {
+      "titulo": "STF declara inconstitucional execução da pena após condenação em 2ª instância (ADCs 43, 44 e 54)",
+      "data_evento": "2019-11-07",
+      "data_iso": "2019-11-07T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P01"
+      ],
+      "descricao": "Por 6 votos a 5, o plenário do STF julgou as ADCs 43, 44 e 54 e declarou inconstitucional a execução provisória da pena antes do trânsito em julgado, revertendo jurisprudência própria fixada em 2016 (HC 126.292). Voto decisivo: Dias Toffoli, então presidente. Votaram pela inconstitucionalidade da prisão antecipada: Toffoli, Marco Aurélio Mello (relator), Rosa Weber, Ricardo Lewandowski, Gilmar Mendes e Celso de Mello. Votaram contra: Alexandre de Moraes, Edson Fachin, Luís Roberto Barroso, Luiz Fux e Cármen Lúcia. Impacto estimado pelo CNJ à época: cerca de 5 mil presos, incluindo condenados da Operação Lava Jato.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Dias Toffoli (Presidente do STF — voto decisivo pela inconstitucionalidade)",
+        "Marco Aurélio Mello (Relator das ADCs 43, 44 e 54)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2019-11-07-stf-declara-inconstitucional-execucao-da-pena-apos-condenacao-em-2-instancia-adcs-43-44-e-.md",
+      "id": 1899
+    },
+    {
+      "titulo": "Governo do Pará assina protocolo de intenções com a CCCC para a Ferrovia do Pará (R$7 bilhões)",
+      "data_evento": "2019-11-12",
+      "data_iso": "2019-11-12T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "bancos",
+        "P05",
+        "P10",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Governador Helder Barbalho assina em Brasília protocolo de intenções para estudos de viabilidade da Ferrovia do Pará com a China Communications Construction Company (CCCC) e a Concremat, ligando Marabá a Barcarena (492km). Primeira etapa prevista até 2026. Traçado cruza 23 municípios, incluindo territórios tradicionais, agroextrativistas e quilombolas não consultados previamente.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://revistaferroviaria.com.br/2020/04/chineses-vao-investir-r-7-bilhoes-no-para/",
+        "https://www.brasildefato.com.br/2019/11/28/governo-do-para-anuncia-ferrovia-e-comunidades-temem-mais-mortes-e-mais-sofrimento/"
+      ],
+      "pessoas_envolvidas": [
+        "Helder Barbalho (Governador do Pará)",
+        "Chen Zhong (Vice-presidente CCCC)"
+      ],
+      "instituicoes_envolvidas": [
+        "Governo do Pará",
+        "CCCC",
+        "Concremat"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2019-11-12-id1654-governo-do-para-assina-protocolo-de-intencoes-com-a-cccc-para-a-ferrovia-do-para.md",
+      "id": 1654
+    },
+    {
+      "titulo": "Operação Faroeste - Fase Inicial",
+      "data_evento": "2019-11-19",
+      "data_iso": "2019-11-19T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "venda-de-sentencas",
+        "grilagem-de-terras",
+        "corrupcao-judicial",
+        "organizacao-criminosa",
+        "desembargadores-nao-identificados",
+        "juizes-de-direito",
+        "advogados",
+        "produtores-rurais",
+        "comunidades-rurais",
+        "erario-publico",
+        "prisoes-temporarias",
+        "buscas-e-apreensoes",
+        "afastamento-de-magistrados",
+        "gravidade-alta",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 581,000,000, ",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2019-11-19-operacao-faroeste-fase-inicial.md",
+      "id": 472
+    },
+    {
+      "titulo": "Operação Faroeste",
+      "data_evento": "2019-11-19",
+      "data_iso": "2019-11-19T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-judicial",
+        "grilagem-terras"
+      ],
+      "descricao": "2019-11-19-Salvador, BA-corrupção judicial-grilagem terras",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2019-11-19-operacao-faroeste.md",
+      "id": 473
+    },
+    {
+      "titulo": "Em 27 de novembro de 2019, a ministra Cármen Lúcia deu cinco dias de prazo para Bolsonaro explicar o Programa Verde Amarelo.",
+      "data_evento": "2019-11-27",
+      "data_iso": "2019-11-27T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "carmen-lucia",
+        "prazo"
+      ],
+      "descricao": "2019-11-27-poder360-Governo Federal-Cármen Lúcia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-11-27-em-27-de-novembro-de-2019.md",
+      "id": 474
+    },
+    {
+      "titulo": "Valor devolvido pela Lava Jato já ultrapassa os R$ 4 bilhões.",
+      "data_evento": "2019-12-02",
+      "data_iso": "2019-12-02T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "lava-jato"
+      ],
+      "descricao": "2019-12-02-mpf-Lava Jato-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 4 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-12-02-valor-devolvido-pela-lava-jato-ja-ultrapassa-os-r-4-bilhoes.md",
+      "id": 475
+    },
+    {
+      "titulo": "Em 13 de dezembro de 2019, a ministra Rosa Weber deu prazo de 10 dias para Bolsonaro explicar a fala sobre Glenn Greenwald.",
+      "data_evento": "2019-12-13",
+      "data_iso": "2019-12-13T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "rosa-weber",
+        "prazo"
+      ],
+      "descricao": "2019-12-13-forum-Governo Federal-Rosa Weber",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-12-13-em-13-de-dezembro-de-2019.md",
+      "id": 476
+    },
+    {
+      "titulo": "Primeira prorrogação do inquérito das fake news por 180 dias",
+      "data_evento": "2019-12-16",
+      "data_iso": "2019-12-16T00:00:00.000Z",
+      "categoria": "dossie",
+      "tags": [
+        "dossie",
+        "seguranca-juridica",
+        "devido-processo-legal",
+        "proporcionalidade",
+        "razoavel-duracao-do-processo",
+        "alexandre-de-moraes",
+        "gravidade-media"
+      ],
+      "descricao": "Ação em 2019/12/16 com violações, envolvidos, fontes e gravidade media",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Descrição Completa",
+        "Violações"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dossie\\2019-12-16-primeira-prorrogacao-do-inquerito-das-fake-news-por-180-dias.md",
+      "id": 477
+    },
+    {
+      "titulo": "Em 20 de dezembro de 2019, o STF suspendeu a MP de Bolsonaro que previa o fim do seguro DPVAT.",
+      "data_evento": "2019-12-20",
+      "data_iso": "2019-12-20T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "governo-federal",
+        "dpvat"
+      ],
+      "descricao": "2019-12-20-estradas-Governo Federal-DPVAT",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2019-12-20-em-20-de-dezembro-de-2019.md",
+      "id": 478
+    }
+  ]
+}

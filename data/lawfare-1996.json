@@ -1,0 +1,119 @@
+{
+  "total": 4,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1996,
+  "assuntos": [
+    {
+      "titulo": "Caso PC Farias",
+      "data_evento": "1996-01-01",
+      "data_iso": "1996-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1996"
+      ],
+      "descricao": "Assassinato ligado a corrupção.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1996-01-01-caso-pc-farias.md",
+      "id": 89
+    },
+    {
+      "titulo": "Escândalo Banestado",
+      "data_evento": "1996-01-01",
+      "data_iso": "1996-01-01T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "parana"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\1996-01-01-escandalo-banestado.md",
+      "id": 90
+    },
+    {
+      "titulo": "Escândalo da Administração de Paulo Maluf",
+      "data_evento": "1996-01-01",
+      "data_iso": "1996-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1996"
+      ],
+      "descricao": "Corrupção em SP.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1996-01-01-escandalo-da-administracao-de-paulo-maluf.md",
+      "id": 91
+    },
+    {
+      "titulo": "Escândalo da Pasta Rosa",
+      "data_evento": "1996-01-01",
+      "data_iso": "1996-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1996"
+      ],
+      "descricao": "Dossiê com acusações contra opositores.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1996-01-01-escandalo-da-pasta-rosa.md",
+      "id": 92
+    }
+  ]
+}

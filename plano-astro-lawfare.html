@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plano — Jekyll → Astro | lawfare-timeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0b;
+    --bg2: #111113;
+    --bg3: #17171a;
+    --border: rgba(255,255,255,0.07);
+    --border2: rgba(255,255,255,0.12);
+    --text: #e8e6e0;
+    --muted: #8a8880;
+    --accent: #ff4444;
+    --accent2: #ff8800;
+    --accent3: #22d3a8;
+    --gold: #f59e0b;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'Syne', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  /* Noise overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .page { position: relative; z-index: 1; max-width: 960px; margin: 0 auto; padding: 48px 24px 96px; }
+
+  /* Header */
+  .header { margin-bottom: 64px; }
+  .header-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,68,68,0.1); border: 1px solid rgba(255,68,68,0.25);
+    color: var(--accent); font-family: var(--mono); font-size: 11px; font-weight: 600;
+    padding: 4px 12px; border-radius: 2px; letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  .header h1 {
+    font-family: var(--sans); font-size: clamp(32px, 5vw, 56px);
+    font-weight: 800; line-height: 1.05; letter-spacing: -0.02em;
+    color: var(--text);
+  }
+  .header h1 span.del { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--accent); }
+  .header h1 span.new { color: var(--accent3); }
+
+  .header-sub {
+    margin-top: 16px; font-size: 13px; color: var(--muted); max-width: 560px;
+    line-height: 1.6;
+  }
+  .header-meta {
+    display: flex; gap: 24px; flex-wrap: wrap; margin-top: 24px;
+    padding-top: 24px; border-top: 1px solid var(--border);
+  }
+  .meta-item { font-size: 12px; }
+  .meta-item .label { color: var(--muted); display: block; }
+  .meta-item .val { color: var(--text); font-weight: 500; }
+
+  /* Sections */
+  .section { margin-bottom: 56px; }
+  .section-title {
+    font-family: var(--mono); font-size: 11px; font-weight: 600;
+    color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase;
+    margin-bottom: 20px; padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 12px;
+  }
+  .section-title::before { content: '//'; color: var(--accent); }
+
+  /* Why Astro */
+  .comparison-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+    background: var(--border); border: 1px solid var(--border); border-radius: 4px;
+    overflow: hidden;
+  }
+  .comp-col { background: var(--bg2); padding: 24px; }
+  .comp-col.bad .comp-head { color: var(--accent); }
+  .comp-col.good .comp-head { color: var(--accent3); }
+  .comp-head { font-family: var(--sans); font-weight: 700; font-size: 15px; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+  .comp-item {
+    font-size: 13px; padding: 8px 0; border-bottom: 1px solid var(--border);
+    display: flex; align-items: flex-start; gap: 8px;
+  }
+  .comp-item:last-child { border-bottom: none; }
+  .comp-item .icon { flex-shrink: 0; font-size: 12px; margin-top: 2px; }
+  .comp-col.bad .comp-item .icon { color: var(--accent); }
+  .comp-col.good .comp-item .icon { color: var(--accent3); }
+
+  /* Fases */
+  .phases { display: flex; flex-direction: column; gap: 2px; }
+  .phase {
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: 4px; overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .phase:hover { border-color: var(--border2); }
+  .phase-header {
+    display: flex; align-items: center; gap: 16px;
+    padding: 18px 20px; cursor: pointer;
+  }
+  .phase-num {
+    width: 32px; height: 32px; border-radius: 2px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--sans); font-weight: 800; font-size: 14px;
+    flex-shrink: 0;
+  }
+  .phase-num.p1 { background: rgba(255,68,68,0.15); color: var(--accent); }
+  .phase-num.p2 { background: rgba(255,136,0,0.15); color: var(--accent2); }
+  .phase-num.p3 { background: rgba(245,158,11,0.15); color: var(--gold); }
+  .phase-num.p4 { background: rgba(34,211,168,0.15); color: var(--accent3); }
+  .phase-num.p5 { background: rgba(99,102,241,0.15); color: #818cf8; }
+
+  .phase-title { font-family: var(--sans); font-weight: 700; font-size: 15px; }
+  .phase-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .phase-time {
+    margin-left: auto; font-size: 11px; font-weight: 600;
+    padding: 3px 10px; border-radius: 2px; letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+  .phase-time.t1 { background: rgba(255,68,68,0.1); color: var(--accent); }
+  .phase-time.t2 { background: rgba(255,136,0,0.1); color: var(--accent2); }
+  .phase-time.t3 { background: rgba(245,158,11,0.1); color: var(--gold); }
+  .phase-time.t4 { background: rgba(34,211,168,0.1); color: var(--accent3); }
+
+  .phase-body {
+    padding: 0 20px; max-height: 0; overflow: hidden;
+    transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), padding 0.2s;
+  }
+  .phase-body.open { max-height: 1200px; padding-bottom: 24px; }
+  .phase-body-inner { padding-top: 0; border-top: 1px solid var(--border); padding-top: 16px; }
+
+  /* Steps */
+  .step-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .step-list li {
+    font-size: 13px; padding: 10px 14px;
+    background: var(--bg3); border-radius: 3px;
+    display: flex; gap: 12px; align-items: flex-start;
+  }
+  .step-num {
+    font-size: 10px; font-weight: 600; color: var(--muted);
+    flex-shrink: 0; padding-top: 2px; letter-spacing: 0.05em;
+  }
+
+  /* Code blocks */
+  .code-block {
+    background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 4px; padding: 16px; margin: 12px 0;
+    font-size: 12px; color: #a8d8b0; overflow-x: auto;
+    line-height: 1.8;
+  }
+  .code-block .comment { color: var(--muted); }
+  .code-block .kw { color: #ff9f43; }
+  .code-block .str { color: #a8d8b0; }
+  .code-block .tag { color: #74b9ff; }
+  .code-block .attr { color: #fd79a8; }
+
+  /* Schema section */
+  .schema-box {
+    background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 4px; overflow: hidden;
+  }
+  .schema-header {
+    padding: 12px 16px; background: rgba(34,211,168,0.06);
+    border-bottom: 1px solid var(--border);
+    font-size: 11px; font-weight: 600; color: var(--accent3);
+    letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  .schema-fields { padding: 12px 16px; display: flex; flex-direction: column; gap: 6px; }
+  .field-row { display: grid; grid-template-columns: 180px 100px 1fr; gap: 16px; font-size: 12px; }
+  .field-name { color: #fd79a8; font-weight: 500; }
+  .field-type { color: var(--gold); }
+  .field-desc { color: var(--muted); }
+
+  /* Architecture */
+  .arch-tree { font-family: var(--mono); font-size: 12px; color: var(--text); line-height: 2; }
+  .arch-tree .dir { color: var(--accent3); font-weight: 600; }
+  .arch-tree .file { color: var(--muted); }
+  .arch-tree .note { color: rgba(255,136,0,0.8); }
+  .arch-box {
+    background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 4px; padding: 20px; margin: 12px 0;
+  }
+
+  /* Timeline bar */
+  .timeline-bar { margin: 12px 0; }
+  .tl-row {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .tl-label { width: 140px; color: var(--muted); flex-shrink: 0; }
+  .tl-bar-wrap { flex: 1; background: var(--bg3); height: 8px; border-radius: 2px; overflow: hidden; }
+  .tl-bar { height: 100%; border-radius: 2px; }
+  .tl-val { width: 40px; text-align: right; color: var(--text); font-weight: 500; }
+
+  /* Deploy card */
+  .deploy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .deploy-card {
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: 4px; padding: 20px;
+  }
+  .deploy-title {
+    font-family: var(--sans); font-weight: 700; font-size: 14px; margin-bottom: 4px;
+  }
+  .deploy-cmd {
+    background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 3px; padding: 8px 12px; margin: 10px 0;
+    font-size: 11px; color: var(--accent3);
+  }
+
+  /* Checklist */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .checklist li {
+    display: flex; gap: 10px; align-items: flex-start;
+    font-size: 13px; padding: 8px 12px;
+    background: var(--bg2); border-radius: 3px;
+  }
+  .check-box {
+    width: 16px; height: 16px; border: 1px solid var(--border2);
+    border-radius: 2px; flex-shrink: 0; margin-top: 2px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; color: var(--accent3); cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .check-box.checked { background: rgba(34,211,168,0.15); border-color: var(--accent3); }
+
+  /* Footer */
+  .footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: gap; gap: 16px; }
+  .footer-left { font-size: 11px; color: var(--muted); }
+  .footer-right { font-size: 11px; color: var(--accent3); }
+
+  @media (max-width: 600px) {
+    .comparison-grid { grid-template-columns: 1fr; }
+    .deploy-grid { grid-template-columns: 1fr; }
+    .field-row { grid-template-columns: 140px 80px 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-badge">
+      <span class="badge-dot"></span>
+      Plano de Migração — v1.0
+    </div>
+    <h1>
+      <span class="del">Jekyll</span> → <span class="new">Astro</span><br>
+      lawfare-timeline
+    </h1>
+    <p class="header-sub">
+      Substituição completa do stack de publicação: de Jekyll/Chirpy (build lento, sem tipagem) 
+      para Astro com content collections e fonte de dados <code>.json</code> centralizada. 
+      Build 10–20× mais rápido. Deploy instantâneo na Vercel.
+    </p>
+    <div class="header-meta">
+      <div class="meta-item"><span class="label">Stack atual</span><span class="val">Jekyll + Chirpy + Liquid</span></div>
+      <div class="meta-item"><span class="label">Stack alvo</span><span class="val">Astro 4 + TypeScript + JSON</span></div>
+      <div class="meta-item"><span class="label">Deploy</span><span class="val">Vercel (mantido)</span></div>
+      <div class="meta-item"><span class="label">Tempo estimado</span><span class="val">2–3 dias</span></div>
+      <div class="meta-item"><span class="label">Repositório</span><span class="val">novo (paralelo)</span></div>
+    </div>
+  </header>
+
+  <!-- POR QUE ASTRO -->
+  <section class="section">
+    <div class="section-title">Por que migrar para Astro</div>
+    <div class="comparison-grid">
+      <div class="comp-col bad">
+        <div class="comp-head">
+          <span>✕</span> Jekyll — Problemas
+        </div>
+        <div class="comp-item"><span class="icon">✕</span><span>Build lento: 1–5 min para 200+ posts</span></div>
+        <div class="comp-item"><span class="icon">✕</span><span>Ruby + Bundler: dependências frágeis, versões conflitam</span></div>
+        <div class="comp-item"><span class="icon">✕</span><span>Liquid sem tipagem — JSON integrado com gambiarra</span></div>
+        <div class="comp-item"><span class="icon">✕</span><span>HMR inconsistente no dev server</span></div>
+        <div class="comp-item"><span class="icon">✕</span><span>Filtros, paginação e busca = plugins externos frágeis</span></div>
+        <div class="comp-item"><span class="icon">✕</span><span>Vercel cache mal aproveitado — rebuild total a cada push</span></div>
+      </div>
+      <div class="comp-col good">
+        <div class="comp-head">
+          <span>✓</span> Astro — Vantagens
+        </div>
+        <div class="comp-item"><span class="icon">✓</span><span>Build 10–20× mais rápido (Vite, paralelo, incremental)</span></div>
+        <div class="comp-item"><span class="icon">✓</span><span>Node.js puro — sem Ruby, sem Bundler, sem gemset</span></div>
+        <div class="comp-item"><span class="icon">✓</span><span>Content Collections com schema Zod tipado nativo</span></div>
+        <div class="comp-item"><span class="icon">✓</span><span>HMR instantâneo + islands architecture</span></div>
+        <div class="comp-item"><span class="icon">✓</span><span>JSON como fonte primária: <code>import data from './data.json'</code></span></div>
+        <div class="comp-item"><span class="icon">✓</span><span>Deploy Vercel: output SSG nativo, cache otimizado</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FASES -->
+  <section class="section">
+    <div class="section-title">Fases de execução</div>
+    <div class="phases">
+
+      <!-- FASE 1 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p1">01</div>
+          <div>
+            <div class="phase-title">Setup do projeto Astro</div>
+            <div class="phase-sub">Scaffold, configuração base, Vercel output</div>
+          </div>
+          <div class="phase-time t1">~2h</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-body-inner">
+            <ul class="step-list">
+              <li><span class="step-num">01</span><span>Criar novo repositório (ex: <code>lawfare-astro</code>) paralelo ao atual — manter Jekyll ativo até validação completa</span></li>
+              <li><span class="step-num">02</span><span>Scaffold do projeto Astro com template mínimo</span></li>
+            </ul>
+            <div class="code-block">
+<span class="comment"># Criar projeto Astro</span>
+npm create astro@latest lawfare-astro
+<span class="comment"># Selecionar: Empty, TypeScript strict, não instalar deps ainda</span>
+
+cd lawfare-astro
+npm install
+
+<span class="comment"># Dependências extras</span>
+npm install @astrojs/sitemap @astrojs/rss
+npm install -D @types/node
+            </div>
+            <ul class="step-list">
+              <li><span class="step-num">03</span><span>Configurar <code>astro.config.mjs</code> com output SSG e integração sitemap</span></li>
+              <li><span class="step-num">04</span><span>Adicionar <code>vercel.json</code> ou usar <code>@astrojs/vercel</code> para configuração automática</span></li>
+            </ul>
+            <div class="code-block">
+<span class="comment">// astro.config.mjs</span>
+<span class="kw">import</span> { defineConfig } <span class="kw">from</span> <span class="str">'astro/config'</span>;
+<span class="kw">import</span> sitemap <span class="kw">from</span> <span class="str">'@astrojs/sitemap'</span>;
+
+<span class="kw">export default</span> defineConfig({
+  site: <span class="str">'https://lawfare-timeline.vercel.app'</span>,
+  output: <span class="str">'static'</span>,
+  integrations: [sitemap()],
+  build: {
+    assets: <span class="str">'_assets'</span>
+  }
+});
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 2 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p2">02</div>
+          <div>
+            <div class="phase-title">Estrutura de dados — JSON como fonte única</div>
+            <div class="phase-sub">Schema Zod, validação, tipos TypeScript</div>
+          </div>
+          <div class="phase-time t2">~3h</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-body-inner">
+            <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+              A abordagem correta para o seu JSON é usar o <strong style="color:var(--text)">Astro Content Collections</strong> com loader de JSON — 
+              mais tipado, validado e suportado nativamente desde Astro 4.
+            </p>
+
+            <!-- Schema reference -->
+            <div class="schema-box">
+              <div class="schema-header">Schema do objeto — baseado no seu JSON</div>
+              <div class="schema-fields">
+                <div class="field-row" style="color:var(--muted);font-size:11px;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:4px">
+                  <span>campo</span><span>tipo</span><span>uso</span>
+                </div>
+                <div class="field-row"><span class="field-name">id</span><span class="field-type">number</span><span class="field-desc">ID único sequencial — slug da URL</span></div>
+                <div class="field-row"><span class="field-name">titulo</span><span class="field-type">string</span><span class="field-desc">&lt;title&gt; da página + card</span></div>
+                <div class="field-row"><span class="field-name">data_evento</span><span class="field-type">string</span><span class="field-desc">YYYY-MM-DD — filtro e ordenação</span></div>
+                <div class="field-row"><span class="field-name">data_iso</span><span class="field-type">string</span><span class="field-desc">ISO 8601 — &lt;time&gt; semântico</span></div>
+                <div class="field-row"><span class="field-name">categoria</span><span class="field-type">enum</span><span class="field-desc">Filtro principal: indecoro, corrupcao, lawfare...</span></div>
+                <div class="field-row"><span class="field-name">tags</span><span class="field-type">string[]</span><span class="field-desc">Tags de navegação cruzada</span></div>
+                <div class="field-row"><span class="field-name">descricao</span><span class="field-type">string</span><span class="field-desc">Meta description + excerpt</span></div>
+                <div class="field-row"><span class="field-name">relevancia</span><span class="field-type">enum</span><span class="field-desc">alta | media | baixa — destaque visual</span></div>
+                <div class="field-row"><span class="field-name">fontes</span><span class="field-type">string[]</span><span class="field-desc">URLs de fontes — renderizadas como links</span></div>
+                <div class="field-row"><span class="field-name">pessoas_envolvidas</span><span class="field-type">string[]</span><span class="field-desc">Tags de pessoas — links de busca futura</span></div>
+                <div class="field-row"><span class="field-name">prioridade</span><span class="field-type">number</span><span class="field-desc">1-5 — ordenação no feed</span></div>
+              </div>
+            </div>
+
+            <div class="code-block">
+<span class="comment">// src/content/config.ts — Content Collections com JSON loader</span>
+<span class="kw">import</span> { defineCollection, z } <span class="kw">from</span> <span class="str">'astro:content'</span>;
+
+<span class="kw">const</span> eventosCollection = defineCollection({
+  type: <span class="str">'data'</span>, <span class="comment">// lê JSON/YAML, não markdown</span>
+  schema: z.object({
+    id: z.number(),
+    titulo: z.string(),
+    data_evento: z.string(),
+    data_iso: z.string(),
+    categoria: z.enum([<span class="str">'indecoro'</span>, <span class="str">'corrupcao'</span>, <span class="str">'lawfare'</span>, <span class="str">'institucional'</span>, <span class="str">'outros'</span>]),
+    tags: z.array(z.string()),
+    descricao: z.string(),
+    relevancia: z.enum([<span class="str">'alta'</span>, <span class="str">'media'</span>, <span class="str">'baixa'</span>]),
+    fontes: z.array(z.string()),
+    pessoas_envolvidas: z.array(z.string()),
+    instituicoes_envolvidas: z.array(z.string()),
+    pais: z.string().default(<span class="str">'Brasil'</span>),
+    valor_envolvido: z.string().optional(),
+    prioridade: z.number().default(3),
+  })
+});
+
+<span class="kw">export const</span> collections = { eventos: eventosCollection };
+            </div>
+
+            <div class="code-block">
+<span class="comment"># Estrutura de arquivos para o JSON</span>
+src/content/
+└── eventos/
+    ├── data.json     <span class="comment"># arquivo principal com o array "assuntos"</span>
+    └── <span class="comment"># ou múltiplos .json se quiser separar por ano</span>
+            </div>
+
+            <p style="font-size:13px;color:var(--muted);margin-top:12px;">
+              ⚠️ O Astro Content Collections com <code>type: 'data'</code> espera <strong style="color:var(--text)">um objeto por arquivo JSON</strong>. 
+              Para o array <code>assuntos[]</code>, a solução é fazer um script de 
+              split (um JSON por evento) ou usar import direto no build.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 3 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p3">03</div>
+          <div>
+            <div class="phase-title">Geração de páginas dinâmicas</div>
+            <div class="phase-sub">getStaticPaths, layout base, templates</div>
+          </div>
+          <div class="phase-time t3">~4h</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-body-inner">
+            <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+              Astro gera uma página estática para cada entrada do JSON via <code>getStaticPaths()</code>. 
+              URL: <code>/evento/[id]-[slug]</code>
+            </p>
+            <div class="code-block">
+<span class="comment">// src/pages/evento/[id].astro</span>
+---
+<span class="kw">import</span> type { GetStaticPaths } <span class="kw">from</span> <span class="str">'astro'</span>;
+<span class="kw">import</span> Layout <span class="kw">from</span> <span class="str">'../../layouts/Base.astro'</span>;
+<span class="kw">import</span> eventoData <span class="kw">from</span> <span class="str">'../../data/assuntos.json'</span>;
+
+<span class="kw">export const</span> getStaticPaths = (() =&gt; {
+  <span class="kw">return</span> eventoData.assuntos.map(evento =&gt; ({
+    params: { id: String(evento.id) },
+    props: { evento }
+  }));
+}) satisfies GetStaticPaths;
+
+<span class="kw">const</span> { evento } = Astro.props;
+---
+&lt;<span class="tag">Layout</span>
+  <span class="attr">title</span>={evento.titulo}
+  <span class="attr">description</span>={evento.descricao}
+  <span class="attr">date</span>={evento.data_iso}
+&gt;
+  &lt;<span class="tag">article</span>&gt;
+    &lt;<span class="tag">time</span> <span class="attr">datetime</span>={evento.data_iso}&gt;{evento.data_evento}&lt;/<span class="tag">time</span>&gt;
+    &lt;<span class="tag">h1</span>&gt;{evento.titulo}&lt;/<span class="tag">h1</span>&gt;
+    &lt;<span class="tag">p</span>&gt;{evento.descricao}&lt;/<span class="tag">p</span>&gt;
+    &lt;<span class="tag">ul</span>&gt;
+      {evento.fontes.map(f =&gt; f !== <span class="str">'N/A'</span> &amp;&amp; (
+        &lt;<span class="tag">li</span>&gt;&lt;<span class="tag">a</span> <span class="attr">href</span>={f} <span class="attr">target</span>=<span class="str">"_blank"</span>&gt;{f}&lt;/<span class="tag">a</span>&gt;&lt;/<span class="tag">li</span>&gt;
+      ))}
+    &lt;/<span class="tag">ul</span>&gt;
+  &lt;/<span class="tag">article</span>&gt;
+&lt;/<span class="tag">Layout</span>&gt;
+            </div>
+
+            <div class="code-block">
+<span class="comment">// src/pages/index.astro — feed com filtros</span>
+---
+<span class="kw">import</span> Layout <span class="kw">from</span> <span class="str">'../layouts/Base.astro'</span>;
+<span class="kw">import</span> EventoCard <span class="kw">from</span> <span class="str">'../components/EventoCard.astro'</span>;
+<span class="kw">import</span> data <span class="kw">from</span> <span class="str">'../data/assuntos.json'</span>;
+
+<span class="comment">// Ordenar por data desc + prioridade</span>
+<span class="kw">const</span> eventos = data.assuntos
+  .sort((a, b) =&gt; b.prioridade - a.prioridade 
+    || b.data_evento.localeCompare(a.data_evento));
+---
+            </div>
+
+            <ul class="step-list">
+              <li><span class="step-num">↳</span><span>Página de categoria: <code>/categoria/[cat].astro</code> — filtra por campo <code>categoria</code></span></li>
+              <li><span class="step-num">↳</span><span>Página de pessoa: <code>/pessoa/[slug].astro</code> — filtra por <code>pessoas_envolvidas</code></span></li>
+              <li><span class="step-num">↳</span><span>Feed RSS: <code>/rss.xml.ts</code> — usando <code>@astrojs/rss</code></span></li>
+              <li><span class="step-num">↳</span><span>Busca client-side: Fuse.js como Island component (sem build server)</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 4 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p4">04</div>
+          <div>
+            <div class="phase-title">Design system — tema lawfare</div>
+            <div class="phase-sub">Layout, tipografia, dark editorial, componentes</div>
+          </div>
+          <div class="phase-time t4">~4h</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-body-inner">
+            <div class="arch-box">
+              <div class="arch-tree">
+src/
+├── <span class="dir">layouts/</span>
+│   └── Base.astro          <span class="comment">   &lt;!-- html, head, SEO, nav, footer --&gt;</span>
+├── <span class="dir">components/</span>
+│   ├── EventoCard.astro     <span class="comment">   &lt;!-- card do feed --&gt;</span>
+│   ├── FilterBar.astro      <span class="comment">   &lt;!-- filtros por categoria --&gt;</span>
+│   ├── Timeline.astro       <span class="comment">   &lt;!-- linha do tempo visual --&gt;</span>
+│   └── SearchBox.tsx        <span class="comment">   &lt;!-- island React/Preact com Fuse.js --&gt;</span>
+├── <span class="dir">styles/</span>
+│   └── global.css           <span class="comment">   &lt;!-- CSS vars, reset, tipografia --&gt;</span>
+└── <span class="dir">data/</span>
+    └── assuntos.json        <span class="comment">   &lt;!-- fonte única --&gt;</span>
+              </div>
+            </div>
+            <ul class="step-list">
+              <li><span class="step-num">↳</span><span>Manter o aesthetic editorial escuro atual do Jekyll/Chirpy — IBM Plex Mono + Syne</span></li>
+              <li><span class="step-num">↳</span><span>CSS Variables globais para tema: background, accent por categoria, severity colors</span></li>
+              <li><span class="step-num">↳</span><span>Componente <code>&lt;Timeline&gt;</code> — renderiza eventos em linha do tempo vertical com marcadores visuais por relevância</span></li>
+              <li><span class="step-num">↳</span><span>Meta OG e JSON-LD automático por evento para SEO e compartilhamento</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASE 5 -->
+      <div class="phase">
+        <div class="phase-header" onclick="togglePhase(this)">
+          <div class="phase-num p5">05</div>
+          <div>
+            <div class="phase-title">Deploy na Vercel + CI/CD</div>
+            <div class="phase-sub">Build pipeline, redirects, domínio</div>
+          </div>
+          <div class="phase-time t4">~1h</div>
+        </div>
+        <div class="phase-body">
+          <div class="phase-body-inner">
+            <div class="deploy-grid">
+              <div class="deploy-card">
+                <div class="deploy-title" style="color:var(--accent3)">Vercel (recomendado)</div>
+                <div style="font-size:12px;color:var(--muted);margin-bottom:8px">Zero config — Astro detectado automaticamente</div>
+                <div class="deploy-cmd">Build: npm run build</div>
+                <div class="deploy-cmd">Output: dist/</div>
+                <ul class="step-list" style="margin-top:8px">
+                  <li><span class="step-num">1</span><span>Novo projeto Vercel apontando para <code>lawfare-astro</code></span></li>
+                  <li><span class="step-num">2</span><span>Swap de domínio quando validado</span></li>
+                  <li><span class="step-num">3</span><span>Deprecar projeto Jekyll na Vercel</span></li>
+                </ul>
+              </div>
+              <div class="deploy-card">
+                <div class="deploy-title" style="color:var(--gold)">GitHub Actions (opcional)</div>
+                <div style="font-size:12px;color:var(--muted);margin-bottom:8px">CI para validar JSON antes do merge</div>
+                <div class="deploy-cmd">npx astro check</div>
+                <div class="deploy-cmd">npx tsc --noEmit</div>
+                <ul class="step-list" style="margin-top:8px">
+                  <li><span class="step-num">1</span><span>Workflow de PR: valida schema Zod do JSON</span></li>
+                  <li><span class="step-num">2</span><span>Bloqueia merge se campos obrigatórios faltam</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ESTRUTURA FINAL DO PROJETO -->
+  <section class="section">
+    <div class="section-title">Estrutura final do repositório</div>
+    <div class="arch-box">
+      <div class="arch-tree">
+lawfare-astro/
+├── <span class="dir">src/</span>
+│   ├── <span class="dir">data/</span>
+│   │   └── assuntos.json          <span class="note"> ← fonte única de verdade</span>
+│   ├── <span class="dir">pages/</span>
+│   │   ├── index.astro            <span class="note"> ← feed principal + filtros</span>
+│   │   ├── evento/
+│   │   │   └── [id].astro         <span class="note"> ← página por evento</span>
+│   │   ├── categoria/
+│   │   │   └── [cat].astro        <span class="note"> ← feed por categoria</span>
+│   │   ├── sobre.astro
+│   │   └── rss.xml.ts
+│   ├── <span class="dir">layouts/</span>
+│   │   └── Base.astro
+│   ├── <span class="dir">components/</span>
+│   │   ├── EventoCard.astro
+│   │   ├── Timeline.astro
+│   │   ├── FilterBar.astro
+│   │   └── SearchBox.tsx          <span class="note"> ← island client:load</span>
+│   ├── <span class="dir">styles/</span>
+│   │   └── global.css
+│   └── <span class="dir">types/</span>
+│       └── evento.ts              <span class="note"> ← tipos TypeScript exportados</span>
+├── <span class="dir">public/</span>
+│   ├── favicon.svg
+│   └── <span class="dir">assets/</span>
+├── astro.config.mjs
+├── tsconfig.json
+├── package.json
+└── vercel.json                    <span class="note"> ← opcional com redirects</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERFORMANCE ESPERADA -->
+  <section class="section">
+    <div class="section-title">Performance de build esperada</div>
+    <div class="timeline-bar">
+      <div class="tl-row">
+        <span class="tl-label">Jekyll (atual)</span>
+        <div class="tl-bar-wrap"><div class="tl-bar" style="width:100%;background:var(--accent)"></div></div>
+        <span class="tl-val">~3 min</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-label">Astro (alvo)</span>
+        <div class="tl-bar-wrap"><div class="tl-bar" style="width:12%;background:var(--accent3)"></div></div>
+        <span class="tl-val">~15s</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-label">Dev HMR (Jekyll)</span>
+        <div class="tl-bar-wrap"><div class="tl-bar" style="width:80%;background:rgba(255,68,68,0.5)"></div></div>
+        <span class="tl-val">~5–10s</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-label">Dev HMR (Astro)</span>
+        <div class="tl-bar-wrap"><div class="tl-bar" style="width:3%;background:var(--accent3)"></div></div>
+        <span class="tl-val">&lt;300ms</span>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--muted);margin-top:12px">
+      * Estimativas para ~200 entradas. Astro usa Vite internamente com tree-shaking e build paralelo. 
+        Para 1000+ entradas, build pode crescer para ~30s — ainda 6× mais rápido que Jekyll.
+    </p>
+  </section>
+
+  <!-- WORKFLOW DE ADIÇÃO DE NOVOS EVENTOS -->
+  <section class="section">
+    <div class="section-title">Workflow — adicionar novo evento ao JSON</div>
+    <div class="code-block">
+<span class="comment">// 1. Abrir src/data/assuntos.json</span>
+<span class="comment">// 2. Adicionar novo objeto no array "assuntos" (ID = último + 1)</span>
+{
+  <span class="attr">"id"</span>: <span class="str">124</span>,
+  <span class="attr">"titulo"</span>: <span class="str">"Novo evento documentado"</span>,
+  <span class="attr">"data_evento"</span>: <span class="str">"2025-04-01"</span>,
+  <span class="attr">"data_iso"</span>: <span class="str">"2025-04-01T00:00:00.000Z"</span>,
+  <span class="attr">"categoria"</span>: <span class="str">"lawfare"</span>,
+  <span class="attr">"tags"</span>: [<span class="str">"tag1"</span>, <span class="str">"tag2"</span>],
+  <span class="attr">"descricao"</span>: <span class="str">"Descrição objetiva do evento"</span>,
+  <span class="attr">"relevancia"</span>: <span class="str">"alta"</span>,
+  <span class="attr">"fontes"</span>: [<span class="str">"https://fonte-arquivada.org/..."</span>],
+  <span class="attr">"pessoas_envolvidas"</span>: [<span class="str">"Nome Sobrenome"</span>],
+  <span class="attr">"instituicoes_envolvidas"</span>: [<span class="str">"STF"</span>],
+  <span class="attr">"pais"</span>: <span class="str">"Brasil"</span>,
+  <span class="attr">"prioridade"</span>: <span class="str">4</span>
+}
+
+<span class="comment">// 3. git commit + push → Vercel detecta, build &lt;15s, deploy automático</span>
+<span class="comment">// 4. Nenhum arquivo .md, nenhum frontmatter, nenhuma dependência Ruby</span>
+    </div>
+    <p style="font-size:13px;color:var(--accent3);margin-top:12px">
+      ✓ O Zod valida o schema no build. Se um campo obrigatório estiver faltando ou 
+      no tipo errado, o build falha com erro legível antes do deploy.
+    </p>
+  </section>
+
+  <!-- CHECKLIST DE MIGRAÇÃO -->
+  <section class="section">
+    <div class="section-title">Checklist de migração</div>
+    <ul class="checklist" id="checklist">
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Criar repositório <code>lawfare-astro</code> no GitHub</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Scaffold Astro + configurar <code>astro.config.mjs</code></span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Copiar <code>assuntos.json</code> para <code>src/data/</code></span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Definir tipos TypeScript em <code>src/types/evento.ts</code></span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Criar layout base <code>src/layouts/Base.astro</code> com SEO</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Implementar <code>src/pages/index.astro</code> — feed + filtros</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Implementar <code>src/pages/evento/[id].astro</code> — página individual</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Implementar <code>src/pages/categoria/[cat].astro</code></span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Implementar RSS feed <code>/rss.xml.ts</code></span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Criar design system CSS vars baseado no tema atual</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Componente <code>Timeline.astro</code> — linha do tempo visual</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Conectar novo projeto na Vercel e validar build</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Testar todas as rotas geradas (200 + eventos)</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Validar sitemap.xml gerado</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Swap de domínio na Vercel — apontar para novo projeto</span></li>
+      <li onclick="toggleCheck(this)"><div class="check-box">✓</div><span>[ ] Deprecar projeto Jekyll (manter repositório como arquivo)</span></li>
+    </ul>
+  </section>
+
+  <!-- DECISÃO EXTRA: CONTENT COLLECTIONS VS IMPORT DIRETO -->
+  <section class="section">
+    <div class="section-title">Decisão de arquitetura: como carregar o JSON</div>
+    <div class="comparison-grid">
+      <div class="comp-col" style="border-left: 2px solid var(--accent3)">
+        <div class="comp-head" style="color:var(--accent3)">
+          ✓ Import direto (recomendado para vocé)
+        </div>
+        <div class="comp-item"><span class="icon" style="color:var(--accent3)">✓</span><span>Simples: <code>import data from '../data/assuntos.json'</code></span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--accent3)">✓</span><span>Funciona com array raiz — sem split de arquivos</span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--accent3)">✓</span><span>TypeScript valida os tipos automaticamente</span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--accent3)">✓</span><span>Zero configuração extra — Astro faz o import nativo</span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--accent3)">✓</span><span>Adiciona Zod manualmente para validação de build</span></div>
+      </div>
+      <div class="comp-col" style="opacity:0.6">
+        <div class="comp-head" style="color:var(--muted)">
+          Content Collections (alternativa)
+        </div>
+        <div class="comp-item"><span class="icon" style="color:var(--muted)">~</span><span>Requer <strong>um JSON por entrada</strong> (não array único)</span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--muted)">~</span><span>Precisa de script para split do <code>assuntos.json</code></span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--muted)">~</span><span>Schema Zod nativo via <code>defineCollection</code></span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--muted)">~</span><span>Melhor para projetos com muitos colaboradores</span></div>
+        <div class="comp-item"><span class="icon" style="color:var(--muted)">~</span><span>Overkill para fonte única de JSON centralizado</span></div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted);margin-top:16px">
+      Para o lawfare-timeline, o <strong style="color:var(--text)">import direto</strong> é a abordagem correta: 
+      você mantém um único <code>assuntos.json</code>, adiciona entradas diretamente, 
+      e o Astro gera todas as páginas estáticas no build. 
+      Se um dia precisar de colaboradores externos via PR, 
+      migrar para Content Collections é simples.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">lawfare-timeline.vercel.app → Astro Migration Plan v1.0</div>
+    <div class="footer-right">IDs 124+ continuam no mesmo schema</div>
+  </footer>
+
+</div>
+
+<script>
+function togglePhase(header) {
+  const body = header.nextElementSibling;
+  body.classList.toggle('open');
+}
+
+function toggleCheck(li) {
+  const box = li.querySelector('.check-box');
+  box.classList.toggle('checked');
+}
+
+// Abrir fase 1 por padrão
+document.querySelector('.phase-header').click();
+</script>
+</body>
+</html>

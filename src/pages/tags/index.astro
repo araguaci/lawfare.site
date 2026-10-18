@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import { tagRegistry } from '../../data/tagRegistry';
+
+const { tagCounts, tagToSlug } = tagRegistry;
+
+const rows = [...tagCounts.entries()]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'pt-BR'));
+const totalTags = rows.length;
+---
+
+<Base
+  title="Índice de tags — Lawfare Timeline"
+  description={`${totalTags} tags usadas nos eventos — navegue por tema.`}
+  canonical={Astro.url.href}
+>
+  <article class="tags-page" data-pagefind-ignore>
+    <div class="page-header">
+      <a href="/" class="back-link">← Início</a>
+      <h1 class="page-title">Índice de tags</h1>
+      <p class="page-sub">{totalTags} tags · ordenadas por frequência</p>
+    </div>
+
+    <p class="tags-intro">
+      Cada tag agrupa eventos que a mencionam. Use também a
+      <a href="/pagina/1">timeline</a> ou a
+      <a href="/pagina/1">busca</a> no topo do site.
+    </p>
+
+    <ul class="tags-catalog">
+      {rows.map(([tag, count]) => (
+        <li>
+          <a href={`/tag/${tagToSlug.get(tag)}/1`} class="tags-catalog-link">
+            {tag}
+          </a>
+          <span class="tags-catalog-n">{count}</span>
+        </li>
+      ))}
+    </ul>
+
+    <nav class="sobre-nav">
+      <a href="/">← Início</a>
+      <span> · </span>
+      <a href="/pagina/1">Timeline</a>
+    </nav>
+  </article>
+</Base>

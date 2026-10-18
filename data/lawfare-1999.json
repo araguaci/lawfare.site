@@ -1,0 +1,313 @@
+{
+  "total": 11,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1999,
+  "assuntos": [
+    {
+      "titulo": "Caso Marka/FonteCindam",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "1999"
+      ],
+      "descricao": "Prejuízos cambiais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1\n",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-caso-markafontecindam.md",
+      "id": 103
+    },
+    {
+      "titulo": "Escândalo da Desvalorização do Real",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Especulação cambial.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "Banco Central"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1\n",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-escandalo-da-desvalorizacao-do-real.md",
+      "id": 104
+    },
+    {
+      "titulo": "Escândalo da Encol",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Falência fraudulenta de construtora.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-escandalo-da-encol.md",
+      "id": 105
+    },
+    {
+      "titulo": "Escândalo da Mesbla",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Irregularidades em varejo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-escandalo-da-mesbla.md",
+      "id": 106
+    },
+    {
+      "titulo": "Escândalo da Previdência",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Desvios na previdência.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "INSS"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-escandalo-da-previdencia.md",
+      "id": 107
+    },
+    {
+      "titulo": "Escândalo do Mappin",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Fraudes em varejo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-escandalo-do-mappin.md",
+      "id": 108
+    },
+    {
+      "titulo": "Escândalo dos Bancos",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Fraudes bancárias.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-escandalo-dos-bancos.md",
+      "id": 109
+    },
+    {
+      "titulo": "Escândalo dos Fiscais de São Paulo",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Máfia dos fiscais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-01-01-escandalo-dos-fiscais-de-sao-paulo.md",
+      "id": 110
+    },
+    {
+      "titulo": "Operação Marka",
+      "data_evento": "1999-01-01",
+      "data_iso": "1999-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "fraude-financeira",
+        "fraude-financeira",
+        "evasao-de-divisas"
+      ],
+      "descricao": "1999-01-01-São Paulo, SP-fraude financeira-evasão de divisas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Banco Central"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\1999-01-01-operacao-marka.md",
+      "id": 111
+    },
+    {
+      "titulo": "Caso Marka-FonteCindam",
+      "data_evento": "1999-01-13",
+      "data_iso": "1999-01-13T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\1999-01-13-caso-marka-fontecindam.md",
+      "id": 112
+    },
+    {
+      "titulo": "Escândalo da Pane DDD do Sistema Telefônico Privatizado",
+      "data_evento": "1999-07-01",
+      "data_iso": "1999-07-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1999"
+      ],
+      "descricao": "Falha no sistema telefônico.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1999-07-01-escandalo-da-pane-ddd-do-sistema-telefonico-privatizado.md",
+      "id": 113
+    }
+  ]
+}

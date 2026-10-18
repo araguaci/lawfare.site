@@ -1,0 +1,235 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import { formatDate, categoriaLabel, categoriaColor, relevanciaColor, getExcerpt } from '../../types/evento';
+import { loadFonteMarkdown } from '../../lib/loadFonteMarkdown';
+import data from '../../data/assuntos.json';
+
+export const getStaticPaths = (() => {
+  return data.assuntos.map(evento => ({
+    params: { id: String(evento.id) },
+    props: { evento },
+  }));
+}) satisfies GetStaticPaths;
+
+const { evento } = Astro.props;
+const fonteMd = await loadFonteMarkdown(evento.fonte_arquivo);
+const dateFormatted = formatDate(evento.data_iso || evento.data_evento);
+const excerpt = getExcerpt(evento.descricao, 200);
+const catColor = categoriaColor(evento.categoria);
+const relColor = relevanciaColor(evento.relevancia);
+const catLabel = categoriaLabel(evento.categoria);
+
+// JSON-LD para SEO
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: evento.titulo,
+  description: excerpt || undefined,
+  startDate: evento.data_iso || evento.data_evento,
+  location: { '@type': 'Place', name: evento.pais || 'Brasil' },
+  about: evento.categoria,
+});
+---
+
+<Base
+  title={evento.titulo}
+  description={excerpt || evento.titulo}
+  canonical={Astro.url.href}
+  jsonLd={jsonLd}
+>
+  <article data-pagefind-body class="evento-page">
+
+    <!-- Metadados ocultos para filtros do Pagefind -->
+    <span data-pagefind-filter="categoria" data-pagefind-meta="categoria" style="display:none">{evento.categoria}</span>
+    <span data-pagefind-filter="relevancia" data-pagefind-meta="relevancia" style="display:none">{evento.relevancia}</span>
+    {(evento.tags as string[]).map(tag => (
+      <span data-pagefind-filter="tag" style="display:none">{tag}</span>
+    ))}
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" data-pagefind-ignore>
+      <a href="/">Início</a>
+      <span>›</span>
+      <a href="/pagina/1">Timeline</a>
+      <span>›</span>
+      <a href={`/categoria/${evento.categoria}/1`}>{catLabel}</a>
+      <span>›</span>
+      <span>#{evento.id}</span>
+    </nav>
+
+    <!-- Header do evento -->
+    <header class="evento-header">
+      <div class="evento-meta-row">
+        <time datetime={evento.data_iso || evento.data_evento} class="evento-date">
+          {dateFormatted}
+        </time>
+        <span class="evento-cat" style={`color: ${catColor}; border-color: ${catColor}33`}>
+          {catLabel}
+        </span>
+        {evento.relevancia === 'alta' && (
+          <span class="evento-relevancia" style={`color: ${relColor}`}>
+            ● ALTA RELEVÂNCIA
+          </span>
+        )}
+      </div>
+
+      <h1 data-pagefind-meta="title" class="evento-titulo">{evento.titulo}</h1>
+
+      {evento.descricao && evento.descricao !== 'N/A' && (
+        <p class="evento-descricao">{evento.descricao}</p>
+      )}
+
+      <!-- Quick Action Toolbar -->
+      <div class="evento-actions" style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px;" data-pagefind-ignore>
+        <button
+          type="button"
+          id="copyLinkBtn"
+          class="back-link"
+          style="cursor: pointer; font-size: 11px; margin-bottom: 0;"
+          title="Copiar link permanente deste evento"
+        >
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <span id="copyLinkText">Copiar Link</span>
+        </button>
+
+        <a
+          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${evento.titulo} — Lawfare Timeline Brasil`)}&url=${encodeURIComponent(Astro.url.href)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="back-link"
+          style="font-size: 11px; margin-bottom: 0;"
+          title="Compartilhar evento no X"
+        >
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          <span>Compartilhar</span>
+        </a>
+
+        <a
+          href="/pagina/1"
+          class="back-link"
+          style="font-size: 11px; margin-bottom: 0;"
+        >
+          <span>← Voltar à Timeline</span>
+        </a>
+      </div>
+
+      <script is:inline>
+        const btn = document.getElementById('copyLinkBtn');
+        const text = document.getElementById('copyLinkText');
+        if (btn && text) {
+          btn.addEventListener('click', async () => {
+            try {
+              await navigator.clipboard.writeText(window.location.href);
+              const original = text.textContent;
+              text.textContent = 'Link Copiado! ✓';
+              setTimeout(() => { text.textContent = original; }, 2000);
+            } catch (err) {
+              prompt('Copie o link:', window.location.href);
+            }
+          });
+        }
+      </script>
+    </header>
+
+    {fonteMd && (
+      <section class="fonte-markdown-wrap" aria-labelledby="fonte-md-heading">
+        <div class="fonte-markdown-toolbar">
+          <h2 id="fonte-md-heading" class="detail-title">Texto da fonte</h2>
+          <a
+            href={fonteMd.publicUrl}
+            class="fonte-md-file"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abrir arquivo .md
+          </a>
+        </div>
+        <div class="fonte-markdown" set:html={fonteMd.html} />
+      </section>
+    )}
+
+    <!-- Detalhes -->
+    <div class="evento-details">
+
+      {(evento.pessoas_envolvidas as string[]).filter(p => p && p !== 'N/A').length > 0 && (
+        <section class="detail-section">
+          <h2 class="detail-title">Pessoas envolvidas</h2>
+          <div class="tag-list">
+            {(evento.pessoas_envolvidas as string[])
+              .filter(p => p && p !== 'N/A' && !['Data','Autoridade','Frase','Local','Gravidade','Marcadores','Fontes'].includes(p))
+              .map(p => <span class="tag-item">{p}</span>)}
+          </div>
+        </section>
+      )}
+
+      {(evento.instituicoes_envolvidas as string[]).filter(i => i && i !== 'N/A').length > 0 && (
+        <section class="detail-section">
+          <h2 class="detail-title">Instituições envolvidas</h2>
+          <div class="tag-list">
+            {(evento.instituicoes_envolvidas as string[])
+              .filter(i => i && i !== 'N/A')
+              .map(inst => <span class="tag-item">{inst}</span>)}
+          </div>
+        </section>
+      )}
+
+      {(evento.tags as string[]).filter(t => t && t !== 'N/A').length > 0 && (
+        <section class="detail-section">
+          <h2 class="detail-title">Tags</h2>
+          <div class="tag-list">
+            {(evento.tags as string[])
+              .filter(t => t && t !== 'N/A')
+              .map(tag => <span class="tag-item tag-item--tag">{tag}</span>)}
+          </div>
+        </section>
+      )}
+
+      {(evento.fontes as string[]).filter(f => f && f !== 'N/A').length > 0 && (
+        <section class="detail-section">
+          <h2 class="detail-title">Fontes</h2>
+          <ul class="fontes-list">
+            {(evento.fontes as string[])
+              .filter(f => f && f !== 'N/A')
+              .map(fonte => (
+                <li>
+                  {fonte.startsWith('http') ? (
+                    <a href={fonte} target="_blank" rel="noopener noreferrer" class="fonte-link">
+                      {fonte}
+                    </a>
+                  ) : (
+                    <span class="fonte-text">{fonte}</span>
+                  )}
+                </li>
+              ))}
+          </ul>
+        </section>
+      )}
+
+      {evento.valor_envolvido && evento.valor_envolvido !== 'N/A' && (
+        <section class="detail-section">
+          <h2 class="detail-title">Valor envolvido</h2>
+          <p class="detail-value">{evento.valor_envolvido}</p>
+        </section>
+      )}
+
+      {evento.impacto_diplomatico && evento.impacto_diplomatico !== 'N/A' && (
+        <section class="detail-section">
+          <h2 class="detail-title">Impacto diplomático</h2>
+          <p class="detail-value">{evento.impacto_diplomatico}</p>
+        </section>
+      )}
+
+    </div>
+
+    <!-- Navegação -->
+    <nav class="evento-nav" data-pagefind-ignore>
+      <a href="/" class="nav-back">← Início</a>
+      <a href="/pagina/1" class="nav-back">Timeline</a>
+      <a href={`/categoria/${evento.categoria}/1`} class="nav-cat">
+        Ver todos: {catLabel}
+      </a>
+    </nav>
+
+  </article>
+</Base>

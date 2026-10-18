@@ -1,0 +1,117 @@
+{
+  "total": 4,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1998,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Administração do PT",
+      "data_evento": "1998-01-01",
+      "data_iso": "1998-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1998"
+      ],
+      "descricao": "Denúncias contra PT.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1998-01-01-escandalo-da-administracao-do-pt.md",
+      "id": 99
+    },
+    {
+      "titulo": "Escândalo da Telebrás",
+      "data_evento": "1998-01-01",
+      "data_iso": "1998-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1998"
+      ],
+      "descricao": "Privatização suspeita.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1998-01-01-escandalo-da-telebras.md",
+      "id": 100
+    },
+    {
+      "titulo": "Escândalo do BNDES",
+      "data_evento": "1998-01-01",
+      "data_iso": "1998-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1998"
+      ],
+      "descricao": "Verbas para estatais privatizadas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1998-01-01-escandalo-do-bndes.md",
+      "id": 101
+    },
+    {
+      "titulo": "Operação Mandarim",
+      "data_evento": "1998-01-01",
+      "data_iso": "1998-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "crime-organizado",
+        "contrabando",
+        "crime-organizado"
+      ],
+      "descricao": "1998-01-01-São Paulo, SP-contrabando-crime organizado",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\1998-01-01-operacao-mandarim.md",
+      "id": 102
+    }
+  ]
+}

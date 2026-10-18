@@ -1,0 +1,359 @@
+{
+  "total": 13,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2000,
+  "assuntos": [
+    {
+      "titulo": "Acidentes Ambientais da Petrobras",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000-2001"
+      ],
+      "descricao": "Vazamentos de óleo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-acidentes-ambientais-da-petrobras.md",
+      "id": 114
+    },
+    {
+      "titulo": "Corrupção na Prefeitura de São Paulo",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000"
+      ],
+      "descricao": "Caso Celso Pitta.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-corrupcao-na-prefeitura-de-sao-paulo.md",
+      "id": 115
+    },
+    {
+      "titulo": "CPI do Narcotráfico",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000"
+      ],
+      "descricao": "Tráfico de drogas.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-cpi-do-narcotrafico.md",
+      "id": 116
+    },
+    {
+      "titulo": "Escândalo do Banespa",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000"
+      ],
+      "descricao": "Privatização suspeita.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-escandalo-do-banespa.md",
+      "id": 117
+    },
+    {
+      "titulo": "Escândalo do Banestado",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000"
+      ],
+      "descricao": "Evasão fiscal via banco.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-escandalo-do-banestado.md",
+      "id": 118
+    },
+    {
+      "titulo": "Escândalo do Judiciário",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000"
+      ],
+      "descricao": "Corrupção no Judiciário.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-escandalo-do-judiciario.md",
+      "id": 119
+    },
+    {
+      "titulo": "Escândalo dos Desvios de Verbas do TRT-SP",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000"
+      ],
+      "descricao": "Desvios no Tribunal Regional do Trabalho.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 169 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-escandalo-dos-desvios-de-verbas-do-trt-sp.md",
+      "id": 120
+    },
+    {
+      "titulo": "Escândalo dos Medicamentos",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "2000"
+      ],
+      "descricao": "Superfaturamento de remédios.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2000-01-01-escandalo-dos-medicamentos.md",
+      "id": 121
+    },
+    {
+      "titulo": "Governo Fhc Gasta Em Festas De Luxo",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "festas-luxo",
+        "gastos"
+      ],
+      "descricao": "2000-01-01-Brasília, DF-executivo-eventos",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2000-01-01-governo-fhc-gasta-em-festas-de-luxo.md",
+      "id": 122
+    },
+    {
+      "titulo": "Judiciário Compra Computadores High-End",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "computadores-luxo",
+        "gastos"
+      ],
+      "descricao": "2000-01-01-Brasília, DF-judiciario-tecnologia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 2 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2000-01-01-judiciario-compra-computadores-high-end.md",
+      "id": 123
+    },
+    {
+      "titulo": "Lula - Pelotas é uma cidade polo, né? Exportadora de viado....",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "lula",
+        "lula",
+        "homofobia"
+      ],
+      "descricao": "Frase dita por lula em Vídeo (Pelotas/RS)",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2000-01-01-lula-pelotas-e-uma-cidade-polo.md",
+      "id": 124
+    },
+    {
+      "titulo": "Operação Sudam",
+      "data_evento": "2000-01-01",
+      "data_iso": "2000-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-fundos-regionais",
+        "corrupcao"
+      ],
+      "descricao": "2000-01-01-Belém, PA-fraude fundos regionais-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2000-01-01-operacao-sudam.md",
+      "id": 125
+    },
+    {
+      "titulo": "Breve História Da Delação No Brasil",
+      "data_evento": "2000-12-21",
+      "data_iso": "2000-12-21T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "delacao",
+        "impunidade"
+      ],
+      "descricao": "2000-12-21-Brasil-Corrupção-Crime Organizado",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2000-12-21-breve-historia-da-delacao-no-brasil.md",
+      "id": 126
+    }
+  ]
+}

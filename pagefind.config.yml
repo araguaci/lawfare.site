@@ -1,0 +1,10 @@
+source: dist
+bundle_dir: pagefind
+language: pt
+glob: "**/*.html"
+exclude_selectors:
+  - "nav"
+  - "footer"
+  - ".pagination"
+  - ".filter-bar"
+  - ".site-header"

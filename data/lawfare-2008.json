@@ -1,0 +1,366 @@
+{
+  "total": 13,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2008,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Nossa Caixa",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Venda suspeita.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-escandalo-da-nossa-caixa.md",
+      "id": 280
+    },
+    {
+      "titulo": "Escândalo Daniel Dantas",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Fraudes financeiras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-escandalo-daniel-dantas.md",
+      "id": 281
+    },
+    {
+      "titulo": "Escândalo de Cartões de Crédito Corporativos da Presidência",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Uso indevido.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-escandalo-de-cartoes-de-credito-corporativos-da-presidencia.md",
+      "id": 282
+    },
+    {
+      "titulo": "Escândalo dos Grampos na Abin",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Espionagem.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-escandalo-dos-grampos-na-abin.md",
+      "id": 283
+    },
+    {
+      "titulo": "Escândalo dos Grampos",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Gravações ilegais pela ABIN.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-escandalo-dos-grampos.md",
+      "id": 284
+    },
+    {
+      "titulo": "Esposa de líder das FARC no Ministério da Pesca",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Emprego para familiar de guerrilheiro.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-esposa-de-lider-das-farc-no-ministerio-da-pesca.md",
+      "id": 285
+    },
+    {
+      "titulo": "Mensagem em computador de Raúl Reyes",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Apoio da cúpula brasileira.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-mensagem-em-computador-de-raul-reyes.md",
+      "id": 286
+    },
+    {
+      "titulo": "Operação Águas Profundas",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "2008"
+      ],
+      "descricao": "Caso Petrobras.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2008-01-01-operacao-aguas-profundas.md",
+      "id": 287
+    },
+    {
+      "titulo": "Operação Naufrágio",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "espirito-santo"
+      ],
+      "descricao": "Investigação iniciada em 2008 sobre suspeitas de nepotismo e venda de decisões no Tribunal de Justiça do Espírito Santo✧  com ação penal ainda não julgada pelo STJ.Três desembargadores (presos em 2008)Um desembargador (réu atual)26 pessoas denunciadas em 2010 pelo Ministério Público Federal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2008-01-01-operacao-naufragio.md",
+      "id": 288
+    },
+    {
+      "titulo": "Planalto Reforma Móveis",
+      "data_evento": "2008-01-01",
+      "data_iso": "2008-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "reformas-luxo",
+        "moveis"
+      ],
+      "descricao": "2008-01-01-Brasília, DF-executivo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 5 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2008-01-01-planalto-reforma-moveis.md",
+      "id": 289
+    },
+    {
+      "titulo": "Soltura De Cláudio Roberto Ferreira",
+      "data_evento": "2008-05-01",
+      "data_iso": "2008-05-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "guarulhos",
+        "pcc"
+      ],
+      "descricao": "2008-05-01-Guarulhos, SP-Roubo Qualificado-Homicídio",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2008-05-01-soltura-de-claudio-roberto-ferreira.md",
+      "id": 290
+    },
+    {
+      "titulo": "Caso Daniel Dantas - Opportunity",
+      "data_evento": "2008-07-08",
+      "data_iso": "2008-07-08T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2008-07-08-caso-daniel-dantas-opportunity.md",
+      "id": 291
+    },
+    {
+      "titulo": "Operação Satiagraha",
+      "data_evento": "2008-07-08",
+      "data_iso": "2008-07-08T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-financeira",
+        "lavagem"
+      ],
+      "descricao": "2008-07-08-São Paulo, SP-corrupção financeira-lavagem",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2008-07-08-operacao-satiagraha.md",
+      "id": 292
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "total": 4,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1990,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Aprovação da Lei da Privatização das Estatais",
+      "data_evento": "1990-01-01",
+      "data_iso": "1990-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1990"
+      ],
+      "descricao": "Irregularidades na lei de privatizações.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1990-01-01-escandalo-da-aprovacao-da-lei-da-privatizacao-das-estatais.md",
+      "id": 30
+    },
+    {
+      "titulo": "Escândalo do BB",
+      "data_evento": "1990-01-01",
+      "data_iso": "1990-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1990"
+      ],
+      "descricao": "Fraudes no Banco do Brasil.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1990-01-01-escandalo-do-bb.md",
+      "id": 31
+    },
+    {
+      "titulo": "Escândalo do BC",
+      "data_evento": "1990-01-01",
+      "data_iso": "1990-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fernando-collor",
+        "1990"
+      ],
+      "descricao": "Irregularidades no Banco Central.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "Banco Central"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1990-01-01-escandalo-do-bc.md",
+      "id": 32
+    },
+    {
+      "titulo": "Operação Diamante Negro",
+      "data_evento": "1990-01-01",
+      "data_iso": "1990-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "ambiental",
+        "garimpo-ilegal",
+        "ambiental"
+      ],
+      "descricao": "1990-01-01-Roraima, RR-garimpo ilegal-ambiental",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\1990-01-01-operacao-diamante-negro.md",
+      "id": 33
+    }
+  ]
+}

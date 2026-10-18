@@ -1,0 +1,46 @@
+---
+import { tagRegistry } from '../data/tagRegistry';
+
+interface Props {
+  /** Slug da tag ativa (URL), ou null na timeline geral */
+  tagSlugAtiva?: string | null;
+}
+
+const { tagSlugAtiva = null } = Astro.props;
+
+const { tagCounts, tagToSlug } = tagRegistry;
+
+const topTags = [...tagCounts.entries()]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'pt-BR'))
+  .slice(0, 32)
+  .map(([tag, count]) => ({
+    tag,
+    slug: tagToSlug.get(tag)!,
+    count,
+  }));
+---
+
+<nav class="tag-filter-bar" aria-label="Filtrar por tag" data-pagefind-ignore>
+  <div class="tag-filter-head">
+    <span class="tag-filter-label">Tags</span>
+    <a href="/tags" class="tag-filter-all">Índice de tags</a>
+  </div>
+  <div class="tag-filter-chips">
+    <a
+      href="/pagina/1"
+      class:list={['tag-chip', { 'tag-chip--active': tagSlugAtiva === null }]}
+    >
+      Todas
+    </a>
+    {topTags.map(({ tag, slug, count }) => (
+      <a
+        href={`/tag/${slug}/1`}
+        class:list={['tag-chip', { 'tag-chip--active': slug === tagSlugAtiva }]}
+        title={`${tag} (${count} eventos)`}
+      >
+        <span class="tag-chip-text">{tag}</span>
+        <span class="tag-chip-n">{count}</span>
+      </a>
+    ))}
+  </div>
+</nav>

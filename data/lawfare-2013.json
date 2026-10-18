@@ -1,0 +1,194 @@
+{
+  "total": 6,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2013,
+  "assuntos": [
+    {
+      "titulo": "Habeas Corpus Para Odemir Francisco Dos Santos",
+      "data_evento": "2013-01-01",
+      "data_iso": "2013-01-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "cupula-pcc",
+        "branco"
+      ],
+      "descricao": "2013-01-01-Brasil-PCC-Lavagem Dinheiro",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2013-01-01-habeas-corpus-para-odemir-francisco-dos-santos.md",
+      "id": 339
+    },
+    {
+      "titulo": "Operação Concha Branca",
+      "data_evento": "2013-01-01",
+      "data_iso": "2013-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "fraude",
+        "fraude-combustivel",
+        "evasao-fiscal"
+      ],
+      "descricao": "2013-01-01-Rio de Janeiro, RJ-fraude combustível-evasão fiscal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2013-01-01-operacao-concha-branca.md",
+      "id": 340
+    },
+    {
+      "titulo": "Senado Compra Poltronas",
+      "data_evento": "2013-01-01",
+      "data_iso": "2013-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "poltronas-luxo",
+        "moveis"
+      ],
+      "descricao": "2013-01-01-Brasília, DF-legislativo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 2,5 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2013-01-01-senado-compra-poltronas.md",
+      "id": 341
+    },
+    {
+      "titulo": "Operação Ararath",
+      "data_evento": "2013-05-14",
+      "data_iso": "2013-05-14T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "lavagem-de-dinheiro",
+        "corrupcao"
+      ],
+      "descricao": "2013-05-14-Cuiabá, MT-lavagem de dinheiro-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2013-05-14-operacao-ararath.md",
+      "id": 342
+    },
+    {
+      "titulo": "Prisão Preventiva de Inocente por Reconhecimento Fotográfico Viciado — Caso Biazucci",
+      "data_evento": "2013-10-01",
+      "data_iso": "2013-10-01T12:00:00Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "justica",
+        "P01"
+      ],
+      "descricao": "O dentista André Luiz Medeiros Biazucci Cardoso, 39 anos, é preso em outubro de 2013 sob acusação de sete estupros em série em Belford Roxo (RJ). A prisão preventiva é decretada com base exclusivamente em reconhecimento fotográfico indutivo — foto retirada de rede social — e reconhecimento pessoal em fila composta por policiais uniformizados com distintivos, em violação ao art. 226 do CPP. O dentista permanece 210 dias (7 meses) segregado, parte em isolamento total. É apresentado algemado à imprensa como 'estuprador em série'. Perde o emprego. A família vende o carro para custear advogados e peritos particulares. A inocência é comprovada por DNA solicitado e custeado pela própria defesa — não pelo Estado. O laudo exclui cabalmente a participação de André em todos os sete processos. Câmeras de segurança e depoimentos confirmam que ele não estava em Belford Roxo nas datas dos crimes. O MP-RJ manifesta-se pela soltura. André é absolvido em todos os sete processos e liberado em 2014.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "https://www.conjur.com.br/2026-abr-26/dentista-preso-injustamente-no-rio-recorre-a-cidh-apos-stj-negar-indenizacao/",
+        "https://revistaforum.com.br/brasil/homem-preso-injustica-indenizacao-condenado/"
+      ],
+      "pessoas_envolvidas": [
+        "André Luiz Medeiros Biazucci Cardoso (vítima — preso injustamente 210 dias)",
+        "Polícia Civil do Rio de Janeiro (condutora da investigação com método viciado)",
+        "Luiz Antônio Borri (advogado da defesa)"
+      ],
+      "instituicoes_envolvidas": [
+        "civil",
+        "PCERJ",
+        "advocacia privada",
+        "TJRJ",
+        "MP-RJ"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\impunidade\\2013-10-01-prisao-preventiva-biazucci-reconhecimento-viciado.md",
+      "id": 1511
+    },
+    {
+      "titulo": "AGU e Banco Central mudam de posição e defendem teses bancárias na ADPF 165; STF suspende julgamento após pedido do PGR Rodrigo Janot para revisão de contas",
+      "data_evento": "2013-11-27",
+      "data_iso": "2013-11-27T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P03",
+        "P06"
+      ],
+      "descricao": "Em 27/11/2013, quando o STF finalmente pautou a ADPF 165 para julgamento e ouviu sustentações orais, a Advocacia-Geral da União (AGU) e o Banco Central — que representam o interesse público — passaram a defender as teses dos bancos, indo contra a posição historicamente favorável aos poupadores. Em vez de concluir o julgamento naquela sessão, o STF suspendeu o processo a partir de pedido do então procurador-geral da República, Rodrigo Janot, para revisão das contas apresentadas no processo.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://idec.org.br/o-idec/sala-de-imprensa/release/idec-e-contra-a-suspenso-da-adpf-165-no-stf",
+        "https://idec.org.br/artigo/os-bancos-sendo-bancos-ao-final-do-acordo-dos-planos-economicos"
+      ],
+      "pessoas_envolvidas": [
+        "Advocacia-Geral da União (Órgão de representação do interesse público — adotou posição favorável aos bancos em 2013)",
+        "Banco Central do Brasil (Interveniente — posição favorável aos bancos em 2013)",
+        "Rodrigo Janot (Procurador-Geral da República — pedido de revisão de contas resultou na suspensão do julgamento)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "AGU",
+        "Banco Central",
+        "Ministério Público Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2013-11-27-agu-e-banco-central-mudam-de-posicao-e-defendem-teses-bancarias-na-adpf-165-stf-suspende-j.md",
+      "id": 1813
+    }
+  ]
+}

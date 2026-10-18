@@ -1,0 +1,157 @@
+---
+import ThemeSwitcher from '../components/ThemeSwitcher.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  jsonLd?: string;
+  ogImage?: string;
+}
+
+const {
+  title,
+  description = 'Cronologia documentada de abusos de poder, lawfare e escândalos políticos no Brasil.',
+  canonical,
+  jsonLd,
+  ogImage = '/og-default.png',
+} = Astro.props;
+
+const siteUrl = 'https://lawfare-timeline.vercel.app';
+const canonicalUrl = canonical || (siteUrl + Astro.url.pathname);
+const currentPath = Astro.url.pathname;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="generator" content={Astro.generator} />
+
+  <!-- Anti-FOUC Theme Initialization (executes synchronously before render) -->
+  <script is:inline>
+    (function() {
+      try {
+        const saved = localStorage.getItem('lawfare_theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', saved);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Lawfare Timeline" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="Lawfare Timeline RSS" href="/rss.xml" />
+
+  <!-- Pagefind UI -->
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+
+  <!-- Global styles -->
+  <link rel="stylesheet" href="/styles/global.css" />
+
+  {jsonLd && (
+    <script type="application/ld+json" set:html={jsonLd} />
+  )}
+</head>
+<body>
+  <header class="site-header" data-pagefind-ignore>
+    <div class="header-inner">
+      <a href="/" class="site-logo">
+        <span class="logo-badge">⚡</span>
+        <span class="logo-text">Lawfare<span class="logo-accent">Timeline</span></span>
+      </a>
+
+      <div class="header-right">
+        <nav class="header-nav" aria-label="Navegação principal">
+          <a href="/" class:list={['nav-link', { 'nav-link--active': currentPath === '/' }]}>Início</a>
+          <a href="/pagina/1" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/pagina') }]}>Timeline</a>
+          <a href="/tags" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/tag') }]}>Tags</a>
+          <a href="/sobre" class:list={['nav-link', { 'nav-link--active': currentPath === '/sobre' }]}>Sobre</a>
+          <a href="/rss.xml" class="nav-link" title="Feed RSS de atualizações">RSS</a>
+        </nav>
+
+        <ThemeSwitcher />
+      </div>
+    </div>
+  </header>
+
+  <!-- Barra de busca Pagefind -->
+  <div class="search-bar" data-pagefind-ignore>
+    <div class="search-inner">
+      <div id="search"></div>
+    </div>
+  </div>
+
+  <main class="main-content">
+    <slot />
+  </main>
+
+  <footer class="site-footer" data-pagefind-ignore>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <strong>Lawfare Timeline Brasil</strong> · Documentação contínua de fatos, decisões e investigações públicas desde 1979
+      </div>
+      <div class="footer-right">
+        <a href="/pagina/1">Timeline</a>
+        · <a href="/tags">Índice de Tags</a>
+        · <a href="/rss.xml">RSS</a>
+        · <a href="/sobre">Sobre o Projeto</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pagefind UI init & keyboard shortcut listener -->
+  <script src="/pagefind/pagefind-ui.js" is:inline></script>
+  <script is:inline>
+    if (window.PagefindUI) {
+      new window.PagefindUI({
+        element: '#search',
+        showImages: false,
+        filters: { categoria: true, relevancia: true },
+        translations: {
+          placeholder: 'Buscar 1.400+ eventos (pressione "/" para buscar)...',
+          zero_results: 'Nenhum resultado para "[QUERY]"',
+        },
+      });
+    }
+
+    // Shortcut "/" or Ctrl+K to jump to search input
+    document.addEventListener('keydown', function(e) {
+      if ((e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) || ((e.metaKey || e.ctrlKey) && e.key === 'k')) {
+        e.preventDefault();
+        const searchInput = document.querySelector('.pagefind-ui__search-input');
+        if (searchInput) {
+          searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          searchInput.focus();
+        }
+      }
+    });
+  </script>
+</body>
+</html>

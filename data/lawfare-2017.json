@@ -1,0 +1,750 @@
+{
+  "total": 26,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2017,
+  "assuntos": [
+    {
+      "titulo": "Congresso Compra Móveis",
+      "data_evento": "2017-01-01",
+      "data_iso": "2017-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "moveis-luxo",
+        "gastos-legislativos"
+      ],
+      "descricao": "2017-01-01-Brasília, DF-legislativo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-01-01-congresso-compra-moveis.md",
+      "id": 386
+    },
+    {
+      "titulo": "Esquema de venda de sentenças (TRF‑5)",
+      "data_evento": "2017-01-01",
+      "data_iso": "2017-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "rn"
+      ],
+      "descricao": "Desembargador aposentado e outros envolvidos condenados por exploração de prestígio✧  falsidade ideológica✧  lavagem de dinheiro✧  associação criminosa entre 2015–2017.Desembargador Francisco Barros Dias (aposentado)outros seis acusados",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2017-01-01-esquema-de-venda-de-sentencas-trf5.md",
+      "id": 387
+    },
+    {
+      "titulo": "Fraude em Sentença BRINK MOBIL - Operação Calvário",
+      "data_evento": "2017-01-01",
+      "data_iso": "2017-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "fraude-sentenca",
+        "influencia-judicial",
+        "propina",
+        "contrato-publico",
+        "organizacao-criminosa",
+        "gilberto-carneiro-da-gama-procurador-geral",
+        "valdemar-abila-dono-brink-mobil",
+        "felipe-ex-genro-de-valdemar",
+        "ivan-burity",
+        "livania-farias",
+        "advogado-da-brink-mobil",
+        "erario-publico",
+        "sociedade-paraibana",
+        "investigacao-integrada-a-operacao-calvario",
+        "denuncias-pelo-mp-pb",
+        "nomeacao-do-advogado-a-cargo-publico-como-recompensa",
+        "gravidade-alta",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 0, ",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2017-01-01-fraude-em-sentenca-brink-mobil-operacao-calvario.md",
+      "id": 388
+    },
+    {
+      "titulo": "Tj Pr Compra Poltronas",
+      "data_evento": "2017-01-01",
+      "data_iso": "2017-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "poltronas-luxo",
+        "moveis"
+      ],
+      "descricao": "2017-01-01-Curitiba, PR-judiciario-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 4,7 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-01-01-tj-pr-compra-poltronas.md",
+      "id": 389
+    },
+    {
+      "titulo": "Jantar com Temer",
+      "data_evento": "2017-01-22",
+      "data_iso": "2017-01-22T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "palacio-do-jaburu",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2017-01-22-jantar-com-temer.md",
+      "id": 390
+    },
+    {
+      "titulo": "Câmara aprova conversão da MP 747/2016, permitindo regularização administrativa de concessões de rádio e TV vencidas em vez de extinção",
+      "data_evento": "2017-02-21",
+      "data_iso": "2017-02-21T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P06"
+      ],
+      "descricao": "O Plenário da Câmara dos Deputados aprovou, em 21/02/2017, o projeto de lei de conversão da MP 747/2016, que alterou as regras de renovação de outorga previstas na Lei 5.785/1972 e passou a permitir a regularização administrativa de concessões vencidas, no prazo de 90 dias, desde que o Congresso ainda não tivesse deliberado pela extinção. O governo justificou a medida pelo acúmulo de pedidos de extinção que o Executivo deveria ter enviado ao Congresso por falta de renovação tempestiva pelas próprias emissoras.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "ato_legislativo",
+      "fontes": [
+        "https://www2.camara.leg.br/camaranoticias/noticias/COMUNICACAO/523523-CAMARA-ALTERA-REGRAS-PARA-RENOVACAO-E-OUTORGA-DE-CONCESSAO-DE-TV-E-RADIO.html"
+      ],
+      "pessoas_envolvidas": [
+        "Nilson Leitão (Deputado relator do projeto de lei de conversão da MP 747/2016)"
+      ],
+      "instituicoes_envolvidas": [
+        "Câmara dos Deputados",
+        "Ministério da Ciência, Tecnologia, Inovações e Comunicações"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2017-02-21-camara-aprova-conversao-da-mp-7472016-permitindo-regularizacao-administrativa-de-concessoe.md",
+      "id": 1811
+    },
+    {
+      "titulo": "Jantar com Temer, Aécio e Serra",
+      "data_evento": "2017-03-16",
+      "data_iso": "2017-03-16T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "casa-de-gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2017-03-16-jantar-com-temer-aecio-e-serra.md",
+      "id": 391
+    },
+    {
+      "titulo": "Operação Carne Fraca",
+      "data_evento": "2017-03-17",
+      "data_iso": "2017-03-17T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "fraude",
+        "fraude-alimentar",
+        "corrupcao"
+      ],
+      "descricao": "2017-03-17-Curitiba, PR-fraude alimentar-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2017-03-17-operacao-carne-fraca.md",
+      "id": 392
+    },
+    {
+      "titulo": "Alesp Compra Cadeiras",
+      "data_evento": "2017-04-01",
+      "data_iso": "2017-04-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "cadeiras-luxo",
+        "moveis"
+      ],
+      "descricao": "2017-04-01-São Paulo, SP-legislativo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1,54 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-04-01-alesp-compra-cadeiras.md",
+      "id": 393
+    },
+    {
+      "titulo": "Palestra em Harvard",
+      "data_evento": "2017-04-14",
+      "data_iso": "2017-04-14T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "harvard",
+        "eua"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2017-04-14-palestra-em-harvard.md",
+      "id": 394
+    },
+    {
+      "titulo": "Habeas Corpus Para Cláudio Roberto Ferreira",
+      "data_evento": "2017-05-01",
+      "data_iso": "2017-05-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "guarulhos",
+        "pcc"
+      ],
+      "descricao": "2017-05-01-São Paulo, SP-Roubo Qualificado-Homicídio",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2017-05-01-habeas-corpus-para-claudio-roberto-ferreira.md",
+      "id": 395
+    },
+    {
+      "titulo": "JBS",
+      "data_evento": "2017-05-01",
+      "data_iso": "2017-05-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-temer",
+        "2017"
+      ],
+      "descricao": "Gravação de Temer aprovando suborno, delação dos irmãos Batista.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "Câmara"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2017-05-01-jbs.md",
+      "id": 396
+    },
+    {
+      "titulo": "Liberdade Para 12 Narcotraficantes",
+      "data_evento": "2017-05-01",
+      "data_iso": "2017-05-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "lavagem-dinheiro",
+        "operacao-cardume"
+      ],
+      "descricao": "2017-05-01-Brasil-Trafico Internacional-Organização Criminosa",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2017-05-01-liberdade-para-12-narcotraficantes.md",
+      "id": 397
+    },
+    {
+      "titulo": "Caso JBS - Empréstimos BNDES",
+      "data_evento": "2017-05-17",
+      "data_iso": "2017-05-17T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2017-05-17-caso-jbs-emprestimos-bndes.md",
+      "id": 398
+    },
+    {
+      "titulo": "Operação Patmos",
+      "data_evento": "2017-05-18",
+      "data_iso": "2017-05-18T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-presidencial",
+        "propina"
+      ],
+      "descricao": "2017-05-18-Brasília, DF-corrupção presidencial-propina",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2017-05-18-operacao-patmos.md",
+      "id": 399
+    },
+    {
+      "titulo": "Encontro com Temer",
+      "data_evento": "2017-06-27",
+      "data_iso": "2017-06-27T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "casa-de-gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "PGR"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2017-06-27-encontro-com-temer.md",
+      "id": 400
+    },
+    {
+      "titulo": "Câmara Bh Compra Poltronas",
+      "data_evento": "2017-07-01",
+      "data_iso": "2017-07-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "poltronas-luxo",
+        "gastos-municipais"
+      ],
+      "descricao": "2017-07-01-Belo Horizonte, MG-legislativo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Câmara"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 171 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-07-01-camara-bh-compra-poltronas.md",
+      "id": 401
+    },
+    {
+      "titulo": "Câmara Compra Camas",
+      "data_evento": "2017-07-01",
+      "data_iso": "2017-07-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "camas-luxo",
+        "moveis"
+      ],
+      "descricao": "2017-07-01-Brasília, DF-legislativo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Câmara"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 80 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-07-01-camara-compra-camas.md",
+      "id": 402
+    },
+    {
+      "titulo": "Declarações contraditórias",
+      "data_evento": "2017-07-05",
+      "data_iso": "2017-07-05T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2017-07-05-declaracoes-contraditorias.md",
+      "id": 403
+    },
+    {
+      "titulo": "Vale assina Acordo de Confidencialidade com Green Metals e Flapa sobre rejeitos de Jangada e Córrego do Feijão (B1) — um ano e meio antes do rompimento",
+      "data_evento": "2017-07-20",
+      "data_iso": "2017-07-20T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "p05",
+        "p10"
+      ],
+      "descricao": "Vale S.A., Green Metals Soluções Ambientais S.A. e Flapa Mineração e Incorporações Ltda. assinaram acordo de confidencialidade para estudos de aproveitamento do 'Estéril de Formação Ferrífera' de Jangada e Córrego do Feijão — onde estava depositada a barragem B1. O acordo tratava o material como estéril aproveitável, não como rejeito/passivo, e incluía cláusula de sigilo sobre a própria existência das tratativas (Cláusula 2.2) e obrigação de destruição de dados ao final das negociações (Cláusula Quarta).",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/o-negocio-da-lama-a-venda-bilionaria",
+        "https://www.ainvestigacao.com/p/inquerito-da-pf-confirma-elo-revelado"
+      ],
+      "pessoas_envolvidas": [
+        "Lúcio Cavalli (Diretor de Planejamento (signatário pela Vale))",
+        "Fabiano de Carvalho Filho (Executive Manager de Estratégia e Desenvolvimento de Negócios/Ferrosos (signatário pela Vale))",
+        "Celso Baptista Dias Filho (Sócio-controlador (signatário))",
+        "Luciana Freitas Goulart (Núcleo administrativo-financeiro (signatária))"
+      ],
+      "instituicoes_envolvidas": [
+        "Vale S.A.",
+        "Green Metals Soluções Ambientais S.A.",
+        "Flapa Mineração e Incorporações Ltda."
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2017-07-20-vale-assina-acordo-de-confidencialidade-com-green-metals-e-flapa-sobre-rejeitos-de-jangada.md",
+      "id": 1918
+    },
+    {
+      "titulo": "Governo Rj Licita Jatinhos",
+      "data_evento": "2017-08-01",
+      "data_iso": "2017-08-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "jatinhos-luxo",
+        "viagens"
+      ],
+      "descricao": "2017-08-01-Rio de Janeiro, RJ-executivo-transporte",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 2,5 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-08-01-governo-rj-licita-jatinhos.md",
+      "id": 404
+    },
+    {
+      "titulo": "Senado Compra Cadeiras E Sofás",
+      "data_evento": "2017-08-01",
+      "data_iso": "2017-08-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "moveis-luxo",
+        "cadeiras"
+      ],
+      "descricao": "2017-08-01-Brasília, DF-legislativo-mobilia",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Senado"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 920 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-08-01-senado-compra-cadeiras-e-sofas.md",
+      "id": 405
+    },
+    {
+      "titulo": "Trt Ba Licita Professores De Corrida",
+      "data_evento": "2017-08-01",
+      "data_iso": "2017-08-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "treinamento-luxo",
+        "gastos-polemicos"
+      ],
+      "descricao": "2017-08-01-Salvador, BA-judiciario-servicos",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 196 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2017-08-01-trt-ba-licita-professores-de-corrida.md",
+      "id": 406
+    },
+    {
+      "titulo": "Entrevista sobre momentos de crise",
+      "data_evento": "2017-08-30",
+      "data_iso": "2017-08-30T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2017-08-30-entrevista-sobre-momentos-de-crise.md",
+      "id": 407
+    },
+    {
+      "titulo": "Declaração a jornalistas",
+      "data_evento": "2017-09-04",
+      "data_iso": "2017-09-04T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "paris",
+        "franca"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2017-09-04-declaracao-a-jornalistas.md",
+      "id": 408
+    },
+    {
+      "titulo": "Caso Geddel - Bunker de R$ 51 mi",
+      "data_evento": "2017-09-05",
+      "data_iso": "2017-09-05T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "bahia"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 51 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2017-09-05-caso-geddel-bunker-de-r-51-mi.md",
+      "id": 409
+    }
+  ]
+}

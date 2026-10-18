@@ -1,0 +1,737 @@
+{
+  "total": 24,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2018,
+  "assuntos": [
+    {
+      "titulo": "Decreto dos Portos",
+      "data_evento": "2018-01-01",
+      "data_iso": "2018-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-temer",
+        "2018"
+      ],
+      "descricao": "Suspeita de favorecimento a empresas portuárias em troca de propina.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "PGR"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2018-01-01-decreto-dos-portos.md",
+      "id": 410
+    },
+    {
+      "titulo": "Gastos Com Mercado Gourmet La Palma Temer",
+      "data_evento": "2018-01-01",
+      "data_iso": "2018-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "gourmet",
+        "cartao-corporativo"
+      ],
+      "descricao": "2018-01-01-Brasília, DF-executivo-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 492 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2018-01-01-gastos-com-mercado-gourmet-la-palma-temer.md",
+      "id": 411
+    },
+    {
+      "titulo": "Primeiro acordo coletivo entre bancos e poupadores é homologado pelo STF na ADPF 165, com prorrogações sucessivas do prazo de adesão",
+      "data_evento": "2018-01-01",
+      "data_iso": "2018-01-01T12:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "P06"
+      ],
+      "descricao": "Após anos de suspensão, representantes de bancos (FEBRABAN, CONSIF) e poupadores (Idec, Febrapo), com a AGU, firmaram acordo coletivo homologado pelo STF em 2018, substituindo o julgamento de mérito por uma solução negociada de correção monetária. O acordo foi aditado em 2020 para incluir o Plano Collor I e teve o prazo de adesão prorrogado sucessivamente (30 meses em 2020, mais 24 meses em 2025), alcançando ao final mais de 326 mil adesões e pagamentos superiores a R$5 bilhões — valor definido por negociação, não por decisão judicial de mérito sobre o montante integral devido.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/entenda-stf-inicia-julgamento-definitivo-sobre-planos-economicos/",
+        "https://www.gov.br/agu/pt-br/comunicacao/noticias/maioria-do-stf-declara-constitucionalidade-de-planos-economicos"
+      ],
+      "pessoas_envolvidas": [
+        "FEBRABAN / CONSIF (Representantes do setor bancário no acordo coletivo)",
+        "Idec / Febrapo (Representantes dos poupadores no acordo coletivo)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "AGU",
+        "FEBRABAN",
+        "CONSIF",
+        "Idec",
+        "Febrapo"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\bancos\\2018-01-01-primeiro-acordo-coletivo-entre-bancos-e-poupadores-e-homologado-pelo-stf-na-adpf-165-com-p.md",
+      "id": 1814
+    },
+    {
+      "titulo": "Raquel Dodge entra com ação no STF contra voto impresso em 2018 | VEJA",
+      "data_evento": "2018-02-05",
+      "data_iso": "2018-02-05T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "eleicoes",
+        "raquel-dodge",
+        "voto-impresso"
+      ],
+      "descricao": "2018-02-05-veja-Eleições-Raquel Dodge",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2018-02-05-raquel-dodge-entra-com-acao-no-stf-contra-voto-impresso-em-2018-veja.md",
+      "id": 412
+    },
+    {
+      "titulo": "Raquel Dodge entra com ação no STF contra voto impresso em 2018 | VEJA",
+      "data_evento": "2018-02-05",
+      "data_iso": "2018-02-05T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "eleicoes",
+        "raquel-dodge",
+        "voto-impresso"
+      ],
+      "descricao": "STF contra voto impresso",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2018-02-05-raquel-dodge-entra-com-acao-no-stf-contra-voto-impresso-em-2018-veja.md",
+      "id": 413
+    },
+    {
+      "titulo": "Operação Descarte",
+      "data_evento": "2018-03-01",
+      "data_iso": "2018-03-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "lavagem-de-dinheiro",
+        "lavagem-de-dinheiro",
+        "fraude-fiscal"
+      ],
+      "descricao": "2018-03-01-São Paulo, SP-lavagem de dinheiro-fraude fiscal",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2018-03-01-operacao-descarte.md",
+      "id": 414
+    },
+    {
+      "titulo": "China Merchants Port (CMPort) adquire 90% do Terminal de Contêineres de Paranaguá por R$2,9 bilhões",
+      "data_evento": "2018-03-01",
+      "data_iso": "2018-03-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "dragao-onca",
+        "china",
+        "parana",
+        "porto",
+        "P05"
+      ],
+      "descricao": "Após mais de um ano de negociações, a estatal chinesa China Merchants Port Holding (CMPort) anuncia a compra de 90% do Terminal de Contêineres de Paranaguá (TCP) e da TCP Log por R$2,9 bilhões (US$925 milhões), adquirindo a fatia do fundo americano Advent e de acionistas espanhóis (Galigrain, TCB). É o primeiro investimento da CMPort na América Latina e marca o início do controle chinês sobre o segundo maior porto de contêineres do Brasil, estrategicamente posicionado para o escoamento agrícola à China.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "Estatal chinesa assume controle majoritário de infraestrutura portuária estratégica brasileira — evento fundador da relação Paraná-China documentada neste capítulo.",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://drhima.poli.ufrj.br/index.php/br/destaque/noticias/156-terminal-de-paranagua-e-vendido-por-r-2-9-bilhoes",
+        "https://www.noticiasagricolas.com.br/noticias/logistica/208646-empresa-chinesa-adquire-por-r-32-bilhoes-controle-de-90-do-terminal-de-conteineres-do-porto-de-paranagua.html",
+        "https://port.today/china-merchants-port-buys-tcp/"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "China Merchants Port Holding (CMPort)",
+        "Advent International",
+        "TCP Participações"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 2,9 bilhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\dragao-onca\\2018-03-01-id1731-cmport-adquire-tcp-paranagua.md",
+      "id": 1731,
+      "connections": [
+        "id_1732",
+        "id_1733",
+        "id_1734"
+      ]
+    },
+    {
+      "titulo": "FBI expõe ao TSE sua experiência no combate às fake news",
+      "data_evento": "2018-03-05",
+      "data_iso": "2018-03-05T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "eleicoes",
+        "fake-news",
+        "marco-aurelio"
+      ],
+      "descricao": "2018-03-05-tse-Eleições-Fake News",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2018-03-05-fbi-expoe-ao-tse-sua-experiencia-no-combate-as-fake-news.md",
+      "id": 415
+    },
+    {
+      "titulo": "FBI expõe ao TSE sua experiência no combate às fake news",
+      "data_evento": "2018-03-05",
+      "data_iso": "2018-03-05T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "eleicoes",
+        "fake-news",
+        "marco-aurelio",
+        "tse"
+      ],
+      "descricao": "FBI expõe ao TSE combate às fake news",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "TSE"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2018-03-05-fbi-expoe-ao-tse-sua-experiencia-no-combate-as-fake-news.md",
+      "id": 416
+    },
+    {
+      "titulo": "Operação Pausare",
+      "data_evento": "2018-03-05",
+      "data_iso": "2018-03-05T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-fundo-pensao",
+        "corrupcao"
+      ],
+      "descricao": "2018-03-05-Rio de Janeiro, RJ-fraude fundo pensão-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2018-03-05-operacao-pausare.md",
+      "id": 417
+    },
+    {
+      "titulo": "“Enfia essa pergunta na bunda”, diz Gilmar Mendes a repórter. O repórter questionou quem foi o responsável por custear as despesas de passagem aérea do ministro para Portugal",
+      "data_evento": "2018-03-29",
+      "data_iso": "2018-03-29T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "extrapola",
+        "gilmar-mendes",
+        "eleicoes"
+      ],
+      "descricao": "2018-03-29-metropoles-Extrapola-Gilmar Mendes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2018-03-29-enfia-essa-pergunta-na-bunda.md",
+      "id": 418
+    },
+    {
+      "titulo": "“Enfia essa pergunta na bunda”, diz Gilmar Mendes a repórter. O repórter questionou quem foi o responsável por custear as despesas de passagem aérea do ministro para Portugal",
+      "data_evento": "2018-03-29",
+      "data_iso": "2018-03-29T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "extrapola",
+        "gilmar-mendes",
+        "indecoro"
+      ],
+      "descricao": "indecoro Gilmar Mendes",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2018-03-29-enfia-essa-pergunta-na-bunda.md",
+      "id": 419
+    },
+    {
+      "titulo": "Comandante do Exército publica no Twitter recado ao STF na véspera do julgamento do HC de Lula; em 2021 relata que o texto foi discutido com o Alto Comando",
+      "data_evento": "2018-04-03",
+      "data_iso": "2018-04-03T12:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "caserna-poder",
+        "tutela-militar",
+        "t-273",
+        "ciclos-do-brasil"
+      ],
+      "descricao": "Em 03/04/2018, véspera do julgamento do habeas corpus preventivo de Luiz Inácio Lula da Silva pelo plenário do STF, o comandante do Exército, general Eduardo Villas Bôas, publicou no Twitter mensagem afirmando que o Exército 'julga compartilhar o anseio de todos os cidadãos de bem de repúdio à impunidade' e que 'se mantém atento às suas missões institucionais'. O HC foi negado por 6 a 5 no dia seguinte. Em fevereiro de 2021, no livro-depoimento 'General Villas Bôas: conversa com o comandante' (org. Celso Castro, FGV Editora), o general relatou que o texto foi elaborado com integrantes do Alto Comando do Exército. O ministro Edson Fachin classificou a revelação como 'intolerável e inaceitável'. Registro relevante para a série porque é a primeira manifestação pública documentada de comandante em exercício dirigida a julgamento do STF na Nova República.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "judicial",
+      "fontes": [
+        "https://www.jb.com.br/pais/politica/2021/02/1028259-postagens-contra-lula-tiveram-apoio-do-exercito-revela-ex-comandante-villas-boas.html",
+        "https://www.conjur.com.br/2021-fev-12/villas-boas-revela-alto-comando-exercito-ameacou-stf/"
+      ],
+      "pessoas_envolvidas": [
+        "Eduardo Villas Bôas (Comandante do Exército — autor da mensagem)",
+        "Edson Fachin (Ministro do STF — reagiu à revelação de 2021)"
+      ],
+      "instituicoes_envolvidas": [
+        "Exército Brasileiro",
+        "Alto Comando do Exército",
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\justica\\2018-04-03-comandante-do-exercito-publica-no-twitter-recado-ao-stf-na-vespera-do-julgamento-do-hc-de-.md",
+      "id": 1974
+    },
+    {
+      "titulo": "Operação Tira-Teima",
+      "data_evento": "2018-05-09",
+      "data_iso": "2018-05-09T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-sindical",
+        "corrupcao"
+      ],
+      "descricao": "2018-05-09-Brasília, DF-fraude sindical-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2018-05-09-operacao-tira-teima.md",
+      "id": 420
+    },
+    {
+      "titulo": "Stj Compra Carros Ford Fusion",
+      "data_evento": "2018-06-01",
+      "data_iso": "2018-06-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "carros-luxo",
+        "veiculos"
+      ],
+      "descricao": "2018-06-01-Brasília, DF-judiciario-luxo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 3 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2018-06-01-stj-compra-carros-ford-fusion.md",
+      "id": 421
+    },
+    {
+      "titulo": "Declaração em sessão do STF",
+      "data_evento": "2018-06-06",
+      "data_iso": "2018-06-06T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2018-06-06-declaracao-em-sessao-do-stf.md",
+      "id": 422
+    },
+    {
+      "titulo": "TÜV SÜD emite laudos de estabilidade fraudados da B1 (jun. e set. 2018); MP de Brumadinho arquiva inquérito com base neles",
+      "data_evento": "2018-09-01",
+      "data_iso": "2018-09-01T12:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "p01",
+        "p05"
+      ],
+      "descricao": "TÜV SÜD Bureau de Inspeção Ltda. atestou estabilidade da B1 em junho e repetiu a manobra em setembro de 2018, adotando ad hoc fator de segurança mínimo de 1,05 (padrão exigido: 1,30) sem intervenção estrutural relevante entre as duas emissões. Em novembro de 2018, a Vale apresentou esses laudos ao Ministério Público de Brumadinho pedindo arquivamento do inquérito sobre a segurança da B1 — pedido acatado.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "abuso_processual",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/o-negocio-da-lama-a-venda-bilionaria"
+      ],
+      "pessoas_envolvidas": [
+        "TÜV SÜD Bureau de Inspeção Ltda. (Emissora dos laudos de estabilidade)"
+      ],
+      "instituicoes_envolvidas": [
+        "Vale S.A.",
+        "TÜV SÜD",
+        "Ministério Público de Brumadinho"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\impunidade\\2018-09-01-tuv-sud-emite-laudos-de-estabilidade-fraudados-da-b1-jun-e-set-2018-mp-de-brumadinho-arqui.md",
+      "id": 1920
+    },
+    {
+      "titulo": "Semanalmente, juízes do Supremo decidem sozinhos sobre aplicação da Constituição.",
+      "data_evento": "2018-09-20",
+      "data_iso": "2018-09-20T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "extrapola",
+        "inconstitucional",
+        "constituicao"
+      ],
+      "descricao": "2018-09-20-apublica-Extrapola-Inconstitucional",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2018-09-20-semanalmente.md",
+      "id": 423
+    },
+    {
+      "titulo": "Semanalmente, juízes do Supremo decidem sozinhos sobre aplicação da Constituição.",
+      "data_evento": "2018-09-20",
+      "data_iso": "2018-09-20T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "extrapola",
+        "inconstitucional",
+        "constituicao"
+      ],
+      "descricao": "juízes do Supremo decidem sozinhos sobre aplicação da Constituição",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2018-09-20-semanalmente.md",
+      "id": 424
+    },
+    {
+      "titulo": "Soltura Indevida De Leomar Oliveira Barbosa",
+      "data_evento": "2018-10-01",
+      "data_iso": "2018-10-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "fernandinho-beira-mar",
+        "bolivia"
+      ],
+      "descricao": "2018-10-01-Formosa, GO-Trafico de Drogas-Comando Vermelho",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [
+        "PF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2018-10-01-soltura-indevida-de-leomar-oliveira-barbosa.md",
+      "id": 425
+    },
+    {
+      "titulo": "Fux revoga auxílio-moradia para juízes após sanção de reajuste para STF.",
+      "data_evento": "2018-11-26",
+      "data_iso": "2018-11-26T00:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "luiz-fux"
+      ],
+      "descricao": "2018-11-26-conjur-Luiz Fux-",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\lawfare\\2018-11-26-fux-revoga-auxilio-moradia-para-juizes-apos-sancao-de-reajuste-para-stf.md",
+      "id": 426
+    },
+    {
+      "titulo": "Fux revoga auxílio-moradia.",
+      "data_evento": "2018-11-26",
+      "data_iso": "2018-11-26T00:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "luiz-fux"
+      ],
+      "descricao": "Fux revoga auxílio-moradia para juízes após sanção de reajuste para STF.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Data de Publicação",
+        "Fonte",
+        "URL"
+      ],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\stf\\2018-11-26-fux-revoga-auxilio-moradia-para-juizes-apos-sancao-de-reajuste-para-stf.md",
+      "id": 427
+    },
+    {
+      "titulo": "Pmdf Licita Viaturas Dodge Journey",
+      "data_evento": "2018-12-06",
+      "data_iso": "2018-12-06T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "viaturas-luxo",
+        "veiculos"
+      ],
+      "descricao": "2018-12-06-Brasília, DF-militar-luxo",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 23 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2018-12-06-pmdf-licita-viaturas-dodge-journey.md",
+      "id": 428
+    },
+    {
+      "titulo": "Vale anuncia compra da New Steel Global N.V. por US$500 milhões no mesmo dia em que COPAM/MG concede licença para comercializar rejeitos das Barragens I e VI",
+      "data_evento": "2018-12-11",
+      "data_iso": "2018-12-11T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "p05",
+        "p10"
+      ],
+      "descricao": "No mesmo dia, o COPAM/MG concedeu a Licença Ambiental Concomitante (LAC1) autorizando a Vale a comercializar rejeitos das Barragens I (B1) e VI como pellet feed fines, e a Vale anunciou ao mercado a aquisição da New Steel Global N.V. — holding constituída na Holanda em 07/03/2018, nove meses antes — por US$500 milhões, pagos ao Hankoe FIP (controlado pela Lorinvest/grupo Lorentzen, administrado pelo BTG Pactual).",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.ainvestigacao.com/p/o-negocio-da-lama-a-venda-bilionaria"
+      ],
+      "pessoas_envolvidas": [
+        "Fabiano de Carvalho Filho (Condutor da aquisição pela Vale (abr/2017–out/2021))",
+        "Maria Teresa Corujo (Conselheira do COPAM — único voto contrário na Câmara de Atividades Minerárias)"
+      ],
+      "instituicoes_envolvidas": [
+        "Vale S.A.",
+        "COPAM/MG",
+        "SEMAD/MG",
+        "Hankoe FIP",
+        "BTG Pactual"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\escandalos\\2018-12-11-vale-anuncia-compra-da-new-steel-global-nv-por-us500-milhoes-no-mesmo-dia-em-que-copammg-c.md",
+      "id": 1919
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "total": 7,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1995,
+  "assuntos": [
+    {
+      "titulo": "Abuso de Medidas Provisórias",
+      "data_evento": "1995-01-01",
+      "data_iso": "1995-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1995-2002"
+      ],
+      "descricao": "Excesso de MPs (5.491).",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1995-01-01-abuso-de-medidas-provisorias.md",
+      "id": 82
+    },
+    {
+      "titulo": "Escândalo de Corrupção dos Ministros no Governo FHC",
+      "data_evento": "1995-01-01",
+      "data_iso": "1995-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1995-2002"
+      ],
+      "descricao": "Múltiplos casos de ministros.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1995-01-01-escandalo-de-corrupcao-dos-ministros-no-governo-fhc.md",
+      "id": 83
+    },
+    {
+      "titulo": "Escândalo do Proer",
+      "data_evento": "1995-01-01",
+      "data_iso": "1995-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "1990s"
+      ],
+      "descricao": "Programa bancário.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1995-01-01-escandalo-do-proer.md",
+      "id": 84
+    },
+    {
+      "titulo": "Escândalo do Sivam",
+      "data_evento": "1995-01-01",
+      "data_iso": "1995-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1995"
+      ],
+      "descricao": "Fraudes em sistema de vigilância da Amazônia.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1995-01-01-escandalo-do-sivam.md",
+      "id": 85
+    },
+    {
+      "titulo": "Liquidação do Banco Econômico",
+      "data_evento": "1995-08-11",
+      "data_iso": "1995-08-11T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "bahia"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\1995-08-11-liquidacao-do-banco-economico.md",
+      "id": 86
+    },
+    {
+      "titulo": "Escândalo do Proer",
+      "data_evento": "1995-11-01",
+      "data_iso": "1995-11-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-lula",
+        "1995"
+      ],
+      "descricao": "Programa bancário.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 111\n",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1995-11-01-escandalo-do-proer.md",
+      "id": 87
+    },
+    {
+      "titulo": "Falência do Banco Nacional",
+      "data_evento": "1995-11-18",
+      "data_iso": "1995-11-18T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "minas-gerais"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\1995-11-18-falencia-do-banco-nacional.md",
+      "id": 88
+    }
+  ]
+}

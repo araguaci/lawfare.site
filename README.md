@@ -1,107 +1,151 @@
-# Astro Starter Kit: Elian Edition
+# ⚡ Lawfare Timeline Brasil
 
-An Astro starter kit with all Elian's opinions pre-installed; Sorry not sorry 🤷‍♂️
+## 🛡️ Sentinel Status
+- **Status:** 🟢 Produção
+- **Tier:** A
+- **Health:** 98% / **ROI Potencial:** Inteligência Cívica / Dossiês / OSINT / Jornalismo Investigativo
+- **Stack:** Astro 4, TypeScript, Vanilla CSS Tokens (Multi-Theme), Pagefind Extended, Static SSG
 
-```sh
-pnpm create astro@latest --template eliancodes/elians-astro-startkit
-```
+---
 
-## 🚀 Project Structure
+## 🎯 Visão Geral
 
-Inside of your Astro project, you'll see the following folders and files:
+Cronologia documental e auditada de eventos públicos ligados a abusos de poder, instrumentalização do judiciário, operações, escândalos e decisões institucionais controversas no Brasil desde 1979. O projeto compila mais de **1.400 fichas datadas** distribuídas em **18 categorias temáticas** e centenas de tags, permitindo estudo comparativo, jornalismo de dados e pesquisa histórica independente com links diretos para fontes primárias, autos processuais e matérias de imprensa.
+
+---
+
+## 🎨 Design System & Multi-Tema
+
+O projeto adota uma arquitetura CSS moderna em tokens nativos (*Zero Tailwind*), com suporte a **4 temas curados** selecionáveis pelo componente flutuante no cabeçalho:
+
+| Tema | Identidade Visual | Paleta & Destaques |
+| :--- | :--- | :--- |
+| **Obsidian Dark** *(Padrão)* | Cyber / Slate editorial moderno | Fundo `#080c14`, acentos em esmeralda mint (`#10b981`) e ciano |
+| **Editorial Light** | Papel jornal / Arquivo histórico | Fundo marfim `#f8f9fa`, texto `#0f172a`, acentos rubi (`#e11d48`) e teal |
+| **Midnight Navy** | Inteligência cívica / OSINT | Azul marinho profundo `#060b17`, acentos azul elétrico (`#38bdf8`) e ciano |
+| **Cyber Terminal** | Hacker dossier / OLED | Fundo `#000000` absoluto, texto de alto contraste e verde fósforo (`#22c55e`) |
+
+### Características de UX/UI
+* **Anti-FOUC Instantâneo**: Script síncrono injetado no `<head>` do layout base garante que o tema armazenado no `localStorage` seja aplicado antes do primeiro paint, sem piscadas de tela.
+* **Tipografia Curada**:
+  * **Plus Jakarta Sans**: Títulos, cabeçalhos, branding e métricas de impacto.
+  * **Inter**: Leitura fluida para resumos, fichas e conteúdo documental extenso.
+  * **JetBrains Mono**: Datas, identificadores (`#1836`), tags técnicas e atalhos.
+* **Bento Grid no Hero**: Métricas dinâmicas em tempo real (1.400+ eventos, 18 categorias, 45 anos documentados e 100% de fontes públicas).
+* **Card Interativo de Eventos**: Pílulas nominais com ícone de autoridade (`👤`), badge pulsante de alta relevância (`● ALTA`), e sombra colorida reativa à categoria no hover.
+* **Barra de Ação Rápida no Evento**: Botão de **Copiar Link** (com feedback visual no clipboard), atalho para **Compartilhar no X** e navegação contextual.
+
+---
+
+## 🔍 Busca Instantânea Full-Text (Pagefind)
+
+* **Indexação Estática**: Mais de 1.900 páginas e 25.000 termos indexados localmente via Pagefind Extended v1.4.
+* **Atalho Global de Teclado**: Pressione `/` ou `Ctrl+K` / `⌘K` em qualquer lugar do site para rolar e focar automaticamente na barra de busca.
+* **Filtros Multifacetados**: Filtragem embutida por **Categoria** e nível de **Relevância** diretamente no input de pesquisa.
+* **Tematização Automática**: As variáveis visuais do Pagefind UI adaptam-se dinamicamente conforme o tema selecionado.
+
+---
+
+## 🏗️ Estrutura do Repositório
 
 ```text
-/
+lawfare-astro/
+├── data/
+│   └── assuntos.json            # Base canônica com 1.400+ eventos
 ├── public/
+│   ├── _data/                   # Arquivos de metadados auxiliares
+│   ├── _posts/                  # Documentos markdown e fontes primárias
+│   ├── pagefind/                # Índices estáticos gerados após o build
+│   └── styles/
+│       └── global.css           # Design tokens e folhas de estilo multi-tema
+├── scripts/
+│   ├── audit-json.mjs           # Auditoria e validação de consistência dos dados
+│   ├── fill-empty-descricoes.mjs# Preenchimento automático de resumos a partir do MD
+│   ├── limpar-pessoas-envolvidas.mjs # Higienização de metadados em arrays nominais
+│   └── sync-from-timeline.py    # Sincronização e ingestão da fonte original
 ├── src/
-│   └── assets/
-│   └── components/
-│   │   └── BaseFooter.astro
-│   │   └── BaseHead.astro
-│   │   └── BaseHeader.astro
-│   └── layouts/
-│   │   └── Default.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/
+│   │   ├── EventoCard.astro     # Card de evento individual com hover e relevância
+│   │   ├── FilterBar.astro      # Barra de navegação por categorias temáticas
+│   │   ├── Paginacao.astro      # Navegação paginada (50 eventos por página)
+│   │   ├── TagFilterBar.astro   # Chips interativos de filtragem por tags
+│   │   ├── ThemeSwitcher.astro  # Menu suspenso de seleção de temas visuais
+│   │   └── Timeline.astro       # Componente de visualização cronológica vertical
+│   ├── layouts/
+│   │   └── Base.astro           # Shell HTML5, SEO, anti-FOUC, header e footer
+│   ├── pages/
+│   │   ├── categoria/[cat]/     # Listagens filtradas por categoria
+│   │   ├── evento/[id].astro    # Detalhe do evento e leitor de fonte Markdown
+│   │   ├── pagina/[page].astro  # Paginação geral da linha do tempo
+│   │   ├── tag/[slug]/          # Listagens de eventos por tag
+│   │   ├── tags/index.astro     # Catálogo alfabético e frequencial de tags
+│   │   ├── index.astro          # Landing page principal com Bento Grid
+│   │   ├── rss.xml.ts           # Feed RSS estruturado para leitores e agregadores
+│   │   └── sobre.astro          # Metodologia e manifesto do projeto
+│   └── types/
+│       └── evento.ts            # Tipagens TypeScript inferidas e helpers de cor/rotulação
+├── astro.config.mjs             # Configuração estática do Astro 4
+├── package.json                 # Dependências e scripts de automação
+└── pagefind.config.yml          # Regras de indexação do Pagefind
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where I like to put any Astro or UI components, same for `src/layouts` and `src/assets`.
+## 🛠️ Comandos de Desenvolvimento
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Instalação
+```bash
+npm install
+```
 
-Even though I'll probably use a Content Collection in any website I build or design, I decided to not include it here, since it might bring a bit too much overhead.
+### Modo de Desenvolvimento
+```bash
+npm run dev
+# Servidor local disponível em http://localhost:4321
+```
 
-## 🧞 Commands
+### Build de Produção
+```bash
+# Executa auditoria dos dados, build do Astro e indexação do Pagefind
+npm run build
 
-All commands are run from the root of the project, from a terminal:
+# Build rápido (Astro + Pagefind, sem re-auditoria)
+npm run build:fast
 
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `pnpm install`         | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro --help`    | Get help using the Astro CLI                     |
-| `pnpm format`          | Checks and applies formatting to `./src/`        |
-| `pnpm lint`            | Lints and checks all files in `./src/`           |
-| `pnpm check`           | Both lints and formats files in `./src/`         |
+# Build estático isolado do Astro
+npm run build:only
+```
 
-## 👀 Want to learn more about Astro?
+### Pré-visualização do Build
+```bash
+npm run preview
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Auditoria e Qualidade de Dados
+```bash
+# Audita integridade, duplicatas e campos obrigatórios do JSON
+npm run audit
 
-Have any questions about this stack / starter kit in perticular? Feel free to open a discussion on GitHub here.
+# Preenche descrições vazias a partir dos arquivos Markdown locais
+npm run fill-desc
+```
 
-## What's included?
+---
 
-### Astro
+## 🚀 Próximos Passos & To-Dos
 
-duh..
+Consulte o arquivo [`TODOS.md`](TODOS.md) para o roadmap detalhado de evolução do projeto.
 
-### UnoCSS
+### 📌 Resumo das Prioridades
 
-UnoCSS is an instant atomic CSS engine built by Antfu, I chose this over Tailwind, since it offers familiar syntax (Tailwind style), but adds a few options extra that I like to use, like icons.
+- [ ] **Grafos de Conexões de Atores**: Visualização em teia interativa (ex: D3.js / Cytoscape) conectando figuras públicas, decisões judiciais e operações.
+- [ ] **Linha do Tempo Visual Interativa (Scrollytelling)**: Modo alternativo horizontal por anos e décadas com marcos de alta relevância.
+- [ ] **Geração Dinâmica de OG Images (Sharecards)**: Cartões gerados automaticamente via `@astrojs/satori` para compartilhamento rico no X e WhatsApp.
+- [ ] **Filtro Avançado por Intervalo de Datas**: Seletor de período temporal (ex: "2014-2018", "Lava Jato", "Inquérito das Fake News").
+- [ ] **Exportação de Dossiês em PDF / Markdown**: Botão para download de dossiês consolidados por categoria ou pessoa envolvida.
+- [ ] **Modo de Apresentação / Slides**: Apresentação dinâmica de eventos para estudo e aulas.
+- [ ] **Deploy Contínuo Automatizado**: GitHub Actions com deploy para Vercel / Cloudflare Pages a cada push na branch principal.
 
-[Read more about UnoCSS here](https://unocss.dev/)
+---
 
-### SolidJS
-
-SolidJS, an amazing UI library with familiar syntax to React, but with some improvements, like signals.
-
-[Read more about Solid here](https://www.solidjs.com/)
-
-<small>sidenote: I did __not__ include [Nanostores](https://github.com/nanostores/nanostores) in this starter kit, since I don't typically need state management, but know that it's an easy add-on, in case you need it.</small>
-
-### Biome
-
-I use Biome for linting and formatting. It removes quite a bit of complication in setting up linting and formatting. Although that it doesn't support `.html` and `.css` (and thus supersets like `.astro`), I believe in the project and am very excited about it's future.
-
-Make sure to also set it as the default formatter for this project in your IDE, or run the `lint` and `format` commands regularly
-
-[Read more about Biome here](https://biomejs.dev/)
-
-### TypeScript
-
-While I totally respect people not using TypeScript, I do. So I included it here, applying the `strict` config settings that Astro offers.
-
-#### `tsconfig.json`
-
-I typically set up my `tsconfig.json` file with some default paths, so I also did that here.
-
-- `@components/Counter` will refer to `src/components/Counter.tsx`
-- `@layouts/Layout.astro` refers to `src/layouts/Layout.astro`
-
-You get the point.
-
-### Remote development
-
-While most people (including me), tend to use their local machines for development, not everyone does, or is able to. I know that this starter kit is opinionated, but that doesn't have to mean to not be inclusive.
-
-## TODO
-
-- Make nightly open PR instead of commit
-
+*Lawfare Timeline Brasil — Documentação pública, jornalismo de dados e auditoria cívica.*

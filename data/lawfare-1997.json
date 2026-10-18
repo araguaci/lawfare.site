@@ -1,0 +1,173 @@
+{
+  "total": 6,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 1997,
+  "assuntos": [
+    {
+      "titulo": "Escândalo da Compra de Votos Para Emenda da Reeleição",
+      "data_evento": "1997-01-01",
+      "data_iso": "1997-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1997"
+      ],
+      "descricao": "Compra de votos para reeleição.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1997-01-01-escandalo-da-compra-de-votos-para-emenda-da-reeleicao.md",
+      "id": 93
+    },
+    {
+      "titulo": "Escândalo da CONAN",
+      "data_evento": "1997-01-01",
+      "data_iso": "1997-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1997"
+      ],
+      "descricao": "Irregularidades em agência.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1997-01-01-escandalo-da-conan.md",
+      "id": 94
+    },
+    {
+      "titulo": "Escândalo da Venda da Companhia Vale do Rio Doce",
+      "data_evento": "1997-01-01",
+      "data_iso": "1997-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1997"
+      ],
+      "descricao": "Privatização subvalorizada.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 3\n",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1997-01-01-escandalo-da-venda-da-companhia-vale-do-rio-doce.md",
+      "id": 95
+    },
+    {
+      "titulo": "Escândalo dos Precatórios",
+      "data_evento": "1997-01-01",
+      "data_iso": "1997-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1997"
+      ],
+      "descricao": "Fraudes em pagamentos judiciais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1997-01-01-escandalo-dos-precatorios.md",
+      "id": 96
+    },
+    {
+      "titulo": "Quebra do Monopólio do Petróleo",
+      "data_evento": "1997-01-01",
+      "data_iso": "1997-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-fhc",
+        "1997"
+      ],
+      "descricao": "Criação da ANP com irregularidades.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\1997-01-01-quebra-do-monopolio-do-petroleo.md",
+      "id": 97
+    },
+    {
+      "titulo": "Caso Bamerindus",
+      "data_evento": "1997-03-26",
+      "data_iso": "1997-03-26T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "parana"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\1997-03-26-caso-bamerindus.md",
+      "id": 98
+    }
+  ]
+}

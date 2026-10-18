@@ -1,0 +1,690 @@
+{
+  "total": 23,
+  "data_extração": "2026-10-18",
+  "periodo": "0001-01-01 a 2026-10-07",
+  "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
+  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "ano": 2016,
+  "assuntos": [
+    {
+      "titulo": "Caso José Admilson Gomes Pereira",
+      "data_evento": "2016-01-01",
+      "data_iso": "2016-01-01T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "judiciario",
+        "para"
+      ],
+      "descricao": "Juiz cobrou R$ 70 mil por habeas corpus que garantiu liberdade de acusado de contratar pistoleiros.José Admilson Gomes PereiraCarlos José Campos SoutoIrmã de Carlos José Campos SoutoIrmão do magistrado",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 70 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2016-01-01-caso-jose-admilson-gomes-pereira.md",
+      "id": 367
+    },
+    {
+      "titulo": "Lula - Cadê as mulheres do grelo duro do nosso partido?...",
+      "data_evento": "2016-01-01",
+      "data_iso": "2016-01-01T00:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "lula",
+        "lula",
+        "sexismo",
+        "linguagem vulgar"
+      ],
+      "descricao": "Frase dita por lula em Áudio interceptado (Lava Jato)",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2016-01-01-lula-cade-as-mulheres-do-grelo.md",
+      "id": 368
+    },
+    {
+      "titulo": "Operação Sépsis",
+      "data_evento": "2016-01-01",
+      "data_iso": "2016-01-01T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "fraude-fundos",
+        "corrupcao"
+      ],
+      "descricao": "2016-01-01-Brasília, DF-fraude fundos-corrupção",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2016-01-01-operacao-sepsis.md",
+      "id": 369
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "data_evento": "2016-01-01",
+      "data_iso": "2016-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma",
+        "2016"
+      ],
+      "descricao": "Fraudes no CARF, envolvendo filho de Lula.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2016-01-01-operacao-zelotes.md",
+      "id": 370
+    },
+    {
+      "titulo": "Pedaladas Fiscais",
+      "data_evento": "2016-01-01",
+      "data_iso": "2016-01-01T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma",
+        "2016"
+      ],
+      "descricao": "Manobras contábeis ilegais.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [
+        "TCU"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2016-01-01-pedaladas-fiscais.md",
+      "id": 371
+    },
+    {
+      "titulo": "Planalto Licita Vinhos E Uísques",
+      "data_evento": "2016-01-01",
+      "data_iso": "2016-01-01T00:00:00.000Z",
+      "categoria": "extravagancia",
+      "tags": [
+        "extravagancia",
+        "bebidas-luxo",
+        "licitacao"
+      ],
+      "descricao": "2016-01-01-Brasília, DF-executivo-alimentacao",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1,3 milhões",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\extravagancia\\2016-01-01-planalto-licita-vinhos-e-uisques.md",
+      "id": 372
+    },
+    {
+      "titulo": "Validade De Provas Colhidas",
+      "data_evento": "2016-03-01",
+      "data_iso": "2016-03-01T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "mecanismos-legais",
+        "aspectos-gerais"
+      ],
+      "descricao": "2016-03-01-Brasil-Crime Organizado-Provas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2016-03-01-validade-de-provas-colhidas.md",
+      "id": 373
+    },
+    {
+      "titulo": "Reinaldo Azevedo (Veja) publica coluna 'O PCC, o PT e as eleições' — enquadramento de equivalência funcional",
+      "data_evento": "2016-03-01",
+      "data_iso": "2016-03-01T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "P04b",
+        "P09"
+      ],
+      "descricao": "Colunista da Veja, Reinaldo Azevedo, publicou artigo com o título 'O PCC, o PT e as eleições: uma organização trafica drogas; a outra, as dificuldades do povo', sugerindo paralelismo funcional entre o PCC e o PT como organizações que exploram precariedades da população. O texto foi publicado durante o período de máxima tensão política pré-impeachment de Dilma Rousseff.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "https://veja.abril.com.br/brasil/o-pcc-o-pt-e-as-eleicoes-uma-organizacao-trafica-drogas-a-outra-as-dificuldades-e-sonhos-dos-brasileiros/"
+      ],
+      "pessoas_envolvidas": [
+        "Reinaldo Azevedo (Colunista político)"
+      ],
+      "instituicoes_envolvidas": [
+        "Veja",
+        "Editora Abril"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2016-03-01-reinaldo-azevedo-veja-publica-coluna-o-pcc-o-pt-e-as-eleicoes-enquadramento-de-equivalenci.md",
+      "id": 1583
+    },
+    {
+      "titulo": "Escândalo de Fraude na Distribuição de Processos no TJ-MA",
+      "data_evento": "2016-03-10",
+      "data_iso": "2016-03-10T00:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "fraude-distribuicao",
+        "corrupcao-judicial",
+        "manipulacao-processos",
+        "imparcialidade-comprometida",
+        "amanda-servidora-do-tj-ma",
+        "magistrados-nao-identificados",
+        "sistema-judiciario",
+        "partes-processuais-imparciais",
+        "sociedade-maranhense",
+        "denuncia-publica-e-investigacao-interna-no-tj-ma",
+        "exposicao-de-falhas-no-sistema-de-distribuicao-de-processos",
+        "gravidade-media",
+        "judiciario"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Resumo",
+        "Setor",
+        "Localidade",
+        "Contexto Político",
+        "Dados Financeiros",
+        "Atores",
+        "Vítimas Principais",
+        "Desdobramentos",
+        "Status Atual"
+      ],
+      "instituicoes_envolvidas": [
+        "CNJ"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 15 mi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2016-03-10-escandalo-de-fraude-na-distribuicao-de-processos-no-tj-ma.md",
+      "id": 374
+    },
+    {
+      "titulo": "Entrevista à agência Lusa",
+      "data_evento": "2016-03-29",
+      "data_iso": "2016-03-29T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "lisboa",
+        "portugal"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2016-03-29-entrevista-a-agencia-lusa.md",
+      "id": 375
+    },
+    {
+      "titulo": "Entrevista no Roda Viva",
+      "data_evento": "2016-04-18",
+      "data_iso": "2016-04-18T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "sao-paulo",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2016-04-18-entrevista-no-roda-viva.md",
+      "id": 376
+    },
+    {
+      "titulo": "Jantar no STJ",
+      "data_evento": "2016-06-01",
+      "data_iso": "2016-06-01T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "casa-do-presidente-do-stj",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2016-06-01-jantar-no-stj.md",
+      "id": 377
+    },
+    {
+      "titulo": "Operação Saqueador",
+      "data_evento": "2016-06-02",
+      "data_iso": "2016-06-02T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "lavagem-de-dinheiro",
+        "fraude-contratos"
+      ],
+      "descricao": "2016-06-02-Rio de Janeiro, RJ-lavagem de dinheiro-fraude contratos",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2016-06-02-operacao-saqueador.md",
+      "id": 378
+    },
+    {
+      "titulo": "Operação Recomeço",
+      "data_evento": "2016-06-24",
+      "data_iso": "2016-06-24T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "rj",
+        "sp-nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 1,35 bi",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2016-06-24-operacao-recomeco.md",
+      "id": 379
+    },
+    {
+      "titulo": "IEPTBA arrecada R$1 milhão em caráter 'urgente' entre tabeliães da Bahia após suspensão de julgamento no STF por Dias Toffoli",
+      "data_evento": "2016-08-04",
+      "data_iso": "2016-08-04T12:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "P06"
+      ],
+      "descricao": "Ata de reunião do Instituto de Estudos e Protestos de Títulos da Bahia (IEPTBA), datada de 04/08/2016, registra decisão de arrecadar R$1 milhão 'em caráter urgente' para quitar honorários advocatícios em atraso, além de contratar novo escritório com remuneração mensal de R$315 mil e cláusula de êxito de R$3,5 milhões condicionada à vitória no processo. A reunião ocorreu mais de 40 dias após o então relator Dias Toffoli suspender pela vez o julgamento da ADI que questiona a permanência de titulares de cartório na Bahia nomeados sem concurso específico (lei estadual de 2011). Reunião anterior, em 11/06/2016, já havia decidido repasse de R$500 mil à Anoreg e contratação de outro escritório com entrada de R$320 mil, R$65 mil/mês e êxito de R$1,5 milhão.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "mecanismo_sistemico",
+      "fontes": [
+        "https://www.metropoles.com/colunas/andreza-matais/acao-cartorio-bahia-stf-14-sem-julgamento-arrecadacao",
+        "https://www.aliadosbrasiloficial.com.br/noticia/acao-no-stf-sobre-cartorios-sem-concurso-na-bahia-dura-14-anos-e-fatura-r-3-1-bilhoes"
+      ],
+      "pessoas_envolvidas": [
+        "Dias Toffoli (Relator da ADI (2012-2021, aprox. 9 anos sob sua relatoria) — suspendeu o julgamento cinco vezes e alternou o processo entre plenário virtual e presencial)",
+        "Éden Márcio Almeida (Então presidente do IEPTBA, titular de cartório em Feira de Santana (BA), liderou mobilização financeira dos tabeliães)",
+        "Cármen Lúcia (Relatora atual da ADI, votou pela inconstitucionalidade da lei)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "IEPTBA",
+        "Anoreg",
+        "TJBA",
+        "Ministério Público Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\bancos\\2016-08-04-ieptba-arrecada-r1-milhao-em-carater-urgente-entre-tabeliaes-da-bahia-apos-suspensao-de-ju.md",
+      "id": 1819
+    },
+    {
+      "titulo": "PF encontra planilha JHSF com nome de Alexandre de Moraes: R$ 4 milhões ao escritório (2010–2014) — Fux arquiva em 8 dias sem inquérito",
+      "data_evento": "2016-08-16",
+      "data_iso": "2016-08-16T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P07",
+        "P03",
+        "P02"
+      ],
+      "descricao": "Durante a 6ª fase da Operação Acrônimo, no cumprimento de mandado de busca e apreensão nos escritórios da JHSF em São Paulo, a PF encontra sobre a mesa de um executivo uma planilha impressa com o nome 'Alexandre Moraes', valores e as siglas PT e PSDB. Os valores estão associados à palavra 'Parkbem' — antigo nome de empresa de estacionamentos do grupo JHSF. Em depoimento de 31/08/2016, o proprietário da JHSF, José Auriemo Neto, confirma por meio de sua defesa que a referência é ao então ministro da Justiça Alexandre de Moraes. Novas planilhas revelam total de R$ 4 milhões pagos ao escritório entre 2010 e 2014. A coordenação da Acrônimo pede ao ministro Herman Benjamin (STJ) que informe o STF sobre a necessidade de abertura de inquérito. Em 22/09/2016 — 8 dias após entrada da documentação no STF — o ministro Luiz Fux arquiva monocraticamente, sem inquérito, sem quebra de sigilos bancário/fiscal, sem consultar a PGR. Aplica dispositivo regimental que permite arquivamento quando 'o fato narrado evidentemente não constitui crime'. Sigilo decretado sobre o processo. Moraes alega cláusula de confidencialidade e impossibilidade de detalhar os serviços prestados.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "https://www.diariodocentrodomundo.com.br/essencial/alexandre-de-moraes-recebeu-r-4-mi-de-empresa-investigada-na-operacao-acronimo/",
+        "https://www.sindsefaz.org.br/noticias/as-coincidencias-nos-pagamentos-de-r-4-milhoes-ao-advogado-alexandre-de-moraes/",
+        "https://www.redebrasilatual.com.br/politica/repasse-de-r-4-milhoes-a-alexandre-de-moraes-e-abafado-na-sabatina-com-ajuda-de-fux/",
+        "https://www.gazetadopovo.com.br/vida-publica/indicado-ao-stf-recebeu-dinheiro-de-empresa-investigada-na-operacao-acronimo-e010b543dmods35ieiiji1veu/"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes (Receptor dos pagamentos — então ministro da Justiça / indicado ao STF)",
+        "Luiz Fux (Relator no STF — arquivou monocraticamente sem inquérito)",
+        "José Auriemo Neto (Proprietário da JHSF — confirmou planilha em depoimento à PF)",
+        "Herman Benjamin (Ministro STJ — recebeu pedido da coordenação da Acrônimo e encaminhou ao STF)"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "STJ",
+        "Polícia Federal",
+        "JHSF Participações"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2016-08-16-pf-encontra-planilha-jhsf-com-nome-de-alexandre-de-moraes-r-4-milhoes-ao-escritorio-201020.md",
+      "id": 1596
+    },
+    {
+      "titulo": "Impeachment de Dilma",
+      "data_evento": "2016-08-31",
+      "data_iso": "2016-08-31T00:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "governo-dilma-2011-2016",
+        "2016"
+      ],
+      "descricao": "Processo de impeachment por pedaladas fiscais e irregularidades orçamentárias.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Governo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2016-08-31-impeachment-de-dilma.md",
+      "id": 380
+    },
+    {
+      "titulo": "Declaração sobre TST",
+      "data_evento": "2016-10-21",
+      "data_iso": "2016-10-21T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2016-10-21-declaracao-sobre-tst.md",
+      "id": 381
+    },
+    {
+      "titulo": "Críticas a declarações",
+      "data_evento": "2016-10-28",
+      "data_iso": "2016-10-28T00:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "decano",
+        "gilmar-mendes",
+        "brasilia",
+        "brasil"
+      ],
+      "descricao": "Ator Político ou Ministro da Suprema Corte?",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\decano\\2016-10-28-criticas-a-declaracoes.md",
+      "id": 382
+    },
+    {
+      "titulo": "PGR Rodrigo Janot pede urgência ao STF na ADI dos cartórios da Bahia citando documentação de tentativas de retardar o julgamento — pedido não apreciado",
+      "data_evento": "2016-11-01",
+      "data_iso": "2016-11-01T12:00:00.000Z",
+      "categoria": "stf",
+      "tags": [
+        "stf",
+        "P06",
+        "P03"
+      ],
+      "descricao": "Em 2016, o então procurador-geral da República, Rodrigo Janot, formalizou pedido de celeridade no julgamento da ADI sobre os cartórios baianos, alegando haver documentação apontando 'necessidade de medida cautelar para resguardo da efetividade do provimento judicial' diante de tentativas de retardar a análise da ação. O pedido não foi apreciado pelo STF naquele momento. Janot também mencionou o atraso na nomeação dos aprovados em concurso público que assumiriam as vagas caso a lei fosse declarada inconstitucional.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "chokepoint_judicial",
+      "fontes": [
+        "https://francesnews.com.br/post/2026/08/26/33626-justica-confirma-condenacao-de-ex-tabeliao-da-bahia-por-morte-da-esposa-ex-cartorario-liderava-grupo-citado-em-acao-parada-no-stf-ha-14-anos",
+        "https://www.bnews.com.br/noticias/crime-e-justica-bahia/triangulo-amoroso-acaba-em-tragedia-tabeliao-que-matou-esposa-com-ajuda-da-amante-perde-cartorio-na-bahia.html"
+      ],
+      "pessoas_envolvidas": [
+        "Rodrigo Janot (Procurador-Geral da República (2016) — autor do pedido de urgência não apreciado)",
+        "Dias Toffoli (Relator da ADI no período do pedido)"
+      ],
+      "instituicoes_envolvidas": [
+        "Ministério Público Federal",
+        "STF"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\stf\\2016-11-01-pgr-rodrigo-janot-pede-urgencia-ao-stf-na-adi-dos-cartorios-da-bahia-citando-documentacao-.md",
+      "id": 1816
+    },
+    {
+      "titulo": "Operação Calicute",
+      "data_evento": "2016-11-17",
+      "data_iso": "2016-11-17T00:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "corrupcao",
+        "corrupcao-governamental",
+        "obras-publicas"
+      ],
+      "descricao": "2016-11-17-Rio de Janeiro, RJ-corrupção governamental-obras públicas",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2016-11-17-operacao-calicute.md",
+      "id": 383
+    },
+    {
+      "titulo": "Política Criminal Do Brasil",
+      "data_evento": "2016-12-20",
+      "data_iso": "2016-12-20T00:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "politica-criminal",
+        "desigualdades"
+      ],
+      "descricao": "2016-12-20-Brasil-Sistema Prisional-Crime Organizado",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Decisão",
+        "Juiz",
+        "Beneficiado",
+        "Departamento",
+        "Categorias",
+        "Corpo"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\impunidade\\2016-12-20-politica-criminal-do-brasil.md",
+      "id": 384
+    },
+    {
+      "titulo": "Caso Odebrecht - Departamento de Propinas",
+      "data_evento": "2016-12-21",
+      "data_iso": "2016-12-21T00:00:00.000Z",
+      "categoria": "bancos",
+      "tags": [
+        "bancos",
+        "corrupcao-financeira",
+        "financeiro",
+        "nacional"
+      ],
+      "descricao": ">",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "N/A",
+      "fontes": [
+        "N/A"
+      ],
+      "pessoas_envolvidas": [
+        "Estado"
+      ],
+      "instituicoes_envolvidas": [],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\bancos\\2016-12-21-caso-odebrecht-departamento-de-propinas.md",
+      "id": 385
+    }
+  ]
+}
