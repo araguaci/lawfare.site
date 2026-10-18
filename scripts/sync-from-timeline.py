@@ -87,7 +87,7 @@ def normalize(entry: dict) -> dict | None:
     data_evento = (entry.get("data_evento") or "").strip()
     if not data_evento:
         data_evento = (entry.get("data_registro") or "")[:10]
-    if not data_evento:
+    if not data_evento or data_evento.startswith("0001"):
         return None
 
     categoria = entry.get("categoria")
