@@ -1,0 +1,75 @@
+---
+interface Props {
+  title: string;
+  excerpt?: string;
+  kicker: string;
+  category?: string;
+  categoryColor?: string;
+  idLabel?: string;
+  url: string;
+  og: string;
+  filename: string;
+}
+
+const {
+  title,
+  excerpt = '',
+  kicker,
+  category = 'Arquivo',
+  categoryColor = '#10b981',
+  idLabel = '',
+  url,
+  og,
+  filename,
+} = Astro.props;
+
+const shareText = `${title} — Lawfare Timeline`;
+const whatsapp = `https://wa.me/?text=${encodeURIComponent(`${shareText}\n${url}`)}`;
+const telegram = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(shareText)}`;
+const x = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(url)}`;
+---
+
+<section
+  class="share-panel"
+  data-pagefind-ignore
+  data-share-card
+  data-title={title}
+  data-excerpt={excerpt}
+  data-kicker={kicker}
+  data-category={category}
+  data-category-color={categoryColor}
+  data-id-label={idLabel}
+  data-url={url}
+  data-og={og}
+  data-filename={filename}
+>
+  <div class="share-panel-head">
+    <h2>Cartão para compartilhar</h2>
+    <p>
+      A imagem sai em 1200×630. No celular, “Compartilhar imagem” anexa o cartão no WhatsApp, no Telegram ou no X.
+      No computador, o PNG é baixado.
+    </p>
+  </div>
+
+  <img
+    class="share-card-img"
+    alt={`Cartão de compartilhamento: ${title}`}
+    width="1200"
+    height="630"
+    hidden
+  />
+  <canvas class="share-canvas" width="1200" height="630" role="img" aria-label={`Cartão: ${title}`} hidden></canvas>
+
+  <div class="share-actions">
+    <button type="button" class="share-btn share-btn--primary" data-share="image">Compartilhar imagem</button>
+    <button type="button" class="share-btn" data-share="download">Baixar PNG</button>
+    <button type="button" class="share-btn" data-share="native">Compartilhar link</button>
+    <button type="button" class="share-btn" data-share="link">Copiar link</button>
+    <a class="share-btn" href={whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    <a class="share-btn" href={telegram} target="_blank" rel="noopener noreferrer">Telegram</a>
+    <a class="share-btn" href={x} target="_blank" rel="noopener noreferrer">X</a>
+  </div>
+  <p class="share-status" data-share-status aria-live="polite"></p>
+</section>
+
+<script src="/scripts/share-card.js" defer></script>

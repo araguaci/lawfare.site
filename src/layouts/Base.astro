@@ -17,8 +17,11 @@ const {
   ogImage = '/og-default.png',
 } = Astro.props;
 
-const siteUrl = 'https://lawfare-timeline.vercel.app';
-const canonicalUrl = canonical || (siteUrl + Astro.url.pathname);
+const siteUrl = (Astro.site ?? 'https://www.lawfare.site').toString().replace(/\/$/, '');
+const canonicalUrl = canonical && canonical.startsWith(siteUrl)
+  ? canonical
+  : new URL(Astro.url.pathname, `${siteUrl}/`).href;
+const ogImageUrl = new URL(ogImage, `${siteUrl}/`).href;
 const currentPath = Astro.url.pathname;
 ---
 
@@ -29,15 +32,28 @@ const currentPath = Astro.url.pathname;
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="generator" content={Astro.generator} />
 
+  <meta name="theme-color" content="#080c14" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Lawfare" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
   <!-- Anti-FOUC Theme Initialization (executes synchronously before render) -->
   <script is:inline>
     (function() {
+      var colors = { dark: '#080c14', light: '#f8f9fa', navy: '#060b17', terminal: '#000000' };
+      var saved = 'dark';
       try {
-        const saved = localStorage.getItem('lawfare_theme') || 'dark';
-        document.documentElement.setAttribute('data-theme', saved);
-      } catch (e) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-      }
+        saved = localStorage.getItem('lawfare_theme') || 'dark';
+      } catch (e) {}
+      if (!colors[saved]) saved = 'dark';
+      document.documentElement.setAttribute('data-theme', saved);
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.setAttribute('content', colors[saved]);
     })();
   </script>
 
@@ -60,11 +76,16 @@ const currentPath = Astro.url.pathname;
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="Lawfare Timeline" />
+  <meta property="og:image" content={ogImageUrl} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content={title} />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImageUrl} />
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Lawfare Timeline RSS" href="/rss.xml" />
@@ -92,6 +113,8 @@ const currentPath = Astro.url.pathname;
           <a href="/" class:list={['nav-link', { 'nav-link--active': currentPath === '/' }]}>Início</a>
           <a href="/pagina/1" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/pagina') }]}>Timeline</a>
           <a href="/tags" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/tag') }]}>Tags</a>
+          <a href="/investigadores" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/investigadores') }]} title="Investigadores externos">Investigar</a>
+          <a href="/roteiro" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/roteiro') }]}>Roteiro</a>
           <a href="/sobre" class:list={['nav-link', { 'nav-link--active': currentPath === '/sobre' }]}>Sobre</a>
           <a href="/rss.xml" class="nav-link" title="Feed RSS de atualizações">RSS</a>
         </nav>
@@ -119,9 +142,16 @@ const currentPath = Astro.url.pathname;
       </div>
       <div class="footer-right">
         <a href="/pagina/1">Timeline</a>
-        · <a href="/tags">Índice de Tags</a>
+        · <a href="/investigadores">Investigadores</a>
+        · <a href="/roteiro">Roteiro</a>
+        · <a href="/dados/index.json">Dados</a>
+        · <a href="/tags">Tags</a>
         · <a href="/rss.xml">RSS</a>
-        · <a href="/sobre">Sobre o Projeto</a>
+        · <a href="/sobre">Sobre</a>
+      </div>
+      <div class="pwa-bar">
+        <button type="button" id="pwaInstallBtn" class="share-btn" hidden>Instalar aplicativo</button>
+        <p id="pwaIosHint" class="pwa-ios" hidden>No iPhone, abra em Safari, toque em Compartilhar e escolha Adicionar à Tela de Início.</p>
       </div>
     </div>
   </footer>
@@ -135,7 +165,7 @@ const currentPath = Astro.url.pathname;
         showImages: false,
         filters: { categoria: true, relevancia: true },
         translations: {
-          placeholder: 'Buscar 1.400+ eventos (pressione "/" para buscar)...',
+          placeholder: 'Buscar fichas (pressione "/" para buscar)...',
           zero_results: 'Nenhum resultado para "[QUERY]"',
         },
       });
@@ -152,6 +182,37 @@ const currentPath = Astro.url.pathname;
         }
       }
     });
+  </script>
+  <script is:inline define:vars={{ isDev: import.meta.env.DEV }}>
+    (function () {
+      if ('serviceWorker' in navigator && !isDev) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {});
+        });
+      }
+
+      var installBtn = document.getElementById('pwaInstallBtn');
+      var deferredPrompt = null;
+      window.addEventListener('beforeinstallprompt', function (event) {
+        event.preventDefault();
+        deferredPrompt = event;
+        if (installBtn) installBtn.hidden = false;
+      });
+      if (installBtn) {
+        installBtn.addEventListener('click', async function () {
+          if (!deferredPrompt) return;
+          deferredPrompt.prompt();
+          await deferredPrompt.userChoice;
+          deferredPrompt = null;
+          installBtn.hidden = true;
+        });
+      }
+
+      var ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+      var standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+      var iosHint = document.getElementById('pwaIosHint');
+      if (ios && !standalone && iosHint) iosHint.hidden = false;
+    })();
   </script>
 </body>
 </html>

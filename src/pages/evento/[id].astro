@@ -1,8 +1,10 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import Base from '../../layouts/Base.astro';
-import { formatDate, categoriaLabel, categoriaColor, relevanciaColor, getExcerpt } from '../../types/evento';
+import SharePanel from '../../components/SharePanel.astro';
+import { formatDate, formatKicker, categoriaLabel, categoriaColor, relevanciaColor, getExcerpt } from '../../types/evento';
 import { loadFonteMarkdown } from '../../lib/loadFonteMarkdown';
+import { SITE_URL } from '../../lib/site';
 import data from '../../data/assuntos.json';
 
 export const getStaticPaths = (() => {
@@ -16,6 +18,8 @@ const { evento } = Astro.props;
 const fonteMd = await loadFonteMarkdown(evento.fonte_arquivo);
 const dateFormatted = formatDate(evento.data_iso || evento.data_evento);
 const excerpt = getExcerpt(evento.descricao, 200);
+const shareExcerpt = getExcerpt(evento.descricao, 160);
+const publicUrl = `${SITE_URL}/evento/${evento.id}`;
 const catColor = categoriaColor(evento.categoria);
 const relColor = relevanciaColor(evento.relevancia);
 const catLabel = categoriaLabel(evento.categoria);
@@ -35,7 +39,8 @@ const jsonLd = JSON.stringify({
 <Base
   title={evento.titulo}
   description={excerpt || evento.titulo}
-  canonical={Astro.url.href}
+  canonical={publicUrl}
+  ogImage={`/og/${evento.id}.png`}
   jsonLd={jsonLd}
 >
   <article data-pagefind-body class="evento-page">
@@ -80,57 +85,19 @@ const jsonLd = JSON.stringify({
         <p class="evento-descricao">{evento.descricao}</p>
       )}
 
-      <!-- Quick Action Toolbar -->
-      <div class="evento-actions" style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px;" data-pagefind-ignore>
-        <button
-          type="button"
-          id="copyLinkBtn"
-          class="back-link"
-          style="cursor: pointer; font-size: 11px; margin-bottom: 0;"
-          title="Copiar link permanente deste evento"
-        >
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-          <span id="copyLinkText">Copiar Link</span>
-        </button>
-
-        <a
-          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${evento.titulo} — Lawfare Timeline Brasil`)}&url=${encodeURIComponent(Astro.url.href)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="back-link"
-          style="font-size: 11px; margin-bottom: 0;"
-          title="Compartilhar evento no X"
-        >
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          <span>Compartilhar</span>
-        </a>
-
-        <a
-          href="/pagina/1"
-          class="back-link"
-          style="font-size: 11px; margin-bottom: 0;"
-        >
-          <span>← Voltar à Timeline</span>
-        </a>
-      </div>
-
-      <script is:inline>
-        const btn = document.getElementById('copyLinkBtn');
-        const text = document.getElementById('copyLinkText');
-        if (btn && text) {
-          btn.addEventListener('click', async () => {
-            try {
-              await navigator.clipboard.writeText(window.location.href);
-              const original = text.textContent;
-              text.textContent = 'Link Copiado! ✓';
-              setTimeout(() => { text.textContent = original; }, 2000);
-            } catch (err) {
-              prompt('Copie o link:', window.location.href);
-            }
-          });
-        }
-      </script>
     </header>
+
+    <SharePanel
+      title={evento.titulo}
+      excerpt={shareExcerpt}
+      kicker={formatKicker(evento.data_iso || evento.data_evento)}
+      category={catLabel}
+      categoryColor={catColor}
+      idLabel={`#${evento.id}`}
+      url={publicUrl}
+      og={`/og/${evento.id}.png`}
+      filename={`lawfare-${evento.id}.png`}
+    />
 
     {fonteMd && (
       <section class="fonte-markdown-wrap" aria-labelledby="fonte-md-heading">

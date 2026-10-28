@@ -123,10 +123,10 @@
 <script is:inline>
   (function initThemeSwitcher() {
     const THEMES = {
-      dark: { label: 'Obsidian', icon: 'dark' },
-      light: { label: 'Editorial', icon: 'light' },
-      navy: { label: 'Navy', icon: 'navy' },
-      terminal: { label: 'Terminal', icon: 'terminal' }
+      dark: { label: 'Obsidian', icon: 'dark', color: '#080c14' },
+      light: { label: 'Editorial', icon: 'light', color: '#f8f9fa' },
+      navy: { label: 'Navy', icon: 'navy', color: '#060b17' },
+      terminal: { label: 'Terminal', icon: 'terminal', color: '#000000' }
     };
 
     function getCurrentTheme() {
@@ -141,6 +141,8 @@
       } catch (e) {}
 
       updateUI(themeKey);
+      const themeMeta = document.querySelector('meta[name="theme-color"]');
+      if (themeMeta && THEMES[themeKey]) themeMeta.setAttribute('content', THEMES[themeKey].color);
 
       window.dispatchEvent(new CustomEvent('lawfare:theme-change', {
         detail: { theme: themeKey }

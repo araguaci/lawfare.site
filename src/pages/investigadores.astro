@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_URL } from '../lib/site';
+
+const ficha = `${SITE_URL}/evento/{id}`;
+---
+
+<Base
+  title="Investigadores externos — Lawfare Timeline"
+  description="Protocolo de leitura para agências independentes, redações, núcleos acadêmicos e pesquisa em fonte aberta."
+>
+  <article class="guide-page" data-pagefind-body>
+    <p class="guide-kicker">Fonte aberta</p>
+    <h1 class="page-title">Investigadores externos</h1>
+    <p class="guide-lead">
+      Esta página é o protocolo para quem chega de fora: redação, observatório, núcleo acadêmico,
+      banca de advocacia em fonte aberta ou agência de pesquisa que não é parte nos casos.
+      O arquivo é público. Não é base de governo, não é canal de documento sigiloso e não emite juízo.
+    </p>
+
+    <section class="guide-section">
+      <h2>O que a ficha entrega</h2>
+      <ul class="guide-list">
+        <li>Data, categoria, tags e um resumo editorial.</li>
+        <li>Pessoas e instituições nomeadas na ficha, quando o campo foi preenchido.</li>
+        <li>Links em <em>fontes</em>, quando existem, e o markdown em <em>fonte_url</em>.</li>
+        <li>Um identificador estável. A URL <code>{ficha}</code> não muda se o título for revisto.</li>
+      </ul>
+    </section>
+
+    <section class="guide-section">
+      <h2>O que você confere por conta própria</h2>
+      <p>
+        Relevância e tags são chaves para achar a ficha de novo. Não são prova, não são tipificação
+        e não substituem o documento citado. Se a ficha e a fonte divergirem, prevalece a fonte.
+        Valor “N/A” significa campo vazio, não ausência do fato no mundo.
+      </p>
+    </section>
+
+    <section class="guide-section">
+      <h2>Roteiro curto de uma checagem</h2>
+      <ol class="guide-steps">
+        <li>Abra o <a href="/dados/index.json">catálogo</a> e anote a data em <code>extraido_em</code>.</li>
+        <li>Baixe o ano correspondente, ou o <a href="/dados/lawfare-full.json">arquivo completo</a>, e guarde essa cópia com a data.</li>
+        <li>Leia a ficha no site. O número depois de <code>/evento/</code> é o <code>id</code>.</li>
+        <li>Abra cada URL em <code>fontes</code>. Se a página saiu do ar, use <code>fonte_url</code> e, em seguida, um snapshot público.</li>
+        <li>No seu dossiê, registre o <code>id</code> e a URL da ficha para outra pessoa repetir o caminho.</li>
+        <li>Separe, no seu texto, o que está na ficha do que veio de apuração própria.</li>
+      </ol>
+      <p>
+        O passo a passo de arquivos, tradução e ferramentas de modelo de linguagem está no
+        <a href="/roteiro">roteiro de uso</a>.
+      </p>
+    </section>
+
+    <section class="guide-section">
+      <h2>Como citar</h2>
+      <p>Uma citação mínima cabe em uma linha:</p>
+      <pre class="prompt-block">Lawfare Timeline Brasil. Ficha #ID, “título”, data. https://www.lawfare.site/evento/ID</pre>
+      <p>
+        Abaixo da citação, aponte a fonte primária que você de fato abriu. A ficha é o índice.
+        O documento citado é a fonte.
+      </p>
+    </section>
+
+    <section class="guide-section">
+      <h2>Limite do arquivo</h2>
+      <p>
+        Não há canal privado de denúncia nem entrega de peça sob sigilo. Correção pública começa
+        pela fonte: se o link quebrou ou o resumo não acompanha o documento, a ficha precisa ser
+        reescrita a partir desse documento, não a partir de memória de um modelo.
+      </p>
+      <p>
+        Agência independente, aqui, quer dizer qualquer grupo que trabalha com material já publicado
+        e consegue mostrar o caminho até a fonte. O site não credencia, não ranqueia e não fala
+        em nome dessas organizações.
+      </p>
+    </section>
+
+    <nav class="sobre-nav">
+      <a href="/roteiro">Roteiro de uso e arquivos</a>
+      <span> · </span>
+      <a href="/sobre">Sobre o projeto</a>
+      <span> · </span>
+      <a href="/pagina/1">Timeline</a>
+    </nav>
+  </article>
+</Base>

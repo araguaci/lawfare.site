@@ -1,0 +1,295 @@
+---
+import Base from '../layouts/Base.astro';
+import { yearsFromAssuntos } from '../lib/publicData';
+import { SITE_URL } from '../lib/site';
+import { categoriaLabel } from '../types/evento';
+import data from '../data/assuntos.json';
+
+const anos = yearsFromAssuntos();
+const total = data.total;
+
+const categorias: Record<string, { en: string; es: string }> = {
+  lawfare: { en: 'Lawfare', es: 'Lawfare' },
+  stf: { en: 'Supreme Federal Court (STF)', es: 'Supremo Tribunal Federal (STF)' },
+  tse: { en: 'Electoral Court (TSE)', es: 'Tribunal Superior Electoral (TSE)' },
+  justica: { en: 'Courts', es: 'Justicia' },
+  governo: { en: 'Government', es: 'Gobierno' },
+  escandalos: { en: 'Scandals', es: 'Escándalos' },
+  impunidade: { en: 'Impunity', es: 'Impunidad' },
+  indecoro: { en: 'Impropriety', es: 'Indecoro' },
+  operacoes: { en: 'Police operations', es: 'Operaciones policiales' },
+  'crise-diplomatica': { en: 'Diplomatic crisis', es: 'Crisis diplomática' },
+  bancos: { en: 'Banks', es: 'Bancos' },
+  dossie: { en: 'Dossier', es: 'Dossier' },
+  'dragao-onca': { en: 'The Dragon and the Jaguar', es: 'El dragón y el jaguar' },
+  estudos: { en: 'Studies', es: 'Estudios' },
+  extravagancia: { en: 'Extravagance', es: 'Extravagancia' },
+  penduricalhos: { en: 'Perks', es: 'Prebendas' },
+  decano: { en: 'Senior justice', es: 'Decano' },
+  vazatoga: { en: 'Vaza Toga', es: 'Vaza Toga' },
+  geral: { en: 'General', es: 'General' },
+};
+
+const cats = Object.keys(categorias);
+
+const promptBriefing = `Você recebe um recorte JSON do Lawfare Timeline (${SITE_URL}).
+Regras:
+- Use somente os registros deste arquivo.
+- Não invente fonte, data, nome ou número de processo.
+- Cada afirmação cita o campo id e, se existir, uma URL em fontes ou fonte_url.
+- Ignore valores "N/A".
+- Siglas e nomes próprios permanecem como estão.
+- Se precisar de contexto que não está no arquivo, separe esse parágrafo com o rótulo "fora do arquivo".
+Tarefa: monte um briefing cronológico, em português, com no máximo 12 fichas.`;
+
+const promptTraducao = `Traduza para [IDIOMA] apenas os campos titulo e descricao de cada item.
+Mantenha as chaves JSON em português.
+Não traduza nomes de pessoas, siglas (STF, TSE, STJ, STM, PF, PGR, MPF, AGU, TCU, OAB), números de processo, datas ISO e URLs.
+Se um termo jurídico não tiver equivalente estável, mantenha o original e acrescente a tradução entre parênteses na primeira ocorrência.
+Conserve o campo id intacto. A URL da ficha é ${SITE_URL}/evento/{id}.`;
+
+const promptFontes = `Liste as fichas cujo campo fontes está vazio ou é "N/A".
+Não preencha lacunas com memória.
+Para cada item, devolva id, data_evento, titulo e a marca "fonte ausente no arquivo".
+Se existir fonte_url, inclua o link do markdown, sem tratar o markdown como prova externa.`;
+
+const promptIngles = `Turn the attached Lawfare Timeline JSON into a source-bound English briefing.
+Keep person names, court acronyms, case numbers, ISO dates and URLs unchanged.
+Cite each claim with the record id and a source URL from the file.
+Do not add facts that are not in the file. Put outside context under the label "outside the archive".
+Record URL pattern: ${SITE_URL}/evento/{id}`;
+---
+
+<Base
+  title="Roteiro de uso — Lawfare Timeline"
+  description="Como ler o arquivo, baixar os JSON, traduzir as fichas e usar o acervo com ferramentas de LLM."
+>
+  <article class="guide-page" data-pagefind-body>
+    <p class="guide-kicker">Manual</p>
+    <h1 class="page-title">Roteiro de uso</h1>
+    <p class="guide-lead">
+      O site é a leitura. Os JSON são a cópia de trabalho.       Há {total} fichas no recorte publicado em {data['data_extração']}, período {data.periodo}. O mesmo número está no
+      <a href="/dados/index.json">catálogo</a>.
+    </p>
+
+    <section class="guide-section" id="navegacao">
+      <h2>1. Ler no navegador</h2>
+      <ol class="guide-steps">
+        <li><a href="/pagina/1">Timeline</a> lista as fichas por data, em páginas de 50.</li>
+        <li>A busca no topo abre com <kbd>/</kbd> ou <kbd>Ctrl</kbd>+<kbd>K</kbd>. Dá para filtrar por categoria e relevância.</li>
+        <li>Cada ficha mostra pessoas, instituições, tags e os links de fonte que existem.</li>
+        <li>O <a href="/rss.xml">RSS</a> traz as atualizações recentes para um leitor.</li>
+        <li>Categorias e <a href="/tags">tags</a> cruzam temas. São índice, não conclusão.</li>
+      </ol>
+    </section>
+
+    <section class="guide-section" id="app">
+      <h2>2. Instalar como aplicativo</h2>
+      <p>
+        O site é um PWA. No Chrome ou no Edge, o menu do navegador oferece “Instalar Lawfare” ou
+        “Instalar aplicativo”. No Android, o mesmo menu aparece como “Adicionar à tela inicial”.
+        No iPhone, abra em Safari, toque em Compartilhar e escolha “Adicionar à Tela de Início”.
+      </p>
+      <p>
+        Depois de instalado, a timeline, o roteiro e as fichas já visitadas abrem sem rede.
+        A busca completa e os JSON grandes pedem conexão na primeira vez. Há também um atalho
+        “Instalar aplicativo” no rodapé, quando o navegador permite a instalação direta.
+      </p>
+    </section>
+
+    <section class="guide-section" id="arquivos">
+      <h2>3. Arquivos de dados</h2>
+      <p>
+        Os arquivos abaixo são gerados da mesma base que alimenta as páginas. Não use planilhas
+        antigas de outra pasta: o catálogo desta página é a versão publicada.
+      </p>
+      <ul class="guide-list">
+        <li><a href="/dados/index.json">/dados/index.json</a> — anos, totais e links.</li>
+        <li><a href="/dados/lawfare-full.json">/dados/lawfare-full.json</a> — as {total} fichas.</li>
+        <li>
+          <a href="/investigadores">Protocolo para investigadores externos</a>, se a cópia vai para uma redação ou uma agência independente.
+        </li>
+      </ul>
+
+      <div class="table-wrap">
+        <table class="guide-table">
+          <thead>
+            <tr>
+              <th>Ano</th>
+              <th>Fichas</th>
+              <th>Arquivo</th>
+            </tr>
+          </thead>
+          <tbody>
+            {anos.map((ano) => (
+              <tr>
+                <td>{ano.ano}</td>
+                <td>{ano.total}</td>
+                <td><a href={`/dados/${ano.arquivo}`}>{ano.arquivo}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Campos de cada ficha</h3>
+      <div class="table-wrap">
+        <table class="guide-table">
+          <thead>
+            <tr>
+              <th>Campo</th>
+              <th>English</th>
+              <th>Español</th>
+              <th>Uso</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><code>id</code></td><td>id</td><td>id</td><td>Número estável da ficha</td></tr>
+            <tr><td><code>titulo</code></td><td>title</td><td>título</td><td>Manchete editorial</td></tr>
+            <tr><td><code>descricao</code></td><td>summary</td><td>resumen</td><td>Resumo curto. “N/A” é vazio</td></tr>
+            <tr><td><code>data_evento</code></td><td>event date</td><td>fecha</td><td>Dia no calendário, AAAA-MM-DD</td></tr>
+            <tr><td><code>categoria</code></td><td>category</td><td>categoría</td><td>Uma das 18 chaves abaixo</td></tr>
+            <tr><td><code>tags</code></td><td>tags</td><td>etiquetas</td><td>Cruzamentos de busca</td></tr>
+            <tr><td><code>relevancia</code></td><td>editorial rank</td><td>relevancia editorial</td><td>alta, media ou baixa</td></tr>
+            <tr><td><code>fontes</code></td><td>sources</td><td>fuentes</td><td>URLs ou notas. Pode estar vazio</td></tr>
+            <tr><td><code>fonte_url</code></td><td>markdown URL</td><td>URL del markdown</td><td>Texto-base no site, se o arquivo existe</td></tr>
+            <tr><td><code>pessoas_envolvidas</code></td><td>people named</td><td>personas</td><td>Nomes como foram indexados</td></tr>
+            <tr><td><code>instituicoes_envolvidas</code></td><td>institutions</td><td>instituciones</td><td>Órgãos citados na ficha</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="guide-section" id="traduzir">
+      <h2>4. Traduzir</h2>
+      <p>A interface está em português. Há dois caminhos, e eles não fazem a mesma coisa.</p>
+      <h3>Traduzir a tela</h3>
+      <ul class="guide-list">
+        <li>Chrome e Edge: ícone de tradução na barra de endereço, ou botão direito em Traduzir.</li>
+        <li>Safari no iPhone: botão aA e depois Traduzir.</li>
+        <li>Firefox: uma extensão de tradução da página.</li>
+      </ul>
+      <p>
+        Isso traduz o que está visível. Os arquivos em <code>/dados/</code> continuam em português,
+        com as chaves originais. Não há seletor de idioma no site: uma versão traduzida deve
+        conservar <code>id</code> e a URL <code>{SITE_URL}/evento/&#123;id&#125;</code> para a citação não se perder.
+      </p>
+      <h3>Traduzir as fichas</h3>
+      <p>
+        Baixe um ano, anexe o JSON na ferramenta e use o prompt da seção seguinte. Traduza
+        <code>titulo</code> e <code>descricao</code>. Mantenha nomes, siglas, números de processo, datas e URLs.
+      </p>
+      <div class="table-wrap">
+        <table class="guide-table">
+          <thead>
+            <tr>
+              <th>Chave</th>
+              <th>No site</th>
+              <th>English</th>
+              <th>Español</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cats.map((cat) => (
+              <tr>
+                <td><code>{cat}</code></td>
+                <td>{categoriaLabel(cat)}</td>
+                <td>{categorias[cat].en}</td>
+                <td>{categorias[cat].es}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="guide-section" id="llm">
+      <h2>5. Usar com ferramentas de LLM</h2>
+      <p>
+        Serve para ChatGPT, Claude, Gemini, NotebookLM ou um modelo local. O modelo não é fonte.
+        Ele só reorganiza o arquivo que você anexar. A busca do site (Pagefind) é para leitura humana.
+        Para a máquina, use o JSON.
+      </p>
+      <ol class="guide-steps">
+        <li>Abra <a href="/dados/index.json">/dados/index.json</a> e escolha o ano. Anos recentes são os arquivos maiores.</li>
+        <li>Baixe esse ano. O arquivo completo cabe em ferramentas com janela grande. Se a ferramenta recusar, use um ano só.</li>
+        <li>Anexe o JSON. Não cole por cima um resumo feito de memória.</li>
+        <li>Cole um dos prompts abaixo. Troque <code>[IDIOMA]</code> quando for traduzir.</li>
+        <li>Antes de publicar, abra a ficha <code>/evento/&#123;id&#125;</code> e pelo menos uma URL em <code>fontes</code>.</li>
+      </ol>
+      <p>
+        No NotebookLM, o mesmo JSON entra como fonte. Dá para subir também os markdown ligados em
+        <code>fonte_url</code>, que estão em <code>/_posts/</code>. Peça citações pelo <code>id</code>, não um texto corrido sem lastro.
+      </p>
+
+      <h3>Briefing em português</h3>
+      <pre class="prompt-block" id="prompt-briefing">{promptBriefing}</pre>
+      <button type="button" class="share-btn" data-copy-target="prompt-briefing">Copiar prompt</button>
+
+      <h3>Traduzir titulo e descricao</h3>
+      <pre class="prompt-block" id="prompt-traducao">{promptTraducao}</pre>
+      <button type="button" class="share-btn" data-copy-target="prompt-traducao">Copiar prompt</button>
+
+      <h3>Achar fichas sem fonte</h3>
+      <pre class="prompt-block" id="prompt-fontes">{promptFontes}</pre>
+      <button type="button" class="share-btn" data-copy-target="prompt-fontes">Copiar prompt</button>
+
+      <h3>English briefing</h3>
+      <pre class="prompt-block" id="prompt-ingles">{promptIngles}</pre>
+      <button type="button" class="share-btn" data-copy-target="prompt-ingles">Copiar prompt</button>
+    </section>
+
+    <section class="guide-section" id="compartilhar">
+      <h2>6. Compartilhar uma ficha</h2>
+      <p>
+        Cada ficha tem um cartão 1200×630 com data, categoria, título e o endereço lawfare.site.
+        “Compartilhar imagem” usa o menu do sistema e anexa o PNG. “Copiar link” leva à ficha.
+        WhatsApp, Telegram e X, nesses botões de texto, enviam o link. A imagem anexada sai pelo
+        botão do cartão, no celular.
+      </p>
+      <p>
+        Quem recebe o link vê a prévia quando o cartão daquela ficha já foi publicado em
+        <code>/og/&#123;id&#125;.png</code>. O cartão desenhado na página funciona mesmo assim.
+      </p>
+    </section>
+
+    <nav class="sobre-nav">
+      <a href="/investigadores">Investigadores externos</a>
+      <span> · </span>
+      <a href="/dados/index.json">Catálogo JSON</a>
+      <span> · </span>
+      <a href="/">Início</a>
+    </nav>
+  </article>
+
+  <script is:inline>
+    document.querySelectorAll('[data-copy-target]').forEach(function (btn) {
+      btn.addEventListener('click', async function () {
+        var el = document.getElementById(btn.getAttribute('data-copy-target'));
+        if (!el) return;
+        var original = btn.textContent;
+        var copied = false;
+        try {
+          copied = await Promise.race([
+            navigator.clipboard.writeText(el.innerText).then(function () { return true; }),
+            new Promise(function (resolve) { setTimeout(function () { resolve(false); }, 700); }),
+          ]);
+        } catch (err) {
+          copied = false;
+        }
+        if (!copied) {
+          var area = document.createElement('textarea');
+          area.value = el.innerText;
+          area.style.position = 'fixed';
+          area.style.left = '-9999px';
+          document.body.appendChild(area);
+          area.select();
+          try { copied = document.execCommand('copy'); } catch (err2) { copied = false; }
+          area.remove();
+        }
+        btn.textContent = copied ? 'Copiado' : 'Selecione o texto';
+        setTimeout(function () { btn.textContent = original; }, 1600);
+      });
+    });
+  </script>
+</Base>

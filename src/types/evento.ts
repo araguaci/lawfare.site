@@ -46,6 +46,16 @@ export function formatDate(iso: string): string {
   }
 }
 
+const MONTHS_SHORT = ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'];
+
+export function formatKicker(iso: string): string {
+  if (!iso || iso.length < 10) return 'ARQUIVO PÚBLICO';
+  const month = Number(iso.slice(5, 7));
+  const label = MONTHS_SHORT[month - 1];
+  if (!label) return 'ARQUIVO PÚBLICO';
+  return `${iso.slice(8, 10)} ${label} ${iso.slice(0, 4)}`;
+}
+
 export function formatDateShort(iso: string): string {
   try {
     return new Date(iso).toLocaleDateString('pt-BR', {

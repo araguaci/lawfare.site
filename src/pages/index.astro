@@ -1,11 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
+import SharePanel from '../components/SharePanel.astro';
 import data from '../data/assuntos.json';
 import { categoriaLabel, categoriaColor } from '../types/evento';
 import TagFilterBar from '../components/TagFilterBar.astro';
+import { SITE_URL } from '../lib/site';
 
 const total = data.total;
 const periodo = data.periodo;
+const totalLabel = new Intl.NumberFormat('pt-BR').format(total);
 
 const catCounts = data.assuntos.reduce<Record<string, number>>((acc, e) => {
   if (e.categoria) acc[e.categoria] = (acc[e.categoria] || 0) + 1;
@@ -20,7 +23,7 @@ const jsonLd = JSON.stringify({
   name: 'Lawfare Timeline',
   description:
     'Cronologia documentada de abusos de poder, lawfare e escândalos políticos no Brasil.',
-  url: 'https://lawfare-timeline.vercel.app/',
+  url: `${SITE_URL}/`,
 });
 ---
 
@@ -60,7 +63,7 @@ const jsonLd = JSON.stringify({
       <!-- Bento Metrics Grid -->
       <div class="home-metrics-grid">
         <div class="metric-card">
-          <span class="metric-value">1.400+</span>
+          <span class="metric-value">{totalLabel}</span>
           <span class="metric-label">Fatos e eventos catalogados</span>
         </div>
         <div class="metric-card">
@@ -126,13 +129,47 @@ const jsonLd = JSON.stringify({
       <TagFilterBar tagSlugAtiva={null} />
     </section>
 
+    <section class="home-section" aria-labelledby="pesquisa-heading">
+      <div class="home-section-header">
+        <h2 id="pesquisa-heading" class="home-section-title">Pesquisa fora do site</h2>
+        <p class="home-section-desc">
+          Redações, núcleos acadêmicos e agências independentes usam os mesmos JSON que alimentam as fichas.
+        </p>
+      </div>
+      <div class="entry-grid">
+        <a class="entry-card" href="/investigadores">
+          <span class="entry-kicker">Protocolo</span>
+          <span class="entry-title">Investigadores externos</span>
+          <span class="entry-text">Como citar, o que conferir na fonte e o que o arquivo não entrega.</span>
+        </a>
+        <a class="entry-card" href="/roteiro">
+          <span class="entry-kicker">Manual</span>
+          <span class="entry-title">Roteiro de uso</span>
+          <span class="entry-text">Links dos arquivos por ano, tradução e prompts para ferramentas de LLM.</span>
+        </a>
+      </div>
+    </section>
+
+    <SharePanel
+      title="Lawfare Timeline Brasil"
+      excerpt={`Cronologia documental de eventos públicos, com ficha, data e fonte. ${periodo}.`}
+      kicker="ARQUIVO PÚBLICO"
+      category="Pesquisa"
+      categoryColor="#10b981"
+      url={`${SITE_URL}/`}
+      og="/og-default.png"
+      filename="lawfare-timeline.png"
+    />
+
     <section class="home-section home-section--footer">
       <p class="footer-inner" style="padding: 12px 0; justify-content: flex-start; gap: 8px;">
         <a href="/sobre">Sobre a Metodologia</a>
         <span>·</span>
-        <a href="/rss.xml">Feed RSS</a>
+        <a href="/investigadores">Investigadores</a>
         <span>·</span>
-        <a href="/pagina/1">Acessar Timeline Geral</a>
+        <a href="/roteiro">Roteiro</a>
+        <span>·</span>
+        <a href="/rss.xml">Feed RSS</a>
       </p>
     </section>
   </div>
