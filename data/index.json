@@ -1,14 +1,9 @@
 {
-  "gerado_em": "2026-10-18",
+  "gerado_em": "2026-10-29",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "total_eventos": 1933,
-  "total_verificado": 1933,
+  "total_eventos": 1905,
+  "total_verificado": 1905,
   "anos": [
-    {
-      "ano": 1,
-      "total": 63,
-      "arquivo": "lawfare-0001.json"
-    },
     {
       "ano": 1979,
       "total": 1,
@@ -196,7 +191,7 @@
     },
     {
       "ano": 2016,
-      "total": 23,
+      "total": 25,
       "arquivo": "lawfare-2016.json"
     },
     {
@@ -206,7 +201,7 @@
     },
     {
       "ano": 2018,
-      "total": 24,
+      "total": 26,
       "arquivo": "lawfare-2018.json"
     },
     {
@@ -236,17 +231,17 @@
     },
     {
       "ano": 2024,
-      "total": 221,
+      "total": 226,
       "arquivo": "lawfare-2024.json"
     },
     {
       "ano": 2025,
-      "total": 400,
+      "total": 403,
       "arquivo": "lawfare-2025.json"
     },
     {
       "ano": 2026,
-      "total": 250,
+      "total": 273,
       "arquivo": "lawfare-2026.json"
     }
   ]

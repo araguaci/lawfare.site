@@ -1,9 +1,9 @@
 {
-  "total": 23,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "total": 25,
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
   "ano": 2016,
   "assuntos": [
     {
@@ -543,6 +543,42 @@
       "id": 381
     },
     {
+      "titulo": "Delegado Marcelo Ivo mata motociclista dirigindo embriagado com CNH vencida — absolvido 4 anos depois",
+      "data_evento": "2016-10-23",
+      "data_iso": "2016-10-23T12:00:00.000Z",
+      "categoria": "impunidade",
+      "tags": [
+        "impunidade",
+        "operacoes",
+        "corporativismo",
+        "PF",
+        "gravidade-critica"
+      ],
+      "descricao": "Delegado Marcelo Ivo de Carvalho atropela e mata Francisco Lopes da Silva Neto (36 anos) na Rodovia Raposo Tavares em Sorocaba. Viatura PF em uso pessoal. Bafômetro: 0,49 mg/L (acima do limite criminal). CNH vencida há 1 ano e 3 meses. Absolvido em 2020 por 'insuficiência de provas'. Nenhuma consequência disciplinar. Em 2023, nomeado oficial de ligação PF no ICE em Miami.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Corporativismo institucional — impunidade documentada de servidor público — Padrão P6",
+      "fontes": [
+        "Jornal Cruzeiro do Sul, 27/10/2016",
+        "A Investigação, 17/04/2026",
+        "Poder360"
+      ],
+      "pessoas_envolvidas": [
+        "Marcelo Ivo de Carvalho",
+        "Francisco Lopes da Silva Neto (vítima)",
+        "Verlange Xavier da Silva (viúva)"
+      ],
+      "instituicoes_envolvidas": [
+        "Polícia Federal",
+        "TJSP"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "Pensão viúva: R$ 800/mês",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\impunidade\\2016-10-23-delegado-marcelo-ivo-mata-motociclista-embriagado-cnh-vencida-absolvido.md",
+      "id": 2012
+    },
+    {
       "titulo": "Críticas a declarações",
       "data_evento": "2016-10-28",
       "data_iso": "2016-10-28T00:00:00.000Z",
@@ -625,6 +661,47 @@
       "prioridade": 2,
       "fonte_arquivo": "_posts\\operacoes\\2016-11-17-operacao-calicute.md",
       "id": 383
+    },
+    {
+      "titulo": "IDP recebe mais de R$ 7 milhões de empresas com processos no gabinete de Gilmar, parte com cláusula de confidencialidade",
+      "data_evento": "2016-12-01",
+      "data_iso": "2016-12-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "corrupcao",
+        "conflito-de-interesse",
+        "idp",
+        "decano",
+        "gravidade-alta"
+      ],
+      "descricao": "Entre 2011 e 2016, 23 empresas patrocinaram o IDP (instituto de Gilmar) com R$ 7 milhões. Muitos eram ocultos. Souza Cruz pagou R$ 2 mi com cláusula de sigilo; JBS R$ 2 mi; Google R$ 200 mil sem exibição da marca. 300+ processos dessas empresas passaram pelo gabinete de Gilmar. Bradesco concedeu empréstimo de R$ 26 mi a 11,35% ao ano — condição indisponível em 99,92% dos casos — liberado no mesmo dia em que o filho de Gilmar comprou cota por R$ 12 mi.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Captura institucional — financiamento oculto de instituto como canal de lobby judicial",
+      "fontes": [
+        "Cruzeiro do Sul — https://www.crusoe.com.br/ed/idp-gilmar-mendes-financiamento/",
+        "Conjur, 09/01/2017 — https://www.conjur.com.br/2017-jan-09/empresas-processos-stf-financiam-instituto-gilmar-mendes/",
+        "Repórter Brasil"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes",
+        "Francisco Mendes (filho)"
+      ],
+      "instituicoes_envolvidas": [
+        "IDP",
+        "STF",
+        "Bradesco",
+        "JBS",
+        "Souza Cruz",
+        "Google"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "R$ 7 milhões+ (2011-2016) | Empréstimo Bradesco: R$ 26 milhões",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2016-12-01-idp-recebe-7-milhoes-de-empresas-com-processos-no-gabinete-de-gilmar.md",
+      "id": 2017
     },
     {
       "titulo": "Política Criminal Do Brasil",

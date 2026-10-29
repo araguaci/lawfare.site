@@ -1,9 +1,9 @@
 {
-  "total": 400,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "total": 403,
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
   "ano": 2025,
   "assuntos": [
     {
@@ -756,6 +756,39 @@
       "prioridade": 1,
       "fonte_arquivo": "_posts\\dragao-onca\\2025-01-01-id1680-sigma-lithium-opera-com-r3-bilhoes-investidos-no-complexo-grota-do-cirilo-e-acor.md",
       "id": 1680
+    },
+    {
+      "titulo": "Lula — 'Eu sou um amante da democracia, porque os amantes são mais apaixonados pela amante do que pelas mulheres'",
+      "data_evento": "2025-01-08",
+      "data_iso": "2025-01-08T12:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "lula",
+        "sexismo",
+        "liberdade de expressão",
+        "gravidade-media"
+      ],
+      "descricao": "No evento comemorativo do 2º aniversário do 8 de Janeiro, Lula faz declaração sexista improvisada que viraliza imediatamente — ignorada pela imprensa hegemônica. Janja da Silva sinalizou desaprovação ao vivo.",
+      "relevancia": "media",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Declaração sexista / indecorosa em contexto público institucional",
+      "fontes": [
+        "Correio Braziliense, 08/01/2025 — https://www.correiobraziliense.com.br/politica/2025/01/7029830-lula-maridos-sao-mais-apaixonados-pela-amante-do-que-pelas-mulheres.html"
+      ],
+      "pessoas_envolvidas": [
+        "Luiz Inácio Lula da Silva",
+        "Janja da Silva"
+      ],
+      "instituicoes_envolvidas": [
+        "Palácio do Planalto",
+        "Presidência da República"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\indecoro\\2025-01-08-lula-amante-da-democracia-declaracao-machista.md",
+      "id": 2007
     },
     {
       "titulo": "Entrevista ao jornalista Guilherme Amado",
@@ -3338,6 +3371,43 @@
       "connections": [
         "id_1724"
       ]
+    },
+    {
+      "titulo": "Barroso admite ter pedido declarações de apoio dos EUA para pressionar militares brasileiros",
+      "data_evento": "2025-05-13",
+      "data_iso": "2025-05-13T12:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "barroso",
+        "stf",
+        "soberania",
+        "crise-diplomatica",
+        "liberdade de expressão",
+        "gravidade-alta"
+      ],
+      "descricao": "Em evento do Grupo LIDE em Nova York, Barroso revela voluntariamente que pediu três vezes ao governo americano — incluindo ao Departamento de Estado — apoio para intimidar os militares brasileiros durante o período eleitoral de 2022. Convocado à Comissão de Segurança Pública do Senado.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "Alto — admissão de interferência estrangeira coordenada por presidente do TSE/STF em período eleitoral",
+      "tipo_escandalo": "Interferência estrangeira articulada por ministro do STF — questionamento da imparcialidade do TSE/2022",
+      "fontes": [
+        "CartaCapital, 13/05/2025 — https://www.cartacapital.com.br/politica/barroso-diz-que-pediu-apoio-dos-eua-para-evitar-um-golpe-de-estado-no-brasil/",
+        "Senado Federal, 20/05/2025"
+      ],
+      "pessoas_envolvidas": [
+        "Luís Roberto Barroso"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE",
+        "Departamento de Estado dos EUA",
+        "Senado Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\indecoro\\2025-05-13-barroso-admite-ter-pedido-apoio-dos-eua-para-pressionar-militares.md",
+      "id": 2008
     },
     {
       "titulo": "Operação Retomada",
@@ -10325,213 +10395,6 @@
       "id": 1302
     },
     {
-      "titulo": "Operação Carbono Oculto — maior operação contra o crime organizado da história do Brasil",
-      "data_evento": "2025-08-28",
-      "data_iso": "2025-08-28T12:00:00.000Z",
-      "categoria": "operacoes",
-      "tags": [
-        "operacoes",
-        "operacao-policial",
-        "crime-organizado",
-        "pcc",
-        "combustiveis",
-        "fintechs",
-        "lavagem-dinheiro",
-        "faria-lima",
-        "reag",
-        "bk-bank",
-        "postos",
-        "carbono-oculto",
-        "timeline-127",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "Receita Federal, MP-SP (GAECO), PF, polícias civis e militares, ANP e secretarias estaduais deflagram a Operação Carbono Oculto em 8 estados. Com 1.400 agentes públicos, é a maior operação em termos de cooperação institucional na história do país. O objetivo é desmantelar esquema de fraudes, sonegação fiscal e lavagem de dinheiro no setor de combustíveis comandado pelo PCC, que infiltrou toda a cadeia produtiva — da importação até o consumidor final — e o mercado financeiro via fintechs e fundos de investimento. São cumpridos 350+ mandados, 6 prisões, e bloqueados R$ 3,2 bilhões em bens. As investigações revelam R$ 140 bilhões em movimentações ilícitas totais (3 operações combinadas).",
-      "relevancia": "alta",
-      "impacto_diplomatico": "Baixo",
-      "tipo_escandalo": "Crime organizado / lavagem",
-      "fontes": [
-        "Receita Federal (oficial): Operação Carbono Oculto: RFB e órgãos parceiros combatem organização responsável por sonegação e lavagem de dinheiro — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis",
-        "Ministério da Justiça (oficial): Operações Quasar, Tank e Carbono Oculto desarticulam esquemas bilionários — https://www.gov.br/mj/pt-br/assuntos/noticias/operacoes-quasar-tank-e-carbono-oculto-desarticulam-esquemas-bilionarios-de-lavagem-de-dinheiro-e-fraudes-no-setor-de-combustiveis",
-        "Wikipédia: Operação Carbono Oculto — Wikipédia — https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto",
-        "InfoMoney: Operação Carbono Oculto: entenda o esquema bilionário do PCC no setor de combustíveis — https://www.infomoney.com.br/brasil/operacao-carbono-oculto-entenda-o-esquema-bilionario-do-pcc-no-setor-de-combustiveis/"
-      ],
-      "pessoas_envolvidas": [
-        "Roberto Augusto Leme da Silva — 'Beto Louco'",
-        "Mohamad Hussein Mourad — 'Primo'",
-        "Marcelo Dias de Moraes",
-        "Camila Cristina de Moura Silva",
-        "Lucas Tomé Assunção",
-        "José Carlos Gonçalves — 'Alemão'",
-        "João Carlos Mansur",
-        "Andrei Rodrigues",
-        "Ricardo Lewandowski"
-      ],
-      "instituicoes_envolvidas": [
-        "Receita Federal",
-        "MP-SP / GAECO",
-        "Polícia Federal",
-        "ANP",
-        "PGFN",
-        "Polícia Civil e Militar",
-        "Secretarias Estaduais de Fazenda"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "agentes_mobilizados: 1400 | estados: 8 | mandados_cumpridos: 350 | prisoes: 6 | bens_bloqueados: R$ 3.200.000.000 | movimentacao_postos: R$ 52.000.000.000",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\operacoes\\2025-08-28-timeline-127-operacao-carbono-oculto-maior-operacao-contra-o-crime-organizado-da-hist.md",
-      "id": 1406
-    },
-    {
-      "titulo": "Corinthians: três postos oficiais do clube aparecem na ANP em nome de investigados da Carbono Oculto",
-      "data_evento": "2025-08-28",
-      "data_iso": "2025-08-28T12:00:00.000Z",
-      "categoria": "escandalos",
-      "tags": [
-        "escandalos",
-        "revelação-investigativa",
-        "lavagem-dinheiro",
-        "corinthians",
-        "anp",
-        "postos",
-        "lavagem",
-        "futebol",
-        "timeline-137",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "No âmbito da Operação Carbono Oculto, são identificados que os três postos de combustíveis oficiais do Sport Club Corinthians Paulista aparecem cadastrados na Agência Nacional do Petróleo em nome de Pedro Furtado, Himad Mourad e Luiz Ernesto Franco — todos investigados na operação. A conexão entre o clube e a rede criminosa de combustíveis não foi investigada publicamente no contexto institucional do clube. O padrão de uso de ativos esportivos em esquemas de lavagem é histórico no Brasil.",
-      "relevancia": "media",
-      "impacto_diplomatico": "Baixo",
-      "tipo_escandalo": "Lavagem de dinheiro",
-      "fontes": [
-        "Wikipédia: Operação Carbono Oculto — Wikipédia — https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto"
-      ],
-      "pessoas_envolvidas": [
-        "Pedro Furtado",
-        "Himad Mourad",
-        "Luiz Ernesto Franco"
-      ],
-      "instituicoes_envolvidas": [
-        "ANP — Agência Nacional do Petróleo",
-        "Sport Club Corinthians Paulista"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "postos_corinthians_investigados: 3",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-137-corinthians-tres-postos-oficiais-do-clube-aparecem-na-anp-em-nome-de-inv.md",
-      "id": 1416
-    },
-    {
-      "titulo": "ANÁLISE: Receita Federal revogou normativas de transparência de fintechs em 2025 — brecha permaneceu aberta durante todo o período do esquema",
-      "data_evento": "2025-08-28",
-      "data_iso": "2025-08-28T12:00:00.000Z",
-      "categoria": "escandalos",
-      "tags": [
-        "escandalos",
-        "falha-institucional",
-        "regulação",
-        "regulacao",
-        "fintechs",
-        "brecha-regulatoria",
-        "fake-news",
-        "timeline-139",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "Documentação oficial da Receita Federal revela que em 2024 foram promovidas alterações normativas na e-Financeira para aumentar a transparência das instituições de pagamento. Essas alterações foram revogadas no início de 2025 após onda de fake news sobre o tema. A revogação permitiu que as fintechs continuassem operando como 'bancos paralelos' invisíveis para a fiscalização até a deflagração da Carbono Oculto em agosto de 2025. A brecha regulatória foi explorada pelo PCC durante exatamente o período em que esteve aberta.",
-      "relevancia": "media",
-      "impacto_diplomatico": "Baixo",
-      "tipo_escandalo": "Regulação",
-      "fontes": [
-        "Receita Federal (oficial): Operação Carbono Oculto: RFB — nota oficial — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis"
-      ],
-      "pessoas_envolvidas": [
-        "Receita Federal"
-      ],
-      "instituicoes_envolvidas": [
-        "Receita Federal",
-        "Banco Central"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "N/A",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-139-analise-receita-federal-revogou-normativas-de-transparencia-de-fintechs.md",
-      "id": 1418
-    },
-    {
-      "titulo": "ANÁLISE TRANSVERSAL: Arquitetura do esquema Carbono Oculto vs. Panama Papers — mesmos instrumentos, nova camada",
-      "data_evento": "2025-08-28",
-      "data_iso": "2025-08-28T12:00:00.000Z",
-      "categoria": "escandalos",
-      "tags": [
-        "escandalos",
-        "análise-editorial",
-        "padrão-transversal",
-        "analise-transversal",
-        "panama-papers",
-        "lava-jato",
-        "offshores-eua",
-        "instrumentos-lavagem",
-        "evolucao-criminosa",
-        "timeline-140",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "Análise comparativa dos mecanismos de lavagem documentados na Operação Carbono Oculto e nos Panama Papers (2016) revela instrumentos idênticos na camada final de blindagem patrimonial: offshores no exterior que remetem recursos ao Brasil como 'investimento estrangeiro' via contratos de mútuo conversíveis em ações. Na Lava Jato/Panama Papers (2014-2016), as offshores usadas eram a Mossack Fonseca como intermediária. Em 2025, as offshores estão nos EUA e a intermediária são as fintechs reguladas pelo BC. A evolução é de geração tecnológica, não de lógica criminosa.",
-      "relevancia": "media",
-      "impacto_diplomatico": "Médio",
-      "tipo_escandalo": "Análise comparativa",
-      "fontes": [
-        "Receita Federal (oficial): Operação Poço de Lobato: Receita Federal — nota oficial — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
-      ],
-      "pessoas_envolvidas": [
-        "N/A"
-      ],
-      "instituicoes_envolvidas": [
-        "N/A"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "offshores_EUA_identificadas: 15 | remessas_como_investimento_estrangeiro: R$ 1.200.000.000",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-140-analise-transversal-arquitetura-do-esquema-carbono-oculto-vs-panama-pape.md",
-      "id": 1419
-    },
-    {
-      "titulo": "LACUNA INVESTIGATIVA: Cooperação jurídica com os EUA não acionada para offshores de Houston",
-      "data_evento": "2025-08-28",
-      "data_iso": "2025-08-28T12:00:00.000Z",
-      "categoria": "escandalos",
-      "tags": [
-        "escandalos",
-        "lacuna-investigativa",
-        "dimensão-internacional",
-        "eua",
-        "houston",
-        "mlat",
-        "offshores",
-        "cooperacao-internacional",
-        "timeline-143",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "A Operação Poço de Lobato identificou exportadora em Houston (TX) que importou R$ 12,5 bilhões em combustíveis entre 2020-2025, além de 15+ offshores nos EUA que remeteram cerca de R$ 1 bilhão ao Brasil via contratos de mútuo. Não há registro público de acionamento do MLAT (Mutual Legal Assistance Treaty) entre Brasil e EUA para investigar a dimensão americana do esquema. Na Lava Jato, o DOJ americano foi parceiro ativo e os acordos de leniência incluíram confissões de operações internacionais. Esta lacuna representa a parte mais obscura do esquema.",
-      "relevancia": "media",
-      "impacto_diplomatico": "Médio",
-      "tipo_escandalo": "Cooperação internacional",
-      "fontes": [
-        "Receita Federal (oficial): Operação Poço de Lobato — nota oficial da Receita Federal — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
-      ],
-      "pessoas_envolvidas": [
-        "N/A"
-      ],
-      "instituicoes_envolvidas": [
-        "DOJ — Departamento de Justiça dos EUA",
-        "PGR",
-        "Polícia Federal"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "importacoes_via_houston: R$ 12.500.000.000 | offshores_EUA: 15 | remessas_exterior: R$ 1.200.000.000",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-143-lacuna-investigativa-cooperacao-juridica-com-os-eua-nao-acionada-para-of.md",
-      "id": 1422
-    },
-    {
       "titulo": "Operação Carbono Oculto: PCC infiltra Faria Lima — R$30bi em fundos bloqueados, 1 terminal portuário apreendido",
       "data_evento": "2025-08-28",
       "data_iso": "2025-08-28T00:00:00.000Z",
@@ -10760,6 +10623,213 @@
       "prioridade": 1,
       "fonte_arquivo": "_posts\\vazatoga\\2025-08-28-tagliaferro-relata-publicamente-que-veiculo-internacional-postergou-por-meses-a-publicacao.md",
       "id": 1888
+    },
+    {
+      "titulo": "Operação Carbono Oculto — maior operação contra o crime organizado da história do Brasil",
+      "data_evento": "2025-08-28",
+      "data_iso": "2025-08-28T12:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "operacao-policial",
+        "crime-organizado",
+        "pcc",
+        "combustiveis",
+        "fintechs",
+        "lavagem-dinheiro",
+        "faria-lima",
+        "reag",
+        "bk-bank",
+        "postos",
+        "carbono-oculto",
+        "timeline-127",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "Receita Federal, MP-SP (GAECO), PF, polícias civis e militares, ANP e secretarias estaduais deflagram a Operação Carbono Oculto em 8 estados. Com 1.400 agentes públicos, é a maior operação em termos de cooperação institucional na história do país. O objetivo é desmantelar esquema de fraudes, sonegação fiscal e lavagem de dinheiro no setor de combustíveis comandado pelo PCC, que infiltrou toda a cadeia produtiva — da importação até o consumidor final — e o mercado financeiro via fintechs e fundos de investimento. São cumpridos 350+ mandados, 6 prisões, e bloqueados R$ 3,2 bilhões em bens. As investigações revelam R$ 140 bilhões em movimentações ilícitas totais (3 operações combinadas).",
+      "relevancia": "alta",
+      "impacto_diplomatico": "Baixo",
+      "tipo_escandalo": "Crime organizado / lavagem",
+      "fontes": [
+        "Receita Federal (oficial): Operação Carbono Oculto: RFB e órgãos parceiros combatem organização responsável por sonegação e lavagem de dinheiro — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis",
+        "Ministério da Justiça (oficial): Operações Quasar, Tank e Carbono Oculto desarticulam esquemas bilionários — https://www.gov.br/mj/pt-br/assuntos/noticias/operacoes-quasar-tank-e-carbono-oculto-desarticulam-esquemas-bilionarios-de-lavagem-de-dinheiro-e-fraudes-no-setor-de-combustiveis",
+        "Wikipédia: Operação Carbono Oculto — Wikipédia — https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto",
+        "InfoMoney: Operação Carbono Oculto: entenda o esquema bilionário do PCC no setor de combustíveis — https://www.infomoney.com.br/brasil/operacao-carbono-oculto-entenda-o-esquema-bilionario-do-pcc-no-setor-de-combustiveis/"
+      ],
+      "pessoas_envolvidas": [
+        "Roberto Augusto Leme da Silva — 'Beto Louco'",
+        "Mohamad Hussein Mourad — 'Primo'",
+        "Marcelo Dias de Moraes",
+        "Camila Cristina de Moura Silva",
+        "Lucas Tomé Assunção",
+        "José Carlos Gonçalves — 'Alemão'",
+        "João Carlos Mansur",
+        "Andrei Rodrigues",
+        "Ricardo Lewandowski"
+      ],
+      "instituicoes_envolvidas": [
+        "Receita Federal",
+        "MP-SP / GAECO",
+        "Polícia Federal",
+        "ANP",
+        "PGFN",
+        "Polícia Civil e Militar",
+        "Secretarias Estaduais de Fazenda"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "agentes_mobilizados: 1400 | estados: 8 | mandados_cumpridos: 350 | prisoes: 6 | bens_bloqueados: R$ 3.200.000.000 | movimentacao_postos: R$ 52.000.000.000",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2025-08-28-timeline-127-operacao-carbono-oculto-maior-operacao-contra-o-crime-organizado-da-hist.md",
+      "id": 1989
+    },
+    {
+      "titulo": "Corinthians: três postos oficiais do clube aparecem na ANP em nome de investigados da Carbono Oculto",
+      "data_evento": "2025-08-28",
+      "data_iso": "2025-08-28T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "revelação-investigativa",
+        "lavagem-dinheiro",
+        "corinthians",
+        "anp",
+        "postos",
+        "lavagem",
+        "futebol",
+        "timeline-137",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "No âmbito da Operação Carbono Oculto, são identificados que os três postos de combustíveis oficiais do Sport Club Corinthians Paulista aparecem cadastrados na Agência Nacional do Petróleo em nome de Pedro Furtado, Himad Mourad e Luiz Ernesto Franco — todos investigados na operação. A conexão entre o clube e a rede criminosa de combustíveis não foi investigada publicamente no contexto institucional do clube. O padrão de uso de ativos esportivos em esquemas de lavagem é histórico no Brasil.",
+      "relevancia": "media",
+      "impacto_diplomatico": "Baixo",
+      "tipo_escandalo": "Lavagem de dinheiro",
+      "fontes": [
+        "Wikipédia: Operação Carbono Oculto — Wikipédia — https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto"
+      ],
+      "pessoas_envolvidas": [
+        "Pedro Furtado",
+        "Himad Mourad",
+        "Luiz Ernesto Franco"
+      ],
+      "instituicoes_envolvidas": [
+        "ANP — Agência Nacional do Petróleo",
+        "Sport Club Corinthians Paulista"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "postos_corinthians_investigados: 3",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-137-corinthians-tres-postos-oficiais-do-clube-aparecem-na-anp-em-nome-de-inv.md",
+      "id": 1999
+    },
+    {
+      "titulo": "ANÁLISE: Receita Federal revogou normativas de transparência de fintechs em 2025 — brecha permaneceu aberta durante todo o período do esquema",
+      "data_evento": "2025-08-28",
+      "data_iso": "2025-08-28T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "falha-institucional",
+        "regulação",
+        "regulacao",
+        "fintechs",
+        "brecha-regulatoria",
+        "fake-news",
+        "timeline-139",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "Documentação oficial da Receita Federal revela que em 2024 foram promovidas alterações normativas na e-Financeira para aumentar a transparência das instituições de pagamento. Essas alterações foram revogadas no início de 2025 após onda de fake news sobre o tema. A revogação permitiu que as fintechs continuassem operando como 'bancos paralelos' invisíveis para a fiscalização até a deflagração da Carbono Oculto em agosto de 2025. A brecha regulatória foi explorada pelo PCC durante exatamente o período em que esteve aberta.",
+      "relevancia": "media",
+      "impacto_diplomatico": "Baixo",
+      "tipo_escandalo": "Regulação",
+      "fontes": [
+        "Receita Federal (oficial): Operação Carbono Oculto: RFB — nota oficial — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis"
+      ],
+      "pessoas_envolvidas": [
+        "Receita Federal"
+      ],
+      "instituicoes_envolvidas": [
+        "Receita Federal",
+        "Banco Central"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-139-analise-receita-federal-revogou-normativas-de-transparencia-de-fintechs.md",
+      "id": 2001
+    },
+    {
+      "titulo": "ANÁLISE TRANSVERSAL: Arquitetura do esquema Carbono Oculto vs. Panama Papers — mesmos instrumentos, nova camada",
+      "data_evento": "2025-08-28",
+      "data_iso": "2025-08-28T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "análise-editorial",
+        "padrão-transversal",
+        "analise-transversal",
+        "panama-papers",
+        "lava-jato",
+        "offshores-eua",
+        "instrumentos-lavagem",
+        "evolucao-criminosa",
+        "timeline-140",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "Análise comparativa dos mecanismos de lavagem documentados na Operação Carbono Oculto e nos Panama Papers (2016) revela instrumentos idênticos na camada final de blindagem patrimonial: offshores no exterior que remetem recursos ao Brasil como 'investimento estrangeiro' via contratos de mútuo conversíveis em ações. Na Lava Jato/Panama Papers (2014-2016), as offshores usadas eram a Mossack Fonseca como intermediária. Em 2025, as offshores estão nos EUA e a intermediária são as fintechs reguladas pelo BC. A evolução é de geração tecnológica, não de lógica criminosa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "Médio",
+      "tipo_escandalo": "Análise comparativa",
+      "fontes": [
+        "Receita Federal (oficial): Operação Poço de Lobato: Receita Federal — nota oficial — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
+      ],
+      "pessoas_envolvidas": [
+        "N/A"
+      ],
+      "instituicoes_envolvidas": [
+        "N/A"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "offshores_EUA_identificadas: 15 | remessas_como_investimento_estrangeiro: R$ 1.200.000.000",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-140-analise-transversal-arquitetura-do-esquema-carbono-oculto-vs-panama-pape.md",
+      "id": 2002
+    },
+    {
+      "titulo": "LACUNA INVESTIGATIVA: Cooperação jurídica com os EUA não acionada para offshores de Houston",
+      "data_evento": "2025-08-28",
+      "data_iso": "2025-08-28T12:00:00.000Z",
+      "categoria": "escandalos",
+      "tags": [
+        "escandalos",
+        "lacuna-investigativa",
+        "dimensão-internacional",
+        "eua",
+        "houston",
+        "mlat",
+        "offshores",
+        "cooperacao-internacional",
+        "timeline-143",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "A Operação Poço de Lobato identificou exportadora em Houston (TX) que importou R$ 12,5 bilhões em combustíveis entre 2020-2025, além de 15+ offshores nos EUA que remeteram cerca de R$ 1 bilhão ao Brasil via contratos de mútuo. Não há registro público de acionamento do MLAT (Mutual Legal Assistance Treaty) entre Brasil e EUA para investigar a dimensão americana do esquema. Na Lava Jato, o DOJ americano foi parceiro ativo e os acordos de leniência incluíram confissões de operações internacionais. Esta lacuna representa a parte mais obscura do esquema.",
+      "relevancia": "media",
+      "impacto_diplomatico": "Médio",
+      "tipo_escandalo": "Cooperação internacional",
+      "fontes": [
+        "Receita Federal (oficial): Operação Poço de Lobato — nota oficial da Receita Federal — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
+      ],
+      "pessoas_envolvidas": [
+        "N/A"
+      ],
+      "instituicoes_envolvidas": [
+        "DOJ — Departamento de Justiça dos EUA",
+        "PGR",
+        "Polícia Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "importacoes_via_houston: R$ 12.500.000.000 | offshores_EUA: 15 | remessas_exterior: R$ 1.200.000.000",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\escandalos\\2025-08-28-timeline-143-lacuna-investigativa-cooperacao-juridica-com-os-eua-nao-acionada-para-of.md",
+      "id": 2005
     },
     {
       "titulo": "STJ Nega Indenização a Inocente Preso 210 Dias e Estado Cobra R$478,9 Mil em Honorários",
@@ -11535,7 +11605,7 @@
       "valor_envolvido": "moteis_mapeados: 60 | ativos_luxo: iate, Lamborghini, helicóptero",
       "prioridade": 2,
       "fonte_arquivo": "_posts\\operacoes\\2025-09-25-timeline-128-operacao-spare-desdobramento-mira-pcc-em-combustiveis-e-jogos-de-azar.md",
-      "id": 1407
+      "id": 1990
     },
     {
       "titulo": "Povo Waimiri Atroari denuncia contaminação do rio Alalaú por mercúrio e rejeitos industriais",
@@ -11569,43 +11639,6 @@
       "prioridade": 1,
       "fonte_arquivo": "_posts\\dragao-onca\\2025-09-29-id1670-povo-waimiri-atroari-denuncia-contaminacao-do-rio-alalau-por-mercurio-e-rejeitos.md",
       "id": 1670
-    },
-    {
-      "titulo": "Operação Greenwashing — relatório final de 392 páginas indicia 31 pessoas",
-      "data_evento": "2025-10-01",
-      "data_iso": "2025-10-01T12:00:00.000Z",
-      "categoria": "justica",
-      "tags": [
-        "justica",
-        "ato-judicial",
-        "indiciamento",
-        "greenwashing",
-        "pf",
-        "stoppe",
-        "timeline-141",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "A Polícia Federal conclui o segundo relatório final da Operação Greenwashing com 392 páginas, indiciando 31 pessoas. O relatório é encaminhado à Justiça Federal para que o MPF decida entre denúncia ou arquivamento. A PF afirma que 'resta clara a existência de uma organização criminosa coesa, hierarquizada e com atribuições específicas a cada membro'. Os crimes investigados incluem corrupção ativa, desmatamento em terra pública, falsidade ideológica, estelionato, crime contra o sistema financeiro, invasão de terra pública, lavagem de dinheiro e organização criminosa.",
-      "relevancia": "media",
-      "impacto_diplomatico": "Baixo",
-      "tipo_escandalo": "Judiciário / inquérito",
-      "fontes": [
-        "O Amazônico: PF indicia 31 pessoas por maior fraude de crédito de carbono no Brasil — https://www.oamazonico.com.br/materias/pf-indicia-31-pessoas-por-maior-fraude-de-credito-de-carbono-no-brasil",
-        "Brasilagro: PF aponta organização criminosa em maior fraude com créditos de carbono — https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html"
-      ],
-      "pessoas_envolvidas": [
-        "Ricardo Stoppe Júnior"
-      ],
-      "instituicoes_envolvidas": [
-        "Polícia Federal",
-        "MPF",
-        "Justiça Federal"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "indiciados: 31 | paginas_relatorio: 392",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\justica\\2025-10-01-timeline-141-operacao-greenwashing-relatorio-final-de-392-paginas-indicia-31-pessoas.md",
-      "id": 1420
     },
     {
       "titulo": "Operação Rejeito remetida ao STF — citação a senadores aciona foro privilegiado",
@@ -11693,6 +11726,43 @@
       "prioridade": 1,
       "fonte_arquivo": "_posts\\dragao-onca\\2025-10-01-id1704-multiplos-projetos-sao-apensados-ao-pl-27802024-incluindo-politica-nacional-de-t.md",
       "id": 1704
+    },
+    {
+      "titulo": "Operação Greenwashing — relatório final de 392 páginas indicia 31 pessoas",
+      "data_evento": "2025-10-01",
+      "data_iso": "2025-10-01T12:00:00.000Z",
+      "categoria": "justica",
+      "tags": [
+        "justica",
+        "ato-judicial",
+        "indiciamento",
+        "greenwashing",
+        "pf",
+        "stoppe",
+        "timeline-141",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "A Polícia Federal conclui o segundo relatório final da Operação Greenwashing com 392 páginas, indiciando 31 pessoas. O relatório é encaminhado à Justiça Federal para que o MPF decida entre denúncia ou arquivamento. A PF afirma que 'resta clara a existência de uma organização criminosa coesa, hierarquizada e com atribuições específicas a cada membro'. Os crimes investigados incluem corrupção ativa, desmatamento em terra pública, falsidade ideológica, estelionato, crime contra o sistema financeiro, invasão de terra pública, lavagem de dinheiro e organização criminosa.",
+      "relevancia": "media",
+      "impacto_diplomatico": "Baixo",
+      "tipo_escandalo": "Judiciário / inquérito",
+      "fontes": [
+        "O Amazônico: PF indicia 31 pessoas por maior fraude de crédito de carbono no Brasil — https://www.oamazonico.com.br/materias/pf-indicia-31-pessoas-por-maior-fraude-de-credito-de-carbono-no-brasil",
+        "Brasilagro: PF aponta organização criminosa em maior fraude com créditos de carbono — https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html"
+      ],
+      "pessoas_envolvidas": [
+        "Ricardo Stoppe Júnior"
+      ],
+      "instituicoes_envolvidas": [
+        "Polícia Federal",
+        "MPF",
+        "Justiça Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "indiciados: 31 | paginas_relatorio: 392",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\justica\\2025-10-01-timeline-141-operacao-greenwashing-relatorio-final-de-392-paginas-indicia-31-pessoas.md",
+      "id": 2003
     },
     {
       "titulo": "CNJ abre PAD contra desembargador do TJPR por décadas de assédio moral e sexual contra servidoras",
@@ -12629,6 +12699,39 @@
       "id": 1562
     },
     {
+      "titulo": "Gilmar Mendes — '200 milhões de juristas palpitando sobre coisas do Supremo'",
+      "data_evento": "2025-11-15",
+      "data_iso": "2025-11-15T12:00:00.000Z",
+      "categoria": "indecoro",
+      "tags": [
+        "indecoro",
+        "gilmar-mendes",
+        "stf",
+        "soberania",
+        "decano",
+        "gravidade-alta"
+      ],
+      "descricao": "Em entrevista sobre o Caso Banco Master, Gilmar Mendes equipara críticos do STF a 'técnicos de futebol leigos', negando legitimidade popular para questionar o tribunal — no contexto de conflito de interesse documentado de três ministros com o banco.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Deslegitimação da soberania popular — blindagem corporativa do STF — Padrões P3 e P8",
+      "fontes": [
+        "Revista Oeste, 22/04/2026 — https://revistaoeste.com/politica/gilmar-critica-200-milhoes-de-juristas-com-opinioes-sobre-o-stf/"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Grupo Globo"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\indecoro\\2025-11-15-gilmar-mendes-200-milhoes-de-juristas-blindagem-do-stf.md",
+      "id": 2009
+    },
+    {
       "titulo": "Banco Master é liquidado pelo Banco Central após suspeitas de fraude bilionária",
       "data_evento": "2025-11-17",
       "data_iso": "2025-11-17T00:00:00.000Z",
@@ -12713,49 +12816,6 @@
       "prioridade": 2,
       "fonte_arquivo": "_posts\\stf\\2025-11-17-vorcaro-troca-mensagens-com-moraes-no-dia-de-sua-primeira-prisao-aponta-pericia-da-pf.md",
       "id": 1326
-    },
-    {
-      "titulo": "Banco Central denuncia ao MPF: 4 fundos investigados por PCC aparecem em fraude do Banco Master",
-      "data_evento": "2025-11-17",
-      "data_iso": "2025-11-17T12:00:00.000Z",
-      "categoria": "bancos",
-      "tags": [
-        "bancos",
-        "ato-institucional",
-        "denúncia-regulatória",
-        "banco-master",
-        "reag",
-        "pcc",
-        "fundos-investimento",
-        "banco-central",
-        "compliance-zero",
-        "timeline-129",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "O Banco Central envia denúncia formal ao Ministério Público Federal apontando que quatro fundos de investimento investigados por ligação com o PCC na Operação Carbono Oculto são administrados pela REAG DTVM e aparecem em suspeita de fraude do Banco Master. Os fundos (Astralo 95, Reag Growth 95, Hans 95, Olaf 95, Maia 95 e Anna) somam R$ 102,4 bilhões em patrimônio. A fraude suspeita do Master envolveria R$ 11,5 bilhões no período julho/2023–julho/2024. Esta denúncia é o primeiro elo público documentado conectando formalmente PCC, REAG e Banco Master.",
-      "relevancia": "media",
-      "impacto_diplomatico": "Baixo",
-      "tipo_escandalo": "Regulatório / mercado de capitais",
-      "fontes": [
-        "Revista Fórum: Banco Master: 6 fundos do caso contra o PCC estão ligados ao escândalo de Vorcaro — https://revistaforum.com.br/brasil/banco-master-6-fundos-do-caso-contra-o-pcc-estao-ligados-ao-escandalo-de-vorcaro/",
-        "CNN Brasil: Liquidada pelo BC, Reag já foi alvo de megaoperação contra o PCC — https://www.cnnbrasil.com.br/nacional/sudeste/sp/liquidada-pelo-bc-reag-ja-foi-alvo-de-megaoperacao-contra-o-pcc-entenda/"
-      ],
-      "pessoas_envolvidas": [
-        "Gabriel Galípolo",
-        "João Carlos Mansur",
-        "Daniel Vorcaro"
-      ],
-      "instituicoes_envolvidas": [
-        "Banco Central do Brasil",
-        "MPF",
-        "REAG DTVM",
-        "Banco Master"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "fundos_investigados: 6 | patrimonio_fundos: R$ 102.400.000.000 | fraude_suspeita_master: R$ 11.500.000.000",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\bancos\\2025-11-17-timeline-129-banco-central-denuncia-ao-mpf-4-fundos-investigados-por-pcc-aparecem-em.md",
-      "id": 1408
     },
     {
       "titulo": "Operação Compliance Zero (INQ 5026/STF) — Banco Master investigado; Biomm entra como ativo do portfólio a liquidar",
@@ -12934,48 +12994,47 @@
       "analise": "O uso deliberado de recurso de visualização única por ambos os interlocutores (segundo a reportagem) é, em si, um dado analítico relevante — sugere consciência de que a comunicação não deveria deixar rastro. A negativa de Moraes não é verificável de forma independente enquanto a origem pericial completa da extração não for auditada por terceiros."
     },
     {
-      "titulo": "Operação Compliance Zero — fase 1: Banco Master liquidado e Daniel Vorcaro preso tentando deixar o país",
-      "data_evento": "2025-11-18",
-      "data_iso": "2025-11-18T12:00:00.000Z",
-      "categoria": "operacoes",
+      "titulo": "Banco Central denuncia ao MPF: 4 fundos investigados por PCC aparecem em fraude do Banco Master",
+      "data_evento": "2025-11-17",
+      "data_iso": "2025-11-17T12:00:00.000Z",
+      "categoria": "bancos",
       "tags": [
-        "operacoes",
-        "operacao-policial",
-        "crime-financeiro",
+        "bancos",
+        "ato-institucional",
+        "denúncia-regulatória",
         "banco-master",
-        "compliance-zero",
-        "vorcaro",
         "reag",
-        "brb",
-        "liquidacao",
-        "timeline-130",
+        "pcc",
+        "fundos-investimento",
+        "banco-central",
+        "compliance-zero",
+        "timeline-129",
         "lawfare-timeline-json"
       ],
-      "descricao": "A Polícia Federal deflagra a Operação Compliance Zero, prendendo Daniel Vorcaro enquanto tentava deixar o Brasil. O Banco Central liquida o Banco Master na mesma data. A investigação apura fabricação de carteiras de crédito inexistentes (sem lastro) e circulação de 'ativos podres' para inflar o patrimônio do Master e esconder prejuízos. O esquema envolvia empréstimos do Master a empresas que investiam em fundos da REAG, com os recursos circulando entre fundos no mesmo dia para elevar o patrimônio declarado artificialmente.",
-      "relevancia": "alta",
+      "descricao": "O Banco Central envia denúncia formal ao Ministério Público Federal apontando que quatro fundos de investimento investigados por ligação com o PCC na Operação Carbono Oculto são administrados pela REAG DTVM e aparecem em suspeita de fraude do Banco Master. Os fundos (Astralo 95, Reag Growth 95, Hans 95, Olaf 95, Maia 95 e Anna) somam R$ 102,4 bilhões em patrimônio. A fraude suspeita do Master envolveria R$ 11,5 bilhões no período julho/2023–julho/2024. Esta denúncia é o primeiro elo público documentado conectando formalmente PCC, REAG e Banco Master.",
+      "relevancia": "media",
       "impacto_diplomatico": "Baixo",
-      "tipo_escandalo": "Sistema financeiro",
+      "tipo_escandalo": "Regulatório / mercado de capitais",
       "fontes": [
-        "O Tempo: Entenda o caso do Banco Master, que levou Daniel Vorcaro à prisão pela segunda vez — https://www.otempo.com.br/economia/2026/3/4/entenda-o-caso-do-banco-master-que-levou-daniel-vorcaro-a-prisao-pela-segunda-vez",
-        "Gazeta do Povo: Banco Master: a fraude bilionária ajudada por falhas de Estado — https://www.gazetadopovo.com.br/economia/economia-fraude-banco-master-esquema-falhas-estado/"
+        "Revista Fórum: Banco Master: 6 fundos do caso contra o PCC estão ligados ao escândalo de Vorcaro — https://revistaforum.com.br/brasil/banco-master-6-fundos-do-caso-contra-o-pcc-estao-ligados-ao-escandalo-de-vorcaro/",
+        "CNN Brasil: Liquidada pelo BC, Reag já foi alvo de megaoperação contra o PCC — https://www.cnnbrasil.com.br/nacional/sudeste/sp/liquidada-pelo-bc-reag-ja-foi-alvo-de-megaoperacao-contra-o-pcc-entenda/"
       ],
       "pessoas_envolvidas": [
-        "Daniel Vorcaro",
-        "Maurício Quadrado",
-        "João Carlos Mansur"
+        "Gabriel Galípolo",
+        "João Carlos Mansur",
+        "Daniel Vorcaro"
       ],
       "instituicoes_envolvidas": [
-        "Polícia Federal",
         "Banco Central do Brasil",
-        "Banco Master",
-        "REAG",
-        "BRB — Banco de Brasília"
+        "MPF",
+        "REAG DTVM",
+        "Banco Master"
       ],
       "pais": "Brasil",
-      "valor_envolvido": "carteiras_credito_ficticias: R$ 12.200.000.000 | fraude_suspeita_total: R$ 11.500.000.000",
+      "valor_envolvido": "fundos_investigados: 6 | patrimonio_fundos: R$ 102.400.000.000 | fraude_suspeita_master: R$ 11.500.000.000",
       "prioridade": 2,
-      "fonte_arquivo": "_posts\\operacoes\\2025-11-18-timeline-130-operacao-compliance-zero-fase-1-banco-master-liquidado-e-daniel-vorcaro.md",
-      "id": 1409
+      "fonte_arquivo": "_posts\\bancos\\2025-11-17-timeline-129-banco-central-denuncia-ao-mpf-4-fundos-investigados-por-pcc-aparecem-em.md",
+      "id": 1991
     },
     {
       "titulo": "Banco Central liquida extrajudicialmente o Banco Master — rombo de R$ 41 bilhões ao FGC, maior da história",
@@ -13020,6 +13079,50 @@
       "prioridade": 1,
       "fonte_arquivo": "_posts\\escandalos\\2025-11-18-banco-central-liquida-extrajudicialmente-o-banco-master-rombo-de-r-41-bilhoes-ao-fgc-maior.md",
       "id": 1536
+    },
+    {
+      "titulo": "Operação Compliance Zero — fase 1: Banco Master liquidado e Daniel Vorcaro preso tentando deixar o país",
+      "data_evento": "2025-11-18",
+      "data_iso": "2025-11-18T12:00:00.000Z",
+      "categoria": "operacoes",
+      "tags": [
+        "operacoes",
+        "operacao-policial",
+        "crime-financeiro",
+        "banco-master",
+        "compliance-zero",
+        "vorcaro",
+        "reag",
+        "brb",
+        "liquidacao",
+        "timeline-130",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "A Polícia Federal deflagra a Operação Compliance Zero, prendendo Daniel Vorcaro enquanto tentava deixar o Brasil. O Banco Central liquida o Banco Master na mesma data. A investigação apura fabricação de carteiras de crédito inexistentes (sem lastro) e circulação de 'ativos podres' para inflar o patrimônio do Master e esconder prejuízos. O esquema envolvia empréstimos do Master a empresas que investiam em fundos da REAG, com os recursos circulando entre fundos no mesmo dia para elevar o patrimônio declarado artificialmente.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "Baixo",
+      "tipo_escandalo": "Sistema financeiro",
+      "fontes": [
+        "O Tempo: Entenda o caso do Banco Master, que levou Daniel Vorcaro à prisão pela segunda vez — https://www.otempo.com.br/economia/2026/3/4/entenda-o-caso-do-banco-master-que-levou-daniel-vorcaro-a-prisao-pela-segunda-vez",
+        "Gazeta do Povo: Banco Master: a fraude bilionária ajudada por falhas de Estado — https://www.gazetadopovo.com.br/economia/economia-fraude-banco-master-esquema-falhas-estado/"
+      ],
+      "pessoas_envolvidas": [
+        "Daniel Vorcaro",
+        "Maurício Quadrado",
+        "João Carlos Mansur"
+      ],
+      "instituicoes_envolvidas": [
+        "Polícia Federal",
+        "Banco Central do Brasil",
+        "Banco Master",
+        "REAG",
+        "BRB — Banco de Brasília"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "carteiras_credito_ficticias: R$ 12.200.000.000 | fraude_suspeita_total: R$ 11.500.000.000",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\operacoes\\2025-11-18-timeline-130-operacao-compliance-zero-fase-1-banco-master-liquidado-e-daniel-vorcaro.md",
+      "id": 1992
     },
     {
       "titulo": "Policial federal aposentado José Fernando Honorato de Azevedo morre 48 horas após bens serem desbloqueados",
@@ -13206,6 +13309,37 @@
       "id": 1327
     },
     {
+      "titulo": "Congresso derruba vetos de Lula ao \"PL da Devastação\" dois dias após o encerramento da COP30",
+      "data_evento": "2025-11-27",
+      "data_iso": "2025-11-27T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "escandalos",
+        "P04b",
+        "P05",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Em sessão mista, o Congresso Nacional derruba a maioria dos vetos do presidente Lula às Leis 15.190/2025 (Licenciamento Ambiental) e 15.300/2025 (Licença Ambiental Especial), dois dias após o encerramento da COP30 em Belém — evento que o próprio governo brasileiro sediara como vitrine climática.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "ato_legislativo",
+      "fontes": [
+        "https://tagteam.harvard.edu/hub_feeds/3884/feed_items/17193145"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Congresso Nacional",
+        "Presidência da República"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2025-11-27-id1692-congresso-derruba-vetos-de-lula-ao-pl-da-devastacao-dois-dias-apos-o-encerrament.md",
+      "id": 1692
+    },
+    {
       "titulo": "Operação Poço de Lobato — maior devedor ICMS do país: R$ 26 bilhões e 15+ offshores nos EUA",
       "data_evento": "2025-11-27",
       "data_iso": "2025-11-27T12:00:00.000Z",
@@ -13242,38 +13376,7 @@
       "valor_envolvido": "divida_total: R$ 26.000.000.000 | bens_bloqueados: R$ 10.200.000.000 | movimentacao_1_ano: R$ 70.000.000.000 | importacoes_houston: R$ 12.500.000.000 | offshores_eua: 15 | movimentacao_apos_2024: R$ 72.000.000.000",
       "prioridade": 2,
       "fonte_arquivo": "_posts\\operacoes\\2025-11-27-timeline-131-operacao-poco-de-lobato-maior-devedor-icms-do-pais-r-26-bilhoes-e-15-off.md",
-      "id": 1410
-    },
-    {
-      "titulo": "Congresso derruba vetos de Lula ao \"PL da Devastação\" dois dias após o encerramento da COP30",
-      "data_evento": "2025-11-27",
-      "data_iso": "2025-11-27T12:00:00.000Z",
-      "categoria": "dragao-onca",
-      "tags": [
-        "escandalos",
-        "P04b",
-        "P05",
-        "dragao-onca",
-        "china",
-        "soberania"
-      ],
-      "descricao": "Em sessão mista, o Congresso Nacional derruba a maioria dos vetos do presidente Lula às Leis 15.190/2025 (Licenciamento Ambiental) e 15.300/2025 (Licença Ambiental Especial), dois dias após o encerramento da COP30 em Belém — evento que o próprio governo brasileiro sediara como vitrine climática.",
-      "relevancia": "alta",
-      "impacto_diplomatico": "N/A",
-      "tipo_escandalo": "ato_legislativo",
-      "fontes": [
-        "https://tagteam.harvard.edu/hub_feeds/3884/feed_items/17193145"
-      ],
-      "pessoas_envolvidas": [],
-      "instituicoes_envolvidas": [
-        "Congresso Nacional",
-        "Presidência da República"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "N/A",
-      "prioridade": 1,
-      "fonte_arquivo": "_posts\\dragao-onca\\2025-11-27-id1692-congresso-derruba-vetos-de-lula-ao-pl-da-devastacao-dois-dias-apos-o-encerrament.md",
-      "id": 1692
+      "id": 1993
     },
     {
       "titulo": "Toffoli coloca caso de investigado do Master sob sigilo máximo após ser sorteado como relator",
@@ -13392,43 +13495,6 @@
       "id": 1329
     },
     {
-      "titulo": "Receita Federal edita IN 2.278/2025: fintechs passam a ter obrigações da e-Financeira",
-      "data_evento": "2025-12-01",
-      "data_iso": "2025-12-01T12:00:00.000Z",
-      "categoria": "governo",
-      "tags": [
-        "governo",
-        "ato-normativo",
-        "regulação-financeira",
-        "regulacao",
-        "fintechs",
-        "e-financeira",
-        "receita-federal",
-        "reformas-regulatorias",
-        "timeline-136",
-        "lawfare-timeline-json"
-      ],
-      "descricao": "Em resposta direta aos esquemas expostos pela Operação Carbono Oculto, a Receita Federal publica a Instrução Normativa RFB nº 2.278/2025, determinando que instituições de pagamento (fintechs) passem a cumprir as mesmas obrigações acessórias das instituições financeiras tradicionais, especialmente quanto à e-Financeira — sistema que reporta movimentações ao Fisco. A medida fecha a brecha regulatória explorada pelo esquema: as fintechs operavam como 'bancos paralelos' invisíveis para a Receita. A normativa também reforça o dever de comunicar indícios de crimes.",
-      "relevancia": "media",
-      "impacto_diplomatico": "Baixo",
-      "tipo_escandalo": "Normativo tributário",
-      "fontes": [
-        "Transparência Internacional Brasil: Operação Carbono Oculto: revelações e desdobramentos — https://transparenciainternacional.org.br/posts/operacao-carbono-oculto-revelacoes-e-desdobramentos/"
-      ],
-      "pessoas_envolvidas": [
-        "Receita Federal"
-      ],
-      "instituicoes_envolvidas": [
-        "Receita Federal",
-        "Banco Central"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "N/A",
-      "prioridade": 2,
-      "fonte_arquivo": "_posts\\governo\\2025-12-01-timeline-136-receita-federal-edita-in-22782025-fintechs-passam-a-ter-obrigacoes-da-e.md",
-      "id": 1415
-    },
-    {
       "titulo": "CVM emite Ofício nº 246/2025 sobre negociações anômalas de BIOM3 — NeoFeed publica investigação com 1.780 operações",
       "data_evento": "2025-12-01",
       "data_iso": "2025-12-01T00:00:00Z",
@@ -13515,6 +13581,43 @@
       "prioridade": 1,
       "fonte_arquivo": "_posts\\escandalos\\2025-12-01-toffoli-reune-se-com-lula-durante-investigacao-sigilosa-do-master-relator-e-presidente-do-.md",
       "id": 1545
+    },
+    {
+      "titulo": "Receita Federal edita IN 2.278/2025: fintechs passam a ter obrigações da e-Financeira",
+      "data_evento": "2025-12-01",
+      "data_iso": "2025-12-01T12:00:00.000Z",
+      "categoria": "governo",
+      "tags": [
+        "governo",
+        "ato-normativo",
+        "regulação-financeira",
+        "regulacao",
+        "fintechs",
+        "e-financeira",
+        "receita-federal",
+        "reformas-regulatorias",
+        "timeline-136",
+        "lawfare-timeline-json"
+      ],
+      "descricao": "Em resposta direta aos esquemas expostos pela Operação Carbono Oculto, a Receita Federal publica a Instrução Normativa RFB nº 2.278/2025, determinando que instituições de pagamento (fintechs) passem a cumprir as mesmas obrigações acessórias das instituições financeiras tradicionais, especialmente quanto à e-Financeira — sistema que reporta movimentações ao Fisco. A medida fecha a brecha regulatória explorada pelo esquema: as fintechs operavam como 'bancos paralelos' invisíveis para a Receita. A normativa também reforça o dever de comunicar indícios de crimes.",
+      "relevancia": "media",
+      "impacto_diplomatico": "Baixo",
+      "tipo_escandalo": "Normativo tributário",
+      "fontes": [
+        "Transparência Internacional Brasil: Operação Carbono Oculto: revelações e desdobramentos — https://transparenciainternacional.org.br/posts/operacao-carbono-oculto-revelacoes-e-desdobramentos/"
+      ],
+      "pessoas_envolvidas": [
+        "Receita Federal"
+      ],
+      "instituicoes_envolvidas": [
+        "Receita Federal",
+        "Banco Central"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 2,
+      "fonte_arquivo": "_posts\\governo\\2025-12-01-timeline-136-receita-federal-edita-in-22782025-fintechs-passam-a-ter-obrigacoes-da-e.md",
+      "id": 1998
     },
     {
       "titulo": "Contrato de R$ 129 milhões liga escritório da esposa de Moraes ao Banco Master",

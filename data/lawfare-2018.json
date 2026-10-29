@@ -1,9 +1,9 @@
 {
-  "total": 24,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "total": 26,
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
   "ano": 2018,
   "assuntos": [
     {
@@ -411,6 +411,47 @@
       "id": 1974
     },
     {
+      "titulo": "Receita Federal produz relatório com indícios de lavagem de dinheiro contra Gilmar Mendes — auditores são punidos",
+      "data_evento": "2018-05-01",
+      "data_iso": "2018-05-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "corrupcao",
+        "impunidade",
+        "receita-federal",
+        "decano",
+        "gravidade-alta"
+      ],
+      "descricao": "Sistema automatizado da Receita identificou variação patrimonial inexplicada de R$ 700 mil de Gilmar e indícios de lavagem de dinheiro de Guiomar (declarou receber R$ 2,7 mi; escritório Bermudes declarou pagar R$ 40 mil — 70x menos). Gilmar acionou Toffoli; Moraes suspendeu investigações e afastou auditores. Em 2025, PF abriu inquérito contra os 4 servidores — com tornozeleira.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Corporativismo sistêmico — inversão investigativa — investigadores de ministro tornaram-se investigados — Padrão P2",
+      "fontes": [
+        "Cruzeiro do Sul",
+        "Conjur, 16/05/2018 — https://www.conjur.com.br/2018-mai-16/receita-federal-gilmar-mendes-guiomar-feitosa/",
+        "Folha de S.Paulo"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes",
+        "Guiomar Feitosa Mendes",
+        "Dias Toffoli",
+        "Alexandre de Moraes"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Receita Federal",
+        "Polícia Federal",
+        "Escritório Sérgio Bermudes"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "Variação patrimonial: R$ 700 mil (Gilmar) | Movimentação total casal: R$ 17 milhões+",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2018-05-01-receita-federal-relatorio-gilmar-mendes-auditores-punidos.md",
+      "id": 2015
+    },
+    {
       "titulo": "Operação Tira-Teima",
       "data_evento": "2018-05-09",
       "data_iso": "2018-05-09T00:00:00.000Z",
@@ -488,6 +529,41 @@
       "prioridade": 2,
       "fonte_arquivo": "_posts\\decano\\2018-06-06-declaracao-em-sessao-do-stf.md",
       "id": 422
+    },
+    {
+      "titulo": "Gilmar Mendes libera 21 presos da Lava Jato no Rio em 30 dias por decisões monocráticas",
+      "data_evento": "2018-07-01",
+      "data_iso": "2018-07-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "impunidade",
+        "lava-jato",
+        "decano",
+        "decisao-judicial",
+        "gravidade-alta"
+      ],
+      "descricao": "Em 30 dias, Gilmar Mendes concedeu habeas corpus monocráticos determinando a soltura de 21 presos da Lava Jato no Rio. Uma soltura a cada 1,4 dias. Nenhuma decisão passou pelo plenário ou turma do STF. O uso mais extensivo documentado do instrumento monocrático como mecanismo de esvaziamento em massa de operação anticorrupção.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Uso de poder monocrático para esvaziamento em série de operação anticorrupção — impunidade industrial",
+      "fontes": [
+        "O Globo — https://oglobo.globo.com/brasil/gilmar-mendes-soltou-21-presos-da-lava-jato-no-rio-em-30-dias-22930512",
+        "Gazeta do Povo"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Ministério Público Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2018-07-01-gilmar-mendes-solta-21-presos-lava-jato-rio-em-30-dias.md",
+      "id": 2016
     },
     {
       "titulo": "TÜV SÜD emite laudos de estabilidade fraudados da B1 (jun. e set. 2018); MP de Brumadinho arquiva inquérito com base neles",

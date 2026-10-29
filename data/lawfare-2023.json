@@ -1,9 +1,9 @@
 {
   "total": 164,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
   "ano": 2023,
   "assuntos": [
     {
@@ -5033,6 +5033,37 @@
       "id": 889
     },
     {
+      "titulo": "Congresso deruba veto de Lula e promulga Lei 14.701/2023 (Lei do Marco Temporal)",
+      "data_evento": "2023-12-01",
+      "data_iso": "2023-12-01T12:00:00.000Z",
+      "categoria": "dragao-onca",
+      "tags": [
+        "escandalos",
+        "P01",
+        "P04b",
+        "dragao-onca",
+        "china",
+        "soberania"
+      ],
+      "descricao": "Após o STF declarar o marco temporal inconstitucional, o Congresso aprova e, diante do veto parcial de Lula, derruba o veto presidencial, promulgando a Lei 14.701/2023, que reintroduz por via legislativa a tese já rejeitada pelo Judiciário.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "ato_legislativo",
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-12/stf-derruba-tese-do-marco-temporal-para-demarcacao-de-terras-indigenas"
+      ],
+      "pessoas_envolvidas": [],
+      "instituicoes_envolvidas": [
+        "Congresso Nacional",
+        "Presidência da República"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\dragao-onca\\2023-12-01-id1690-congresso-deruba-veto-de-lula-e-promulga-lei-147012023-lei-do-marco-temporal.md",
+      "id": 1690
+    },
+    {
       "titulo": "Ricardo Stoppe Júnior representa o Brasil na COP28 como 'maior vendedor de créditos de carbono globalmente'",
       "data_evento": "2023-12-01",
       "data_iso": "2023-12-01T12:00:00.000Z",
@@ -5068,38 +5099,7 @@
       "valor_envolvido": "creditos_carbono_vendidos: R$ 180.000.000 | area_grilada: 530.000 hectares | valor_area: R$ 800.000.000",
       "prioridade": 2,
       "fonte_arquivo": "_posts\\escandalos\\2023-12-01-timeline-124-ricardo-stoppe-junior-representa-o-brasil-na-cop28-como-maior-vendedor-d.md",
-      "id": 1403
-    },
-    {
-      "titulo": "Congresso deruba veto de Lula e promulga Lei 14.701/2023 (Lei do Marco Temporal)",
-      "data_evento": "2023-12-01",
-      "data_iso": "2023-12-01T12:00:00.000Z",
-      "categoria": "dragao-onca",
-      "tags": [
-        "escandalos",
-        "P01",
-        "P04b",
-        "dragao-onca",
-        "china",
-        "soberania"
-      ],
-      "descricao": "Após o STF declarar o marco temporal inconstitucional, o Congresso aprova e, diante do veto parcial de Lula, derruba o veto presidencial, promulgando a Lei 14.701/2023, que reintroduz por via legislativa a tese já rejeitada pelo Judiciário.",
-      "relevancia": "alta",
-      "impacto_diplomatico": "N/A",
-      "tipo_escandalo": "ato_legislativo",
-      "fontes": [
-        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-12/stf-derruba-tese-do-marco-temporal-para-demarcacao-de-terras-indigenas"
-      ],
-      "pessoas_envolvidas": [],
-      "instituicoes_envolvidas": [
-        "Congresso Nacional",
-        "Presidência da República"
-      ],
-      "pais": "Brasil",
-      "valor_envolvido": "N/A",
-      "prioridade": 1,
-      "fonte_arquivo": "_posts\\dragao-onca\\2023-12-01-id1690-congresso-deruba-veto-de-lula-e-promulga-lei-147012023-lei-do-marco-temporal.md",
-      "id": 1690
+      "id": 1986
     },
     {
       "titulo": "Gabinete de Moraes ordena extração de 2.119 CPFs de processos do 8 de Janeiro e determina varredura nacional em quadros do Judiciário",

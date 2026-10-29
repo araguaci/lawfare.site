@@ -1,9 +1,9 @@
 {
-  "total": 221,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "total": 226,
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
   "ano": 2024,
   "assuntos": [
     {
@@ -632,6 +632,46 @@
       "prioridade": 1,
       "fonte_arquivo": "_posts\\dragao-onca\\2024-01-01-id1697-pl-27802024-institui-a-politica-nacional-de-minerais-criticos-e-estrategicos.md",
       "id": 1697
+    },
+    {
+      "titulo": "Moraes ordena monitoramento de cidadã americana Flávia Magalhães — oficialato Miami acionado",
+      "data_evento": "2024-01-03",
+      "data_iso": "2024-01-03T12:00:00.000Z",
+      "categoria": "lawfare",
+      "tags": [
+        "lawfare",
+        "alexandre-de-moraes",
+        "soberania",
+        "censura",
+        "liberdade de expressão",
+        "gravidade-critica"
+      ],
+      "descricao": "Alexandre de Moraes ordena prisão e aciona o Oficialato de Ligação da PF em Miami (DPF Marcelo Ivo) contra Flávia Magalhães — brasileira naturalizada americana desde 2012, em Pompano Beach — por publicações nas redes sociais. Flávia não era ré em nenhum processo. Moraes bloqueou passaporte e a classificou como 'evadida', desconsiderando cidadania americana. Caso fundamentou sanções Magnitsky (out/2025).",
+      "relevancia": "alta",
+      "impacto_diplomatico": "Crítico — extensão ilegal da jurisdição brasileira sobre cidadã americana em solo americano",
+      "tipo_escandalo": "Perseguição transfronteiriça de cidadão estrangeiro por manifestação política — Padrões P1, P3 e P7",
+      "fontes": [
+        "Gazeta do Povo",
+        "A Investigação, 17/04/2026",
+        "Paulo Faria (advogado de Flávia)"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes",
+        "Marcelo Ivo de Carvalho",
+        "Flávia Magalhães (vítima)",
+        "Fábio Mertens"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Polícia Federal",
+        "CGCPI",
+        "ICE/DHS"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\lawfare\\2024-01-03-moraes-ordena-monitoramento-de-cidada-americana-flavia-magalhaes.md",
+      "id": 2013
     },
     {
       "titulo": "Crítica à comunidade internacional",
@@ -2337,6 +2377,48 @@
       "id": 940
     },
     {
+      "titulo": "Gilmar anula monocraticamente quebra de sigilo da CPI do Banco Master por duas vezes",
+      "data_evento": "2024-05-01",
+      "data_iso": "2024-05-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "banco-master",
+        "decisao-judicial",
+        "impunidade",
+        "decano",
+        "gravidade-alta"
+      ],
+      "descricao": "CPI do Senado aprovou quebra de sigilo de empresa ligada a Toffoli no Caso Master. Gilmar anulou monocraticamente — e repetiu quando a CPI insistiu. Paralelamente, viajou de Diamantino a Brasília em avião Phenom 300 operado por empresa de Daniel Vorcaro, dono do Banco Master. Afirmou não saber da ligação.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Conflito de interesse demonstrável — uso do poder monocrático para proteger investigados com vínculo pessoal — Padrão P3",
+      "fontes": [
+        "Conjur, Maio 2024 — https://www.conjur.com.br/2024-mai-gilmar-anula-cpi-master/",
+        "Folha de S.Paulo",
+        "O Globo"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes",
+        "Daniel Vorcaro",
+        "Dias Toffoli",
+        "Marcos Molina"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Senado Federal",
+        "Banco Master",
+        "FGC",
+        "Marfrig"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "Caso Master envolve tentativa de transferência de R$ 330 bilhões ao FGC",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2024-05-01-gilmar-anula-quebra-de-sigilo-cpi-banco-master-duas-vezes.md",
+      "id": 2019
+    },
+    {
       "titulo": "Retorno de perfis bloqueados",
       "data_evento": "2024-05-07",
       "data_iso": "2024-05-07T00:00:00.000Z",
@@ -2727,7 +2809,7 @@
       "valor_envolvido": "mandados_busca: 76 | presos: 5 | bens_sequestrados: R$ 1.600.000.000 | area_grilada_hectares: 530000 | valor_area: R$ 800.000.000 | creditos_carbono_vendidos: R$ 180.000.000",
       "prioridade": 2,
       "fonte_arquivo": "_posts\\operacoes\\2024-06-05-timeline-125-operacao-greenwashing-pf-deflagra-maior-investigacao-de-fraude-em-credit.md",
-      "id": 1404
+      "id": 1987
     },
     {
       "titulo": "ANÁLISE TRANSVERSAL: Multinacionais e fundos da Faria Lima compraram créditos de carbono fraudulentos da Operação Greenwashing",
@@ -2774,7 +2856,7 @@
       "valor_envolvido": "participacao_fundo: 5,7% do Caetê Fiagro | queda_mercado: 10%+ na semana da operação",
       "prioridade": 2,
       "fonte_arquivo": "_posts\\escandalos\\2024-06-05-timeline-138-analise-transversal-multinacionais-e-fundos-da-faria-lima-compraram-cred.md",
-      "id": 1417
+      "id": 2000
     },
     {
       "titulo": "Quebra de sigilo de Carla Zambelli por invasão hacker",
@@ -3261,6 +3343,50 @@
       "id": 959
     },
     {
+      "titulo": "Fórum Jurídico de Lisboa — 'Gilmar Palusa': o maior evento de lobby judicial do planeta",
+      "data_evento": "2024-07-01",
+      "data_iso": "2024-07-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "corrupcao",
+        "conflito-de-interesse",
+        "idp",
+        "extravagancia",
+        "decano",
+        "gravidade-alta"
+      ],
+      "descricao": "O Fórum Jurídico de Lisboa, organizado pelo IDP em parceria com FGV e Universidade de Lisboa, reúne anualmente a cúpula do poder brasileiro com executivos de BTG (5 representantes + jantar reservado), JBS, iFood, Vale, Meta, Bradesco, Google, Amazon, TikTok. Encontros fora de agendas oficiais dos ministros. Custo público: R$ 1,3 milhão em diárias e jatinhos da FAB. Transparência Internacional: 'maior evento de lobby judicial do planeta'.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Captura institucional — encontros não oficiais entre magistrados e litigantes corporativos em Portugal a custo público",
+      "fontes": [
+        "Transparência Internacional",
+        "Conjur, Julho 2024",
+        "O Globo"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes"
+      ],
+      "instituicoes_envolvidas": [
+        "IDP",
+        "STF",
+        "STJ",
+        "TCU",
+        "BTG Pactual",
+        "JBS",
+        "Vale",
+        "Meta",
+        "Bradesco"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "Custo público: R$ 1,3 milhão (diárias e jatinhos FAB)",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2024-07-01-forum-juridico-de-lisboa-gilmar-palusa-lobby-judicial.md",
+      "id": 2018
+    },
+    {
       "titulo": "Dep. Zé Silva (Solidariedade-MG) apresenta o PL 2.780/2024, instituindo a Política Nacional de Minerais Críticos e Estratégicos",
       "data_evento": "2024-07-08",
       "data_iso": "2024-07-08T12:00:00.000Z",
@@ -3638,6 +3764,48 @@
       "prioridade": 2,
       "fonte_arquivo": "_posts\\indecoro\\2024-07-31-lula-nao-tem-nada-de-anormal.md",
       "id": 968
+    },
+    {
+      "titulo": "Vaza Toga — Folha de S.Paulo publica mensagens internas do TSE/STF",
+      "data_evento": "2024-08-01",
+      "data_iso": "2024-08-01T12:00:00.000Z",
+      "categoria": "vazatoga",
+      "tags": [
+        "vazatoga",
+        "alexandre-de-moraes",
+        "stf",
+        "tse",
+        "lawfare",
+        "imprensa",
+        "liberdade de expressão",
+        "gravidade-alta"
+      ],
+      "descricao": "Folha de S.Paulo (Fábio Serapião e Glenn Greenwald) publica a série 'Vaza Toga': mensagens de WhatsApp de assessores de Moraes revelando uso da estrutura do TSE fora dos ritos formais. Eduardo Tagliaferro identificado como suspeito. Moraes abre inquérito contra ex-assessor e inclui jornalistas no Inq. das Fake News — acumula funções de investigado-indireto, investigador e futuro julgador.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Abuso de poder institucional — perseguição a jornalistas e fonte — acúmulo de funções incompatíveis — Padrões P2 e P3",
+      "fontes": [
+        "Folha de S.Paulo / A Investigação — https://www.ainvestigacao.com/p/moraes-e-forcado-a-anular-audiencia",
+        "CartaCapital",
+        "Revista Oeste"
+      ],
+      "pessoas_envolvidas": [
+        "Alexandre de Moraes",
+        "Eduardo de Oliveira Tagliaferro",
+        "Fábio Serapião",
+        "Glenn Greenwald"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "TSE",
+        "Folha de S.Paulo",
+        "Polícia Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\vazatoga\\2024-08-01-vaza-toga-folha-publica-mensagens-internas-tse-stf.md",
+      "id": 2014
     },
     {
       "titulo": "Revogação da prisão preventiva com medidas cautelares",
@@ -5161,7 +5329,7 @@
       "valor_envolvido": "N/A",
       "prioridade": 2,
       "fonte_arquivo": "_posts\\governo\\2024-11-12-timeline-144-lei-150422024-brasil-sanciona-sistema-brasileiro-de-comercio-de-emissoes.md",
-      "id": 1423
+      "id": 2006
     },
     {
       "titulo": "Bloqueio de canal conservador no YouTube",
@@ -6582,7 +6750,43 @@
       "valor_envolvido": "paginas_relatorio: 108 | servidores_afastados: 5 | fases_operacao: 6",
       "prioridade": 2,
       "fonte_arquivo": "_posts\\operacoes\\2024-12-01-timeline-126-operacao-greenwashing-4a-fase-floresta-nacional-do-iquiri-e-relatorio-de.md",
-      "id": 1405
+      "id": 1988
+    },
+    {
+      "titulo": "Gilmar suspende monocraticamente lei de impeachment de 1950 e eleva quórum para processar ministro do STF de 41 para 54 votos",
+      "data_evento": "2024-12-01",
+      "data_iso": "2024-12-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "impunidade",
+        "decano",
+        "soberania",
+        "decisao-judicial",
+        "gravidade-alta"
+      ],
+      "descricao": "Gilmar Mendes suspendeu partes da Lei de Impeachment de 1950 elevando de 41 para 54 votos (2/3 do Senado) o quórum para processar ministro do STF. Decisão monocrática, sem plenário. Gilmar foi alvo de 18 pedidos de impeachment entre 2015 e 2020. O caso mais explícito de ministro alterando as regras de seu próprio julgamento.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Autopreservação institucional — alteração unilateral das regras de responsabilização do STF pelo próprio beneficiário",
+      "fontes": [
+        "Conjur, Dezembro 2024 — https://www.conjur.com.br/2024-dez-gilmar-suspende-lei-impeachment/",
+        "Folha de S.Paulo",
+        "O Globo"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Senado Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2024-12-01-gilmar-mendes-suspende-lei-impeachment-eleva-quorum-stf.md",
+      "id": 2020
     },
     {
       "titulo": "Penduricalho Para Artur Vidigal De Oliveira",
