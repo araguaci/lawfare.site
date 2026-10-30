@@ -1,7 +1,7 @@
 {
   "name": "lawfare-astro",
   "version": "1.0.0",
-  "description": "Lawfare Timeline — 1400+ eventos, Astro 4 + Pagefind",
+  "description": "Lawfare Timeline — 1.900+ eventos, Astro 7 + Pagefind",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
