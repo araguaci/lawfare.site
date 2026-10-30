@@ -113,6 +113,7 @@ const currentPath = Astro.url.pathname;
           <a href="/" class:list={['nav-link', { 'nav-link--active': currentPath === '/' }]}>Início</a>
           <a href="/pagina/1" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/pagina') }]}>Timeline</a>
           <a href="/tags" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/tag') }]}>Tags</a>
+          <a href="/teia" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/teia') }]} title="Teia de coocorrência">Teia</a>
           <a href="/investigadores" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/investigadores') }]} title="Investigadores externos">Investigar</a>
           <a href="/roteiro" class:list={['nav-link', { 'nav-link--active': currentPath.startsWith('/roteiro') }]}>Roteiro</a>
           <a href="/sobre" class:list={['nav-link', { 'nav-link--active': currentPath === '/sobre' }]}>Sobre</a>
@@ -142,6 +143,7 @@ const currentPath = Astro.url.pathname;
       </div>
       <div class="footer-right">
         <a href="/pagina/1">Timeline</a>
+        · <a href="/teia">Teia</a>
         · <a href="/investigadores">Investigadores</a>
         · <a href="/roteiro">Roteiro</a>
         · <a href="/dados/index.json">Dados</a>
