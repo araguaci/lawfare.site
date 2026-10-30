@@ -42654,7 +42654,8 @@
         "projetos",
         "justica",
         "tse",
-        "big-techs"
+        "big-techs",
+        "usaid"
       ],
       "descricao": "\"Compilação de 38 artigos (2018-2025) sobre controvérsias no STF/TSE: abusos de autoridade, censura judicial, interferências eleitorais e decisões inconstitucionais. \"",
       "relevancia": "media",
@@ -43929,7 +43930,8 @@
       "tags": [
         "estudos",
         "censura",
-        "projetos"
+        "projetos",
+        "usaid"
       ],
       "descricao": "Plataforma que documenta e analisa supostos abusos, violações constitucionais e controvérsias envolvendo o Supremo Tribunal Federal, servindo como um dossiê sobre as ações da corte.",
       "relevancia": "media",
@@ -47742,7 +47744,8 @@
       "data_iso": "2025-08-15T00:00:00.000Z",
       "categoria": "estudos",
       "tags": [
-        "estudos"
+        "estudos",
+        "usaid"
       ],
       "descricao": "Visão geral do dossiê investigativo e recomendações estratégicas.",
       "relevancia": "media",
@@ -48424,7 +48427,8 @@
       "tags": [
         "geral",
         "censura",
-        "big-techs"
+        "big-techs",
+        "usaid"
       ],
       "descricao": "Lawfare é o uso estratégico do sistema legal para fins políticos, sob aparência de legalidade e seletividade. Intensificado no Brasil e no mundo, envolve atores estatais e privados, ampliando-se com IA e moedas digitais. Inicia com censura e abusos de autoridade, mina a Constituição e a confiança pública, polariza a sociedade e pode culminar em regime autoritário.",
       "relevancia": "media",
