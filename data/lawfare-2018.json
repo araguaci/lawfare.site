@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2018,
   "assuntos": [
     {
@@ -21,7 +21,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://www.cfr.org/backgrounder/brazils-corruption-fallout"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -51,7 +52,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-64380490"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -112,7 +113,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/raquel-dodge-entra-com-acao-no-stf-contra-voto-impresso-em-2018/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -144,7 +145,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/raquel-dodge-entra-com-acao-no-stf-contra-voto-impresso-em-2018/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -176,7 +177,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Descarte",
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -240,7 +242,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.tse.jus.br/comunicacao/noticias/2018/Marco/fbi-expoe-ao-tse-sua-experiencia-no-combate-as-fake-news"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -273,7 +275,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.tse.jus.br/comunicacao/noticias/2018/Marco/fbi-expoe-ao-tse-sua-experiencia-no-combate-as-fake-news"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -305,7 +307,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Pausare",
+        "https://www.gazetadopovo.com.br/eleicoes/2022/cia-teria-alertado-governo-bolsonaro-a-nao-levantar-duvidas-sobre-as-eleicoes-no-brasil/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -331,7 +334,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/justica/enfia-essa-pergunta-na-bunda-diz-gilmar-mendes-a-reporter"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -361,7 +364,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/justica/enfia-essa-pergunta-na-bunda-diz-gilmar-mendes-a-reporter"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -429,8 +432,10 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Corporativismo sistêmico — inversão investigativa — investigadores de ministro tornaram-se investigados — Padrão P2",
       "fontes": [
+        "https://www.cruzoeiro.com.br/relatorio-receita-gilmar",
+        "https://www.conjur.com.br/2018-mai-16/receita-federal-gilmar-mendes-guiomar-feitosa/",
+        "https://www.folha.uol.com.br/poder/2018/05/receita-federal-fez-relatorio-sobre-patrimonio-de-gilmar-mendes.shtml",
         "Cruzeiro do Sul",
-        "Conjur, 16/05/2018 — https://www.conjur.com.br/2018-mai-16/receita-federal-gilmar-mendes-guiomar-feitosa/",
         "Folha de S.Paulo"
       ],
       "pessoas_envolvidas": [
@@ -467,7 +472,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Tira-Teima"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -492,7 +497,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/coluna/radar/stj-desembolsa-3-milhoes-de-reais-para-comprar-24-carros-de-luxo/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -549,7 +554,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Uso de poder monocrático para esvaziamento em série de operação anticorrupção — impunidade industrial",
       "fontes": [
-        "O Globo — https://oglobo.globo.com/brasil/gilmar-mendes-soltou-21-presos-da-lava-jato-no-rio-em-30-dias-22930512",
+        "https://oglobo.globo.com/brasil/gilmar-mendes-soltou-21-presos-da-lava-jato-no-rio-em-30-dias-22930512",
+        "https://www.gazetadopovo.com.br/politica/republica/lava-jato/gilmar-solta-21-presos-lava-jato-rio-30-dias/",
         "Gazeta do Povo"
       ],
       "pessoas_envolvidas": [
@@ -612,7 +618,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://apublica.org/2018/09/semanalmente-juizes-do-supremo-decidem-sozinhos-sobre-aplicacao-da-constituicao/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -642,7 +648,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://apublica.org/2018/09/semanalmente-juizes-do-supremo-decidem-sozinhos-sobre-aplicacao-da-constituicao/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -671,7 +677,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jornalopcao.com.br/ultimas-noticias/na-lista-dos-mais-procurados-braco-direito-de-fernandinho-beira-mar-foi-solto-apos-erro-da-justica-federal-em-goias-687520/",
+        "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2018/07/14/ex-braco-direito-de-fernandinho-beira-mar-e-solto-apos-erro.htm"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -704,7 +711,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2018-nov-26/fux-revoga-auxilio-moradia-juizes-reajuste-stf"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -734,7 +741,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2018-nov-26/fux-revoga-auxilio-moradia-juizes-reajuste-stf"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -765,7 +772,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/distrito-federal/seguranca-df/apos-polemica-com-viaturas-pmdf-faz-nova-licitacao-para-modelo-de-luxo"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],

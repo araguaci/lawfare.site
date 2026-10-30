@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 1996,
   "assuntos": [
     {
@@ -21,7 +21,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -44,7 +46,7 @@
         "financeiro",
         "parana"
       ],
-      "descricao": ">",
+      "descricao": "Desvios de R$ 42 bilhões via remessas ilegais para contas CC5 no exterior, envolvendo doleiros e corrupção no Banco do Estado do Paraná.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -76,7 +78,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -103,7 +107,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/"
       ],
       "pessoas_envolvidas": [
         "Governo"

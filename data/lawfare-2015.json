@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2015,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -50,7 +50,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -75,7 +75,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -102,7 +102,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -182,7 +182,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -236,7 +236,11 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://www.cfr.org/backgrounder/brazils-corruption-fallout",
+        "https://www.transparency.org/en/news/25-corruption-scandals",
+        "https://www.britannica.com/event/Petrobras-scandal",
+        "https://www.infomoney.com.br/colunistas/terraco-economico/dissimulacao-displicencia-e-corrupcao-o-ano-a-ano-de-lula-na-presidencia/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -259,7 +263,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "Fraudes no CARF envolvendo bancos como Bradesco e Santander para redução de multas fiscais.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -292,7 +296,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Zelotes",
+        "https://oglobo.globo.com/economia/confira-alguns-dos-principais-escandalos-financeiros-ja-registrados-no-brasil-2926839"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -318,7 +323,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Acr%C3%B4nimo",
+        "https://www.gazetadopovo.com.br/republica/quatro-condutas-do-stf-e-tse-que-a-cpi-do-abuso-de-poder-quer-investigar/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -417,7 +423,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Greenfield",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/stf-impoe-a-redes-censura-automatica-de-condutas-antidemocraticas/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -444,7 +451,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://diariodonordeste.verdesmares.com.br/seguranca/condenado-por-enviar-droga-do-ceara-para-a-europa-em-garrafas-de-cachaca-e-solto-pelo-stj-1.3456184",
+        "https://www.jusbrasil.com.br/jurisprudencia/busca?q=opera%25C3%25A7%25C3%25A3o%2Bcardume"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -479,7 +487,16 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-publica/para-gilmar-mendes-petrolao-mostra-corrupcao-como-sistema-de-governo-68vejiu5jgna5poignp8qgz4k/",
+        "https://www.pge.rs.gov.br/upload/arquivos/carga20170349/07144903-clipagem-2520consolidada-2520-252003-02-2017.pdf",
+        "https://www2.senado.leg.br/bdsf/bitstream/handle/id/515712/noticia.html",
+        "http://idg.carf.fazenda.gov.br/acesso-a-informacao/imprensa/outubro-2015/clipping-carf-10-a-13102015-1.pdf",
+        "https://www.bbc.com/portuguese/noticias/2015/10/150921_perfil_gilmar_ms_ab",
+        "https://pt.wikipedia.org/wiki/Gilmar_Mendes",
+        "https://www.youtube.com/watch?v=-y2NBXdM9mY",
+        "https://www.congressoemfoco.com.br/noticia/41231/leia-a-integra-do-pedido-de-impeachment-de-gilmar-mendes",
+        "https://jovempan.com.br/arquivo/paulo-mathias/incompetencia-e-falta-de-moral-de-gilmar-mendes-nos-fazem-desacreditar-em-um-brasil-justo.html",
+        "https://memorial.mpf.mp.br/nacional/vitrine-virtual/publicacoes/crimes-fiscais-delitos-economicos-e-financeiros"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -505,7 +522,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "André Esteves preso na Lava Jato por obstrução de justiça e corrupção.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",

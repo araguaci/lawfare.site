@@ -8,6 +8,8 @@ Para cada id do timeline:
     ela tem no timeline (a troca fica registrada em src/data/id-changes.json);
   - id ausente no site: entra a ficha do timeline.
 Fichas que só existem no site são mantidas e listadas como órfãs.
+Nas fichas mantidas, descricao (">", vazia) e fontes sem link http estragadas no
+site são trocadas pelas do timeline quando lá estiverem boas.
 
 Uso:
   python scripts/sync-from-timeline.py --dry-run
@@ -244,6 +246,26 @@ def titulo_key(entry: dict) -> tuple[str, str]:
     return (str(entry.get("data_evento") or "")[:10], re.sub(r"[^a-z0-9]+", "", titulo)[:60])
 
 
+def bad_descricao(value) -> bool:
+    return not isinstance(value, str) or value.strip() in ("", ">", "|", ">-", "|-", ">+", "|+")
+
+
+def has_http(fontes) -> bool:
+    return isinstance(fontes, list) and any(str(f).startswith("http") for f in fontes)
+
+
+def repair_from_timeline(local: dict, ficha: dict) -> list[str]:
+    """Traz do timeline só descricao/fontes que o site tem estragadas."""
+    fixed = []
+    if bad_descricao(local.get("descricao")) and not bad_descricao(ficha.get("descricao")):
+        local["descricao"] = ficha["descricao"]
+        fixed.append("descricao")
+    if not has_http(local.get("fontes")) and has_http(ficha.get("fontes")):
+        local["fontes"] = ficha["fontes"]
+        fixed.append("fontes")
+    return fixed
+
+
 def same_ficha(a: dict, b: dict) -> bool:
     if fonte_key(a) and fonte_key(a) == fonte_key(b):
         return True
@@ -292,11 +314,13 @@ def main() -> None:
     find_in_timeline = build_lookup(list(timeline.values()))
 
     kept, added, replaced = [], [], []
+    repaired: Counter = Counter()
     for eid, ficha in timeline.items():
         local = site.get(eid)
         if local is None:
             added.append(ficha)
         elif same_ficha(local, ficha):
+            repaired.update(repair_from_timeline(local, ficha))
             kept.append(local)
         else:
             replaced.append(ficha)
@@ -341,6 +365,7 @@ def main() -> None:
         f"mantidas {len(kept)} adicionadas {len(added)} substituidas {len(replaced)} "
         f"movidas {len(moved)} orfas_mantidas {[e['id'] for e in orphans]}"
     )
+    print(f"reparadas_do_timeline {dict(repaired)}")
     print(f"astro_depois {len(merged)}")
     if lost:
         raise SystemExit(

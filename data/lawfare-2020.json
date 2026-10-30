@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2020,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://mst.org.br/2022/10/06/17-escandalos-de-corrupcao-do-governo-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -78,7 +78,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cartacapital.com.br/politica/toffoli-manda-notificar-weintraub-por-ter-chamado-a-une-de-mafia/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -191,7 +191,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "http://www.pf.gov.br/imprensa/noticias/2020/03-noticias-de-marco-de-2020/pf-deflagra-operacao-ultimo-lance-para-investigar-esquema-de-criacao-de-falsas-empresas-em-sp",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -219,7 +220,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ptsaopaulo.org.br/noticias/em-resposta-a-acao-do-pt-bolsonaro-tera-de-dizer-ao-stf-quanto-cortou-do-sus/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -251,7 +252,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/sp/sao-paulo/noticia/2020/03/22/moraes-autoriza-sp-a-suspender-pagamento-de-divida-com-a-uniao-para-utilizar-recursos-contra-covid-19.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -281,7 +282,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/03/23/alexandre-de-moraes-suspende-pagamento-de-parcelas-da-divida-da-bahia-com-a-uniao.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -311,7 +312,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www12.senado.leg.br/noticias/materias/2020/03/24/estados-e-municipios-tambem-podem-tomar-medidas-contra-pandemia-diz-decisao-liminar-do-stf"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -344,7 +345,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/03/moraes-do-stf-suspende-medida-de-bolsonaro-que-restringiu-acesso-a-informacoes.shtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -376,7 +377,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/coronavirus/stf-recusa-pedido-de-bolsonaro-para-suspender-prazos-de-mp-durante-crise/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -408,7 +409,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.camara.leg.br/noticias/649287-ministro-do-supremo-suspende-trechos-da-lrf-e-da-ldo-durante-pandemia-de-coronavirus/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -437,7 +438,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2020/03/31/interna_politica,1134079/marco-aurelio-mello-encaminha-pedido-de-afastamento-de-bolsonaro.shtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -469,7 +470,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/04/01/alexandre-de-moraes-da-48-horas-para-bolsonaro-informar-medidas-adotadas-contra-coronavirus.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -498,7 +499,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2024/04/04/alexandre-de-moraes-tira-afastamento-de-desembargador-de-ms-que-em-feriado-mandou-soltar-chefe-de-faccao-condenado-a-126-anos.ghtml",
+        "https://www.capitalnews.com.br/colunistas/marco-eusebio/as-vesperas-da-aposentadoria-divoncir-maran-reassume-cargo-de-desembargador-no-tjms/401284"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -532,7 +534,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/10/16/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio.htm",
+        "https://www.jusbrasil.com.br/jurisprudencia/busca?q=jose%2Bivan%2Bcarmo%2Bde%2Bbrito"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -567,7 +570,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/04/08/governo-federal-nao-pode-derrubar-decisoes-de-estados-e-municipios-sobre-isolamento-decide-ministro-do-stf.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -632,12 +635,14 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"PF deflagra operação contra venda de sentenças no TJ-RJ beneficiando milicianos e traficantes.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2020-04/pf-realiza-nova-operacao-contra-venda-de-sentencas-no-tj-rj",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2020-04/stj-afasta-desembargador-do-rio-acusado-de-vender-sentenca",
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2019-09/pf-faz-operacao-contra-venda-de-sentencas-no-rio-de-janeiro"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -675,7 +680,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/04/15/stf-tem-4-votos-a-favor-de-autonomia-de-governadores-durante-a-pandemia.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -710,7 +715,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/alexandre-de-moraes-levanta-sigilo-do-inquerito-sobre-atos-antidemocraticos/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -739,7 +744,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/2020/04/22/stf-da-5-dias-para-bolsonaro-explicar-divulgacao-de-dados-da-pandemia"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -771,7 +776,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2020/04/27/celso-de-mello-stf-inquerito-bolsonaro-moro.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -803,7 +808,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://congressoemfoco.uol.com.br/judiciario/stf-abre-inquerito-contra-weintraub-para-apurar-crime-de-racismo/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -839,7 +844,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=442298&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -871,7 +876,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2020-abr-29/alexandre-suspende-nomeacao-ramagem-chefia-pf"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -903,7 +908,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2020-04/ministro-do-stf-da-5-dias-para-pf-tomar-depoimento-de-moro"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -936,7 +941,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/breves/barroso-do-stf-suspende-expulsao-de-diplomatas-venezuelanos-determinada-por-bolsonaro/?ref=link-interno-materia"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -968,7 +973,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cut.org.br/noticias/stf-decide-que-covid-19-e-doenca-ocupacional-e-bolsonaro-sofre-mais-uma-derrota-61b8"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1000,7 +1005,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://politica.estadao.com.br/blogs/fausto-macedo/alexandre-da-dez-dias-para-bolsonaro-explicar-reconducao-de-ramagem-para-abin/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1030,7 +1035,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/jornal-nacional/noticia/2020/05/06/ministro-do-stf-da-prazo-de-72-horas-para-governo-enviar-gravacao-de-reuniao-ministerial.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1062,7 +1067,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/rj/rio-de-janeiro/noticia/2020/05/07/pf-apreende-respiradores-em-operacao-contra-desvios-na-saude-no-rj.ghtml",
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2018-08/orgaos-publicos-usam-inteligencia-artificial-para-combater-corrupcao"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -1090,7 +1096,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2020-mai-13/lewandowski-determina-divulgacao-exames-bolsonaro-covid-19"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1120,7 +1126,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www12.senado.leg.br/noticias/materias/2020/05/14/supremo-confirma-que-lrf-nao-pode-restringir-combate-ao-coronavirus"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1153,7 +1159,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/barroso-veta-expuls%C3%A3o-de-diplomatas-da-venezuela-at%C3%A9-o-fim-da-pandemia-1.423418"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1183,7 +1189,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://diariodonordeste.verdesmares.com.br/politica/stf-forma-maioria-pela-validade-do-inquerito-das-fake-news-1.2956347"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1215,7 +1221,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-52779450"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1249,7 +1255,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/05/moraes-manda-weintraub-prestar-depoimento-a-pf-em-5-dias-por-defender-prisao-de-ministros-do-stf.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1281,7 +1287,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Placebo",
+        "https://www.ainvestigacao.com/p/pt-utiliza-robos-mavs-e-o-novo-ministerio"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1339,7 +1346,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/05/pf-cumpre-mandados-de-busca-e-apreensao-em-inquerito-do-supremo-contra-fake-news.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1376,12 +1383,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Ex-juiz Nicolau dos Santos Neto, condenado por desvios no Fórum Trabalhista de SP, morre em 2020 após indulto.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/05/morre-o-ex-juiz-nicolau-dos-santos-neto-condenado-por-desvios-em-forum-de-sp.shtml",
+        "https://memoriaglobo.globo.com/jornalismo/coberturas/escandalo-do-trt/noticia/escandalo-do-trt.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -1486,7 +1494,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/06/ministro-do-stf-manda-prender-winter-e-mais-cinco-em-inquerito-sobre-atos-antidemocraticos.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1520,7 +1528,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=445764&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1552,7 +1560,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/06/22/ministro-da-48-horas-para-governo-se-manifestar-sobre-revogacao-de-acao-afirmativa-na-pos-graduacao.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1581,7 +1589,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/justica/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio",
+        "https://www.correiobraziliense.com.br/brasil/2020/10/4882636-policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio.html"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -1620,7 +1629,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/08/entenda-censura-a-perfis-de-bolsonaristas-em-controverso-inquerito-das-fake-news-no-supremo.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1649,7 +1658,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/2020/07/02/celso-prorroga-novamente-apuracao-de-suposta-interferencia-de-bolsonaro-na-pf"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1683,7 +1692,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/07/01/alexandre-de-moraes-prorroga-inquerito-das-fake-news-por-mais-seis-meses.ghtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1711,7 +1720,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/07/02/barroso-da-48-horas-para-governo-se-manifestar-sobre-medidas-contra-coronavirus-entre-indios.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1767,7 +1776,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.socioambiental.org/pt-br/blog/blog-do-isa/liminar-do-stf-obriga-governo-a-proteger-povos-indigenas-durante-a-pandemia"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1881,7 +1890,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/alexandre-de-moraes-levanta-sigilo-do-inquerito-sobre-atos-antidemocraticos/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1914,7 +1923,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/08/entenda-censura-a-perfis-de-bolsonaristas-em-controverso-inquerito-das-fake-news-no-supremo.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1943,7 +1952,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.convergenciadigital.com.br/Internet/STF-determina-bloqueio-mundial-de-contas-em-redes-sociais-de-apoiadores-de-Bolsonaro-54386.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1975,7 +1984,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://brasil.elpais.com/brasil/2020-08-01/pressionado-por-stf-facebook-bloqueia-globalmente-contas-de-apoiadores-de-bolsonaro.html?ssm=TW_CC"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2011,7 +2020,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/08/moraes-investigacao-de-empresarios-bolsonaristas.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2040,7 +2049,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://istoe.com.br/fachin-da-5-dias-para-camara-explicar-apoio-de-bolsonaro-a-apoiadores-bloqueados/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2072,7 +2081,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/08/04/carmen-lucia-abre-prazo-para-ministerio-da-justica-explicar-relatorio-com-dados-de-opositores.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2102,7 +2111,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.camara.leg.br/noticias/681576-stf-suspende-veto-sobre-uso-de-mascaras/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2134,7 +2143,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.socioambiental.org/pt-br/noticias-socioambientais/stf-confirma-liminar-obrigando-governo-bolsonaro-a-combater-covid-19-entre-povos-indigenas"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2170,7 +2179,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/08/entenda-censura-a-perfis-de-bolsonaristas-em-controverso-inquerito-das-fake-news-no-supremo.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2199,7 +2208,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/08/stf-reafirma-limites-da-atividade-de-inteligencia-e-manda-recados-a-bolsonaro.shtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2235,7 +2244,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=470957&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2265,7 +2274,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://congressoemfoco.uol.com.br/judiciario/stf-encaminha-denuncia-contra-bolsonaro-a-pgr-por-ofensa-a-jornalista/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2298,7 +2307,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2020-ago-29/stf-mantem-derrubada-vetos-lei-uso-mascaras"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2330,7 +2339,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.pdt.org.br/index.php/stf-atende-pdt-apib-e-partidos-de-oposicao-para-proteger-povos-indigenas-contra-a-covid-19/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2395,7 +2404,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiobraziliense.com.br/politica/2020/09/4873057-carmen-lucia-da-5-dias-a-bolsonaro-para-explicar-forcas-armadas-na-amazonia.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2424,7 +2433,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Tris_in_Idem",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2450,7 +2460,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2020-09/stf-declara-inconstitucional-impressao-do-voto-pela-urna-eletronica"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2486,7 +2496,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/09/moraes-autoriza-quebra-de-sigilos-de-grupo-bolsonarista-que-defendeu-golpe-em-mensagens-privadas.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2510,7 +2520,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "Bancos globais como HSBC, JPMorgan moveram US$ 2 tri suspeitos, incluindo fluxos no Brasil.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -2542,7 +2552,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/sp/sao-paulo/noticia/2020/10/09/ministro-marco-aurelio-mello-do-stf-determina-soltura-do-traficando-andre-do-rap-em-sp.ghtml",
+        "https://g1.globo.com/sp/sao-paulo/noticia/2020/10/10/traficante-andre-do-rap-e-libertado-em-sp-apos-habeas-corpus-concedido-pelo-stf.ghtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2575,7 +2586,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/justica/cerca-de-231-mil-presos-podem-ser-beneficiados-com-soltura-de-andre-do-rap"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2604,7 +2615,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2020/10/13/marco-aurelio-mandou-soltar-quase-80-presos-usando-o-mesmo-criterio-do-caso-andre-do-rap.ghtml",
+        "https://g1.globo.com/politica/blog/valdo-cruz/post/2020/10/13/plenario-do-supremo-deve-rever-decisao-de-marco-aurelio-que-beneficiou-traficante.ghtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2638,7 +2650,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/10/16/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio.htm",
+        "https://www.metropoles.com/brasil/justica/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2698,7 +2711,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/10/16/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio.htm",
+        "https://www.metropoles.com/brasil/justica/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2737,7 +2751,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=459291&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2768,7 +2782,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/10/26/stf-derruba-lei-que-autorizava-distribuicao-da-pilula-do-cancer.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2800,7 +2814,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oimparcial.com.br/noticias/2020/11/stf-notifica-bolsonaro-sobre-queixa-de-flavio-dino/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2832,7 +2846,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-56503701"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2862,7 +2876,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.r7.com/brasil/stf-da-48-horas-para-anvisa-explicar-criterios-em-testes-de-vacinas-10112020"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2933,7 +2947,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiobraziliense.com.br/politica/2020/11/4889919-fachin-da-5-dias-para-bolsonaro-explicar-escolha-de-reitores.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2963,7 +2977,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://politica.estadao.com.br/blogs/fausto-macedo/barroso-estende-prazo-para-que-governo-bolsonaro-apresente-novo-plano-de-contencao-da-covid-19-em-terras-indigenas/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3025,7 +3039,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiobraziliense.com.br/politica/2020/11/4891056-governo-tem-30-dias-para-apresentar-plano-de-vacinacao-defende-lewandowski.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3088,7 +3102,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.moneytimes.com.br/stf-prorroga-por-mais-60-dias-inquerito-sobre-possivel-interferencia-de-bolsonaro-na-pf/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3125,7 +3139,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/alexandre-de-moraes-levanta-sigilo-do-inquerito-sobre-atos-antidemocraticos/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3154,7 +3168,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://educacao.uol.com.br/noticias/2020/12/01/toffoli-suspende-decreto-que-incentiva-separacao-de-alunos-com-deficiencia.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3183,7 +3197,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/10/16/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio.htm",
+        "https://gauchazh.clicrbs.com.br/politica/noticia/2020/10/policia-procura-21-criminosos-soltos-por-decisoes-do-ministro-marco-aurelio-ckgce1nyr000h01jdb8xy5qvp.html"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -3220,7 +3235,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/alexandre-de-moraes-levanta-sigilo-do-inquerito-sobre-atos-antidemocraticos/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3249,7 +3264,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://jovempan.com.br/noticias/politica/lewandowski-quer-resposta-de-pazuello-sobre-inicio-da-vacinacao-contra-covid-19-em-48-horas.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3279,7 +3294,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/brasil/carmen-lucia-da-24-horas-para-abin-gsi-explicarem-suposta-ajuda-defesa-de-flavio-bolsonaro-24796950"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3309,7 +3324,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.r7.com/brasil/stf-prorroga-por-90-dias-acao-sobre-interferencia-de-bolsonaro-na-pf-15122020"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3342,7 +3357,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-55358241"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3374,7 +3389,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.tecmundo.com.br/ciencia/208477-stf-autoriza-importacao-vacinas-mesmo-aval-anvisa.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3406,7 +3421,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiodopovo.com.br/not%C3%ADcias/geral/bolsonaro-e-salles-devem-prestar-esclarecimentos-ao-stf-em-a%C3%A7%C3%A3o-sobre-desmatamento-1.542993"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3438,7 +3453,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://recontaai.com.br/stf-prorroga-estado-de-calamidade-publica-por-conta-da-pandemia-mas-sem-auxilio-emergencial"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",

@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2024,
   "assuntos": [
     {
@@ -17,7 +17,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "Suspeitas de lavagem de dinheiro via Banco Master em esquemas de corrupção.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -44,12 +44,12 @@
         "desembargador",
         "sao paulo"
       ],
-      "descricao": ">",
+      "descricao": "2024-01-01-São Paulo-penduricalho-ferias",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/c0vvexxrxxeo"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -194,7 +194,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/brasil/noticia/2024/08/06/ex-diretor-da-gavioes-da-fiel-ligado-ao-pcc-e-preso-pela-segunda-vez-no-exterior-em-sete-meses.ghtml",
+        "https://g1.globo.com/sp/presidente-prudente-regiao/noticia/2024/01/12/apos-ser-capturado-na-bolivia-ex-diretor-da-gavioes-da-fiel-condenado-por-assassinar-policial-penal-de-presidente-bernardes-e-solto-pelo-stf.ghtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -651,6 +652,9 @@
       "impacto_diplomatico": "Crítico — extensão ilegal da jurisdição brasileira sobre cidadã americana em solo americano",
       "tipo_escandalo": "Perseguição transfronteiriça de cidadão estrangeiro por manifestação política — Padrões P1, P3 e P7",
       "fontes": [
+        "https://www.gazetadopovo.com.br/republica/flavia-magalhaes-moraes-miami-pf-monitoramento",
+        "https://www.ainvestigacao.com.br/p/moraes-e-forcado-a-anular-audiencia",
+        "https://x.com/drpaulofaria22",
         "Gazeta do Povo",
         "A Investigação, 17/04/2026",
         "Paulo Faria (advogado de Flávia)"
@@ -693,12 +697,12 @@
         "perseguicao",
         "censura"
       ],
-      "descricao": ">",
+      "descricao": "\"Ed Raposo critica a comunidade internacional por apoiar Lula apesar de condenações, destacando hipocrisia em relação à censura e perseguição política.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/EdRaposo_/status/1745585141869646268"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -729,7 +733,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/o-que-e-investigacao-abin-paralela-indiciou-carlos-bolsonaro-alexandre-ramagem-nprp/?srsltid=AfmBOop1g4kL6T6jG9r1Y9tD4Q7I6z8tZ8wB3j7E7y5F6pXq8f5U5V5"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -752,12 +756,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-01-18-Brazil-penduricalho-bonus",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://politicalivre.com.br/2025/01/tribunais-usam-dezembrada-para-pagar-beneficios-e-penduricalhos-milionarios-a-juizes-entenda/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -822,7 +826,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2024/01/pf-intima-general-heleno-para-depor-sobre-abin-paralela-sob-bolsonaro.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -853,7 +857,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Vigil%C3%A2ncia_Aproximada",
+        "https://www.gazetadopovo.com.br/republica/quatro-condutas-do-stf-e-tse-que-a-cpi-do-abuso-de-poder-quer-investigar/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -885,7 +890,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2024-jan-25/alexandre-autoriza-busca-contra-ramagem-e-afasta-policiais-por-espionagem/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -915,7 +920,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -935,12 +940,12 @@
         "desembargador",
         "rondonia"
       ],
-      "descricao": ">",
+      "descricao": "2024-02-01-Rondônia-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-justica/juizes-receberam-salarios-acima-de-r-100-mil-63-816-vezes-em-2024/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -1053,7 +1058,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2024/02/bolsonaro-pediu-alteracao-em-minuta-do-golpe-que-previa-prisao-de-moraes-diz-pf.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1084,7 +1089,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Tempus_Veritatis",
+        "https://www.bbc.com/portuguese/articles/c2l7zkz9jr9o"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1113,12 +1119,14 @@
         "busca",
         "passaporte"
       ],
-      "descricao": ">",
+      "descricao": "\"Filipe Martins é preso preventivamente pela PF na Operação Tempus Veritatis por suposto envolvimento em minuta de golpe. Passaporte apreendido, proibição de viagens, baseado em alegada viagem aos EUA como risco de fuga.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2024/02/08/filipe-martins-ex-assessor-de-bolsonaro.ghtml",
+        "https://www.bbc.com/portuguese/articles/cd1wyv4p0deo",
+        "https://www.nytimes.com/2024/02/08/world/americas/brazil-police-raid-bolsonaro-attempted-coup-investigation.html"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1149,7 +1157,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/governo/lula-soma-96-frases-controversas-desde-que-assumiu-presidencia/",
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1172,12 +1181,14 @@
         "governo-do-brasil",
         "gravidade-alta"
       ],
-      "descricao": ">",
+      "descricao": "\"O governo israelense declarou o presidente Lula persona non grata após ele comparar a guerra em Gaza ao Holocausto, exigindo retratação e gerando uma crise diplomática entre Brasil e Israel.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.reuters.com/world/middle-east/brazils-lula-not-welcome-israel-israels-foreign-minister-says-2024-02-19/",
+        "https://www.timesofisrael.com/israel-declares-brazils-lula-persona-non-grata-for-comparing-gaza-war-to-holocaust/",
+        "https://www.bbc.com/news/world-latin-america-68332821"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1329,7 +1340,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/governo/lula-soma-96-frases-controversas-desde-que-assumiu-presidencia/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1356,7 +1367,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1455,7 +1466,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2024/03/moraes-tira-sigilo-de-depoimentos-em-inquerito-sobre-golpe-de-estado.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1484,12 +1495,12 @@
         "soltura",
         "pgr"
       ],
-      "descricao": ">",
+      "descricao": "\"PGR pede soltura de Filipe Martins após comprovação de que ele nunca saiu do Brasil, contrariando alegações da PF usadas para prisão.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/taoquei1/status/1765420058417717752"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1568,7 +1579,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/noticia/2024-12-14/pf-prende-braga-netto-ex-ministro-de-bolsonaro-sob-suspeita-de-obstrucao-de-justica-em-trama-golpista.ghtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1599,7 +1610,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Close",
+        "https://www.bbc.com/portuguese/articles/c14zjp3l6d7o"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1677,12 +1689,12 @@
         "advogado",
         "prisao"
       ],
-      "descricao": ">",
+      "descricao": "\"Eduardo Bolsonaro denuncia prisão do advogado de Filipe Martins, violando prerrogativas de advogados.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/BolsonaroSP/status/1904605132500984260"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1711,7 +1723,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/02/stf-adota-perfil-politico-e-de-unidade-em-contraposicao-a-rachas-do-passado.shtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -1742,7 +1754,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/governo/lula-soma-96-frases-controversas-desde-que-assumiu-presidencia/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1945,7 +1957,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2024-04/crime-organizado-cresce-no-rio-apos-decisao-do-stf-sobre-covid-19",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/relatorio-do-cnj-traz-versao-da-policia-do-rio-sobre-expansao-do-cv-apos-decisao-do-stf/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -1984,12 +1997,13 @@
         "parceria-tse",
         "acesso-privilegiado"
       ],
-      "descricao": ">",
+      "descricao": "\"Twitter Files revelam que Instituto Vero, fundado por Felipe Neto, tinha parcerias com TSE e acesso VIP no Twitter para moderação, pressionando contra opositores.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/NewsLiberdade/status/1778184451270324584",
+        "https://x.com/opslima/status/1778186925226270854"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2018,7 +2032,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://estudio.r7.com/as-53-faccoes-criminosas-do-brasil-15042024",
+        "https://www.youtube.com/watch?v=WXVLIxmixN8"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2083,12 +2098,12 @@
         "juiz",
         "secreto"
       ],
-      "descricao": ">",
+      "descricao": "\"Ed Raposo menciona juiz responsável por documentos secretos ordenando censura contra ele, ligado a outras decisões políticas.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/EdRaposo_/status/1780918933379260605"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2165,12 +2180,13 @@
         "desinformacao",
         "amazonia"
       ],
-      "descricao": ">",
+      "descricao": "\"Em 26 de abril de 2024, Felipe Neto anunciou colaboração com a Embaixada dos EUA para realizar palestras focadas em educação na Amazônia, financiadas por recursos estrangeiros, incluindo treinamentos para funcionários do TSE sobre identificação e combate à desinformação, no contexto de influência política pós-eleições 2022.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/karinamichelin/status/1852677540319576430",
+        "https://environmentalprogress.org/big-news/2024/1/10/the-rise-of-censorship-industrial-complex-in-brazil"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2203,12 +2219,13 @@
         "amazonia",
         "desinformacao"
       ],
-      "descricao": ">",
+      "descricao": "\"Instituto Vero anunciou parceria com Embaixada EUA para oficinas na Amazônia, financiadas externamente, incluindo treinamentos TSE sobre desinformação, no contexto pós-2022.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/karinamichelin/status/1852677540319576430",
+        "https://www.institutovero.org/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2281,7 +2298,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/05/23/burrice-verde-periquito-e-narnia-veja-as-frases-ironicas-de-alexandre-de-moraes.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -2308,7 +2325,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/05/23/burrice-verde-periquito-e-narnia-veja-as-frases-ironicas-de-alexandre-de-moraes.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -2339,7 +2356,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml",
+        "https://www.gazetadopovo.com.br/republica/10-falas-questionaveis-de-lula-que-geraram-problemas-para-a-imagem-do-governo/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2366,7 +2384,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/10-falas-questionaveis-de-lula-que-geraram-problemas-para-a-imagem-do-governo/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2395,7 +2413,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Conflito de interesse demonstrável — uso do poder monocrático para proteger investigados com vínculo pessoal — Padrão P3",
       "fontes": [
-        "Conjur, Maio 2024 — https://www.conjur.com.br/2024-mai-gilmar-anula-cpi-master/",
+        "https://www.conjur.com.br/2024-mai-gilmar-anula-cpi-master/",
+        "https://www.folha.uol.com.br/poder/2024/banco-master-gilmar-aviao-vorcaro.shtml",
+        "https://oglobo.globo.com/economia/gilmar-mendes-banco-master-jato.html",
         "Folha de S.Paulo",
         "O Globo"
       ],
@@ -2437,12 +2457,12 @@
         "censura",
         "stf"
       ],
-      "descricao": ">",
+      "descricao": "\"Perfis bloqueados pelo STF, incluindo o de Ed Raposo, retornam ao X com autorização judicial, ganhando mais de 300 mil seguidores coletivamente, explorando narrativa de censura.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.intercept.com.br/2024/05/07/twitter-files-elon-musk-bloqueados-stf-ganham-seguidores-x/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2536,7 +2556,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml",
+        "https://g1.globo.com/politica/noticia/2024/07/20/violencia-contra-a-mulher-escravidao-guerras-capacitismo-lula-coleciona-gafes-em-discursos-recentes.ghtml",
+        "https://www.gazetadopovo.com.br/republica/10-falas-questionaveis-de-lula-que-geraram-problemas-para-a-imagem-do-governo/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2594,7 +2616,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.stf.jus.br/postsnoticias/stf-mantem-nulidade-de-atos-da-lava-jato-contra-marcelo-odebrecht/",
+        "https://www.conjur.com.br/2024-set-06/stf-mantem-decisao-de-toffoli-que-anulou-atos-da-lava-jato-contra-marcelo-odebrecht/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2625,12 +2648,13 @@
         "luiz-inacio-lula-da-silva",
         "gravidade-alta"
       ],
-      "descricao": ">",
+      "descricao": "\"O presidente Lula removeu o embaixador brasileiro em Israel em meio a disputas diplomáticas sobre a guerra em Gaza, escalando a crise após declarações comparando o conflito ao Holocausto.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.reuters.com/world/lula-removes-brazilian-ambassador-israel-amid-diplomatic-spat-2024-05-29/",
+        "https://agenciabrasil.ebc.com.br/en/politica/noticia/2024-02/israel-declares-lula-persona-non-grata-after-holocaust-speech"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2658,12 +2682,13 @@
         "israel",
         "lula"
       ],
-      "descricao": ">",
+      "descricao": "\"Lula retira embaixador brasileiro de Israel em meio a tensões diplomáticas, declarando-o persona non grata.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.reuters.com/world/lula-removes-brazilian-ambassador-israel-amid-diplomatic-spat-2024-05-29/",
+        "https://agenciabrasil.ebc.com.br/en/politica/noticia/2024-02/israel-declares-lula-persona-non-grata-after-holocaust-speech"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2786,9 +2811,9 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Ambiental / organização criminosa",
       "fontes": [
-        "Amazônia Real: Fraude em mercado de carbono grilou 500 mil hectares de terras no sul do Amazonas — https://amazoniareal.com.br/fraude-de-mercado-de-carbono/",
-        "Brasilagro: PF aponta organização criminosa em maior fraude com créditos de carbono — https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html",
-        "Paulo Moraes Advogados: Falso Crédito de Carbono — Operação Greenwashing — https://escritorio.paulomoraes.adv.br/greenwashing-e-esg-criminal-fraudes-ambientais-sob-a-mira-da-lei/"
+        "https://amazoniareal.com.br/fraude-de-mercado-de-carbono/",
+        "https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html",
+        "https://escritorio.paulomoraes.adv.br/greenwashing-e-esg-criminal-fraudes-ambientais-sob-a-mira-da-lei/"
       ],
       "pessoas_envolvidas": [
         "Ricardo Stoppe Júnior",
@@ -2837,7 +2862,7 @@
       "impacto_diplomatico": "Médio",
       "tipo_escandalo": "Fraude financeira",
       "fontes": [
-        "Metrópoles: Alvo da PF, tombo na Faria Lima: o esquema de crédito de carbono no AM — https://www.metropoles.com/negocios/pf-faria-lima-esquema-credito-carbono"
+        "https://www.metropoles.com/negocios/pf-faria-lima-esquema-credito-carbono"
       ],
       "pessoas_envolvidas": [
         "AZ Quest",
@@ -2877,7 +2902,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2024-jun-18/pf-abin-paralela-espionou-alexandre-de-moraes-errado/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2967,7 +2992,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2024/07/20/violencia-contra-a-mulher-escravidao-guerras-capacitismo-lula-coleciona-gafes-em-discursos-recentes.ghtml",
+        "https://www.gazetadopovo.com.br/republica/declaracoes-de-lula-sobre-politica-externa-poderao-causar-estragos-mais-graves-a-partir-de-2025/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2993,7 +3019,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence",
+        "https://dunapress.org/usaid-interference-in-brazil-raises-concerns-about-national-sovereignty/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -3024,7 +3051,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/10-falas-questionaveis-de-lula-que-geraram-problemas-para-a-imagem-do-governo/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -3102,12 +3129,16 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"PF investiga desembargador do TJ-SP por venda de sentenças e corrupção, incluindo decisões favoráveis a traficantes.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/blog-do-fausto-macedo/jamais-pratiquei-ato-que-pudesse-envergonhar-a-justica-diz-desembargador-investigado-em-sp/",
+        "https://g1.globo.com/sp/sao-paulo/noticia/2024/10/31/pf-concluiu-inquerito-e-indicia-desembargador-do-tj-de-sp-por-corrucao-e-lavagem-de-dinheiro.ghtml",
+        "https://www1.folha.uol.com.br/cotidiano/2024/06/pf-faz-operacao-contra-desembargador-por-suspeita-de-venda-de-decisoes-judiciais-em-sp.shtml",
+        "https://www.cartacapital.com.br/politica/quem-e-o-desembargador-que-entrou-na-mira-do-cnj-por-venda-de-sentencas-em-sp/",
+        "https://www.conjur.com.br/2025-feb-11/cnj-abre-processo-disciplinar-contra-desembargador-do-tj-sp-acusado-de-vender-sentencas/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -3148,7 +3179,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2024/06/suspensao-de-perfis-por-moraes-vira-caixa-preta-com-sigilo-e-exclusao-de-pf-e-pgr.shtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3182,7 +3213,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -3230,12 +3261,12 @@
         "brics",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"Parte das reservas internacionais brasileiras passa a ser mantida em yuan chinês. BRICS aprofunda discussões para diversificação cambial e uso de moedas nacionais em comércio e investimentos.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://opeb.org/2025/06/26/desdolarizacao-em-foco-brics-e-a-relacao-brasil-china-na-arquitetura-financeira-internacional/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3297,12 +3328,12 @@
         "perseguicao",
         "crueldade"
       ],
-      "descricao": ">",
+      "descricao": "\"Jornalista Paula Schmitt denuncia a perseguição cruel contra Filipe Martins, preso sem processo ou inquérito, destacando violações à justiça e lógica.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/schmittpaula/status/1806349718043120110"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3362,6 +3393,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Captura institucional — encontros não oficiais entre magistrados e litigantes corporativos em Portugal a custo público",
       "fontes": [
+        "https://www.transparencia.org.br/forum-lisboa-lobby-judicial",
+        "https://www.conjur.com.br/2024-jul-forum-juridico-lisboa-gilmar/",
+        "https://oglobo.globo.com/politica/forum-lisboa-encontros-nao-aparecem-agendas-ministros-stf.html",
         "Transparência Internacional",
         "Conjur, Julho 2024",
         "O Globo"
@@ -3434,7 +3468,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/10-falas-questionaveis-de-lula-que-geraram-problemas-para-a-imagem-do-governo/",
+        "https://g1.globo.com/politica/noticia/2024/07/20/violencia-contra-a-mulher-escravidao-guerras-capacitismo-lula-coleciona-gafes-em-discursos-recentes.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -3461,7 +3496,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2024/07/20/violencia-contra-a-mulher-escravidao-guerras-capacitismo-lula-coleciona-gafes-em-discursos-recentes.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -3489,7 +3524,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-inquerito-das-fake-news-por-180-dias/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3521,12 +3556,12 @@
         "geolocalizacao",
         "celular"
       ],
-      "descricao": ">",
+      "descricao": "\"PF informa a Moraes que não conseguiu extrair dados do celular de Filipe Martins após TIM entregar geolocalização provando que ele estava no Brasil, não nos EUA, durante o período alegado.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/NewsLiberdade/status/1814295551883555054"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3559,12 +3594,12 @@
         "meta",
         "bloqueio"
       ],
-      "descricao": ">",
+      "descricao": "\"Ed Raposo relata censura no Instagram, com bloqueio de conteúdo e dificuldades para apelar, destacando censura repetida em plataformas da Meta.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/EdRaposo_/status/1815760225359605886"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3597,7 +3632,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.reuters.com/technology/brazil-judge-blocks-starlink-accounts-country-amid-x-spat-source-says-2024-08-29/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3680,12 +3715,15 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Desdobramentos da Operação Faroeste atingem magistrados do Maranhão ligados ao esquema de venda de sentenças.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://ojoioeotrigo.com.br/2025/07/grilagem-no-matopiba-ganha-impulso-com-leis-estaduais-denunciam-advogados/",
+        "https://www.aatr.org.br/post/em-20-anos-houve-mais-desmatamento-do-cerrado-do-que-nos-500-anos-anteriores",
+        "https://apublica.org/2023/05/cosan-e-fundo-de-pensao-dos-eua-compraram-terras-de-acusados-de-grilagem-no-brasil/",
+        "https://www.gov.br/pf/pt-br/assuntos/noticias/2024/08/pf-investiga-esquema-de-grilagem-de-terras-no-maranhao"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -3721,12 +3759,14 @@
         "governo-do-brasil",
         "gravidade-media"
       ],
-      "descricao": ">",
+      "descricao": "\"O vice-presidente Geraldo Alckmin representou o Brasil na posse do presidente iraniano e foi fotografado próximo ao líder do Hamas, Ismail Haniyeh, gerando controvérsias e críticas de bolsonaristas e aliados de Israel.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/mundo/noticia/2024/07/31/alckmin-aparece-com-lider-do-hamas-horas-antes-de-ismail-haniyeh-ser-morto.ghtml",
+        "https://veja.abril.com.br/coluna/maquiavel/alckmin-vira-alvo-de-bolsonaristas-por-evento-com-lider-do-hamas-no-ira",
+        "https://www1.folha.uol.com.br/mundo/2024/07/alckmin-aparece-perto-do-lider-do-hamas-na-posse-do-presidente-do-ira.shtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3755,7 +3795,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/10-falas-questionaveis-de-lula-que-geraram-problemas-para-a-imagem-do-governo/",
+        "https://www.poder360.com.br/governo/lula-soma-96-frases-controversas-desde-que-assumiu-presidencia/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -3785,7 +3826,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Abuso de poder institucional — perseguição a jornalistas e fonte — acúmulo de funções incompatíveis — Padrões P2 e P3",
       "fontes": [
-        "Folha de S.Paulo / A Investigação — https://www.ainvestigacao.com/p/moraes-e-forcado-a-anular-audiencia",
+        "https://www.ainvestigacao.com/p/moraes-e-forcado-a-anular-audiencia",
+        "https://www.cartacapital.com.br/politica/por-4-a-0-stf-torna-reu-eduardo-tagliaferro-ex-assessor-de-moraes/",
+        "https://revistaoeste.com/no-ponto/tagliaferro-moraes-stf/",
         "CartaCapital",
         "Revista Oeste"
       ],
@@ -3825,12 +3868,13 @@
         "medidas-cautelares",
         "liberacao"
       ],
-      "descricao": ">",
+      "descricao": "\"Alexandre de Moraes revoga a prisão preventiva de Filipe Martins após 6 meses, mas impõe tornozeleira eletrônica, recolhimento noturno, proibição de redes sociais, contato com investigados, viagens e porte de armas, e entrega de passaporte.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/entenda-o-caso-de-filipe-martins-reu-citado-pelo-the-wall-street-journal/",
+        "https://x.com/claudio_dantas_/status/1821961542474010903"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3859,7 +3903,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cer7jndk8ymo"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -3892,12 +3936,13 @@
         "passaporte",
         "perseguicao"
       ],
-      "descricao": ">",
+      "descricao": "\"Polícia Federal realiza operação contra Ed Raposo, com busca e apreensão, confisco de laptop, celular e passaporte, após divulgação de decisão sigilosa pelo X, sob alegação de adesão a campanha de exposição de policiais.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/NewsLiberdade/status/1823724976127738183",
+        "https://www.cnnbrasil.com.br/politica/x-divulga-oficio-que-pede-bloqueio-de-perfis-de-bolsonaristas-musk-critica-ministro/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3929,7 +3974,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/c14zjp3l6d7o"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3964,12 +4009,13 @@
         "fechamento",
         "ameaca"
       ],
-      "descricao": ">",
+      "descricao": "\"X fecha operações no Brasil devido a ordens de censura, incluindo ameaças de prisão à representante legal, relacionadas a perfis como o de Ed Raposo.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://mashable.com/article/x-twitter-brasil",
+        "https://www.bbc.com/news/articles/cgjv857plevo"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4003,12 +4049,13 @@
         "judiciario",
         "redes-sociais"
       ],
-      "descricao": ">",
+      "descricao": "\"Em 22 de agosto de 2024, ocorreu uma reunião entre o Supremo Tribunal Federal, a Redes Cordiais e o Instituto Vero de Felipe Neto, com o objetivo de aproximar a Justiça da sociedade e combater desinformação e discurso de ódio nas redes sociais. Isso envolve parcerias com entidades financiadas por fontes estrangeiras, potencialmente influenciando políticas de moderação de conteúdo no contexto pós-eleições de 2022 e rumo a 2024.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/karinamichelin/status/1852677540319576430",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/stf-contratou-ex-coordenador-de-ong-de-felipe-neto-para-setor-de-combate-a-desinformacao/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4042,12 +4089,12 @@
         "judiciario",
         "censura"
       ],
-      "descricao": ">",
+      "descricao": "\"Reunião para combater desinformação e discurso de ódio, envolvendo Instituto Vero financiado por EUA, com potenciais implicações em moderação de conteúdo pós-2022 e pré-2024.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://x.com/karinamichelin/status/1852677540319576430"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4078,12 +4125,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Juízes afastados por esquema de corrupção envolvendo agiotagem, venda de sentenças e grilagem de terras no sul da Bahia.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/fantastico/noticia/2024/08/25/entenda-o-esquema-de-corrupcao-dos-juizes-investigados-por-agiotagem-venda-de-sentencas-e-grilagem-de-terras-no-sul-da-bahia.ghtml",
+        "https://www.analisegeo.blog.br/single-post/entenda-o-esquema-de-corrup%25C3%25A7%25C3%25A3o-dos-ju%25C3%25ADzes-investigados-por-agiotagem-venda-de-senten%25C3%25A7as-e-grilagem"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -4119,12 +4167,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"CNJ instaura PAD contra juiz por suposta participação em esquema de liminares para remover nomes de listas de inadimplentes, com manipulação de distribuição de processos.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnj.jus.br/pad-investigara-suposta-participacao-de-juiz-da-paraiba-em-esquema-limpa-nome/",
+        "https://www.migalhas.com.br/quentes/412456/cnj-instaurara-pad-contra-juiz-da-pb-por-esquema-limpa-nome"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -4164,12 +4213,13 @@
         "entrevista",
         "proibicao"
       ],
-      "descricao": ">",
+      "descricao": "\"Alexandre de Moraes proíbe Filipe Martins de dar entrevista à Folha de S.Paulo, configurando censura prévia após sua liberação da prisão, mas sob medidas cautelares que incluem proibição de uso de redes sociais.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/internacional/en/brazil/2024/08/justice-moraes-censors-folha-interview-with-former-bolsonaro-advisor.shtml",
+        "https://x.com/claudio_dantas_/status/1821961542474010903"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4202,7 +4252,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.stf.jus.br/postsnoticias/stf-determina-suspensao-do-x-antigo-twitter-em-todo-o-territorio-nacional-2/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -4445,7 +4495,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2024-09/oab-pede-revogacao-de-multa-de-r-50-mil-por-uso-de-vpn-para-acessar-x"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -4536,7 +4586,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.aljazeera.com/news/2024/9/13/brazil-top-court-unfreezes-bank-accounts-of-x-starlink-after-3m-transfer"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -4602,7 +4652,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/como-alexandre-moraes-virou-protagonista-escalada-autoritarismo-brasil/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -4637,12 +4687,13 @@
         "stf",
         "censura"
       ],
-      "descricao": ">",
+      "descricao": "\"Para permitir o retorno do X ao Brasil, a plataforma bloqueou perfis incluindo o de Ed Raposo, sob ordens do STF, como condição para operar.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/retorno-do-x-saiba-quais-perfis-a-plataforma-precisou-bloquear-para-poder-voltar-a-funcionar-no-brasil/",
+        "https://www.cnnbrasil.com.br/politica/x-diz-que-vai-pagar-novas-multas-e-moraes-reitera-decisao-para-desbloquear-conta-bancaria/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4743,12 +4794,12 @@
         "brics",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"Tratado inédito prevê transações financeiras diretas entre real e yuan, sem intermediação do dólar, para fortalecer parceria sino-brasileira e diversificar redes de pagamentos internacionais.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://conexoscloud.com.br/acordo-comercial-brasil-china/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4779,12 +4830,12 @@
         "influencia-eua",
         "tse"
       ],
-      "descricao": ">",
+      "descricao": "\"Relatório PDF detalha como DFRLab, financiado por USAID, influenciou TSE em eleições de 2022, com conexões ao Instituto Vero via parcerias anti-desinformação.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://static1.squarespace.com/static/660c4b59c109b8233a98392b/t/66e9cad8212ae54f733c950f/1726597849518/Updated_Translated%2Bcopy%2Bof%2BThe%2BRole%2Bof%2Bthe%2BU.S.%2BGovernment%2Bin%2BBrazil%25E2%2580%2599s%2BCensorship%2BIndustrial%2BComplex.pdf"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4852,12 +4903,13 @@
         "censura",
         "bolsonaristas"
       ],
-      "descricao": ">",
+      "descricao": "\"Moraes ordena o desbloqueio do X no Brasil, mas perfis como o de Ed Raposo permanecem bloqueados, destacando a censura seletiva contra bolsonaristas.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/moraes-x-decisao/",
+        "https://www.cnnbrasil.com.br/politica/volta-do-x-relembre-detalhes-do-bloqueio-ate-a-decisao-de-liberacao-da-plataforma/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4930,12 +4982,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"PF investiga ligação entre quadrilha de venda de sentenças na Bahia e ministro do STJ.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/brasil/pf-investiga-suposto-elo-entre-quadrilha-de-venda-de-sentencas-e-um-ministro-do-stj/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -4970,12 +5022,14 @@
         "governo-da-china",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"Na cúpula dos BRICS em Kazan, Rússia, os líderes discutiram a criação de uma plataforma para transações em moedas locais, priorizando a desdolarização e ampliando o uso de moedas nacionais no comércio global.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://infobrics.org/pt/post/41273",
+        "https://www.instagram.com/p/DNjlFszPUqP/",
+        "https://www.cnnbrasil.com.br/economia/macroeconomia/brics-vai-discutir-a-criacao-de-uma-moeda-comum-entre-os-paises-entenda/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -5074,12 +5128,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Justiça solta ex-policial civil condenado por chefiar milícia na Zona Oeste do Rio de Janeiro.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://odia.ig.com.br/rio-de-janeiro/2024/11/6946919-justica-solta-pulgao-ex-policial-civil-condenado-por-chefiar-milicia-na-zona-oeste.html"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -5179,12 +5233,13 @@
         "desinformacao",
         "eua"
       ],
-      "descricao": ">",
+      "descricao": "\"Governo dos EUA financiou Sleeping Giants e Instituto Vero de Felipe Neto para combater desinformação, visto como potencial censura, com implicações em eleições de 2022 e 2024.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/ideias/sleeping-giants-e-instituto-de-felipe-neto-sao-beneficiados-por-dinheiro-do-governo-americano/",
+        "https://www.gazetadopovo.com.br/ideias/soros-e-governo-biden-estao-por-tras-de-teorias-da-conspiracao-sobre-twitter-files-brasil/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -5315,7 +5370,7 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Legislativo ambiental",
       "fontes": [
-        "NBS Brazil Alliance: Panorama do Mercado de Carbono: Retrospectiva e Perspectivas para 2025 — https://nbsbrazilalliance.org/panorama-do-mercado-de-carbono-retrospectiva-e-perspectivas-para-2025/"
+        "https://nbsbrazilalliance.org/panorama-do-mercado-de-carbono-retrospectiva-e-perspectivas-para-2025/"
       ],
       "pessoas_envolvidas": [
         "Luiz Inácio Lula da Silva"
@@ -5448,12 +5503,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"CNJ aplica aposentadoria compulsória a desembargadora do TJ-BA por participação em esquema de venda de sentenças.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnj.jus.br/cnj-aposenta-desembargadora-da-bahia-por-conduta-contra-a-administracao-publica/",
+        "https://cj.estrategia.com/portal/cnj-pune-desembargadora-venda-decisoes/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -5490,7 +5546,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/sp/campinas-regiao/noticia/2024/11/19/stf-manda-soltar-15-integrantes-de-quadrilha-que-opera-trafico-de-drogas-em-galerias-de-campinas.ghtml",
+        "https://revistaoeste.com/politica/stf-manda-soltar-15-membros-de-quadrilha-de-trafico-de-drogas-que-atua-em-campinas/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5532,12 +5589,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"STF concede habeas corpus para 15 condenados por tráfico de drogas ligados ao PCC em Campinas.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/sp/campinas-regiao/noticia/2024/11/19/stf-manda-soltar-15-integrantes-de-quadrilha-que-opera-trafico-de-drogas-em-galerias-de-campinas.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -5578,12 +5635,13 @@
         "indiciamento",
         "conspiracao"
       ],
-      "descricao": ">",
+      "descricao": "\"Polícia Federal acusa formalmente Jair Bolsonaro e 36 aliados, incluindo Filipe Martins, de conspiração para derrubar instituições democráticas, com planos de assassinato de Lula, Alckmin e Moraes. Martins é listado como assessor de política externa envolvido.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.theguardian.com/world/2024/nov/21/jair-bolsonaro-charged-coup-plot",
+        "https://www.reuters.com/world/americas/brazilian-police-arrest-five-alleged-plot-kill-president-lula-stage-coup-2024-11-19/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -5680,12 +5738,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Luiz Fernando Lima aposentado após conceder prisão domiciliar a Ednaldo Ferreira, líder de organização criminosa.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/ba/bahia/noticia/2024/11/25/desembargador-que-concedeu-prisao-domiciliar-a-suspeito-de-liderar-faccao-criminosa-na-bahia-e-aposentado-compulsoriamente.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -5717,12 +5775,12 @@
         "procurador",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-auxilio-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://sintrajufe.org.br/conselho-do-ministerio-publico-aumenta-valor-maximo-de-auxilio-moradia-para-procuradores/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5749,12 +5807,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-supersalario",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://exame.com/brasil/custos-do-judiciario-chegam-a-14-do-pib-brasileiro/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5781,12 +5839,12 @@
         "servidor",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/elite-dos-servidores-gera-gasto-de-r-20-bi-com-supersalarios-nos-ultimos-6-anos/?srsltid=AfmBOopbPVe9mX6ylZc6dtisZ5O1UrfF7YcfeWyqXyw0CVhl3XwOeh6C"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5813,12 +5871,12 @@
         "procurador",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-viagem internacional",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/02/penduricalhos-alavancam-remuneracoes-no-ministerio-publico-a-ate-r-376-mil.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5847,12 +5905,12 @@
         "procurador",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-indenizacao",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://revistaoeste.com/politica/procuradores-da-republica-recebem-r-294-mi-em-extras-salarios-chegam-a-r-129-mil/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5910,12 +5968,12 @@
         "procurador",
         "juiz"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-licenca",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.transparencia.org.br/downloads/publicacoes/licencacompensatria.pdf"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5944,12 +6002,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-licenca",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.transparencia.org.br/downloads/publicacoes/penduricalholicencacompensatoriacustou819milhoesjudiciario.pdf"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5981,7 +6039,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/ministros-do-stj-concedem-18-mil-habeas-corpus-em-2024-metade-envolve-crime-de-trafico-de-drogas/",
+        "https://www.conjur.com.br/2025-jan-03/stj-concedeu-em-media-56-hcs-por-dia-em-2024-45-foram-sobre-trafico/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6008,12 +6067,12 @@
         "juiz",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-licenca",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2024/12/penduricalho-em-salarios-do-judiciario-ja-custou-r-819-milhoes-diz-estudo.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6040,12 +6099,12 @@
         "conselheiro",
         "espirito santo"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Espírito Santo-penduricalho-supersalario",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/03/tribunal-de-contas-cria-penduricalho-de-mais-de-r-10-mil-a-conselheiros-em-processos-sob-sigilo.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6072,12 +6131,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6104,12 +6163,12 @@
         "procurador",
         "sao paulo"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-São Paulo-penduricalho-bonus",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2025/02/06/mp-de-sp-deve-pagar-penduricalho-por-acumulo-de-processos-a-19-mil-servidores.ghtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6136,12 +6195,12 @@
         "juiz",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-supersalario",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/07/cnj-fiscal-do-judiciario-infla-quadro-de-juizes-e-paga-r-34-mi-em-penduricalhos-em-5-meses.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6170,12 +6229,12 @@
         "servidor",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-supersalario",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://cbn.globo.com/economia/noticia/2024/04/26/custo-com-penduricalhos-e-extras-de-servidores-chega-a-mais-de-r-30-bilhoes-nos-ultimos-oito-anos.ghtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6202,12 +6261,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-supersalario",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vozes/lucio-vaz/justica-torra-r-136-bilhoes-com-salarios-e-penduricalhos-em-sete-anos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6234,12 +6293,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-supersalario",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.fenajufe.org.br/noticias-da-fenajufe/em-um-ano-judiciario-gastou-r-12-bi-em-penduricalhos-para-juizes-e-desembargadores-afirma-jornal/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6266,12 +6325,12 @@
         "procurador",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/02/penduricalhos-alavancam-remuneracoes-no-ministerio-publico-a-ate-r-376-mil.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6298,12 +6357,12 @@
         "procurador",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-bonus",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.congressoemfoco.com.br/noticia/29601/procuradores-ganharao-extra-de-r-11-mil-por-excesso-de-trabalho-ate-durante-as-ferias"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6332,12 +6391,12 @@
         "legislador",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.transparencia.org.br/downloads/publicacoes/pl_dos_supersalarios.pdf"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6364,12 +6423,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-justica/juizes-receberam-salarios-acima-de-r-100-mil-63-816-vezes-em-2024/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6396,12 +6455,12 @@
         "conselheiro",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/tribunais-de-contas-pagaram-supersalarios-a-68-conselheiros-valor-medio-e-de-r-100-mil/?srsltid=AfmBOorxDIc3NvaGH-9DvsK3qQE3DOqfEUgTD8nlxJrtzTDyWZrxUJi9"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6428,12 +6487,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-justica/juizes-receberam-salarios-acima-de-r-100-mil-63-816-vezes-em-2024/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6461,12 +6520,12 @@
         "maranhao",
         "ma"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Maranhão-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://ansemp.org.br/grande-midia-expoe-super-salarios-e-penduricalhos-no-ministerio-publico-e-judiciario/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6493,12 +6552,12 @@
         "conselheiro",
         "roraima"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Roraima-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-justica/tce-rr-paga-supersalarios-de-ate-r-18-milhao-a-conselheiros/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6525,12 +6584,12 @@
         "conselheiro",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Rondônia-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://tab.uol.com.br/noticias/redacao/2025/04/01/tribunais-de-contas-pagaram-em-media-r-66-mil-a-conselheiros-em-2024.htm"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6557,12 +6616,12 @@
         "conselheiro",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://news.fiquemsabendo.com.br/p/supersalarios-nos-tces-levantamento"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6589,12 +6648,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.transparencia.org.br/downloads/publicacoes/trfs_relatorio_set_2023.pdf"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6621,12 +6680,12 @@
         "juiz",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-viagem",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/ministros-stf-carona-voos-fab-alexandre-moraes-lidera-viagens/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6656,12 +6715,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/mercado/2025/07/so-no-judiciario-valores-que-excedem-teto-constitucional-somam-r-10-bi-mostra-levantamento.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6688,12 +6747,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-01-Brazil-penduricalho-viagem internacional",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.infomoney.com.br/politica/governo-disponibiliza-avioes-da-fab-para-ministros-do-stf-sob-sigilo-diz-jornal/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6734,8 +6793,8 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Ambiental / organização criminosa",
       "fontes": [
-        "Agência Gov: Quarta fase da Operação Greenwashing combate apropriação de terras e delitos ambientais — https://agenciagov.ebc.com.br/noticias/202412/pf-da-inicio-a-4a-fase-da-operacao-greenwashing-visando-combater-crimes-de-apropriacao-de-terras-publicas-e-delitos-ambientais",
-        "Brasilagro: PF aponta organização criminosa em maior fraude com créditos de carbono — https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html"
+        "https://agenciagov.ebc.com.br/noticias/202412/pf-da-inicio-a-4a-fase-da-operacao-greenwashing-visando-combater-crimes-de-apropriacao-de-terras-publicas-e-delitos-ambientais",
+        "https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html"
       ],
       "pessoas_envolvidas": [
         "Servidores do IPAAM"
@@ -6771,7 +6830,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Autopreservação institucional — alteração unilateral das regras de responsabilização do STF pelo próprio beneficiário",
       "fontes": [
-        "Conjur, Dezembro 2024 — https://www.conjur.com.br/2024-dez-gilmar-suspende-lei-impeachment/",
+        "https://www.conjur.com.br/2024-dez-gilmar-suspende-lei-impeachment/",
+        "https://www.folha.uol.com.br/poder/2024/gilmar-mendes-impeachment-quorum.shtml",
+        "https://oglobo.globo.com/politica/gilmar-mendes-eleva-quorum-impeachment-stf.html",
         "Folha de S.Paulo",
         "O Globo"
       ],
@@ -6798,12 +6859,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-02-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r--300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6830,12 +6891,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6862,12 +6923,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6894,12 +6955,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6926,12 +6987,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6958,12 +7019,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -6990,12 +7051,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7022,12 +7083,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7054,12 +7115,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7086,12 +7147,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7118,12 +7179,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7150,12 +7211,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7182,12 +7243,12 @@
         "juiz",
         "militar"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-03-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/supersalarios-ministros-do-stm-recebem-mais-de-r-300-mil-em-penduricalhos/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7214,12 +7275,12 @@
         "desembargador",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-04-Rondônia-supersalario-bonus",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/01/24/41-juizes-ganharam-mais-de-r-500-mil-em-bonus-em-dezembro-de-2024.htm"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7291,12 +7352,12 @@
         "juiz",
         "trabalho"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-05-Santa Catarina-supersalario-bonus",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/01/24/41-juizes-ganharam-mais-de-r-500-mil-em-bonus-em-dezembro-de-2024.htm"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7323,12 +7384,12 @@
         "juiz",
         "trabalho"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-05-Brazil-supersalario-bonus",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/01/24/41-juizes-ganharam-mais-de-r-500-mil-em-bonus-em-dezembro-de-2024.htm"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7355,12 +7416,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-05-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-justica/juizes-receberam-salarios-acima-de-r-100-mil-63-816-vezes-em-2024/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7387,12 +7448,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-05-Brazil-penduricalho-viagem",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-governo/stf-omite-dados-sobre-uso-de-avioes-da-fab-por-ministros/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7423,12 +7484,12 @@
         "maranhao",
         "ma"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-06-Maranhão-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/mercado/2025/05/supersalario-de-juiz-equivale-a-todo-o-orcamento-de-politica-publica-em-cidades-mais-pobres-do-pais.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7456,12 +7517,12 @@
         "maranhao",
         "ma"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-07-Maranhão-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/mercado/2025/05/supersalario-de-juiz-equivale-a-todo-o-orcamento-de-politica-publica-em-cidades-mais-pobres-do-pais.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7488,12 +7549,12 @@
         "juiz",
         "amazonas"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-08-Amazonas-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/mercado/2025/05/supersalario-de-juiz-equivale-a-todo-o-orcamento-de-politica-publica-em-cidades-mais-pobres-do-pais.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7521,12 +7582,12 @@
         "maranhao",
         "ma"
       ],
-      "descricao": ">",
+      "descricao": "2024-12-09-Maranhão-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/mercado/2025/05/supersalario-de-juiz-equivale-a-todo-o-orcamento-de-politica-publica-em-cidades-mais-pobres-do-pais.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -7620,7 +7681,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.midiajur.com.br/justica/stj-concede-habeas-corpus-a-tesoureiro-do-comando-vermelho/64088",
+        "https://g1.globo.com/mt/mato-grosso/noticia/2024/12/17/justica-concede-habeas-corpus-a-tesoureiro-de-faccao-preso-em-mt-por-extorsao-de-comerciantes-mas-prisao-se-mantem-por-outra-operacao.ghtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",

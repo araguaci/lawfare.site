@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2017,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -84,12 +84,14 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Esquema para obter sentença judicial permitindo retomada de contrato suspenso da empresa BRINK MOBIL, envolvendo o procurador-geral do estado.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://arquivos.mppb.mp.br/imprensa/denuncia-calvario-orcrim.pdf",
+        "https://g1.globo.com/pb/paraiba/noticia/2020/01/14/operacao-calvario-investiga-esquema-de-corrupcao-na-paraiba.ghtml",
+        "https://www.estadao.com.br/blogs/blog/wp-content/uploads/sites/41/2020/06/denuncia-corrupcao-fraude-e-peculato-contrato-012011-sem-qualificacao_050620202443.pdf"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -124,7 +126,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -233,7 +235,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carne_Fraca",
+        "https://www.brasilparalelo.com.br/noticias/20-anos-do-mensalao---relembre-um-dos-maiores-escandalos-de-corrupcao-do-brasil"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -258,7 +261,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -309,7 +312,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.stf.jus.br/postsnoticias/mantida-execucao-provisoria-da-pena-de-condenado-por-roubo-a-banco-que-resultou-em-mortes/",
+        "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2018/07/24/condenado-a-65-anos-de-prisao-integrante-do-pcc-e-morto-a-tiros-de-fuzil-em-sp.htm"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -343,7 +347,10 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://www.cfr.org/backgrounder/brazils-corruption-fallout",
+        "https://www.transparency.org/en/news/25-corruption-scandals",
+        "https://www.usnews.com/news/best-countries/articles/2017-06-19/a-timeline-of-corruption-scandals-in-brazil"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -372,7 +379,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jusbrasil.com.br/noticias/stf-manda-soltar-11-traficantes-internacionais-de-drogas/580227542",
+        "https://mais.opovo.com.br/jornal/cidades/2018/05/stf-manda-soltar-11-narcotraficantes-condenados-no-ceara.html"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -402,7 +410,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "Propinas para empréstimos favorecidos do BNDES à JBS.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -435,7 +443,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Patmos",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -489,7 +498,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -516,7 +525,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -604,7 +613,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -629,7 +638,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -656,7 +665,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -729,7 +738,7 @@
         "financeiro",
         "bahia"
       ],
-      "descricao": ">",
+      "descricao": "Dinheiro encontrado em apartamento ligado a Geddel, proveniente de corrupção via Caixa Econômica.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",

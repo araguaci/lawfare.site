@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2006,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2010/05/15/tst-gasta-r-19-milhao-para-compra-de-25-carros-de-luxo.htm"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -46,7 +46,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -73,7 +73,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -100,7 +100,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -127,7 +127,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -154,7 +154,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -181,7 +181,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -208,7 +208,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -235,7 +235,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -262,7 +262,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -289,7 +289,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -316,7 +316,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -343,7 +343,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -370,7 +370,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -397,7 +397,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -424,7 +424,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -453,7 +454,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -480,7 +481,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -507,7 +508,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -536,7 +537,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -563,7 +564,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -590,7 +591,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -617,7 +618,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -646,7 +647,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -673,7 +674,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -700,7 +701,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -727,7 +728,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -780,7 +781,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Atos_de_viol%C3%AAncia_organizada_no_Brasil_em_2006",
+        "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2016-05/crimes-de-maio-causaram-564-mortes-em-2006-entenda-o-caso"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -873,7 +875,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.scielo.br/j/rbhe/a/fwm4ZrwQvVmYVrvQrf69Bbk/?format=pdf&lang=pt",
+        "https://lljournal.commons.gc.cuny.edu/2013-1-borstel-texto/"
       ],
       "pessoas_envolvidas": [
         "Decisão",

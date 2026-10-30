@@ -33,6 +33,7 @@ const ids = new Set();
 
 const VALID_RELEVANCIA = new Set(['alta', 'media', 'baixa']);
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+const BLOCK_MARKERS = new Set(['>', '|', '>-', '|-', '>+', '|+']);
 
 assuntos.forEach((evt, i) => {
   const ctx = `[index ${i}${evt.id != null ? `, id=${evt.id}` : ''}]`;
@@ -56,6 +57,11 @@ assuntos.forEach((evt, i) => {
   // data_evento
   if (!evt.data_evento || !DATE_RE.test(evt.data_evento)) {
     warnings.push(`${ctx} "data_evento" fora do padrão YYYY-MM-DD — valor: "${evt.data_evento}"`);
+  }
+
+  // descricao: YAML block scalar markers leaked from the old timeline extractor
+  if (typeof evt.descricao === 'string' && BLOCK_MARKERS.has(evt.descricao.trim())) {
+    errors.push(`${ctx} "descricao" é o marcador YAML "${evt.descricao.trim()}" — rode o sync do timeline`);
   }
 
   // categoria

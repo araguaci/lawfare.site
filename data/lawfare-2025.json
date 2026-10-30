@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2025,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2025/01/08150808/Pronunciamento-do-Ministro-Edson-Fachin.pdf"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -79,7 +79,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -106,7 +106,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2024/07/20/violencia-contra-a-mulher-escravidao-guerras-capacitismo-lula-coleciona-gafes-em-discursos-recentes.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -366,7 +366,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Lista_de_opera%C3%A7%C3%B5es_da_Pol%C3%ADcia_Federal_do_Brasil"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -453,7 +453,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/blogs/pulso/post/2025/06/genialquaest-preocupacao-com-corrupcao-cresce-em-meio-a-crises-no-governo-lula-violencia-lidera-ranking.ghtml"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -774,7 +774,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Declaração sexista / indecorosa em contexto público institucional",
       "fontes": [
-        "Correio Braziliense, 08/01/2025 — https://www.correiobraziliense.com.br/politica/2025/01/7029830-lula-maridos-sao-mais-apaixonados-pela-amante-do-que-pelas-mulheres.html"
+        "https://www.correiobraziliense.com.br/politica/2025/01/7029830-lula-maridos-sao-mais-apaixonados-pela-amante-do-que-pelas-mulheres.html"
       ],
       "pessoas_envolvidas": [
         "Luiz Inácio Lula da Silva",
@@ -969,7 +969,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "Venda casada ilegal no crédito rural, prejuízo de R$ 841 bi ao agronegócio.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -1001,7 +1001,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.facebook.com/cnnbrasil/videos/o-ministro-cristiano-zanin-do-supremo-tribunal-federal-stf-disse-estar-apto-para/1098533718738642/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -1030,7 +1030,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2020-09/abrir-inquerito-das-fake-news-foi-decisao-mais-dificil-diz-toffoli"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -1131,12 +1131,13 @@
         "censura",
         "eleicoes-2022"
       ],
-      "descricao": ">",
+      "descricao": "\"Mike Benz, ex-secretário de Trump, afirmou que a USAID influenciou eleições de 2022 no Brasil via financiamentos a ONGs como Instituto Vero, vendo Bolsonaro como 'Trump tropical' e promovendo censura online.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-congresso/bolsonaro-era-visto-como-trump-tropical-pela-usaid/",
+        "https://www.epochtimes.com.br/mundo/se-a-usaid-nao-existisse-bolsonaro-ainda-seria-o-presidente-do-brasil-denuncia-ex-secretario-de-trump-211386.html"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1165,7 +1166,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-governo/lula-fala-mais-e-comete-mais-de-20-gafes-em-2-meses-assista/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1229,12 +1230,13 @@
         "cpi",
         "financiamento-estrangeiro"
       ],
-      "descricao": ">",
+      "descricao": "\"Eduardo Bolsonaro acusou sem provas ONGs, incluindo conexões com Instituto Vero, e USAID de interferir nas eleições de 2022, defendendo CPI para investigar financiamentos estrangeiros que supostamente beneficiaram campanhas contra Bolsonaro.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/eduardo-bolsonaro-acusa-sem-provas-ongs-e-usaid-de-interferir-em-eleicao-e-defende-cpi/",
+        "https://www.msn.com/pt-br/noticias/brasil/eduardo-bolsonaro-acusa-sem-provas-ongs-e-usaid-de-interferir-em-elei%25C3%25A7%25C3%25A3o-e-defende-cpi/ar-AA1yyqlr"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1296,7 +1298,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-governo/lula-fala-mais-e-comete-mais-de-20-gafes-em-2-meses-assista/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1322,12 +1324,16 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"PF indicia desembargadores, juízes, ex-deputado e prefeito por esquema de corrupção no TJ-MA envolvendo venda de sentenças e liberação fraudulenta de alvarás.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://piaui.folha.uol.com.br/juizes-maranhao-venda-sentencas-pf/",
+        "https://g1.globo.com/ma/maranhao/noticia/2025/02/10/desembargadores-juizes-ex-deputado-e-prefeito-de-paco-do-lumiar-sao-indiciados-por-esquema-de-corrupcao-no-tribunal-de-justica-do-maranhao.ghtml",
+        "https://www.estadao.com.br/politica/blog-do-fausto-macedo/desembargadora-nelma-cunha-sarney-lavagem-dinheiro-corrupcao-tribunal-maranhao-cartao-credito/",
+        "https://www.cnnbrasil.com.br/nacional/justica-afasta-desembargadores-e-juizes-investigados-por-corrupcao-no-maranhao/",
+        "https://valor.globo.com/politica/noticia/2025/02/10/pf-indicia-tres-desembargadores-do-maranhao-em-esquema-de-venda-de-sentencas.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -1415,12 +1421,13 @@
         "eleicoes-2022",
         "censura"
       ],
-      "descricao": ">",
+      "descricao": "\"Em fevereiro de 2025, denúncias baseadas em declarações de Mike Benz ressuscitaram teorias sobre interferência da USAID nas eleições de 2022 via financiamento a ONGs brasileiras, incluindo o Instituto Vero de Felipe Neto, para combater desinformação e influenciar o cenário político.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.aosfatos.org/noticias/denuncia-sobre-atuacao-da-usaid-contra-bolsonaro-e-baseada-em-desinformacao/",
+        "https://www1.folha.uol.com.br/folha-social-mais/2025/02/eduardo-bolsonaro-acusa-sem-provas-ongs-e-usaid-de-interferir-em-eleicao-e-defende-cpi.shtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1449,7 +1456,10 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.brasil247.com/brasil/apos-lula-cobrar-o-fim-da-lenga-lenga-sobre-a-margem-equatorial-presidente-do-ibama-fala-em-pressao",
+        "https://www.infomoney.com.br/politica/lula-x-ibama-entenda-a-disputa-envolvendo-a-exploracao-da-margem-equatorial/",
+        "https://horadopovo.com.br/lula-critica-o-lenga-lenga-do-ibama-na-liberacao-da-pesquisa-na-margem-equatorial/",
+        "https://www.cnnbrasil.com.br/economia/macroeconomia/lula-pressiona-ibama-a-estudar-extracao-da-margem-equatorial/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1500,7 +1510,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-governo/lula-fala-mais-e-comete-mais-de-20-gafes-em-2-meses-assista/",
+        "https://www.gazetadopovo.com.br/republica/declaracoes-de-lula-sobre-politica-externa-poderao-causar-estragos-mais-graves-a-partir-de-2025/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1565,12 +1576,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"STJ prorroga por mais um ano afastamentos de desembargadora e juíza investigadas por venda de sentenças na Bahia.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/ba/bahia/noticia/2025/02/18/stj-prorroga-por-mais-um-ano-afastamentos-de-desembargadora-e-juiza-investigadas-por-esquema-de-venda-de-sentencas-na-ba.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -1607,12 +1618,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"STJ aceita denúncia contra desembargadora do TJ-BA e seus filhos por envolvimento em esquema de venda de sentenças.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/19022025-STJ-recebe-denuncia-contra-desembargadora-do-TJBA-e-seus-dois-filhos-no-ambito-da-Operacao-Faroeste.aspx",
+        "https://www.migalhas.com.br/quentes/424954/stj-recebe-denuncia-contra-desembargadora-da-ba-por-venda-de-sentencas"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -1788,12 +1800,12 @@
         "prisao",
         "perseguicao-politica"
       ],
-      "descricao": ">",
+      "descricao": "\"Narrativa de perseguição política contra Bolsonaro e aliados da direita, com possibilidade de prisão.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://worldview.stratfor.com/article/what-bolsonaros-likely-arrest-means-brazilian-politics"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -1880,7 +1892,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.instagram.com/p/DGlGMHBx-YW/",
+        "https://oglobo.globo.com/brasil/noticia/2025/04/29/pcc-e-cv-rompem-tregua-estabelecida-em-fevereiro.ghtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -1980,7 +1993,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2025/03/26/tentativa-de-golpe-de-estado-veja-os-principais-trechos-do-julgamento-no-stf.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -2205,12 +2218,15 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"STJ condena três desembargadores do TRT-RJ por esquema de corrupção envolvendo propinas de organizações sociais na gestão Witzel.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/13032025-STJ-condena-desembargadores-do-TRT1-por-participacao-em-esquema-de-corrupcao.aspx",
+        "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/03/13/stj-condena-3-desembargadores-do-trt-rj-a-penas-entre-10-e-20-anos-de-prisao.ghtml",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-03/stj-condena-desembargadores-do-rio-por-esquema-com-ex-governador",
+        "https://www.conjur.com.br/2025-mar-13/stj-condena-tres-desembargadores-do-trt-1-por-corrupcao/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -2363,12 +2379,13 @@
         "desinformacao",
         "maria-da-penha"
       ],
-      "descricao": ">",
+      "descricao": "\"AGU processa portal Brasil Paralelo por desinformação sobre caso Maria da Penha, cobrando indenização.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2025/marco/agu-processa-portal-por-desinformacao-sobre-caso-maria-da-penha",
+        "https://www.gov.br/agu/pt-br/comunicacao/noticias/agu-processa-portal-por-desinformacao-sobre-caso-maria-da-penha/copy_of_ACPmariadapenha.pdf"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2503,12 +2520,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Ex-prefeito de Vista Serrana, detido por financiar plantação de 60 mil pés de maconha com dinheiro público, foi solto por decisão judicial.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://jornaldaparaiba.com.br/politica/pleno-poder/justica-solta-ex-prefeito-suspeito-de-financiar-plantacao-de-maconha-com-dinheiro-publico"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -2880,7 +2897,10 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/coluna/ricardo-rangel/governo-lula-assombrado-pelo-fantasma-da-corrupcao/",
+        "https://www.gazetadopovo.com.br/republica/corrupcao-volta-a-marcar-governo-lula-entenda-o-impacto-politico-da-crise-no-inss/",
+        "https://www.bbc.com/portuguese/articles/c74nkg9llyxo",
+        "https://www1.folha.uol.com.br/opiniao/2025/05/saida-de-lupi-inevitavel-nao-encerra-escandalo.shtml"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -2938,12 +2958,12 @@
         "magistrado",
         "sao paulo"
       ],
-      "descricao": ">",
+      "descricao": "2025-04-28-São Paulo-penduricalho-supersalario",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/opiniao/2025/04/a-farra-sem-fim-dos-penduricalhos.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2978,7 +2998,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www12.senado.leg.br/noticias/materias/2025/04/30/a-csp-glenn-greenwald-acusa-alexandre-de-moraes-de-abuso-de-poder"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3105,12 +3125,12 @@
         "juiz",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2025-05-04-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/mercado/2025/05/supersalario-de-juiz-equivale-a-todo-o-orcamento-de-politica-publica-em-cidades-mais-pobres-do-pais.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -3203,12 +3223,14 @@
         "governo-da-russia",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"O presidente Lula visitou Moscou para participar da parada do Dia da Vitória e realizar reunião bilateral com Putin, discutindo paz na Ucrânia, cooperação econômica e fortalecimento dos laços Brasil-Rússia, destacando autonomia diplomática.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://brazilreports.com/lulas-visit-to-russia-signals-strategic-ties-despite-ukraine-war/6991/",
+        "https://www.gov.br/planalto/en/latest-news/2025/05/lula-at-bilateral-meeting-with-putin-201cstrengthening-the-construction-of-a-strategic-partnership201d",
+        "https://www.riotimesonline.com/lulas-support-for-putin-at-moscow-victory-parade-highlights-brazils-diplomatic-autonomy/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3278,12 +3300,13 @@
         "brics",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"Brasil e China assinam acordo de swap cambial permitindo trocas temporárias entre real e yuan sem uso do dólar. Nova etapa na agenda de desdolarização do BRICS, abre caminho para financiamento interbancário e operações de comércio bilateral.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/economia/macroeconomia/bancos-centrais-de-brasil-e-china-firmam-acordo-para-troca-de-moedas/",
+        "https://www.bcb.gov.br/detalhenoticia/20665/nota"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3391,7 +3414,8 @@
       "impacto_diplomatico": "Alto — admissão de interferência estrangeira coordenada por presidente do TSE/STF em período eleitoral",
       "tipo_escandalo": "Interferência estrangeira articulada por ministro do STF — questionamento da imparcialidade do TSE/2022",
       "fontes": [
-        "CartaCapital, 13/05/2025 — https://www.cartacapital.com.br/politica/barroso-diz-que-pediu-apoio-dos-eua-para-evitar-um-golpe-de-estado-no-brasil/",
+        "https://www.cartacapital.com.br/politica/barroso-diz-que-pediu-apoio-dos-eua-para-evitar-um-golpe-de-estado-no-brasil/",
+        "https://www.senado.gov.br/noticias/barroso-convocado-seguranca-publica",
         "Senado Federal, 20/05/2025"
       ],
       "pessoas_envolvidas": [
@@ -3434,12 +3458,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Investigação de fraudes em decisões judiciais na Paraíba envolvendo magistrado, advogados e associações fraudulentas para descontos ilegais em benefícios previdenciários.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-05/cgu-e-mp-apuram-fraudes-em-decisoes-judiciais-na-paraiba",
+        "https://g1.globo.com/pb/paraiba/noticia/2025/05/16/operacao-retomada-deflagrada-na-paraiba-apura-fraudes-em-decisoes-judiciais.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -3704,12 +3729,13 @@
         "eua-vs-brasil",
         "censura"
       ],
-      "descricao": ">",
+      "descricao": "\"EUA anunciam política de restrição de vistos a estrangeiros responsáveis por censura a americanos, visando decisões judiciais brasileiras.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.reuters.com/business/media-telecom/us-visa-policy-targets-foreign-nationals-who-censor-americans-state-dept-2025-05-28/",
+        "https://www.state.gov/announcement-of-a-visa-restriction-policy-targeting-foreign-nationals-who-censor-americans"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3736,12 +3762,12 @@
         "censura",
         "sancoes-eua"
       ],
-      "descricao": ">",
+      "descricao": "\"Administração Trump mira juiz brasileiro por 'censura' em meio a perseguição política.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.nytimes.com/2025/05/29/world/americas/trump-brazil-judge-censorship.html"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -3769,7 +3795,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/andre-mendonca-critica-ativismo-do-stf-e-defende-ampla-liberdade-de-expressao/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -3798,7 +3824,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.youtube.com/watch?v=PhaVmyRwtPk",
+        "https://www.cnnbrasil.com.br/politica/mentira-veneno-politica-carmen-lucia-stf/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -3827,7 +3854,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.youtube.com/watch?v=fb5o84Oa89c"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -4051,7 +4078,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/06/02/justica-concede-liberdade-a-policiais-do-rj-acusados-de-revender-16-toneladas-de-maconha-apreendida.ghtml",
+        "https://www.msn.com/pt-br/noticias/brasil/justi%C3%A7a-concede-liberdade-a-policiais-do-rj-acusados-de-revender-16-toneladas-de-maconha-apreendida/ar-AA1FXAAq"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -4092,12 +4120,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Justiça concede liberdade a policiais do RJ acusados de revender 16 toneladas de maconha apreendida a traficantes.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/06/02/justica-concede-liberdade-a-policiais-do-rj-acusados-de-revender-16-toneladas-de-maconha-apreendida.ghtml",
+        "https://www.band.com.br/noticias/jornal-da-band/ultimas/justica-do-rio-manda-soltar-policiais-acusados-de-exigir-propina-a-traficantes-202506092119"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -4213,12 +4242,14 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Policiais civis e advogados negociam propina para liberar carga de 10 toneladas de maconha destinada ao Comando Vermelho no Rio de Janeiro.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/fantastico/noticia/2025/06/08/audios-mostram-policiais-advogados-e-traficantes-negociando-para-liberar-carga-de-10-toneladas-de-maconha.ghtml",
+        "https://g1.globo.com/fantastico/noticia/2025/06/10/estao-pedindo-r-2-milhoes-traficantes-reclamam-de-pedido-de-propina-por-policiais-para-liberar-caminhao-com-drogas-ouca.ghtml",
+        "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-apura-esquema-para-liberar-10-toneladas-de-drogas-do-cv-no-rj/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -4253,7 +4284,26 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vozes/jr-guzzo/juizes-nao-querem-populacao-saiba-valor-penduricalhos/",
+        "https://www.cnj.jus.br/transparencia-cnj/remuneracao-dos-magistrados/",
+        "https://atos.cnj.jus.br/files/original200313202508066893b50119290.pdf",
+        "https://atos.cnj.jus.br/atos/detalhar/6175",
+        "https://atos.cnj.jus.br/atos/detalhar/5898",
+        "https://atos.cnj.jus.br/atos/detalhar/5527",
+        "https://blog.transparencia.org.br/transparencia-brasil-alerta-cnj-sobre-falta-de-dados-de-remuneracao-dos-membros-da-justica/",
+        "https://www.transparencia.org.br/downloads/publicacoes/percentualdedivulgaoderemuneraesnopaineldocnjmai_2024.pdf",
+        "https://www.cnj.jus.br/wp-content/uploads/2025/04/relatorio-equipes-multidisciplinares.pdf",
+        "https://www.poder360.com.br/justica/regra-do-cnj-permite-a-tribunais-ocultar-salarios-nos-estados/",
+        "https://www.cnj.jus.br/transparencia-cnj/",
+        "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ136_2025-ASSINADO.PDF&statusDoDiario=ASSINADO",
+        "https://www.cnj.jus.br/transparencia-cnj/remuneracao-dos-magistrados/pagina-de-remuneracao-nos-sites-dos-tribunais/",
+        "https://www.cnj.jus.br",
+        "http://www.fenajufe.org.br/agencia-de-noticias/ultimas-noticias/sindicatos/denuncias-sem-fim-juizes-federais-pedem-ao-cnj-remuneracao-equivalente-a-do-mpu-enquanto-juizes-do-tj-de-sergipe-estouram-teto-constitucional/",
+        "https://www.cnj.jus.br/transparencia-cnj/gestao-de-pessoas/informacoes-gerais-magistrados-servidores/",
+        "https://www.tjam.jus.br/index.php/menu/sala-de-imprensa/14954-cgj-am-e-destacada-pelo-cnj-com-mencao-honrosa-no-premio-solo-seguro-2025-por-implementar-painel-de-monitoramento-da-regularizacao-fundiaria-no-estado",
+        "https://www.cnj.jus.br/cnj-fara-novos-estudos-sobre-transparencia-ativa-e-conflito-de-interesses-na-magistratura/",
+        "https://www.trf5.jus.br/index.php/gestao-de-pessoas/atividades-de-docencia-dos-magistrados",
+        "https://www.cnj.jus.br/wp-content/uploads/2021/05/Clipping-CNJ-21052021.pdf"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -4282,12 +4332,39 @@
         "tse",
         "big-techs"
       ],
-      "descricao": ">",
+      "descricao": "\"Compilação de 38 artigos (2018-2025) sobre controvérsias no STF/TSE: abusos de autoridade, censura judicial, interferências eleitorais e decisões inconstitucionais. \"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/francisco-leali/que-o-stf-nos-proteja-do-stf-se-o-caso-dos-ataques-a-moraes-virar-jogo-de-sete-erros/",
+        "https://causaoperaria.org.br/2023/vaias-a-barroso-fortalecem-o-fascismo/",
+        "https://www.estadao.com.br/politica/blog-do-fausto-macedo/nao-e-agressao-ao-estado-diz-constitucionalista-sobre-hostilidades-a-alexandre-de-moraes/",
+        "https://revistaforum.com.br/politica/2023/6/16/como-corrida-secreta-por-chips-salvou-democracia-brasileira-137780.html",
+        "https://crusoe.uol.com.br/edicoes/50/o-amigo-do-amigo-de-meu-pai/",
+        "https://apublica.org/2018/09/semanalmente-juizes-do-supremo-decidem-sozinhos-sobre-aplicacao-da-constituicao/",
+        "https://www.gazetadopovo.com.br/eleicoes/2022/cia-teria-alertado-governo-bolsonaro-a-nao-levantar-duvidas-sobre-as-eleicoes-no-brasil/",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=431252&ori=1",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/abusos-do-stf-repercutem-em-outros-tribunais-e-alastram-ativismo-judicial/",
+        "https://www1.folha.uol.com.br/colunas/painel/2023/11/emenda-anti-stf-impulsiona-cpi-do-abuso-de-autoridade.shtml",
+        "https://infosaj.com.br/abuso-de-autoridade-repatriacao-de-criancas-crimes-contra-a-honra-o-que-o-stf-vai-julgar-nesta-semana/",
+        "https://valor.globo.com/politica/noticia/2021/02/10/alexandre-de-moraes-do-stf-libera-para-julgamento-acoes-contra-lei-de-abuso-de-autoridade.ghtml",
+        "https://valor.globo.com/politica/noticia/2023/11/29/cpi-do-abuso-de-autoridade-e-protocolada-na-camara.ghtml",
+        "https://www.bbc.com/portuguese/brasil-64464312",
+        "https://www.gazetadopovo.com.br/republica/quatro-condutas-do-stf-e-tse-que-a-cpi-do-abuso-de-poder-quer-investigar/",
+        "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/tse-desmonetiza-quatro-canais-e-suspende-divulgacao-de-documentario",
+        "https://www.conjur.com.br/2022-out-20/decisoes-tse-veiculos-bolsonaristas-nao-sao-censura/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2022-10/maioria-do-stf-vota-por-manter-resolucao-do-tse-sobre-fake-news",
+        "https://www.bbc.com/portuguese/brasil-63338642",
+        "https://www.gazetadopovo.com.br/eleicoes/2022/tse-confirma-veto-a-documentario-da-brasil-paralelo-e-ministros-negam-censura/",
+        "https://www.dn.pt/3592215354/e-um-total-exagero-que-haja-uma-censura-judicial-no-brasil-diz-ministro-gilmar-mendes/",
+        "https://novo.org.br/noticias/censura-do-stf-tse-principais-casos/",
+        "https://noticias.stf.jus.br/postsnoticias/stf-confirma-validade-de-norma-do-tse-voltada-ao-combate-a-desinformacao-durante-processo-eleitoral/",
+        "https://www.gazetadopovo.com.br/opiniao/editoriais/tse-censura-brasil-paralelo-poder-de-policia/amp/",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/um-guia-sobre-a-censura-e-a-perseguicao-contra-a-direita-no-judiciario-brasileiro/",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=496383&ori=1",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2023-12/maioria-do-stf-reafirma-validade-de-resolucao-do-tse-contra-fake-news",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/stf-impoe-a-redes-censura-automatica-de-condutas-antidemocraticas/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -4322,7 +4399,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://novo.org.br/noticias/julgamento-do-marco-civil-da-internet-no-stf/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -4359,12 +4436,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Desembargador Ivo de Almeida é denunciado pela PGR por corrupção, lavagem de dinheiro e associação criminosa.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/sp/sao-paulo/noticia/2024/10/31/pf-concluiu-inquerito-e-indicia-desembargador-do-tj-de-sp-por-corrucao-e-lavagem-de-dinheiro.ghtml",
+        "https://www.cnnbrasil.com.br/politica/desembargador-tj-sp-denuncia-pgr/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -4781,12 +4859,13 @@
         "governo-da-china",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"Em foco na arquitetura financeira internacional, o BRICS discute desdolarização, com Brasil ampliando reservas em yuan e promovendo uso de moedas locais, fortalecendo laços com China.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://opeb.org/2025/06/26/desdolarizacao-em-foco-brics-e-a-relacao-brasil-china-na-arquitetura-financeira-internacional/",
+        "https://www.cnnbrasil.com.br/economia/macroeconomia/brics-vai-discutir-a-criacao-de-uma-moeda-comum-entre-os-paises-entenda/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4815,12 +4894,13 @@
         "redes-sociais",
         "responsabilizacao"
       ],
-      "descricao": ">",
+      "descricao": "\"STF decide que redes sociais devem remover conteúdos ilegais imediatamente após notificação, responsabilizando plataformas por postagens.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-06/entenda-decisao-do-stf-sobre-responsabilizacao-das-redes-sociais",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/stf-impoe-a-redes-censura-automatica-de-condutas-antidemocraticas/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -4901,12 +4981,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2025-06-30-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://movimentopessoasafrente.org.br/custo-dos-supersalarios-de-magistrados-aumentou-493-em-2024-em-relacao-ao-ano-anterior-aponta-estudo-inedito-do-movimento-pessoas-a-frente/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -4981,7 +5061,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://m.youtube.com/watch?v=I3NnxsTMtks"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -5008,7 +5088,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.instagram.com/reel/DLm-jyROY_4/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -5037,7 +5117,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/voto-de-fux-aponta-os-4-grandes-erros-das-medidas-do-stf-contra-a-liberdade-de-bolsonaro/",
+        "https://www.cartacapital.com.br/politica/os-argumentos-de-fux-contra-a-decisao-de-moraes-sobre-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -5066,7 +5147,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/ideias/derrotamos-bolsonarismo-outras-frases-colocam-duvida-isencao-ministros-stf/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -5090,12 +5171,12 @@
         "magistrado",
         "brasil"
       ],
-      "descricao": ">",
+      "descricao": "2025-07-01-Brazil-supersalario-penduricalho",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2025-07/supersalarios-no-judiciario-crescem-493-em-2024-mostra-estudo"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -5345,7 +5426,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/stj-recebe-notificacao-do-rumble-para-intimar-moraes-em-acao-nos-eua/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -5449,7 +5530,15 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://abaladademocracia.vercel.app/",
+        "https://www.cnnbrasil.com.br/politica/lula-indica-lewandowski-ex-ministro-do-stf-para-cargo-no-mercosul/",
+        "https://www.cnnbrasil.com.br/politica/nos-derrotamos-o-bolsonarismo-diz-barroso-em-evento-da-une/",
+        "https://www.estadao.com.br/politica/blog-do-fausto-macedo/nao-e-agressao-ao-estado-diz-constitucionalista-sobre-hostilidades-a-alexandre-de-moraes/",
+        "https://www.cartacapital.com.br/justica/cnj-suspende-redes-sociais-de-juiz-do-trf-2-acusado-de-atuar-como-coach-de-advogados/",
+        "https://www.estadao.com.br/politica/francisco-leali/que-o-stf-nos-proteja-do-stf-se-o-caso-dos-ataques-a-moraes-virar-jogo-de-sete-erros/",
+        "https://causaoperaria.org.br/2023/vaias-a-barroso-fortalecem-o-fascismo/",
+        "https://causaoperaria.org.br/2023/para-dino-democracia-e-quando-ninguem-pode-reclamar-de-nada/",
+        "https://docs.google.com/spreadsheets/d/1dnDABUCcTALj_W4xcwjJDF1zn67gI0Ilc_2Z4G88fDU/edit?usp=sharing"
       ],
       "pessoas_envolvidas": [
         "04/07/2023",
@@ -5482,7 +5571,10 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://abusofederal.vercel.app",
+        "https://www.estadao.com.br/politica/ministros-do-stj-concedem-18-mil-habeas-corpus-em-2024-metade-envolve-crime-de-trafico-de-drogas/",
+        "https://g1.globo.com/sp/campinas-regiao/noticia/2024/11/19/stf-manda-soltar-15-integrantes-de-quadrilha-que-opera-trafico-de-drogas-em-galerias-de-campinas.ghtml",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2024-04/crime-organizado-cresce-no-rio-apos-decisao-do-stf-sobre-covid-19"
       ],
       "pessoas_envolvidas": [
         "Dezembro 2024",
@@ -5520,7 +5612,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://abusosupremo.vercel.app/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -5546,7 +5638,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://futuroroubado.vercel.app/"
       ],
       "pessoas_envolvidas": [
         "Políticos",
@@ -5624,7 +5716,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2025/08/11/acao-do-rumble-e-de-empresa-de-trump-contra-moraes-trava-por-falta-de-intimacao-a-ministro.ghtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -5719,12 +5811,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Desembargadora Cassinelza Lopes é aposentada compulsoriamente após investigação da Operação Faroeste por omissão e possível favorecimento em venda de decisões.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/ba/bahia/noticia/2025/07/12/desembargadora-aposentada-compulsoriamente-e-investigada-por-agir-com-omissao-em-acao-de-usucapiao-que-envolve-fazenda.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -5759,12 +5851,13 @@
         "governo-dos-eua",
         "gravidade-media"
       ],
-      "descricao": ">",
+      "descricao": "\"Em resposta ao anúncio de tarifas dos EUA, o presidente Lula afirmou que Trump não é o xerife do mundo e que o Brasil não aceitará tutelas, defendendo a soberania nacional e criticando interferências americanas.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/clylgkd15rvo",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2025-07/lula-brasil-e-soberano-e-interferencia-dos-eua-e-inaceitavel"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -5903,12 +5996,14 @@
         "big-techs",
         "gravidade-alta"
       ],
-      "descricao": ">",
+      "descricao": "\"USTR aciona Seção 301 para investigar restrições e multas impostas a empresas americanas, processos judiciais contra plataformas, e políticas do governo e do STF consideradas prejudiciais à liberdade de expressão e negócios dos EUA.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/internacional/ultimas-noticias/2025/07/15/trump-manda-agencia-investigar-ataques-do-brasil-a-big-techs-dos-eua.htm",
+        "https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/big-techs-dos-eua-influenciaram-sancao-de-trump-contra-o-brasil",
+        "https://apublica.org/2025/07/ameaca-de-trump-de-investigar-brasil-atende-a-pressao-de-big-techs/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -5940,12 +6035,14 @@
         "maria-da-penha",
         "documentario"
       ],
-      "descricao": ">",
+      "descricao": "\"Justiça de Fortaleza censura documentário da Brasil Paralelo sobre Maria da Penha por 90 dias, a pedido do MP.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://revistaoeste.com/brasil/justica-censura-documentario-da-brasil-paralelo-sobre-maria-da-penha/",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/censura-documentario-brasil-paralelo-maria-da-penha/",
+        "https://claudiodantas.com.br/justica-impoe-censura-a-documentario-da-brasil-paralelo/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -5972,12 +6069,12 @@
         "censura",
         "documentario"
       ],
-      "descricao": ">",
+      "descricao": "\"Brasil Paralelo considera censura prévia de documentário sobre Maria da Penha como ato grave.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://revistaoeste.com/imprensa/brasil-paralelo-se-pronuncia-sobre-censura-de-documentario/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6003,12 +6100,13 @@
         "stf",
         "gravidade-alta"
       ],
-      "descricao": ">",
+      "descricao": "\"O secretário de Estado dos EUA anunciou a revogação do visto americano do ministro Alexandre de Moraes e de seus aliados no STF, citando censura e violações à liberdade de expressão, escalando a crise diplomática.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/mundo/noticia/2025/07/18/secretario-de-trump-anuncia-revogacao-do-visto-de-alexandre-de-moraes-e-de-seus-aliados.ghtml",
+        "https://g1.globo.com/politica/noticia/2025/07/30/eua-inclui-alexandre-de-moraes-na-lista-de-sancionados-pela-lei-magnitsky.ghtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6085,12 +6183,13 @@
         "perseguicao-politica",
         "bolsonaro"
       ],
-      "descricao": ">",
+      "descricao": "\"Alexandre de Moraes impõe medidas cautelares a Jair Bolsonaro, classificadas pela oposição como arbitrárias e perseguição política.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www12.senado.leg.br/noticias/materias/2025/07/18/oposicao-reage-as-medidas-do-stf-contra-bolsonaro-governistas-defendem-decisao",
+        "https://www.spress.news/noticia/oposicao-classifica-de-arbitrarias-medidas-cautelares-contra-bolsonaro"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6156,12 +6255,12 @@
         "perseguicao-politica",
         "bolsonaro"
       ],
-      "descricao": ">",
+      "descricao": "\"EUA restringem vistos para autoridades brasileiras envolvidas na 'caça às bruxas' contra Bolsonaro.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.aljazeera.com/news/2025/7/19/us-restricts-visas-for-brazilian-officials-over-bolsonaro-witch-hunt"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6196,7 +6295,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://valor.globo.com/brasil/noticia/2025/08/16/eua-analisam-aplicar-sancoes-a-assessores-de-moraes-apos-ofensiva-de-eduardo-bolsonaro.ghtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -6286,12 +6385,12 @@
         "documento-falso",
         "maria-da-penha"
       ],
-      "descricao": ">",
+      "descricao": "\"Investigação revela que Brasil Paralelo usou laudo falso em documentário atacando Maria da Penha.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://apublica.org/2025/07/brasil-paralelo-usou-laudo-falso-para-atacar-maria-da-penha/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6322,12 +6421,14 @@
         "tortura",
         "preso-politico"
       ],
-      "descricao": ">",
+      "descricao": "\"Filipe Martins depõe no STF, negando conhecimento da minuta do golpe, viagem aos EUA e se considerando preso político. Acusa Mauro Cid de mentir e relata sofrimento como forma de tortura na prisão, incluindo isolamento em cela sem iluminação por 10 dias.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2025/07/24/filipe-martins-nega-minuta-do-golpe-viagem-aos-eua-e-se-considera-preso-politico.htm",
+        "https://g1.globo.com/politica/noticia/2025/07/24/ex-assessor-de-bolsonaro-filipe-martins-diz-que-mauro-cid-conta-mentiras-e-nega-minuta-do-golpe.ghtml",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/filipe-martins-tortura-prisao/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6391,7 +6492,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/a-cronica-das-sancoes-como-bolsonaristas-construiram-campanha-anti-moraes-no-exterior/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -6427,7 +6528,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/08/moraes-pode-acionar-foro-internacional-contra-lei-magnitsky-mas-eficacia-e-pouco-provavel.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -6488,12 +6589,14 @@
         "setor-de-mineracao",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"As vendas de terras raras brasileiras para a China triplicaram no primeiro semestre de 2025 em comparação com 2024, fortalecendo laços econômicos e diversificando parcerias em meio a tensões com os EUA.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-china/vendas-terras-raras-brasil-china-triplicam-2025/",
+        "https://portuguese.xinhuanet.com/20250723/d060af1761434a23b3a966e28a004a07/c.html",
+        "https://g1.globo.com/economia/noticia/2025/07/25/brasil-tem-2a-maior-reserva-de-terras-raras-do-mundo-mas-ainda-engatinha-na-exploracao-veja-os-entraves.ghtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6524,12 +6627,14 @@
         "registros-falsos",
         "eua"
       ],
-      "descricao": ">",
+      "descricao": "\"O Wall Street Journal publica artigo destacando suspeitas de armação contra Filipe Martins com registros falsos de entrada nos EUA, usados para justificar sua detenção preventiva como risco de fuga. Isso agrava o cerco internacional a Alexandre de Moraes, com implicações nos EUA por possível conluio entre autoridades brasileiras e americanas.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.wsj.com/opinion/a-cbp-mystery-points-to-lawfare-brazil-politics-critic-lula-14c33c07",
+        "https://www.wsj.com/opinion/trouble-at-u-s-customs-in-orlando-brazil-false-travel-records-politics-92b9082f",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/suspeita-de-armacao-contra-filipe-martins-pode-agravar-cerco-a-moraes-nos-eua/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6587,7 +6692,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.dw.com/pt-br/por-que-moraes-concentra-as-decis%25C3%25B5es-sobre-bolsonaro/a-73552098"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -6623,7 +6728,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cx2xnn4wplro",
+        "https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/eua-aplicam-sancao-contra-alexandre-de-moraes-por-acao-do-8-de-janeiro",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/6-pontos-graves-piora-direitos-humanos-brasil-alexandre-moraes-relatorio-eua/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -6704,7 +6811,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cx2xnn4wplro",
+        "https://cj.estrategia.com/portal/lei-magnitsky-contra-alexandre-moraes/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -6735,12 +6843,14 @@
         "extradicao",
         "zambelli"
       ],
-      "descricao": ">",
+      "descricao": "\"Deputada Carla Zambelli é presa na Itália por condenação no Brasil relacionada a invasão de sistemas e perseguição armada a jornalista.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/c4gezmnenepo",
+        "https://www.cartacapital.com.br/politica/justica-da-italia-mantem-a-prisao-de-carla-zambelli/",
+        "https://www.auniao.pb.gov.br/noticias/ultimas/carla-zambelli-e-presa-na-italia"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6838,12 +6948,14 @@
         "donald-trump",
         "gravidade-alta"
       ],
-      "descricao": ">",
+      "descricao": "\"O governo Trump incluiu o ministro Alexandre de Moraes na lista de sanções da Lei Magnitsky, citando violações de direitos humanos e censura, o que inclui congelamento de ativos e proibição de entrada nos EUA, agravando a crise diplomática.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-justica/relembre-os-atritos-de-moraes-com-o-governo-trump/",
+        "https://www.portaltela.com/noticias/politica/2025/08/19/supremo-e-eua-intensificam-tensoes-em-meio-a-conflitos-diplomaticos",
+        "https://oglobo.globo.com/politica/noticia/2025/07/31/trump-recua-em-parte-das-tarifas-mas-dobra-aposta-ideologica-com-sancao-a-moraes-saiba-como-foi-a-reacao-brasileira.ghtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6880,7 +6992,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/czerlklr27do",
+        "https://www.estadao.com.br/politica/a-cronica-das-sancoes-como-bolsonaristas-construiram-campanha-anti-moraes-no-exterior/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -6941,12 +7054,13 @@
         "censura",
         "moraes"
       ],
-      "descricao": ">",
+      "descricao": "\"Departamento do Tesouro dos EUA impõe sanções a Alexandre de Moraes sob a Lei Magnitsky por violações de direitos humanos e censura.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://home.treasury.gov/news/press-releases/sb0211",
+        "https://www.instagram.com/p/DM-cPt4uwZb/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -6974,12 +7088,12 @@
         "sancoes-eua",
         "perseguicao-politica"
       ],
-      "descricao": ">",
+      "descricao": "\"EUA impõem tarifas de 50% e sanções judiciais ao Brasil, citando perseguição política.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://brusselssignal.eu/2025/07/us-hits-brazil-with-50-tariffs-and-judicial-sanctions/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -7006,7 +7120,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://cbn.globo.com/politica/noticia/2025/08/20/moraes-diz-que-bancos-podem-ser-punidos-se-aplicarem-sancoes-a-ativos-no-brasil.ghtml",
+        "https://www.gazetadopovo.com.br/economia/banco-do-brasil-responde-a-pressao-sobre-a-magnitsky-e-defende-atuacao-dentro-da-lei/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7033,7 +7148,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.dw.com/pt-br/moraes-bancos-que-acatarem-san%25C3%25A7%25C3%25B5es-dos-eua-arriscam-puni%25C3%25A7%25C3%25A3o/a-73710476",
+        "https://cbn.globo.com/politica/noticia/2025/08/20/moraes-diz-que-bancos-podem-ser-punidos-se-aplicarem-sancoes-a-ativos-no-brasil.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7060,7 +7176,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/covardes-pseudopatriotas-organizacao-miliciana-veja-as-frases-dos-ministros-do-stf-nprp/?srsltid=AfmBOoqRvM1-quxQayDJ5Ya-BRZcdc-CcVCsyHStXJu33pCqJtX4oyOW"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7089,7 +7205,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/08/01/frases-ministros-stf-primeira-sessao.htm",
+        "https://g1.globo.com/politica/blog/andreia-sadi/post/2025/08/01/ministros-do-stf-discurso.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7119,7 +7236,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/covardes-pseudopatriotas-organizacao-miliciana-veja-as-frases-dos-ministros-do-stf-nprp/?srsltid=AfmBOoqRvM1-quxQayDJ5Ya-BRZcdc-CcVCsyHStXJu33pCqJtX4oyOW"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7148,7 +7265,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/blog/andreia-sadi/post/2025/08/01/ministros-do-stf-discurso.ghtml",
+        "https://www.dw.com/pt-br/moraes-bancos-que-acatarem-san%25C3%25A7%25C3%25B5es-dos-eua-arriscam-puni%25C3%25A7%25C3%25A3o/a-73710476"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7177,7 +7295,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/blog/andreia-sadi/post/2025/08/01/ministros-do-stf-discurso.ghtml",
+        "https://www.bbc.com/portuguese/articles/cx2xnn4wplro"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7206,7 +7325,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/covardes-pseudopatriotas-organizacao-miliciana-veja-as-frases-dos-ministros-do-stf-nprp/?srsltid=AfmBOoqRvM1-quxQayDJ5Ya-BRZcdc-CcVCsyHStXJu33pCqJtX4oyOW"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7235,7 +7354,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/covardes-pseudopatriotas-organizacao-miliciana-veja-as-frases-dos-ministros-do-stf-nprp/?srsltid=AfmBOoqRvM1-quxQayDJ5Ya-BRZcdc-CcVCsyHStXJu33pCqJtX4oyOW"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7265,12 +7384,13 @@
         "perseguicao-politica",
         "zambelli"
       ],
-      "descricao": ">",
+      "descricao": "\"Carla Zambelli depõe na justiça italiana, declarando-se vítima de perseguição política.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.youtube.com/watch?v=m1hyiNupQpk",
+        "https://oglobo.globo.com/politica/noticia/2025/08/13/presa-na-italia-carla-zambelli-participa-de-audiencia-diz-que-esta-passando-mal-e-e-levada-a-hospital.ghtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -7355,7 +7475,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/08/01/frases-ministros-stf-primeira-sessao.htm",
+        "https://www.gazetadopovo.com.br/ideias/derrotamos-bolsonarismo-outras-frases-colocam-duvida-isencao-ministros-stf/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7384,7 +7505,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.youtube.com/watch?v=kdeXXQAhcpA",
+        "https://www.poder360.com.br/poder-justica/gilmar-mendes-resposta-estado-ataques-democracia/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7413,7 +7535,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/covardes-pseudopatriotas-organizacao-miliciana-veja-as-frases-dos-ministros-do-stf-nprp/?srsltid=AfmBOoqRvM1-quxQayDJ5Ya-BRZcdc-CcVCsyHStXJu33pCqJtX4oyOW"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7442,7 +7564,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/08/01/frases-ministros-stf-primeira-sessao.htm",
+        "https://www.bbc.com/portuguese/articles/cx2xnn4wplro"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7471,7 +7594,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/08/01/frases-ministros-stf-primeira-sessao.htm"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7500,7 +7623,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/covardes-pseudopatriotas-organizacao-miliciana-veja-as-frases-dos-ministros-do-stf-nprp/?srsltid=AfmBOoqRvM1-quxQayDJ5Ya-BRZcdc-CcVCsyHStXJu33pCqJtX4oyOW"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7530,7 +7653,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2024/07/17/lula-acumula-gafes-em-terceiro-mandato-na-presidencia-relembre.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -7555,7 +7678,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.youtube.com/watch?v=jIoVZ0dAhlY",
+        "https://www.bbc.com/portuguese/articles/c336ppp3070o"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -7717,12 +7841,13 @@
         "anistia",
         "perseguicao-politica"
       ],
-      "descricao": ">",
+      "descricao": "\"Manifestação em São Paulo pede anistia a Bolsonaro e exalta Trump, alegando perseguição política.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://lig.news/noticia/1422/ato-em-sao-paulo-pede-anistia-a-bolsonaro-e-exalta-trump/amp",
+        "https://www.aljazeera.com/news/2025/8/3/rallies-held-in-brazil-in-support-of-embattled-bolsonaro-facing-legal-peril"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -7750,12 +7875,12 @@
         "perseguicao-politica",
         "bolsonaro"
       ],
-      "descricao": ">",
+      "descricao": "\"Manifestações no Brasil em apoio a Bolsonaro, alegando perseguição política e comparando com casos nos EUA.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.aljazeera.com/news/2025/8/3/rallies-held-in-brazil-in-support-of-embattled-bolsonaro-facing-legal-peril"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -7781,12 +7906,14 @@
         "omc",
         "gravidade-alta"
       ],
-      "descricao": ">",
+      "descricao": "\"Por ordem de Trump, EUA impõem tarifa de 50% sobre importações do Brasil citando interferências judiciais, censura a empresas e aliados, processos judiciais e tratamento a Bolsonaro. Brasil reage com tarifação recíproca e leva disputa à OMC.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.migalhas.com.br/depeso/435703/o-tarifaco-de-trump-chegou-o-brasil-quer-romper-com-os-eua",
+        "https://www.bbc.com/portuguese/articles/c2djxjrn2n8o",
+        "https://g1.globo.com/economia/noticia/2025/08/05/tarifaco-resolucao-solucao-de-controversias-omc-brasil-eua.ghtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -7822,7 +7949,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.migalhas.com.br/quentes/436964/justica-dos-eua-pede-ao-stj-para-intimar-moraes-em-acao-da-rumble",
+        "https://www.cnnbrasil.com.br/politica/stj-recebe-notificacao-do-rumble-para-intimar-moraes-em-acao-nos-eua/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -7858,7 +7986,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/6-pontos-graves-piora-direitos-humanos-brasil-alexandre-moraes-relatorio-eua/",
+        "https://www.dw.com/pt-br/por-que-moraes-concentra-as-decis%25C3%25B5es-sobre-bolsonaro/a-73552098"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -7896,7 +8025,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/08/datafolha-51-aprovam-prisao-domiciliar-de-bolsonaro-e-53-acoes-de-moraes.shtml",
+        "https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/eua-aplicam-sancao-contra-alexandre-de-moraes-por-acao-do-8-de-janeiro"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -7971,12 +8101,15 @@
         "bolsonaro",
         "censura"
       ],
-      "descricao": ">",
+      "descricao": "\"Alexandre de Moraes determina prisão domiciliar de Jair Bolsonaro por descumprimento de medidas cautelares, incluindo uso de redes sociais e aparição em atos públicos.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cg7j0k87gd3o",
+        "https://www.brasildefato.com.br/2025/08/04/brazilian-supreme-court-orders-jair-bolsonaro-to-house-arrest-for-violating-court-restrictions/",
+        "https://lig.news/noticia/1436/prisao-domiciliar-saiba-o-que-bolsonaro-esta-proibido-de-fazer/amp",
+        "https://www.bloomberg.com/news/articles/2025-08-04/bolsonaro-ordered-into-house-arrest-for-disobeying-brazil-court"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -8013,7 +8146,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/08/datafolha-51-aprovam-prisao-domiciliar-de-bolsonaro-e-53-acoes-de-moraes.shtml",
+        "https://www.estadao.com.br/politica/a-cronica-das-sancoes-como-bolsonaristas-construiram-campanha-anti-moraes-no-exterior/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -8102,12 +8236,13 @@
         "impeachment-moraes",
         "anistia"
       ],
-      "descricao": ">",
+      "descricao": "\"Parlamentares da oposição desocupam o plenário do Senado após ocupação em protesto, sem acordo para impeachment de Alexandre de Moraes e anistia aos envolvidos no 8 de janeiro.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2025-08/oposicao-desocupa-senado-sem-acordo-para-impeachment-de-moraes",
+        "https://www12.senado.leg.br/radio/1/noticia/2025/08/07/oposicao-desocupa-plenario-mas-vai-insistir-em-processo-contra-moraes-e-anistia"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -8217,12 +8352,165 @@
         "indecoro",
         "gilmar-mendes"
       ],
-      "descricao": ">",
+      "descricao": "Gilmar Mendes (2015-2025): Declarações contra Lava Jato como \"org. criminosa\", defesas da democracia pós-8/1. Assumiu 2ª Turma STF, lançou livro, defende Moraes. Críticas persistem.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.idp.edu.br/",
+        "https://pt.wikipedia.org/wiki/Instituto_Brasileiro_de_Ensino,_Desenvolvimento_e_Pesquisa",
+        "https://www.estadao.com.br/politica/quem-e-quem-no-gabinete-do-ministro-gilmar-mendes/",
+        "https://veja.abril.com.br/revista-veja/o-juiz-e-o-empresario/",
+        "https://piaui.folha.uol.com.br/caneta-amiga-gilmar-mendes-cbf/",
+        "https://www12.senado.leg.br/noticias/materias/2025/04/24/girao-pede-apoio-para-cpi-investigar-suposta-relacao-entre-cbf-e-ministro-do-stf",
+        "https://jornalgrandebahia.com.br/2025/04/parceria-entre-idp-do-ministro-do-stf-gilmar-mendes-e-cbf-de-ednaldo-rodrigues-levanta-questionamentos-sobre-corrupcao-conflito-de-interesses-e-etica-publica/",
+        "https://epoca.globo.com/politica/expresso/noticia/2017/09/instituto-ligado-ao-ministro-gilmar-mendes-devolve-r-650-mil-jbs.html",
+        "https://crusoe.com.br/diario/exclusivo-uma-amostra-da-parceria-gilmar-idp-fecomercio/",
+        "https://www.portaldeperiodicos.idp.edu.br/rda/article/download/5862/2362/18645",
+        "https://www.forumdelisboa.com/2024/dia-28",
+        "https://www.youtube.com/watch?v=YGZ5qg_EoiU",
+        "https://www.instagram.com/reel/DIWI7oixqb0/",
+        "https://revistaoeste.com/politica/gilmar-mendes-ja-fez-12-analises-politicas-publicas-em-2025/",
+        "https://pv.org.br/jf-gastou-r-21-milhoes-em-patrocinio-ao-instituto-de-gilmar-mendes-diz-jornal/",
+        "https://veja.abril.com.br/politica/as-relacoes-perigosas-entre-gilmar-mendes-e-joesley-batista",
+        "https://piaui.folha.uol.com.br/cataratas-de-dinheiro/",
+        "https://repositorio.idp.edu.br/handle/123456789/2236",
+        "https://veja.abril.com.br/coluna/reinaldo/gilmar-mendes-diz-que-dinheiro-do-petrolao-pode-abastecer-eleicoes-em-2016/",
+        "https://www.infomoney.com.br/politica/jurista-entra-com-pedido-de-impeachment-de-gilmar-mendes/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2015-09/gilmar-mendes-vota-favor-do-financiamento-privado-de-campanhas",
+        "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grsa9ybqykir/b/portalcbf/o/RNRTAF%20-%20DRT%20-%20Edic%CC%A7a%CC%83o%202025.pdf",
+        "https://danuzionews.com/post/gilmar-mendes-um-ministro-do-stf-visita-obra-de-infraestrutura-no-mato-grosso",
+        "https://ge.globo.com/futebol/noticia/2025/05/07/stf-nao-reconhece-peticoes-ve-afastamento-incabivel-de-ednaldo-e-determina-apuracao-no-tjrj.ghtml",
+        "https://www.poder360.com.br/poder-justica/nao-tememos-nenhuma-investigacao-diz-gilmar-sobre-forum-de-lisboa/",
+        "https://www.migalhas.com.br/quentes/410337/ministro-gilmar-mendes-destaca-participacoes-em-forum-de-lisboa",
+        "https://www.gazetadopovo.com.br/ultima-analise/gilmar-mendes-cbf/",
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/07/02/gilmarpalooza-o-que-e-o-forum-que-reune-stf-deputados-e-governo-em-lisboa.htm",
+        "https://www2.senado.leg.br/bdsf/bitstream/handle/id/534423/noticia.html?sequence=1\\&isAllowed=y",
+        "https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2015/dou3_2015_08_06.pdf",
+        "https://www.gilmarmendes.com.br/frases/",
+        "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2024/04/30/cbf-tem-recorde-de-receitas-e-quase-iguala-flamengo-veja-a-origem-da-grana.htm",
+        "https://www.instagram.com/reel/C8xmMa3S5NS/",
+        "https://www.youtube.com/watch?v=yb42zoxfbNo",
+        "https://www.instagram.com/p/DM5gyuos-TT/",
+        "https://static.poder360.com.br/2024/05/Demonstrativo-financeiro-2023-CBF-30abr2024pdf.pdf",
+        "https://www.poder360.com.br/justica/gilmar-defende-realizacao-de-forum-em-lisboa-as-pessoas-vem/",
+        "https://periodicos.ufpe.br/revistas/index.php/praca/article/download/236002/32602/144621",
+        "https://g1.globo.com/politica/noticia/2025/08/01/gilmar-mendes-discursa-na-abertura-do-semestre-judiciario.ghtml",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-05/gilmar-mendes-nega-pedido-para-afastar-presidente-da-cbf",
+        "https://www.instagram.com/p/DDiGAkRyZ0r/",
+        "https://www.zebeto.com.br/2018/12/24/os-patrocinios-ocultos-do-ministro/",
+        "https://redegni.com.br/2025/08/02/gilmar-mendes-visita-obras-de-nova-ferrovia-no-mt/",
+        "https://novo.org.br/noticias/presidente-da-cbf-gilmar-mendes-conflito-de-interesse/",
+        "https://www.diariodocentrodomundo.com.br/essencial/em-2017-gilmar-mendes-garantiu-a-ex-mulher-no-conselho-da-itaipu-binacional-agora-r-15mi-de-patrocinio-para-um-evento-em-lisboa/",
+        "https://x.com/gilmarmendes",
+        "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/cbf-stf-arquiva-pedido-de-ednaldo-rodrigues-para-retornar-a-presidencia/",
+        "https://www.gazetadopovo.com.br/ideias/o-que-gilmar-mendes-danca-das-cadeiras-ednaldo-cbf/",
+        "https://cnabrasil.org.br/noticias/confederacoes-empresariais-se-reunem-com-ministro-gilmar-mendes",
+        "https://www.espn.com.br/futebol/artigo/_/id/15227764/de-onde-vem-dinheiro-cbf-como-entidade-fatura-alto-r-2-bilhoes-caixa",
+        "https://direito.idp.edu.br/idp-learning/direito-constitucional/supremo-tribunal-federal/",
+        "https://piaui.folha.uol.com.br/ednaldo-rodrigues-caiu-cbf-gilmar-mendes/",
+        "https://ffer.com.br/ministerio-da-educacao-reconhecera-pela-primeira-vez-diploma-da-cbf-academy",
+        "https://agenciabrasil.ebc.com.br/fr/node/1335690",
+        "https://www.poder360.com.br/poder-justica/socio-do-idp-gilmar-diz-nao-ver-conflito-em-contrato-com-cbf/",
+        "https://www.congressoemfoco.com.br/noticia/109877/gilmar-e-hugo-abrem-forum-de-lisboa-com-debate-sobre-ia-e-democracia",
+        "https://www.gazetadopovo.com.br/ideias/estarrecedor-ong-anticorrupcao-gilmar-mendes-entrega-rodovia/",
+        "https://x.com/fdavilaoficial/status/1924446986360549792",
+        "https://apublica.org/nota/quem-nao-foi-perdeu-gilmarpalooza-deu-palco-a-64-empresas-e-entidades-privadas/",
+        "https://www.brasil247.com/regionais/brasilia/instituto-de-gilmar-recebeu-patrocinio-de-r-2-1-mi-da-j-f",
+        "https://www.idp.edu.br/wp-content/uploads/2019/03/Ebook-Grandes-Eventos-do-IDP-Direito-Administrativo-2017.pdf",
+        "https://crusoe.com.br/edicoes/2/os-patrocinios-ocultos-do-ministro/",
+        "https://blogs.oglobo.globo.com/ancelmo/post/evento-de-gilmar-em-lisboa-conta-com-patrocinio-estatal-brasileiro-de-r-15-milhao.html",
+        "https://oantagonista.com.br/brasil/uma-amostra-da-parceria-entre-gilmar-idp-e-fecomercio/",
+        "https://jornalggn.com.br/justica/emprestimos-incomuns-do-bradesco-a-faculdade-de-gilmar-sao-revelados/",
+        "https://repositorio.idp.edu.br/bitstream/123456789/1752/1/Jurisdição_e_Processo_Constitucional.pdf",
+        "https://www.migalhas.com.br/quentes/226984/gilmar-mendes-vota-pela-constitucionalidade-do-financiamento-privado-de-campanhas",
+        "https://static.poder360.com.br/2024/01/contrato-cbf-idp-agosto-2023.pdf",
+        "https://justica.fgv.br/sites/default/files/2024-10/newsletter_x_forum_juridico_de-lisboa.pdf",
+        "https://oantagonista.com.br/brasil/gilmar-exalta-governo-de-mt-por-ferrovia-salto-civilizatorio/",
+        "https://www.threads.com/@revistapiaui/post/DIRE1zpNaAr/em-agosto-de-2023-o-contrato-estava-assinado-o-idp-passava-a-gerir-os-cursos-e-f",
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2024/06/21/evento-de-gilmar-mendes-em-lisboa-esvazia-stf-e-congresso-veja-quem-vai.htm",
+        "https://veja.abril.com.br/politica/ganhos-de-gilmar-mendes-fora-do-stf-incomodam-colegas-de-corte/",
+        "https://gdpape.org/news2019Tr4Dez.htm",
+        "https://exame.com/brasil/instituto-de-gilmar-mendes-recebeu-r-21-mi-da-jf-diz-jornal/",
+        "https://www.cnj.jus.br/nao-e-razoavel-que-o-cidadao-so-consiga-tratamento-a-partir-de-uma-acao-judicial-diz-gilmar-mendes/",
+        "https://www.youtube.com/watch?v=m-p4IO0u4EE",
+        "https://www.em.com.br/app/noticia/politica/2017/04/06/interna_politica,860205/patrocinadores-de-evento-de-gilmar-mendes-tem-acoes-no-stf.shtml",
+        "https://piaui.folha.uol.com.br/as-manobras-da-fgv-para-evitar-processos-de-corrupcao/",
+        "https://www.youtube.com/watch?v=5FLdGt5zLUQ",
+        "https://www.youtube.com/watch?v=ONgR4QDe9Oc",
+        "https://mst.org.br/2015/04/02/ha-um-ano-gilmar-mendes-sentava-sobre-acao-contra-financiamento-privado-de-campanha/",
+        "https://novo.org.br/noticias/gilmar-mendes-presidente-cbf-guilherme-kilter-pgr/",
+        "https://www.cnnbrasil.com.br/politica/forum-de-lisboa-e-totalmente-transparente-diz-gilmar-mendes-a-cnn/",
+        "https://matupaonline.com.br/gilmar-mendes-visita-obras-de-nova-ferrovia-no-mt/",
+        "https://www.tjma.jus.br/midia/tj/noticia/518196/tjma-participa-da-13a-edicao-do-forum-juridico-de-lisboa",
+        "https://www.migalhas.com.br/arquivos/2019/3/art20190314-04.pdf",
+        "https://repositorio.idp.edu.br/handle/123456789/2605/browse?type=subject\\&sort_by=1\\&order=ASC\\&rpp=20\\&etal=-1\\&value=Direito+Administrativo\\&offset=0",
+        "https://www.youtube.com/watch?v=-X9ulZpvH_Y",
+        "https://jornalggn.com.br/justica/instituto-de-gilmar-e-o-3o-maior-patrocinado-por-itaipu-que-privilegia-comunidade-juridica/",
+        "https://www.migalhas.com.br/arquivos/2018/6/art20180607-05.pdf",
+        "https://sintrajufe.org.br/reportagem-aponta-que-faculdade-de-gilmar-mendes-recebeu-descontos-milionarios-do-banco-bradesco/",
+        "https://www.gazetadopovo.com.br/republica/escolinha-do-professor-gilmar-mendes-como-e-uma-aula-do-ministro-do-stf/",
+        "https://g1.globo.com/jornal-nacional/noticia/2015/09/gilmar-mendes-vota-contra-proibir-doacoes-de-empresas-para-campanha.html",
+        "https://www.instagram.com/p/Cwkz2u5ML4d/",
+        "https://x.com/gilmarmendes/status/1951673449656529263",
+        "https://www.bnews.com.br/noticias/politica/saiba-como-gilmar-mendes-virou-parceiro-da-cbf-e-foi-decisivo-na-queda-de-ednaldo.html",
+        "https://www.gazetadopovo.com.br/republica/gilmarpalooza-evento-em-portugal-interfere-na-cena-politica-do-brasil-sem-transparencia/",
+        "https://www.enfpt.org.br/especial/retrocessos-do-governo-bolsonaro/",
+        "https://sint-ifesgo.org.br/noticia/instituto-de-gi/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2017-12/gilmar-mendes-diz-que-restricao-do-foro-privilegiado-e-um-equivoco",
+        "https://juslaboris.tst.jus.br/bitstream/handle/20.500.12178/211654/2022_rev_trt09_eletr_v0011_n0108.pdf?sequence=1\\&isAllowed=y",
+        "https://cnti.org.br/html/not_082018.htm",
+        "https://www.gilmarmendes.com.br/video/iii-congresso-nacional-de-gestao-publica-primeiro-dia-academia-brasileira-de-formacao-e-pesquisa/",
+        "http://www.oab.org.br/noticia/61699/painel-8-especialistas-debatem-jurisdicao-constitucional",
+        "https://epoca.globo.com/tempo/filtro/noticia/2015/09/gilmar-mendes-vota-contra-proibir-financiamento-privado-de-campanhas-eleitorais.html",
+        "https://linkezine.com.br/2025/04/12/42081gilmar-mendes-cbf-parceria-idp-reportagem-piaui/",
+        "https://www.youtube.com/watch?v=KPYu-FSEVnM",
+        "https://x.com/Almondesdos/status/1951694137368961197",
+        "https://www.tre-go.jus.br/comunicacao/noticias/2025/Junho/tre-go-participa-de-homenagem-a-autoridades-do-stf-e-da-pgr",
+        "https://apublica.org/2017/09/supremas-relacoes-2/",
+        "https://repositorio.idp.edu.br/browse?type=author\\&value=Mendes%2C+Gilmar+Ferreira+Org",
+        "https://crusoe.com.br/diario/patrocinios-ocultos-ex-assessora-tenta-diminuir-papel-de-gilmar/",
+        "https://www.gazetadopovo.com.br/republica/itaipu-patrocinios/",
+        "https://conhecimento.fgv.br/sites/default/files/2022-08/publicacoes/completo_anais_ix_forum_lisboa_0.pdf",
+        "https://www.congressoemfoco.com.br/noticia/51686/bradesco-deu-descontos-milionarios-a-faculdade-de-gilmar-mendes-aponta-buzzfeed",
+        "https://repositorio.idp.edu.br/bitstream/123456789/1751/1/Jurisdição_Constitucional_e_direitos_fundamentais.pdf",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2015-09/veto-financiamento-empresarial-favorece-caixa-dois-diz-gilmar-mendes",
+        "https://www.youtube.com/watch?v=W3d6LPJCz2M",
+        "https://folhadeparaguacu.com.br/gilmarmendesprestigiaobrasferrovia-matogrosso/",
+        "https://www.infomoney.com.br/esportes/gilmar-mendes-refuta-conflito-de-interesse-ao-julgar-casos-envolvendo-a-cbf/",
+        "https://www12.senado.leg.br/noticias/materias/2024/03/25/gilmar-mendes-destaca-o-legado-de-brasileiros-notaveis-no-senado",
+        "https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2016/dou1_2016_03_07.pdf",
+        "https://veja.abril.com.br/politica/advogado-da-jbs-tratou-de-patrocinio-a-instituto-de-gilmar-mendes/",
+        "https://www.youtube.com/watch?v=oPmiUyjKczQ",
+        "https://cfa.org.br/wp-content/uploads/2018/08/relatorio_2017_2.pdf",
+        "https://veja.abril.com.br/brasil/temer-nomeia-ex-mulher-de-gilmar-mendes-para-itaipu/",
+        "https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/*/KEY%253A%2522ACORDAO-%2520/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/11",
+        "https://www.cnnbrasil.com.br/economia/macroeconomia/stf-julga-acao-que-pode-flexibilizar-fim-da-contribuicao-sindical-obrigatoria/",
+        "https://www.jota.info/stf/do-supremo/gilmar-mendes-professores-e-alunos-de-constitucional-discutem-um-brasil-em-construcao",
+        "https://www.bbc.com/portuguese/noticias/2015/09/150917_financiamento_campanha_stf_pai_ms",
+        "https://www.revistaoeste.com/politica/contrato-comprova-parceria-de-empresa-de-gilmar-mendes-com-cbf/",
+        "https://static.poder360.com.br/2024/06/forum-lisboa-gilmar-mendes-programacao.pdf",
+        "https://climainfo.org.br/2025/03/27/gilmar-mendes-exclui-mineracao-em-discussao-sobre-marco-temporal/",
+        "https://www.infomoney.com.br/politica/senado-aprova-convite-a-presidente-da-cbf-para-explicar-relacao-com-gilmar-mendes/",
+        "https://portal.fgv.br/noticias/fgv-brasilia-recebe-ministro-gilmar-mendes-seminario-judicializacao-politicas-publicas",
+        "https://veja.abril.com.br/politica/as-relacoes-perigosas-entre-gilmar-mendes-e-joesley-batista/",
+        "https://exame.com/brasil/instituto-de-gilmar-mendes-recebeu-r-21-mi-da-jf-diz-jornal",
+        "https://exame.com/brasil/patrocinadores-de-evento-de-gilmar-mendes-tem-acoes-no-stf/",
+        "https://www.instagram.com/reel/DIRHLuXuQG1/",
+        "https://veja.abril.com.br/coluna/reinaldo/gilmar-mendes-pt-instalou-financiamento-publico-com-dinheiro-do-petrolao/",
+        "https://www.em.com.br/app/noticia/politica/2017/12/12/interna_politica,924128/ex-mulher-de-gilmar-mendes-diz-que-sua-indicacao-para-itaipu-e-tecnic.shtml",
+        "https://mestrado-doutorado.fgv.br/blog/noticia/min-gilmar-mendes-participa-de-seminario-sobre-judicializacao-das-politicas-publicas",
+        "https://www.sindcine.com.br/NoticiaInterna/627/contribuicao-assistencial-ministro-gilmar-mendes-rejeita-recurso-contra-taxa-de-nao-sindcializados",
+        "https://repositorio.idp.edu.br/bitstream/123456789/5064/1/Anais_XXVI_Congresso_Internacional_de_Direito_Constitucional__1_.pdf",
+        "https://transparenciainternacional.org.br/posts/o-que-sabemos-sobre-os-efeitos-da-proibicao-das-doacoes-empresariais-no-financiamento-de-campanhas-eleitorais-no-brasil/",
+        "https://www.ferroviamt.com.br",
+        "https://portal.fgv.br/noticias/ministro-gilmar-mendes-participa-evento-discutir-decisoes-judiciais-e-politicas-publicas",
+        "https://revistaoeste.com/politica/gilmarpalooza-12-empresas-com-acoes-no-stf-participam-de-evento-de-gilmar-mendes-em-lisboa/",
+        "https://www.funbio.org.br/wp-content/uploads/2019/08/Mulheres_na_Atividade_Pesqueira_no_Brasil.pdf",
+        "https://www.jota.info/justica/cortes-constitucionais-sao-muito-politicas-diz-gilmar",
+        "https://www.cnj.jus.br/wp-content/uploads/2020/08/WEB_LIVRO_CNJ15ANOS-1.pdf",
+        "https://veja.abril.com.br/coluna/me-engana-que-eu-posto/ex-mulher-de-gilmar-mendes-agrediu-reporter-em-entrevista/",
+        "https://www.sinesp.org.br/noticias/aconteceu-no-sinesp/20122-sinesp-se-reune-com-ministro-gilmar-mendes-contra-o-confisco-de-14-e-as-escolas-civico-militares"
       ],
       "pessoas_envolvidas": [
         "Distribuição Anual",
@@ -8292,12 +8580,153 @@
         "estudos",
         ""
       ],
-      "descricao": ">",
+      "descricao": "\"Corrupção no Brasil pós-redemocratização. Paradoxo de instituições robustas vs. esquemas endêmicos adaptáveis. \"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.camara.leg.br/noticias/1064913-juristas-e-deputados-apontam-erros-e-acertos-da-operacao-lava-jato-que-completou-dez-anos/",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261\\&ori=1",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261&ori=1",
+        "https://noticias.stf.jus.br/postsnoticias/stf-mantem-nulidade-de-atos-da-lava-jato-contra-marcelo-odebrecht/",
+        "https://pt.wikipedia.org/wiki/An%C3%B5es\\_do\\_Or%C3%A7amento",
+        "https://pt.wikipedia.org/wiki/An%C3%B5es_do_Or%C3%A7amento",
+        "http://memorialdademocracia.com.br/card/cpi-investiga-anoes-do-orcamento",
+        "https://www.migalhas.com.br/quentes/189701/mantida-condenacao-de-lalau-e-luiz-estevao-por-desvio-de-verbas",
+        "https://www.brasildefato.com.br/2017/09/25/responsaveis-por-desvios-no-predio-do-lalau-devolverao-rdollar-1-bi-a-cofres-publicos/",
+        "https://linhadotempo.mpf.mp.br/www/linha-do-tempo-prr3/2016-caso-trt-sp-determinada-prisao-do-ex-senador-luiz-estevao",
+        "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo\\_do\\_Banestado",
+        "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_do_Banestado",
+        "https://pt.wikipedia.org/wiki/Alberto\\_Youssef",
+        "https://pt.wikipedia.org/wiki/Alberto_Youssef",
+        "https://brasil.mongabay.com/2025/03/o-escandalo-da-sudam-ou-como-o-desmatamento-foi-apoiado-pelo-governo/",
+        "https://www.em.com.br/app/noticia/politica/2011/03/27/interna\\_politica,217893/caso-sudam-impunidade-se-arrasta-por-uma-decada.shtml",
+        "https://www.em.com.br/app/noticia/politica/2011/03/27/interna_politica,217893/caso-sudam-impunidade-se-arrasta-por-uma-decada.shtml",
+        "https://www.gov.br/sudam/pt-br/acesso-a-informacoes/institucional/historico-sudam",
+        "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo\\_dos\\_sanguessugas",
+        "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_dos_sanguessugas",
+        "https://www.brasilparalelo.com.br/noticias/20-anos-do-mensalao---relembre-um-dos-maiores-escandalos-de-corrupcao-do-brasil",
+        "https://infograficos.oglobo.globo.com/politica/saiba-quem-sao-os-acusados-do-mensalao.html",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=462620\\&ori=1",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=462620&ori=1",
+        "https://portal.tcu.gov.br/imprensa/noticias/tcu-aponta-que-cartel-causou-prejuizos-de-r-18-bilhoes-a-petrobras.htm",
+        "https://veja.abril.com.br/politica/corrupcao-custou-r-428-bilhoes-a-petrobras-avalia-pf/",
+        "https://brasilescola.uol.com.br/brasil/operacao-lava-jato.htm",
+        "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2019/Quinta-Turma-reduz-pena-do-ex-presidente-Lula-para-oito-anos-e-dez-meses.aspx",
+        "https://www.cnnbrasil.com.br/politica/fraude-bilionaria-inss-abre-investigacao-interna-contra-12-entidades/",
+        "https://www.cnnbrasil.com.br/politica/entenda-como-funcionava-a-fraude-de-r-6-bilhoes-em-beneficios-do-inss/",
+        "https://www.terra.com.br/noticias/brasil/politica/lembre-do-escandalo-dos-anoes-do-orcamento-que-completa-20-anos,3f1376212bd42410VgnVCM3000009af154d0RCRD.html",
+        "https://www.gazetadopovo.com.br/vida-publica/ex-senador-ira-devolver-r-468-mi-desviados-do-trt-sp-2t7yz3etpe6vyi47h7130cy1a/",
+        "https://www12.senado.leg.br/radio/1/noticia/2012/08/24/quase-r-500-milhoes-desviados-da-construcao-do-trt-sp-serao-devolvidos",
+        "https://smabc.org.br/caso-lalau-faz-20-anos-sem-solucao/",
+        "https://repositorio.fgv.br/server/api/core/bitstreams/d1820e42-8c4f-4619-ba69-624b20264b25/content",
+        "https://www.camara.leg.br/noticias/58274-contas-cc5-viabilizaram-as-movimentacoes-ilegais/",
+        "https://www.camara.leg.br/noticias/41065-cpmi-do-banestado-faz-diligencia-em-foz-do-iguacu/",
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2014-05/justica-federal-no-parana-determina-prisao-de-youssef",
+        "https://www.nexojornal.com.br/expresso/2016/11/16/alberto-youssef-o-doleiro-que-moro-perdoou-duas-vezes",
+        "https://m.folha.uol.com.br/poder/2015/03/1601678-acesse-a-integra-dos-depoimentos-da-delacao-do-doleiro-alberto-youssef.shtml",
+        "https://www.diariodecuiaba.com.br/brasil/entenda-o-caso-sudam/88868",
+        "https://aventurasnahistoria.com.br/noticias/reportagem/escandalo-do-mensalao-como-funcionava-o-polemico-sistema-de-compra-de-votos.phtml",
+        "https://mundoeducacao.uol.com.br/politica/mensalao.htm",
+        "https://www.camara.leg.br/tv/385985-maioria-dos-ministros-do-supremo-condena-jose-dirceu-jose-genoino-e-delubio-soares-por-corrupcao-ativa/",
+        "https://www.jota.info/stf/do-supremo/entrevista-recondo-e-weber",
+        "https://www.trf5.jus.br/index.php/noticias/leitura-de-noticias?%2Fid=322562",
+        "https://www.trf5.jus.br/index.php/noticias/leitura-de-noticias?/id=322562",
+        "https://www.jfsp.jus.br/comunicacao-publica/indice-noticias/noticias-2014/23102014-seis-pessoas-sao-condenadas-por-corrupcao-na-mafia-das-ambulancias",
+        "https://www.infomoney.com.br/colunistas/economia-e-politica-direto-ao-ponto/especial-resumao-completo-sobre-a-operacao-lava-jato-e-o-petrolao/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2016-12/retrospectiva-politica-2016",
+        "https://portal.contagem.mg.gov.br/portal/noticias/0/3/81486/procon-alerta-fraude-no-inss-como-saber-se-houve-valores-descontados-e-conseguir-o-ressarcimento",
+        "https://periodicos.fgv.br/rbe/article/download/90275/87703/217586",
+        "https://repositorio.ufpe.br/bitstream/123456789/12549/1/DISSERTA%C3%87%C3%83O%20Flavius%20Raymundo%20Arruda%20Sodre.pdf",
+        "https://sbap.org.br/ebap-2022/474.pdf",
+        "https://www.bnb.gov.br/documents/45787/668947/Os+impactos+da+corrup%C3%A7%C3%A3o+no+desenvolvimento+humano%2C+desigualdade+de+renda+e+pobreza+dos+munic%C3%ADpios+brasileiros.pdf/0a501fea-cbe2-6638-8ce4-2e9f7d26c7d3?version=1.0\\&t=1638470172372\\&download=true",
+        "https://www.bnb.gov.br/documents/45787/668947/Os+impactos+da+corrup%C3%A7%C3%A3o+no+desenvolvimento+humano%2C+desigualdade+de+renda+e+pobreza+dos+munic%C3%ADpios+brasileiros.pdf/0a501fea-cbe2-6638-8ce4-2e9f7d26c7d3?version=1.0&t=1638470172372&download=true",
+        "https://repositorio.enap.gov.br/jspui/bitstream/1/5684/1/1-lugar.pdf",
+        "https://www.unodc.org/documents/lpo-brazil/Topics\\_corruption/Campanha-2013/CORRUPCAO\\_E\\_DESENVOLVIMENTO.pdf",
+        "https://www.unodc.org/documents/lpo-brazil/Topics_corruption/Campanha-2013/CORRUPCAO_E_DESENVOLVIMENTO.pdf",
+        "https://www.usinagem-brasil.com.br/57495-estudos-indicam-que-lava-jato-destruiu-444-milhoes-de-empregos/",
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2024-03/lava-jato-destruiu-444-milhoes-de-empregos-aponta-estudo",
+        "https://www.cut.org.br/noticias/legado-da-lava-jato-para-o-pais-desemprego-obra-parada-e-investimento-jogado-for-94fd",
+        "https://ojs.uel.br/revistas/uel/index.php/mediacoes/article/download/35617/32320/238010",
+        "https://www.teoriaepesquisa.ufscar.br/index.php/tp/article/view/965",
+        "https://www.scielo.br/j/rbcpol/a/fmVjS6nMXFZHFYBJ9jpwH9g/?format=pdf",
+        "https://www.teses.usp.br/teses/disponiveis/2/2134/tde-17072020-004705/publico/8047445\\_Dissertacao\\_Parcial.pdf",
+        "https://www.teses.usp.br/teses/disponiveis/2/2134/tde-17072020-004705/publico/8047445_Dissertacao_Parcial.pdf",
+        "https://transparenciainternacional.org.br/posts/o-que-sabemos-sobre-os-efeitos-da-proibicao-das-doacoes-empresariais-no-financiamento-de-campanhas-eleitorais-no-brasil/",
+        "https://www.scielo.br/j/nec/a/zJ4Z3WTQrpFh3bNzgdfkZ5n/?lang=pt",
+        "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/agenda-legislativa/capitulo-11-financiamento-de-campanhas-eleitorais-reflexoes-e-alternativas-possiveis-para-a-reforma-politica",
+        "https://www.scielo.br/j/nec/a/ZfshVgYBWNncYS7pn9pfh9G/",
+        "https://pt.wikipedia.org/wiki/Homem\\_cordial",
+        "https://pt.wikipedia.org/wiki/Homem_cordial",
+        "https://select.art.br/homem-cordial/",
+        "https://atricon.org.br/o-homem-cordial-e-a-corrupcao/",
+        "https://repositorio.ufu.br/bitstream/123456789/45042/1/Oconceitode%E2%80%9Chomem%20cordial%E2%80%9D.pdf",
+        "https://revista.cgu.gov.br/Revista\\_da\\_CGU/article/download/94/pdf\\_39/736",
+        "https://revista.cgu.gov.br/Revista_da_CGU/article/download/94/pdf_39/736",
+        "https://www.teses.usp.br/teses/disponiveis/2/2133/tde-21112011-103454/publico/LP\\_Combate\\_a\\_Corrupcao\\_Final\\_LP\\_160109.pdf",
+        "https://www.teses.usp.br/teses/disponiveis/2/2133/tde-21112011-103454/publico/LP_Combate_a_Corrupcao_Final_LP_160109.pdf",
+        "https://www.politize.com.br/corrupcao-no-brasil-5-orgaos-combate/",
+        "https://www.gov.br/cgu/pt-br/cgu-20-anos/historia",
+        "https://klalaw.com.br/cgu-bate-recorde-historico-processos-anticorrupcao-2024/",
+        "https://www.gov.br/cgu/pt-br/assuntos/noticias/2025/01/cgu-alcanca-marco-historico-com-a-instauracao-de-76-processos-administrativos-de-responsabilizacao-em-2024",
+        "https://sites.tcu.gov.br/recursos/trabalhos-pos-graduacao/pdfs/Integra%C3%A7%C3%A3o%20e%20coopera%C3%A7%C3%A3o%20entre%20institui%C3%A7%C3%B5es%20do%20estado%20brasileiro%20no%20combate%20%C3%A0%20corrup%C3%A7%C3%A3o.pdf",
+        "https://argestaodenegocios.com.br/lei-anticorrupcao-uma-decada-de-medidas-e-avancos-no-combate-a-corrupcao-no-brasil/",
+        "https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/compliance-e-investigacoes/combate-a-corrupcao-no-brasil-evolucoes-recentes-e-desafios-futuros",
+        "https://abes.com.br/a-evolucao-da-lei-anticorrupcao-no-brasil-10-anos-de-progresso/",
+        "https://www.cnnbrasil.com.br/politica/acordos-de-leniencia-precisam-de-repactuacao-para-nao-aniquilar-empresas-diz-ex-ministro-da-cgu/",
+        "https://www.noticias.unb.br/artigos-main/1637-obstaculos-para-os-acordos-de-leniencia",
+        "https://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/discursoACTleniencia.pdf?utm\\_source=infojud.com.br\\&utm\\_medium=referral\\&utm\\_content=portal\\_primenews\\&utm\\_campaign=hotfixpress",
+        "https://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/discursoACTleniencia.pdf?utm_source=infojud.com.br&utm_medium=referral&utm_content=portal_primenews&utm_campaign=hotfixpress",
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o\\_Lava\\_Jato",
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato",
+        "https://dspace.mj.gov.br/bitstream/1/9729/1/Edi%C3%A7%C3%A3o%20n%C2%B0%2032%20-%20outubro\\_2017%20%E2%80%94%20Minist%C3%A9rio%20da%20Justi%C3%A7a%20e%20Seguran%C3%A7a%20P%C3%BAblica.pdf",
+        "https://dspace.mj.gov.br/bitstream/1/9729/1/Edi%C3%A7%C3%A3o%20n%C2%B0%2032%20-%20outubro_2017%20%E2%80%94%20Minist%C3%A9rio%20da%20Justi%C3%A7a%20e%20Seguran%C3%A7a%20P%C3%BAblica.pdf",
+        "https://veja.abril.com.br/brasil/lava-jato-faz-acordos-de-colaboracao-com-37-paises/",
+        "https://www.poder360.com.br/lava-jato/lava-jato-em-3-anos-foram-183-pedidos-de-cooperacao-internacional/",
+        "https://pt.wikipedia.org/wiki/Vaza\\_Jato",
+        "https://pt.wikipedia.org/wiki/Vaza_Jato",
+        "https://repositorio.ulisboa.pt/bitstream/10400.5/29691/2/Dissertac%CC%A7a%CC%83o%20-%20Renan%20Lacerda%20Feitosa%20de%20Araujo.pdf",
+        "https://jornal.usp.br/ciencias/questionamentos-sobre-a-lava-jato-mudaram-visao-da-imprensa-internacional-sobre-a-operacao-aponta-pesquisa/",
+        "https://dialnet.unirioja.es/descarga/articulo/8667676.pdf",
+        "https://www2.senado.leg.br/bdsf/bitstream/handle/id/593411/noticia.html?sequence=3\\&isAllowed=y",
+        "https://www2.senado.leg.br/bdsf/bitstream/handle/id/593411/noticia.html?sequence=3&isAllowed=y",
+        "https://dialnet.unirioja.es/descarga/articulo/9512617.pdf",
+        "https://www.youtube.com/watch?v=uUQ1o-pV5-4",
+        "https://www.cnnbrasil.com.br/politica/pedido-de-cooperacao-internacional-da-lava-jato-foi-feito-antes-da-leniencia-com-a-odebrecht-aponta-pgr/",
+        "https://meusitejuridico.editorajuspodivm.com.br/2019/09/02/stf-e-anulacao-de-processos-relacionados-operacao-lava-jato-questao-constitucional-formal-ou-politica-disfarcada-em-tecnica/",
+        "https://revistas.pucsp.br/aurora/article/download/38307/26876/0",
+        "https://pt.wikipedia.org/wiki/Impeachment\\_de\\_Dilma\\_Rousseff",
+        "https://pt.wikipedia.org/wiki/Impeachment_de_Dilma_Rousseff",
+        "https://www2.senado.leg.br/bdsf/bitstream/handle/id/521972/noticia.html?sequence=1\\&isAllowed=y",
+        "https://www2.senado.leg.br/bdsf/bitstream/handle/id/521972/noticia.html?sequence=1&isAllowed=y",
+        "https://www.scielo.br/j/osoc/a/cSRSy4zmYjStnvwwyPxqfkr/",
+        "https://revistas.usp.br/ran/article/download/226226/212529/747197",
+        "https://www.camara.leg.br/noticias/495541-97-dos-crimes-de-corrupcao-no-brasil-ficam-impunes-diz-dallagnol/",
+        "https://www.scielo.br/j/rdgv/a/8YCfBprncgs57thRcjt3DsC/?lang=pt",
+        "https://www.scielo.br/j/rbcpol/a/mSf9sx7LsZB6QCFx9YgrgLh/",
+        "https://transparenciainternacional.org.br/posts/brasil-registra-pior-nota-e-pior-posicao-da-serie-historica-do-indice-de-percepcao-da-corrupcao/",
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2024-01/com-36-pontos-brasil-cai-10-posicoes-em-ranking-que-mede-corrupcao",
+        "https://www.youtube.com/watch?v=3ksLWJeCIPM",
+        "https://www.cnnbrasil.com.br/politica/brasil-despenca-em-indice-de-corrupcao-e-tem-pior-nota-desde-2012/",
+        "https://gife.org.br/brasil-assume-a-posicao-mais-baixa-no-ranking-historico-do-indice-de-percepcao-da-corrupcao-desde-2012/",
+        "https://www.portaldeperiodicos.idp.edu.br/rbgp/article/download/7391/3100/24964",
+        "https://www.cnnbrasil.com.br/politica/cgu-leva-ao-g20-uso-de-inteligencia-artificial-contra-corrupcao-em-compras-publicas/",
+        "https://revista.cgu.gov.br/Revista\\_da\\_CGU/article/download/531/368/3667",
+        "https://revista.cgu.gov.br/Revista_da_CGU/article/download/531/368/3667",
+        "https://www.gov.br/cgu/pt-br/assuntos/noticias/2024/05/cgu-disponibiliza-ferramenta-alice-para-estados-e-municipios-identificarem-licitacoes-com-suspeitas-de-irregularidades",
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2018-08/orgaos-publicos-usam-inteligencia-artificial-para-combater-corrupcao",
+        "https://portal.tcu.gov.br/imprensa/noticias/uso-de-inteligencia-artificial-aprimora-processos-internos-no-tcu.htm",
+        "https://www.gov.br/mds/pt-br/acoes-e-programas/governanca/integridade/campanhas/denuncias-e-protecao-ao-denunciante",
+        "https://dialnet.unirioja.es/descarga/articulo/5492703.pdf",
+        "https://www.planalto.gov.br/ccivil\\_03/\\_ato2019-2022/2019/decreto/d10153.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d10153.htm",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2019-09/rede-ouvidorias-define-medidas-de-protecao-para-denunciantes",
+        "https://transparenciainternacional.org.br/posts/rretrospectiva-2024-recomendacoes/",
+        "https://www.gov.br/cgu/pt-br/plano-de-integridade-e-combate-a-corrupcao-2025-2027/arquivos/plano\\_integridade\\_combate\\_corrupcao\\_2025-2027.pdf",
+        "https://www.gov.br/cgu/pt-br/plano-de-integridade-e-combate-a-corrupcao-2025-2027/arquivos/plano_integridade_combate_corrupcao_2025-2027.pdf",
+        "https://transparenciainternacional.org.br/posts/convencao-da-ocde-brasil-recua-no-combate-a-corrupcao-internacional/",
+        "https://www12.senado.leg.br/radio/1/noticia/2025/04/04/projeto-quer-endurecer-penas-para-crimes-ligados-ao-trafico-corrupcao-e-crime-organizado",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/167898"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -8324,12 +8753,31 @@
         "estudos",
         ""
       ],
-      "descricao": "|",
+      "descricao": "\"Análise jurídica do dossiê alega 111 violações constitucionais por Moraes (2019-2025), com \"devido processo legal\" em 89% dos casos. Cronologia mostra escalada de censuras, prisões e prorrogações, questionando proporcionalidade e separação de poderes. \"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://periodicorease.pro.br/rease/article/download/18435/10748/46942",
+        "https://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/mandado27maio.pdf",
+        "https://www.conjur.com.br/2022-nov-27/inquerito-fake-news-stf-relacao-justica/",
+        "https://periodicos.famig.edu.br/index.php/direito/article/download/381/290",
+        "https://www.bbc.com/portuguese/brasil-64464312",
+        "https://g1.globo.com/politica/noticia/2025/08/04/moraes-decreta-prisao-domiciliar-de-jair-bolsonaro.ghtml",
+        "https://www.bbc.com/portuguese/articles/c2l7zkz9jr9o",
+        "https://noticias.stf.jus.br/postsnoticias/stf-determina-prisao-domiciliar-do-ex-presidente-jair-bolsonaro-por-descumprimento-de-medidas-cautelares/",
+        "https://noticias.stf.jus.br/postsnoticias/stf-impoe-novas-medidas-cautelares-ao-senador-marcos-do-val-apos-violacao-de-proibicao-de-viagem-ao-exterior/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2025-08/senador-marcos-do-val-e-levado-para-colocar-tornozeleira-eletronica",
+        "https://home.treasury.gov/news/press-releases/sb0211",
+        "https://www.bbc.com/portuguese/articles/c14zjp3l6d7o",
+        "https://www.newyorker.com/magazine/2025/04/14/the-brazilian-judge-taking-on-the-digital-far-right",
+        "https://www.youtube.com/watch?v=z_FD85_oEaM",
+        "https://www.cnnbrasil.com.br/esportes/dedo-do-meio-e-sorrisos-veja-bastidores-de-alexandre-de-moraes-em-itaquera/",
+        "https://noticias.stf.jus.br/postsnoticias/stf-autoriza-saidas-temporarias-de-daniel-silveira-para-tratamento-de-saude/",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/daniel-silveira-medico-alerta-risco-morte-prisao-moraes-nega-prisao-domiciliar/",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+        "https://www.transparency.org/en/cpi/2024"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -8357,12 +8805,14 @@
         "venezuela",
         "gravidade-media"
       ],
-      "descricao": ">",
+      "descricao": "\"Um avião cargueiro russo Ilyushin IL-76, de empresa sancionada pelos EUA por transportar material militar à Venezuela, pousou em Brasília e permaneceu por três dias, levantando suspeitas e sem registro oficial na ANAC, antes de seguir para Venezuela e Cuba.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/aviao-russo-sancionado-pelos-eua-que-esteve-no-brasil-foi-a-venezuela-e-esta-em-cuba/",
+        "https://www.metropoles.com/mundo/aviao-da-russia-sancionado-pelos-eua-chega-ao-brasil",
+        "https://aeroin.net/apos-deixar-brasilia-e-passar-pela-bolivia-e-colombia-aviao-russo-il-76-pousa-na-venezuela/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -8398,7 +8848,16 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/usaid-e-tse-fizeram-eventos-para-combater-desinformacao-um-ano-antes-das-eleicoes-de-2022/",
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/tse-brazil-counter-disinformation-program-2022.pdf",
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/brazil-electoral-justice-permanent-program-on-countering-disinformation",
+        "https://eyesonbrasil.com/usaid-and-brazils-2022-elections-a-controversial-intersection/",
+        "https://dunapress.org/usaid-interference-in-brazil-raises-concerns-about-national-sovereignty/",
+        "https://www.ainvestigacao.com/p/pt-utiliza-robos-mavs-e-o-novo-ministerio",
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/",
+        "https://www.ifes.org/sites/default/files/2022-09/IFES%20Brazil%20FAQs%202022%20General%20Election.pdf",
+        "https://www.civilizationworks.org/cw-master-blog/the-january-8th-files-inside-brazils-secret-judicial-task-force-for-mass-arrests"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -8431,12 +8890,18 @@
         "big-techs",
         "plataformas"
       ],
-      "descricao": ">",
+      "descricao": "\"Você já se perguntou por que tantos líderes políticos ao redor do mundo são subitamente investigados, presos ou impedidos de concorrer às eleições?",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://twitter-thread.com/t/1954356565856637340",
+        "https://pbs.twimg.com/media/Gx9A0rkWYAI-wof?format=png\\&name=4096x4096",
+        "https://x.com/leonardodias",
+        "https://x.com/arvor_ia",
+        "https://x.com/omastrolha",
+        "https://x.com/leonardodias/status/1954307103319015577",
+        "https://x.com/leonardodias/status/1951815923557601624"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -8469,7 +8934,15 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jusbrasil.com.br/noticias/os-10-maiores-casos-de-corrupcao-da-historia-do-brasil/465611767",
+        "https://pt.wikipedia.org/wiki/Corrup%C3%A7%C3%A3o_no_Brasil",
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://www.brasilparalelo.com.br/noticias/20-anos-do-mensalao---relembre-um-dos-maiores-escandalos-de-corrupcao-do-brasil",
+        "https://www.scielo.br/j/ee/a/k5MBdyT3NHDT5Y36SsccnjB",
+        "https://oglobo.globo.com/economia/confira-alguns-dos-principais-escandalos-financeiros-ja-registrados-no-brasil-2926839",
+        "https://pt.tradingeconomics.com/brazil/corruption-index",
+        "https://www.noticiasagricolas.com.br/noticias/informe-publicitario/392832-o-maior-escandalo-bancario-do-mundo-r-841-bilhoes-de-prejuizo-no-agronegocio.html",
+        "https://www.bbc.com/portuguese/articles/cn0nv24r346o"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -8530,7 +9003,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/tst-compra-carros-hibridos-de-luxo-ministros/",
+        "https://oglobo.globo.com/politica/noticia/2025/08/12/tst-compra-27-carros-de-r-3465-mil-cada-para-ministros-se-deslocarem-em-brasilia.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -8641,7 +9115,18 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://twitter-thread.com/t/1955760177891647587",
+        "https://x.com/hashtag/CrimeOrganizado",
+        "https://x.com/hashtag/PCC",
+        "https://x.com/hashtag/Economia",
+        "https://x.com/hashtag/Justi%C3%A7a",
+        "https://x.com/hashtag/Seguran%C3%A7aP%C3%BAblica",
+        "https://x.com/hashtag/Mercado",
+        "https://x.com/hashtag/Brasil",
+        "https://x.com/hashtag/Investiga%C3%A7%C3%A3o",
+        "https://x.com/hashtag/COAF",
+        "https://x.com/hashtag/Corrup%C3%A7%C3%A3o",
+        "https://x.com/hashtag/Institui%C3%A7%C3%B5es"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -8672,12 +9157,13 @@
         "zambelli",
         "exilio"
       ],
-      "descricao": ">",
+      "descricao": "\"Carla Zambelli passa mal durante audiência na Itália, permanece presa e é levada ao hospital. Ela alega perseguição política e deseja novo julgamento.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/noticia/2025/08/13/presa-na-italia-carla-zambelli-participa-de-audiencia-diz-que-esta-passando-mal-e-e-levada-a-hospital.ghtml",
+        "https://www.bbc.com/portuguese/articles/c4gezmnenepo"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -8734,12 +9220,14 @@
         "crise-diplomatica",
         "big-techs"
       ],
-      "descricao": ">",
+      "descricao": "\"Em retaliação a autoridades brasileiras, o governo Trump revogou vistos de brasileiros ligados ao programa Mais Médicos, intensificando a pressão diplomática em meio a controvérsias sobre direitos humanos e regulação de big techs.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/clyj4ggglqgo",
+        "https://g1.globo.com/politica/noticia/2025/08/13/lula-trump.ghtml",
+        "https://oglobo.globo.com/economia/noticia/2025/08/13/lula-diz-que-ninguem-esta-desrespeitando-direitos-humanos-no-brasil-apos-relatorio-dos-eua.ghtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -8764,7 +9252,21 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://cbn.globo.com/podcasts/walter-maierovitch-justica-e-cidadania/",
+        "https://www.jusbrasil.com.br/artigos/e-viva-o-pais-da-impunidade-onde-o-crime-compensa/1738735061",
+        "https://www.cambridge.org/core/journals/law-and-society-review/article/consciencia-juridica-relacional-e-anticorrupcao-lava-jato-interacoes-em-redes-sociais-e-a-coproducao-da-detracao-do-direito-no-brasil-20172019/3546B378CA5021DB6478F2E735EC3851",
+        "https://www.scielo.br/j/dilemas/a/QHSwt8pXJKHV4SvKmLW7gFn/",
+        "https://www.cnj.jus.br/wp-content/uploads/2025/02/relatorio-anual-cnj-2024.pdf",
+        "https://www.estadao.com.br/estadao-verifica/stj-stf-soltam-presos-manchetes-fora-contexto/?srsltid=AfmBOooQjRXruE3gqJA5CJcGTJaq96Z1iZ5aX5wilC7-4Mb0NG2mE8TH",
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2020/10/12/juristas-andre-do-rap-stf.htm",
+        "https://www.cnnbrasil.com.br/nacional/stj-solta-chefe-do-pcc-por-considerar-abordagem-da-pm-ilegal-policiais-e-promotores-reagem/",
+        "https://www.gazetadopovo.com.br/ideias/seis-traficantes-pcc-soltos-justica-brasileira/",
+        "https://g1.globo.com/sp/campinas-regiao/noticia/2024/11/19/stf-manda-soltar-15-integrantes-de-quadrilha-que-opera-trafico-de-drogas-em-galerias-de-campinas.ghtml",
+        "https://www.estadao.com.br/politica/sergio-moro-anulacao-atos-operacao-lava-jato-alberto-youssef-nprp/?srsltid=AfmBOopoipon5UB0l9oRXgOC2PJtyoZ9lkZM-d6yugvMt_LRczZqcA1V",
+        "https://www.conjur.com.br/2025-jun-25/alberto-youssef-pede-que-stf-reconheca-suspeicao-de-moro-e-anule-condenacoes-da-lava-jato/",
+        "https://oglobo.globo.com/blogs/sonar-a-escuta-das-redes/post/2025/02/moro-cita-fantasiosa-nulidade-e-ve-combate-a-corrupcao-esvaziado-apos-stf-anular-acoes-da-lava-jato-contra-palocci.ghtml",
+        "https://www.camara.leg.br/noticias/1064913-juristas-e-deputados-apontam-erros-e-acertos-da-operacao-lava-jato-que-completou-dez-anos/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2024-03/dez-anos-da-lava-jato-o-que-aconteceu-com-os-personagens-da-operacao"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -8806,7 +9308,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cx2xnn4wplro",
+        "https://www.gazetadopovo.com.br/republica/em-evento-com-influenciadores-moraes-nega-ter-acelerado-acao-contra-bolsonaro/",
+        "https://agoranoticiasbrasil.com.br/2025/08/eua-avaliam-sancoes-contra-assessores-de-alexandre-de-moraes-apos-documentacao-entregue-por-eduardo-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -8830,12 +9334,12 @@
       "tags": [
         "estudos"
       ],
-      "descricao": ">",
+      "descricao": "Judiciário Brasileiro - Compliance & Accountability.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://claude.ai/public/artifacts/7a531da0-acc3-4ca3-ba58-dec82efcb683"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -8865,12 +9369,13 @@
         "perseguicao",
         "bolsonarista"
       ],
-      "descricao": ">",
+      "descricao": "\"Marca o primeiro aniversário desde que Alexandre de Moraes silenciou Ed Raposo nas redes sociais, com posts e artigos destacando a censura contínua sem denúncia formal ou julgamento, afetando sua liberdade de expressão.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jornaldacidadeonline.com.br/noticias/61424/mais-um-conservador-e-censurado-a-perseguicao-nao-cessa",
+        "https://x.com/flferronato/status/1956082225369505979"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -8892,12 +9397,12 @@
       "tags": [
         "estudos"
       ],
-      "descricao": ">",
+      "descricao": "Um painel interativo sobre os supersalários no setor público brasileiro.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://gemini.google.com/share/d82951f5926a"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -8915,12 +9420,12 @@
       "tags": [
         "estudos"
       ],
-      "descricao": ">",
+      "descricao": "Visão geral do dossiê investigativo e recomendações estratégicas.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://gemini.google.com/share/751e504a5707"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -9003,12 +9508,16 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"PF abre inquérito para investigar suposta compra de vagas no Tribunal de Contas do Estado do Maranhão.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/ma/maranhao/noticia/2025/08/08/dino-manda-a-policia-federal-investigar-suposto-esquema-de-compra-de-vagas-na-indicacao-de-conselheiros-do-tce-ma.ghtml",
+        "https://www.metropoles.com/brasil/pf-abre-investigacao-sobre-compra-de-vagas-no-tce-do-maranhao",
+        "https://oimparcial.com.br/brasil/2025/08/pf-abre-inquerito-para-investigar-suposta-compra-de-vagas-no-tce-ma/",
+        "https://www.cartacapital.com.br/justica/dino-manda-a-pf-apurar-indicacao-do-governador-do-maranhao-ao-tribunal-de-contas/",
+        "https://www.gazetadopovo.com.br/republica/briga-entre-dino-e-governador-do-maranhao-se-acirra-e-ganha-novos-capitulos-no-stf/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -9044,7 +9553,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://gemini.google.com/share/74f96fa1676c"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -9242,12 +9751,12 @@
         "desinformacao",
         "maria-da-penha"
       ],
-      "descricao": ">",
+      "descricao": "\"AGU amplia escopo de atuação com processo contra Brasil Paralelo por desinformação no documentário sobre Maria da Penha.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/08/agu-amplia-escopo-de-atuacao-com-processo-contra-a-brasil-paralelo-por-desinformacao.shtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9272,12 +9781,13 @@
         "governo-da-russia",
         "gravidade-baixa"
       ],
-      "descricao": ">",
+      "descricao": "\"O presidente Lula recebeu ligação do presidente russo Vladimir Putin para discutir paz na Ucrânia, relações bilaterais e cooperação no BRICS, reforçando laços diplomáticos apesar de tensões globais.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gov.br/planalto/en/latest-news/2025/08/president-lula-received-a-phone-call-from-russian-president-vladimir-putin",
+        "http://en.kremlin.ru/catalog/persons/103/events/77812"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9306,12 +9816,12 @@
         "sancoes",
         "soberania"
       ],
-      "descricao": ">",
+      "descricao": "\"O ministro Flavio Dino decide que cidadãos brasileiros não podem ser automaticamente sujeitos a leis ou decisões estrangeiras no território nacional, em meio a disputas com os EUA sobre sanções.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.reuters.com/world/americas/brazils-supreme-court-exempts-citizens-foreign-legal-decisions-amid-spat-with-us-2025-08-18/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9341,12 +9851,14 @@
         "gravidade-alta",
         "big-techs"
       ],
-      "descricao": ">",
+      "descricao": "\"O governo brasileiro enviou documento contestando acusações de práticas discriminatórias contra empresas americanas, defendendo regulação digital, sistema do PIX, e justificando regras para big techs, alegando não discriminar comércio dos EUA.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/economia/noticia/2025/08/19/resposta-brasil-eua.ghtml",
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2025-02/brics-deve-avancar-no-uso-de-moedas-locais-entre-os-paises-membros",
+        "https://oglobo.globo.com/economia/tecnologia/noticia/2025/08/19/big-techs-chancelam-acusacoes-infundadas-em-manifestacao-de-apoio-a-investigacao-comercial-dos-eua-contra-o-brasil.ghtml"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9377,12 +9889,13 @@
         "transferencias-financeiras",
         "bolsonaro"
       ],
-      "descricao": ">",
+      "descricao": "\"A Polícia Federal indicia Jair Bolsonaro e Eduardo Bolsonaro por obstrução de justiça, alegando uso de contas de esposas para ocultar transferências financeiras e evitar bloqueios judiciais.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://ocp.news/politica/pf-indicia-bolsonaro-e-eduardo-em-inquerito-sobre-sancoes-dos-eua",
+        "https://www.spress.news/noticia/bolsonaro-omitiu-transferencia-de-r-2-milhoes-a-michelle-diz-pf"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9416,12 +9929,14 @@
         "maria-da-penha",
         "desinformacao"
       ],
-      "descricao": ">",
+      "descricao": "\"Brasil Paralelo tira do ar o documentário 'Investigação Paralela: o caso Maria da Penha' após ser alvo de censura judicial, alegando desinformação e acusações infundadas de fraude.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/brasil-paralelo-e-alvo-de-censura-e-tira-do-ar-documentario-sobre-maria-da-penha/",
+        "https://x.com/EliVieiraJr/status/1958563175072145902",
+        "https://www.instagram.com/p/DNi_TMvtcH_/?hl=en"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9448,7 +9963,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.dw.com/pt-br/moraes-bancos-que-acatarem-san%25C3%25A7%25C3%25B5es-dos-eua-arriscam-puni%25C3%25A7%25C3%25A3o/a-73710476"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -9479,12 +9994,13 @@
         "perseguicao-religiosa",
         "malafaia"
       ],
-      "descricao": ">",
+      "descricao": "\"O ministro Alexandre de Moraes determina busca e apreensão contra o pastor Silas Malafaia, incluindo apreensão de celular e proibição de deixar o país, por suposta obstrução de justiça relacionada a ações de coação envolvendo Bolsonaro.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://jc.uol.com.br/politica/2025/08/20/alexandre-de-moraes-determina-busca-e-apreensao-contra-silas-malafaia.html",
+        "https://www.brasil247.com/brasil/pf-cumpre-busca-e-apreensao-contra-silas-malafaia-e-proibe-o-pastor-de-deixar-o-pais"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9518,12 +10034,13 @@
         "brasil-paralelo",
         "senado"
       ],
-      "descricao": ">",
+      "descricao": "\"Senador Eduardo Girão denuncia censura e perseguição à produtora Brasil Paralelo por documentário sobre Maria da Penha, que foi suspenso por decisão judicial.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www12.senado.leg.br/noticias/materias/2025/08/20/girao-denuncia-censura-e-perseguicao-a-produtora-por-documentario-sobre-maria-da-penha",
+        "https://www.youtube.com/watch?v=51fYKNsLSA8"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9554,12 +10071,13 @@
         "bancos",
         "crise-diplomatica"
       ],
-      "descricao": ">",
+      "descricao": "\"Ação faz parte de uma série de cancelamentos de vistos que atinge ministros do STF, membros do Ministério Público, integrantes da Polícia Federal e ex-servidores ligados ao programa Mais Médicos. \"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/mundo/governo-dos-eua-teria-revogado-vistos-de-lewandowski-e-pacheco-diz-paulo-figueiredo/",
+        "https://noticias.uol.com.br/colunas/mariana-sanches/2025/08/20/governo-dos-eua-anuncia-cassacao-de-vistos-de.htm"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9650,7 +10168,20 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/radioagencia-nacional/justica/audio/2025-03/primeira-turma-do-stf-confirma-suspensao-da-rumble-no-brasil",
+        "https://www.cnnbrasil.com.br/politica/stj-recebe-notificacao-do-rumble-para-intimar-moraes-em-acao-nos-eua/",
+        "https://www.bbc.com/portuguese/articles/cyvep11qd6po",
+        "https://www.cnnbrasil.com.br/politica/bloqueada-no-brasil-rumble-comemora-sancoes-contra-moraes/",
+        "https://www.cnnbrasil.com.br/politica/linha-do-tempo-o-que-aconteceu-ate-eua-aplicarem-magnistky-contra-moraes/",
+        "https://apublica.org/2025/02/quatro-pontos-para-entender-a-guerra-de-trump-e-rumble-contra-moraes/",
+        "https://www.brasilagro.com.br/conteudo/sancoes-de-trump-a-moraes-vitorias-da-liberdade-de-expressao-e-da-justica.html",
+        "https://g1.globo.com/economia/noticia/2025/08/19/decisao-de-dino-entenda-as-duvidas-geradas-e-como-bancos-podem-ser-afetados.ghtml",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-08/veto-alcanca-tribunais-estrangeiros-mas-nao-internacionais-diz-dino",
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2025/02/20/moraes-vira-alvo-em-acao-de-empresa-de-trump-e-da-rumble-nos-eua.htm",
+        "https://www.cartacapital.com.br/justica/stj-recebe-pedido-para-intimar-moraes-em-acao-movida-pelo-rumble-e-empresa-de-trump/",
+        "https://www.bbc.com/portuguese/articles/cx2xnn4wplro",
+        "https://www.bbc.com/portuguese/articles/c8ryl2px01mo",
+        "https://www.gazetadopovo.com.br/economia/bancos-perdem-bilhoes-valor-de-mercado-decisao-dino-lei-magnitsky/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -9677,7 +10208,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/economia/financas/noticia/2025/08/20/itau-banco-do-brasil-btg-veja-as-perdas-dos-bancos-por-causa-da-decisao-de-dino-sobre-a-lei-magnitsky.ghtml",
+        "https://www.estadao.com.br/politica/mudanca-tom-novas-decisoes-entenda-escalada-tensao-stf-supremo-tribunal-federal-estados-unidos-nprp/?srsltid=AfmBOoo3gu6ZEA5hy4-T4oVR65qpEwvE1cSG9UluHPtry-1mXZFSpvt4"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -9709,12 +10241,13 @@
         "bancos",
         "crise-diplomatica"
       ],
-      "descricao": ">",
+      "descricao": "\"O ministro Alexandre de Moraes adverte que tribunais podem punir instituições financeiras brasileiras por bloquear ativos domésticos em resposta a ordens dos EUA, elevando tensões em meio a sanções Magnitsky.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.reuters.com/business/finance/judge-us-crosshairs-warns-brazil-banks-not-apply-sanctions-locally-2025-08-20/",
+        "https://www.riotimesonline.com/brazil-news/brazil/u-s-sanctions-on-brazils-justice-moraes-leave-banks-trapped-between-courts-and-washington/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -9741,7 +10274,20 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2025/07/19/eua-suspendem-vistos-de-moraes-de-outros-sete-ministros-do-stf-e-do-pgr-mendonca-nunes-marques-e-fux-ficam-de-fora.ghtml",
+        "https://www.cnnbrasil.com.br/politica/eua-suspenderam-vistos-de-oito-ministros-do-stf-e-do-pgr-dizem-fontes/",
+        "https://www.migalhas.com.br/quentes/435014/alem-de-moraes-outros-7-ministros-tiveram-o-visto-americano-cancelado",
+        "https://www.cartacapital.com.br/politica/decisao-dos-eua-de-suspender-vistos-atinge-8-dos-11-ministros-do-stf/",
+        "https://g1.globo.com/politica/blog/julia-duailibi/post/2025/08/15/vistos-cancelados-mulher-filha-alexandre-padilha.ghtml",
+        "https://agenciabrasil.ebc.com.br/radioagencia-nacional/justica/audio/2025-03/primeira-turma-do-stf-confirma-suspensao-da-rumble-no-brasil",
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2025/07/19/quem-sao-as-autoridades-brasileiras-que-vao-ficar-sem-visto-dos-eua.htm",
+        "https://www.cnnbrasil.com.br/politica/linha-do-tempo-o-que-aconteceu-ate-eua-aplicarem-magnistky-contra-moraes/",
+        "https://www.bbc.com/portuguese/articles/clyj4ggglqgo",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-08/gilmar-mendes-ironiza-cancelamento-de-visto-dos-eua",
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2025/07/18/barroso-saiu-dos-eua-quatro-dias-antes-de-revogacao-de-visto.htm",
+        "https://www.bbc.com/portuguese/articles/cyvep11qd6po",
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2025/02/20/moraes-vira-alvo-em-acao-de-empresa-de-trump-e-da-rumble-nos-eua.htm",
+        "https://apublica.org/2025/02/quatro-pontos-para-entender-a-guerra-de-trump-e-rumble-contra-moraes/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -9769,7 +10315,13 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/",
+        "https://www.brasildefato.com.br/",
+        "https://oglobo.globo.com/",
+        "https://www.poder360.com.br/",
+        "https://veja.abril.com.br/",
+        "https://www.gazetadopovo.com.br/",
+        "https://www.cnnbrasil.com.br/"
       ],
       "pessoas_envolvidas": [
         "Progressistas",
@@ -9802,7 +10354,13 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/",
+        "https://www.brasildefato.com.br/",
+        "https://oglobo.globo.com/",
+        "https://www.poder360.com.br/",
+        "https://veja.abril.com.br/",
+        "https://www.gazetadopovo.com.br/",
+        "https://www.cnnbrasil.com.br/"
       ],
       "pessoas_envolvidas": [
         "Progressistas",
@@ -9837,7 +10395,20 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2025/08/20/pf-faz-buscas-e-apreensoes-contra-silas-malafaia.ghtml",
+        "https://www.cnnbrasil.com.br/politica/pf-vai-periciar-celular-de-silas-malafaia/",
+        "https://agenciabrasil.ebc.com.br/radioagencia-nacional/justica/audio/2025-08/malafaia-tem-celular-apreendido-e-passaporte-cancelado",
+        "https://www.cnnbrasil.com.br/politica/malafaia-rebate-pf-que-pais-e-esse-vai-ter-que-me-prender-pra-me-calar/",
+        "https://g1.globo.com/politica/noticia/2025/08/20/vai-ter-que-me-prender-para-me-calar-diz-malafaia-apos-depoimento-a-pf.ghtml",
+        "https://cdn.direcaoconcursos.com.br/uploads/2020/10/Constitucional-prf-3.pdf",
+        "https://bd-login.tjmg.jus.br/jspui/bitstream/tjmg/9199/3/artigo-Brant,MHC-Os%20s%C3%ADmbolos%20nacionais%20na%20Constitui%C3%A7%C3%A3o.pdf",
+        "https://www.ibdcult.org/post/os-s%C3%ADmbolos-nacionais-numa-sociedade-plural",
+        "https://revistaseletronicas.fmu.br/index.php/FMUD/article/download/142/175/388",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://agenciajavali.com.br/os-principais-simbolos-juridicos-sua-historia-e-usos-atuais/",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao67.htm",
+        "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/08/21/apos-ser-alvo-de-moraes-malafaia-grava-video.ghtml",
+        "https://www.cnnbrasil.com.br/politica/pf-identifica-silas-malafaia-em-esquema-de-coacao-e-mentiras-com-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Lei nº 13.869/2019 (Abuso de Autoridade):",
@@ -9876,12 +10447,14 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Juiz libera homem preso com 200 kg de cocaína considerando quantidade pequena e aplicando tráfico privilegiado.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2025/08/21/justica-considera-pequena-quantidade-e-manda-soltar-homem-preso-com-200-kg-de-cocaina.ghtml",
+        "https://www.jornalcnet.com.br/noticia/homem-preso-com-200-kg-de-cocaina-em-itu-e-solto-apos-audiencia-de-custodia",
+        "https://www.facebook.com/saoroquenoticias/posts/juiz-solta-homem-preso-pelo-baep-na-castello-branco-com-200-kg-de-pasta-base-de-/792340413467475/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -9946,12 +10519,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Juiz Ivan Lúcio Amarante recebeu R$ 6 milhões em propina por venda de sentenças judiciárias.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2025/08/21/pf-aponta-r-6-milhoes-em-propina-para-juiz-por-venda-de-sentencas.ghtml"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -9994,12 +10567,13 @@
         "perseguicao",
         "bolsonaro"
       ],
-      "descricao": ">",
+      "descricao": "\"A polícia brasileira acusa o ex-presidente Jair Bolsonaro de planejar fugir para a Argentina e buscar asilo político, alegando perseguição política. Foi encontrada uma carta de 33 páginas endereçada ao presidente Milei solicitando asilo.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://nypost.com/2025/08/21/world-news/brazilian-police-say-bolsonaro-was-planning-on-fleeing-to-argentina-seeking-asylum/",
+        "https://www.theguardian.com/world/2025/aug/21/jair-bolsonaro-argentina-asylum-plan-brazil"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -10026,12 +10600,12 @@
         "cooperacao-militar",
         "sancoes-indiretas"
       ],
-      "descricao": ">",
+      "descricao": "\"Em meio à crise diplomática, os EUA cancelam a participação em evento militar com a Força Aérea Brasileira (FAB), afetando a Operação Formosa que contaria com mobilização de militares da Marinha do Brasil e colaboração de fuzileiros navais americanos.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/crise-diplomatica-atinge-cooperacao-militar-entre-brasil-e-eua/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -10061,7 +10635,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/poder-governo/um-cara-sem-dente-e-ainda-negro-reclama-lula-de-foto-do-governo/",
+        "https://www.gazetadopovo.com.br/republica/lula-reclama-foto-homem-negro-sem-dentes/",
+        "https://www.youtube.com/watch?v=TgzUIQVbuTA"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -10086,7 +10662,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/jornal-nacional/noticia/2025/08/22/andre-mendonca-critica-ativismo-judicial.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -10113,7 +10689,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.instagram.com/p/DNqb3nxx7ns/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -10149,12 +10725,16 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Advogados e funcionários de banco fraudaram liberação de precatórios causando prejuízo ao Estado de mais de R$ 3,5 milhões.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/df/distrito-federal/noticia/2025/08/22/advogados-e-funcionarios-de-banco-sao-alvos-de-operacao-da-pf-contra-fraudes-em-precatorios-judiciais-no-df-e-ma.ghtml",
+        "https://www.metropoles.com/colunas/mirelle-pinheiro/pf-desmonta-fraude-de-r-35-milhoes-em-precatorios-no-df-e-ma",
+        "https://oimparcial.com.br/noticias/2025/08/pf-deflagra-operacao-contra-fraude-de-r-35-milhoes-em-precatorios-no-ma-e-df/",
+        "https://www.netoferreira.com.br/pf-desarticula-esquema-que-causou-rombo-de-r-35-milhoes-com-fraude-em-precatorios-judiciais-no-ma/",
+        "https://www.gp1.com.br/policia/noticia/2025/8/22/pf-desmonta-fraude-de-r-35-milhoes-em-precatorios-no-maranhao-e-distrito-federal-602013.html"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -10190,7 +10770,44 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.portaltela.com/noticias/politica/2025/08/22/brasil-registra-26-da-populacao-sob-dominio-de-faccoes-criminosas-na-america-latina",
+        "https://www.redalyc.org/journal/5638/563872581001/html/",
+        "https://www.scielo.br/j/dilemas/a/Q4YkhN9xPyMCZmp7RJ3k9cb/",
+        "https://www.scienceopen.com/document?vid=e7ca2da8-6c52-4ef0-918b-2b53ca7fff0f",
+        "https://www.redalyc.org/journal/5638/563872581011/html/",
+        "https://www.scielo.sa.cr/pdf/ri/v95n2/2215-4582-ri-95-02-106.pdf",
+        "https://www.scielo.br/j/dilemas/a/77jyq7NdvQm6fyDDCkVdgpB/",
+        "https://www.scielo.br/j/op/a/TXGfR7Z8fdz6K8kYwtw6Fjw/?lang=pt",
+        "https://www.undp.org/pt/brazil/news/percepcoes-publicas-da-politica-e-suas-implicacoes-para-respostas-covid-19-na-america-latina-e-no-caribe",
+        "https://www.researchgate.net/publication/363000225_Governanca_Criminal_na_America_Latina_em_Perspectiva_Comparada_Apresentacao_a_edicao_especial",
+        "https://www.redalyc.org/journal/5638/563872581001/",
+        "https://repositorio.ufpe.br/bitstream/123456789/51255/1/TCC%20Ayla%20Reis%20de%20Lima.pdf",
+        "https://revistaoeste.com/brasil/faccoes-criminosas-brasileiras-faturam-ate-r-335-bilhoes-com-cocaina-revela-estudo/",
+        "https://revistaoeste.com/brasil/brasil-tem-88-faccoes-criminosas-em-atividade-diz-governo/",
+        "https://www.cnnbrasil.com.br/nacional/centro-oeste/df/governo-identifica-88-organizacoes-criminosas-atuantes-no-brasil/",
+        "https://fontesegura.forumseguranca.org.br/as-53-faccoes-criminosas-brasileiras/",
+        "https://brasilescola.uol.com.br/sociologia/pcc-primeiro-comando-da-capital.htm",
+        "https://pt.wikipedia.org/wiki/Primeiro_Comando_da_Capital",
+        "https://veja.abril.com.br/brasil/faccoes-colocam-tres-estados-do-nordeste-no-topo-do-ranking-de-homicidios/",
+        "https://www.scielo.br/j/nec/a/XV3MYGkK4CySbDtfxpZkKNk/?lang=pt",
+        "https://unifor.br/-/entrevista-nota-10-juliana-mamede-e-o-efeito-das-faccoes-criminosas-na-crise-de-seguranca-publica",
+        "https://www.ihu.unisinos.br/categorias/172-noticias-2012/514138-pcc-atua-em-123-cidades-paulistas",
+        "https://www.cnnbrasil.com.br/nacional/milicias-controlam-57-do-territorio-da-cidade-do-rio-de-janeiro-diz-pesquisa/",
+        "https://www.cnnbrasil.com.br/nacional/comando-vermelho-e-o-grupo-armado-que-mais-conquistou-territorios-no-rj-diz-instituto/",
+        "https://globalinitiative.net/wp-content/uploads/2024/01/Nicholas-Pope-e-Antonio-Sampaio-Mediac%CC%A7a%CC%83o-e-coerc%CC%A7a%CC%83o-Mili%CC%81cias-e-governanc%CC%A7a-urbana-no-Rio-de-Janeiro-GI-TOC-Janeiro-de-2024.pdf",
+        "https://pt.wikipedia.org/wiki/Comando_Vermelho",
+        "https://revistatopicos.com.br/artigos/raizes-historicas-da-criminalidade-no-brasil-desigualdade-violencia-e-identidade",
+        "https://www.unitins.br/RepositorioDigital/Publico/Home/VisualizarArquivo/157",
+        "https://apublica.org/2018/02/disseminacao-de-faccoes-tem-impacto-profundo-na-violencia-geral-diz-pesquisadora/",
+        "https://pt.wikipedia.org/wiki/Conflito_entre_fac%C3%A7%C3%B5es_criminosas_brasileiras_entre_2016_e_2020",
+        "https://ojs.cnmp.mp.br/index.php/revistacsp/article/download/211/184/609",
+        "https://dialnet.unirioja.es/descarga/articulo/10089006.pdf",
+        "https://www.gov.br/mj/pt-br/assuntos/noticias/politicas-publicas-de-combate-a-criminalidade-20-municipios-aderem-ao-programa-cidadesusp",
+        "https://jornalistaslivres.org/orcamento-2020-corte-de-r-38-bilhoes-no-ministerio-de-moro/",
+        "https://www.camara.leg.br/noticias/700485-proposta-altera-orcamento-de-2020-para-cobrir-gasto-extra-de-r-38-bi-no-seguro-desemprego/",
+        "https://www.infobae.com/mexico/2024/04/23/narcomapa-2024-que-carteles-tienen-mayor-presencia-en-mexico/",
+        "https://www.hrw.org/world-report/2024/country-chapters/honduras",
+        "https://www.oas.org/en/iachr/jsForm/?File=/en/iachr/media_center/preleases/2024/101.asp"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -10219,7 +10836,21 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/comentarios-escritos-do-brasil-ao-ustr-no-ambito-da-secao-301(",
+        "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/43779815/2fb3a928-3129-4db2-8d8f-4ef5f0ec18ce/2025-08-25-brasil-e-big-techs-o-impacto-da-secao-301.md",
+        "https://www.instagram.com/p/DNy1WGM4tEb/",
+        "https://opeb.org/2025/08/21/a-sociedade-civil-brasileira-e-o-conflito-israel-palestina/",
+        "https://cbn.globo.com/mundo/noticia/2025/06/13/embaixada-de-israel-em-brasilia-permanece-fechada-apos-ataques-do-pais-ao-ira.ghtml",
+        "https://glomes.com.br/os-riscos-do-rompimento-de-relacoes-diplomaticas-do-brasil-e-israel/?b=7%2F",
+        "https://www.gazetadopovo.com.br/republica/lula-escala-crise-com-israel-e-entidades-judaicas-constrange-aliados-e-fortalece-antissemitismo/",
+        "https://www.cbnsantos.com.br/noticias/cultura/brasil-mantem-embaixada-esvaziada-em-tel-aviv-enquanto-avalia-romper-acordos-estrategicos-evangelicos-militares-demonstram-preocupacao-com-os-impactos.html",
+        "https://www.fatectatuape.edu.br/h/d/CTG/ManualRelatorioCientifico.pdf",
+        "https://www.gazetadopovo.com.br/republica/em-carta-a-lula-pt-pede-fim-da-relacao-diplomatica-e-comercial-com-israel/",
+        "https://blog.fastformat.co/relatorio-tecnico-e-ou-cientifico-normas-abnt/",
+        "https://noticias.r7.com/prisma/alem-das-embaixadas/embaixada-de-israel-no-brasil-nao-esta-fechada-afirma-embaixador-14062025/",
+        "https://veronoticias.com/politica/amorim-explica-recusa-a-novo-embaixador-de-israel/",
+        "https://www.fca.unesp.br/Home/Biblioteca/folheto_modelos-de_referencias-e-citacoes_2017_mar.pdf",
+        "https://www.pucminas.br/biblioteca/DocumentoBiblioteca/ABNT-Elaborar-formatar-relatorio-tecnico-e-ou-cientifico.pdf"
       ],
       "pessoas_envolvidas": [
         "Risco digital",
@@ -10264,7 +10895,11 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.migalhas.com.br/quentes/433462/stf-redes-respondem-por-posts-mesmo-sem-ordem-judicial-veja-tese",
+        "https://tozzinifreire.com.br/boletins/mudancas-relevantes-trazidas-pela-resolucao-anatel-n-7802025",
+        "https://tribunadopoder.com.br/mundo/81-big-techs-enviam-carta-a-trump-sobre-a-secao-301-contra-o-brasil/",
+        "https://teletime.com.br/19/08/2025/a-ustr-associacoes-de-techs-dos-eua-reclamam-da-anatel-congresso-e-supremo/",
+        "https://www.gazetadopovo.com.br/mundo/trump-ameaca-impor-tarifas-e-restringir-exportacao-de-tecnologia-a-paises-que-regularem-big-techs/"
       ],
       "pessoas_envolvidas": [
         "Censura disfarçada de regulação",
@@ -10294,7 +10929,23 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/mundo/noticia/2025/08/25/itamaraty-ignora-indicacao-de-embaixador-de-israel-e-pais-rebaixa-relacoes-com-o-brasil.ghtml",
+        "https://diariodobrasilnoticias.com.br/noticia/itamaraty-ignora-indicacao-de-embaixador-e-israel-rebaixa-relacoes-com-o-brasil-eles-humilharam-nosso-embaixador-la-diz-celso-amorim-68acded45e096",
+        "https://history.state.gov/milestones/1969-1976/USChina",
+        "https://diplomatique.org.br/re-lacoes-entre-belgica-e-ruanda-apos-o-genocidio/",
+        "https://www.dw.com/pt-br/israel-e-alemanha-uma-rela%C3%A7%C3%A3o-marco/a-56786188",
+        "https://www.bbc.com/news/world-europe-42448802",
+        "https://www.lefigaro.fr/international/2015/01/31/01003-20150131ARTFIG00084-le-maroc-et-la-france-tournent-la-page-de-la-crise.php",
+        "https://g1.globo.com/mundo/noticia/2025/08/25/itamaraty-ignora-indicacao-de-embaixador-de-isra",
+        "https://support.zendesk.com/hc/pt-br/articles/4408846544922-Formata%C3%A7%C3%A3o-de-texto-com-Markdown",
+        "https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/writing-essentials/markdown",
+        "https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
+        "https://pt.meta.stackoverflow.com/questions/4813/como-formatar-uma-cita%C3%A7%C3%A3o-bibliogr%C3%A1fica-utilizando-o-padr%C3%A3o-abnt-em-uma-resposta",
+        "https://bibtex.eu/pt/rmarkdown/",
+        "https://www.inteligenciaurbana.org/2021/05/markdown-parte3-limarka.html",
+        "https://learn.microsoft.com/pt-br/contribute/content/markdown-reference",
+        "https://portal.revendadesoftware.com.br/manuais/base-de-conhecimento/sintaxe-markdown",
+        "https://pt.stackoverflow.com/help/formatting"
       ],
       "pessoas_envolvidas": [
         "Divergência ética-política:",
@@ -10337,7 +10988,27 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.migalhas.com.br/quentes/438531/moraes-restringe-decisao-em-que-suspendeu-acoes-sobre-dados-do-coaf",
+        "https://www.cartacapital.com.br/politica/o-ajuste-de-moraes-apos-suspender-acoes-sobre-o-uso-de-relatorios-do-coaf/",
+        "https://www.correiodopovo-al.com.br/noticia/2025/08/24/decisao-de-moraes-impacta-operacoes-contra-faccoes-e-lavagem",
+        "https://g1.globo.com/sp/sao-paulo/noticia/2025/08/25/mp-questiona-decisao-de-moares-sobre-coaf-que-pode-prejudicar-investigacoes-contra-faccoes.ghtml",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-08/moraes-esclarece-decisao-que-suspende-processos-sobre-dados-do-coaf",
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2025/08/25/gilmar-mendes-diverge-de-moraes-e-impede-emissao-de-relatorios-do-coaf-sem-autorizacao-judicial.htm",
+        "https://www.instagram.com/p/DNy8GyR5L9i/",
+        "https://www.youtube.com/watch?v=lCNJ0me7JSs",
+        "https://www.instagram.com/reel/DNyQuAEwGK5/",
+        "https://revistaoeste.com/politica/stf-divergencia-sobre-relatorios-do-coaf-gera-incertezas-juridicas/",
+        "https://www.youtube.com/watch?v=qONo8tXIj88",
+        "https://support.zendesk.com/hc/pt-br/articles/4408846544922-Formata%C3%A7%C3%A3o-de-texto-com-Markdown",
+        "https://www.freecodecamp.org/portuguese/news/como-formatar-codigo-em-markdown/",
+        "https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/writing-essentials/markdown",
+        "https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
+        "https://pt.stackoverflow.com/help/formatting",
+        "https://www.youtube.com/watch?v=W4lwpeDNbY4",
+        "https://portal.revendadesoftware.com.br/manuais/base-de-conhecimento/sintaxe-markdown",
+        "https://learn.microsoft.com/pt-br/contribute/content/markdown-reference",
+        "https://support.discord.com/hc/pt-br/articles/210298617-Texto-em-Markdown-101-formata%C3%A7%C3%A3o-de-chat-negrito-it%C3%A1lico-sublinhado",
+        "https://www.instagram.com/p/DNyp1szXjvk/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -10650,10 +11321,10 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Crime organizado / lavagem",
       "fontes": [
-        "Receita Federal (oficial): Operação Carbono Oculto: RFB e órgãos parceiros combatem organização responsável por sonegação e lavagem de dinheiro — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis",
-        "Ministério da Justiça (oficial): Operações Quasar, Tank e Carbono Oculto desarticulam esquemas bilionários — https://www.gov.br/mj/pt-br/assuntos/noticias/operacoes-quasar-tank-e-carbono-oculto-desarticulam-esquemas-bilionarios-de-lavagem-de-dinheiro-e-fraudes-no-setor-de-combustiveis",
-        "Wikipédia: Operação Carbono Oculto — Wikipédia — https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto",
-        "InfoMoney: Operação Carbono Oculto: entenda o esquema bilionário do PCC no setor de combustíveis — https://www.infomoney.com.br/brasil/operacao-carbono-oculto-entenda-o-esquema-bilionario-do-pcc-no-setor-de-combustiveis/"
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis",
+        "https://www.gov.br/mj/pt-br/assuntos/noticias/operacoes-quasar-tank-e-carbono-oculto-desarticulam-esquemas-bilionarios-de-lavagem-de-dinheiro-e-fraudes-no-setor-de-combustiveis",
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto",
+        "https://www.infomoney.com.br/brasil/operacao-carbono-oculto-entenda-o-esquema-bilionario-do-pcc-no-setor-de-combustiveis/"
       ],
       "pessoas_envolvidas": [
         "Roberto Augusto Leme da Silva — 'Beto Louco'",
@@ -10703,7 +11374,7 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Lavagem de dinheiro",
       "fontes": [
-        "Wikipédia: Operação Carbono Oculto — Wikipédia — https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto"
       ],
       "pessoas_envolvidas": [
         "Pedro Furtado",
@@ -10741,7 +11412,7 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Regulação",
       "fontes": [
-        "Receita Federal (oficial): Operação Carbono Oculto: RFB — nota oficial — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis"
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/operacao-carbono-oculto-rrb-e-orgaos-parceiros-combatem-organizacao-responsavel-por-sonegacao-e-lavagem-de-dinheiro-no-setor-de-combustiveis"
       ],
       "pessoas_envolvidas": [
         "Receita Federal"
@@ -10779,7 +11450,7 @@
       "impacto_diplomatico": "Médio",
       "tipo_escandalo": "Análise comparativa",
       "fontes": [
-        "Receita Federal (oficial): Operação Poço de Lobato: Receita Federal — nota oficial — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
       ],
       "pessoas_envolvidas": [
         "N/A"
@@ -10815,7 +11486,7 @@
       "impacto_diplomatico": "Médio",
       "tipo_escandalo": "Cooperação internacional",
       "fontes": [
-        "Receita Federal (oficial): Operação Poço de Lobato — nota oficial da Receita Federal — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto"
       ],
       "pessoas_envolvidas": [
         "N/A"
@@ -11592,7 +12263,7 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Crime organizado / lavagem",
       "fontes": [
-        "Wikipédia: Operação Carbono Oculto — Wikipédia — https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Carbono_Oculto"
       ],
       "pessoas_envolvidas": [
         "PCC — Primeiro Comando da Capital"
@@ -11747,8 +12418,8 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Judiciário / inquérito",
       "fontes": [
-        "O Amazônico: PF indicia 31 pessoas por maior fraude de crédito de carbono no Brasil — https://www.oamazonico.com.br/materias/pf-indicia-31-pessoas-por-maior-fraude-de-credito-de-carbono-no-brasil",
-        "Brasilagro: PF aponta organização criminosa em maior fraude com créditos de carbono — https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html"
+        "https://www.oamazonico.com.br/materias/pf-indicia-31-pessoas-por-maior-fraude-de-credito-de-carbono-no-brasil",
+        "https://www.brasilagro.com.br/conteudo/-pf-aponta-organizacao-criminosa-em-maior-fraude-com-creditos-de-carbono.html"
       ],
       "pessoas_envolvidas": [
         "Ricardo Stoppe Júnior"
@@ -12716,7 +13387,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "Deslegitimação da soberania popular — blindagem corporativa do STF — Padrões P3 e P8",
       "fontes": [
-        "Revista Oeste, 22/04/2026 — https://revistaoeste.com/politica/gilmar-critica-200-milhoes-de-juristas-com-opinioes-sobre-o-stf/"
+        "https://revistaoeste.com/politica/gilmar-critica-200-milhoes-de-juristas-com-opinioes-sobre-o-stf/"
       ],
       "pessoas_envolvidas": [
         "Gilmar Ferreira Mendes"
@@ -13016,8 +13687,8 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Regulatório / mercado de capitais",
       "fontes": [
-        "Revista Fórum: Banco Master: 6 fundos do caso contra o PCC estão ligados ao escândalo de Vorcaro — https://revistaforum.com.br/brasil/banco-master-6-fundos-do-caso-contra-o-pcc-estao-ligados-ao-escandalo-de-vorcaro/",
-        "CNN Brasil: Liquidada pelo BC, Reag já foi alvo de megaoperação contra o PCC — https://www.cnnbrasil.com.br/nacional/sudeste/sp/liquidada-pelo-bc-reag-ja-foi-alvo-de-megaoperacao-contra-o-pcc-entenda/"
+        "https://revistaforum.com.br/brasil/banco-master-6-fundos-do-caso-contra-o-pcc-estao-ligados-ao-escandalo-de-vorcaro/",
+        "https://www.cnnbrasil.com.br/nacional/sudeste/sp/liquidada-pelo-bc-reag-ja-foi-alvo-de-megaoperacao-contra-o-pcc-entenda/"
       ],
       "pessoas_envolvidas": [
         "Gabriel Galípolo",
@@ -13103,8 +13774,8 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Sistema financeiro",
       "fontes": [
-        "O Tempo: Entenda o caso do Banco Master, que levou Daniel Vorcaro à prisão pela segunda vez — https://www.otempo.com.br/economia/2026/3/4/entenda-o-caso-do-banco-master-que-levou-daniel-vorcaro-a-prisao-pela-segunda-vez",
-        "Gazeta do Povo: Banco Master: a fraude bilionária ajudada por falhas de Estado — https://www.gazetadopovo.com.br/economia/economia-fraude-banco-master-esquema-falhas-estado/"
+        "https://www.otempo.com.br/economia/2026/3/4/entenda-o-caso-do-banco-master-que-levou-daniel-vorcaro-a-prisao-pela-segunda-vez",
+        "https://www.gazetadopovo.com.br/economia/economia-fraude-banco-master-esquema-falhas-estado/"
       ],
       "pessoas_envolvidas": [
         "Daniel Vorcaro",
@@ -13361,8 +14032,8 @@
       "impacto_diplomatico": "Médio",
       "tipo_escandalo": "Tributário / lavagem",
       "fontes": [
-        "Receita Federal (oficial): Operação Poço de Lobato: Receita Federal desarticulam esquema bilionário ligado à Operação Carbono Oculto — https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto",
-        "Metrópoles: Refit mudou estrutura financeira após Carbono Oculto, diz Receita — https://www.metropoles.com/sao-paulo/refinaria-mudou-estrutura-apos-carbono-oculto"
+        "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/operacao-poco-de-lobato-receita-federal-e-orgaos-parceiros-desarticulam-esquema-bilionario-ligado-a-operacao-carbono-oculto",
+        "https://www.metropoles.com/sao-paulo/refinaria-mudou-estrutura-apos-carbono-oculto"
       ],
       "pessoas_envolvidas": [
         "Ricardo Magro"
@@ -13604,7 +14275,7 @@
       "impacto_diplomatico": "Baixo",
       "tipo_escandalo": "Normativo tributário",
       "fontes": [
-        "Transparência Internacional Brasil: Operação Carbono Oculto: revelações e desdobramentos — https://transparenciainternacional.org.br/posts/operacao-carbono-oculto-revelacoes-e-desdobramentos/"
+        "https://transparenciainternacional.org.br/posts/operacao-carbono-oculto-revelacoes-e-desdobramentos/"
       ],
       "pessoas_envolvidas": [
         "Receita Federal"

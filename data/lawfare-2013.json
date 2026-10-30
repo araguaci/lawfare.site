@@ -3,7 +3,7 @@
   "data_extração": "2026-10-29",
   "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync do lawfare-timeline (ids do timeline): +35 fichas, 22 ids reatribuídos, 22 fichas movidas (max_id anterior 1985).",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2013,
   "assuntos": [
     {
@@ -21,7 +21,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2019/09/17/ministro-do-stf-concede-habeas-corpus-e-lider-do-pcc-e-libertado-de-prisao.htm",
+        "https://www.gazetadopovo.com.br/ideias/seis-traficantes-pcc-soltos-justica-brasileira/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -81,7 +82,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -109,7 +110,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Ararath",
+        "https://www.bbc.com/portuguese/articles/c2l7zkz9jr9o"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
