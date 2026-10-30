@@ -1,9 +1,9 @@
 {
-  "total": 24,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "total": 26,
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2018,
   "assuntos": [
     {
@@ -21,7 +21,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://www.cfr.org/backgrounder/brazils-corruption-fallout"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -51,7 +52,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-64380490"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -112,7 +113,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/raquel-dodge-entra-com-acao-no-stf-contra-voto-impresso-em-2018/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -144,7 +145,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/raquel-dodge-entra-com-acao-no-stf-contra-voto-impresso-em-2018/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -176,7 +177,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Descarte",
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -240,7 +242,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.tse.jus.br/comunicacao/noticias/2018/Marco/fbi-expoe-ao-tse-sua-experiencia-no-combate-as-fake-news"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -273,7 +275,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.tse.jus.br/comunicacao/noticias/2018/Marco/fbi-expoe-ao-tse-sua-experiencia-no-combate-as-fake-news"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -305,7 +307,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Pausare",
+        "https://www.gazetadopovo.com.br/eleicoes/2022/cia-teria-alertado-governo-bolsonaro-a-nao-levantar-duvidas-sobre-as-eleicoes-no-brasil/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -331,7 +334,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/justica/enfia-essa-pergunta-na-bunda-diz-gilmar-mendes-a-reporter"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -361,7 +364,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/justica/enfia-essa-pergunta-na-bunda-diz-gilmar-mendes-a-reporter"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -411,6 +414,49 @@
       "id": 1974
     },
     {
+      "titulo": "Receita Federal produz relatório com indícios de lavagem de dinheiro contra Gilmar Mendes — auditores são punidos",
+      "data_evento": "2018-05-01",
+      "data_iso": "2018-05-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "corrupcao",
+        "impunidade",
+        "receita-federal",
+        "decano",
+        "gravidade-alta"
+      ],
+      "descricao": "Sistema automatizado da Receita identificou variação patrimonial inexplicada de R$ 700 mil de Gilmar e indícios de lavagem de dinheiro de Guiomar (declarou receber R$ 2,7 mi; escritório Bermudes declarou pagar R$ 40 mil — 70x menos). Gilmar acionou Toffoli; Moraes suspendeu investigações e afastou auditores. Em 2025, PF abriu inquérito contra os 4 servidores — com tornozeleira.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Corporativismo sistêmico — inversão investigativa — investigadores de ministro tornaram-se investigados — Padrão P2",
+      "fontes": [
+        "https://www.cruzoeiro.com.br/relatorio-receita-gilmar",
+        "https://www.conjur.com.br/2018-mai-16/receita-federal-gilmar-mendes-guiomar-feitosa/",
+        "https://www.folha.uol.com.br/poder/2018/05/receita-federal-fez-relatorio-sobre-patrimonio-de-gilmar-mendes.shtml",
+        "Cruzeiro do Sul",
+        "Folha de S.Paulo"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes",
+        "Guiomar Feitosa Mendes",
+        "Dias Toffoli",
+        "Alexandre de Moraes"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Receita Federal",
+        "Polícia Federal",
+        "Escritório Sérgio Bermudes"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "Variação patrimonial: R$ 700 mil (Gilmar) | Movimentação total casal: R$ 17 milhões+",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2018-05-01-receita-federal-relatorio-gilmar-mendes-auditores-punidos.md",
+      "id": 2015
+    },
+    {
       "titulo": "Operação Tira-Teima",
       "data_evento": "2018-05-09",
       "data_iso": "2018-05-09T00:00:00.000Z",
@@ -426,7 +472,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Tira-Teima"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -451,7 +497,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/coluna/radar/stj-desembolsa-3-milhoes-de-reais-para-comprar-24-carros-de-luxo/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -488,6 +534,42 @@
       "prioridade": 2,
       "fonte_arquivo": "_posts\\decano\\2018-06-06-declaracao-em-sessao-do-stf.md",
       "id": 422
+    },
+    {
+      "titulo": "Gilmar Mendes libera 21 presos da Lava Jato no Rio em 30 dias por decisões monocráticas",
+      "data_evento": "2018-07-01",
+      "data_iso": "2018-07-01T12:00:00.000Z",
+      "categoria": "decano",
+      "tags": [
+        "gilmar-mendes",
+        "stf",
+        "impunidade",
+        "lava-jato",
+        "decano",
+        "decisao-judicial",
+        "gravidade-alta"
+      ],
+      "descricao": "Em 30 dias, Gilmar Mendes concedeu habeas corpus monocráticos determinando a soltura de 21 presos da Lava Jato no Rio. Uma soltura a cada 1,4 dias. Nenhuma decisão passou pelo plenário ou turma do STF. O uso mais extensivo documentado do instrumento monocrático como mecanismo de esvaziamento em massa de operação anticorrupção.",
+      "relevancia": "alta",
+      "impacto_diplomatico": "N/A",
+      "tipo_escandalo": "Uso de poder monocrático para esvaziamento em série de operação anticorrupção — impunidade industrial",
+      "fontes": [
+        "https://oglobo.globo.com/brasil/gilmar-mendes-soltou-21-presos-da-lava-jato-no-rio-em-30-dias-22930512",
+        "https://www.gazetadopovo.com.br/politica/republica/lava-jato/gilmar-solta-21-presos-lava-jato-rio-30-dias/",
+        "Gazeta do Povo"
+      ],
+      "pessoas_envolvidas": [
+        "Gilmar Ferreira Mendes"
+      ],
+      "instituicoes_envolvidas": [
+        "STF",
+        "Ministério Público Federal"
+      ],
+      "pais": "Brasil",
+      "valor_envolvido": "N/A",
+      "prioridade": 1,
+      "fonte_arquivo": "_posts\\decano\\2018-07-01-gilmar-mendes-solta-21-presos-lava-jato-rio-em-30-dias.md",
+      "id": 2016
     },
     {
       "titulo": "TÜV SÜD emite laudos de estabilidade fraudados da B1 (jun. e set. 2018); MP de Brumadinho arquiva inquérito com base neles",
@@ -536,7 +618,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://apublica.org/2018/09/semanalmente-juizes-do-supremo-decidem-sozinhos-sobre-aplicacao-da-constituicao/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -566,7 +648,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://apublica.org/2018/09/semanalmente-juizes-do-supremo-decidem-sozinhos-sobre-aplicacao-da-constituicao/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -595,7 +677,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jornalopcao.com.br/ultimas-noticias/na-lista-dos-mais-procurados-braco-direito-de-fernandinho-beira-mar-foi-solto-apos-erro-da-justica-federal-em-goias-687520/",
+        "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2018/07/14/ex-braco-direito-de-fernandinho-beira-mar-e-solto-apos-erro.htm"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -628,7 +711,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2018-nov-26/fux-revoga-auxilio-moradia-juizes-reajuste-stf"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -658,7 +741,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2018-nov-26/fux-revoga-auxilio-moradia-juizes-reajuste-stf"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -689,7 +772,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/distrito-federal/seguranca-df/apos-polemica-com-viaturas-pmdf-faz-nova-licitacao-para-modelo-de-luxo"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],

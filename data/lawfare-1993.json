@@ -1,9 +1,9 @@
 {
   "total": 20,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 1993,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -48,7 +48,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -75,7 +75,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -102,7 +102,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -129,7 +129,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -156,7 +156,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -183,7 +183,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -210,7 +210,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -237,7 +237,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -264,7 +264,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -291,7 +291,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -318,7 +318,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -345,7 +345,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -372,7 +372,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -399,7 +399,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -426,7 +426,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -453,7 +453,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -480,7 +481,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -507,7 +508,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.historiadomundo.com.br/idade-contemporanea/governo-itamar-franco.htm"
       ],
       "pessoas_envolvidas": [
         "Governo"

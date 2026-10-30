@@ -1,9 +1,9 @@
 {
   "total": 7,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 1995,
   "assuntos": [
     {
@@ -21,7 +21,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -48,7 +49,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -75,7 +77,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -102,7 +105,10 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil",
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/",
+        "https://memorialdademocracia.com.br/card/caso-sivam-derruba-ministro-de-fhc"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -125,7 +131,7 @@
         "financeiro",
         "bahia"
       ],
-      "descricao": ">",
+      "descricao": "Falência fraudulenta do Banco Econômico, com desvios e fraudes contábeis que levaram à intervenção do Banco Central, causando prejuízo de bilhões aos cofres públicos.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -157,7 +163,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://fpabramo.org.br/2006/05/10/o-brasil-nao-esquecera-45-escandalos-que-marcaram-o-governo-fhc/",
+        "https://deputadalucianarafagnin.com.br/memoria-os-principais-escandalos-de-fhc/",
+        "https://www.conversaafiada.com.br/brasil/2015/05/19/nunca-se-roubou-tanto-quanto-com-fhc"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -180,7 +188,7 @@
         "financeiro",
         "minas-gerais"
       ],
-      "descricao": ">",
+      "descricao": "Fraudes e desvios no Banco Nacional, levando à falência e intervenção, com rombo estimado em R$ 2 bilhões.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",

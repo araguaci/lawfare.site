@@ -1232,6 +1232,17 @@ a:hover {
   text-decoration: none;
 }
 
+.id-change {
+  font-size: 13px;
+  color: var(--text-sec);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 24px;
+}
+
 .evento-header {
   margin-bottom: 36px;
 }

@@ -1,9 +1,9 @@
 {
   "total": 13,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2010,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -48,7 +48,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -102,7 +102,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2010/05/15/tst-gasta-r-19-milhao-para-compra-de-25-carros-de-luxo.htm"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -127,7 +127,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -154,7 +154,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -207,7 +207,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -234,7 +234,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -293,7 +293,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2010/05/15/tst-gasta-r-19-milhao-para-compra-de-25-carros-de-luxo.htm"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -317,7 +317,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.scielosp.org/article/rsp/2020.v54/144/pt/",
+        "https://revistapesquisa.fapesp.br/a-justica-da-impunidade/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -345,7 +346,7 @@
         "financeiro",
         "sp-nacional"
       ],
-      "descricao": ">",
+      "descricao": "Rombo contábil de cerca de R$ 4 bilhões devido a fraude em balanços e empréstimos irregulares.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",

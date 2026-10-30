@@ -1,9 +1,9 @@
 {
   "total": 112,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2022,
   "assuntos": [
     {
@@ -17,7 +17,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "Fraudes massivas via reembolsos duplicados, falsas cobranças, laudos fraudulentos e prestadores fantasmas.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -79,7 +79,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Clickbait",
+        "https://www.bbc.com/portuguese/brasil-63338642"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -139,12 +140,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Mais de 30 líderes do PCC foram soltos por decisões judiciais entre 2019 e 2022, muitas do TJ-SP.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://canalcienciascriminais.com.br/pcc-30-chefes-podem-ser-liberados/",
+        "https://www.gazetadopovo.com.br/republica/crime-organizado-faccao-pcc-lideres-soltos/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -182,7 +184,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jota.info/stf/do-supremo/moraes-prorroga-inquerito-das-milicias-digitais"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -213,7 +215,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://tecnoblog.net/noticias/2022/06/20/stf-manda-bloquear-redes-sociais-do-pco-em-ate-24-horas-por-ataques-a-corte/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -271,7 +273,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2022-08/noticias-falsas-causam-danos-irreparaveis-diz-presidente-do-stf"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -299,7 +301,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/procurador-lucas-furtado-do-tcu-recebeu-auxilio-moradia-mesmo-com-mansao-em-brasilia"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -330,7 +332,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/politica/marcelo-godoy/como-o-homem-apontado-como-o-lider-do-pcc-nas-ruas-se-safou-de-todas-as-acusacoes-na-justica/",
+        "https://www.jusbrasil.com.br/busca?q=patrick%2Buelinton%2Bsalomao"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -361,7 +364,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/coluna/radar/barroso-participa-de-evento-nos-eua-sobre-como-se-livrar-de-um-presidente/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -487,7 +490,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2022-mar-30/alexandre-estipula-multa-manda-bloquear-contas-daniel-silveira2/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -516,7 +519,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2022/03/18/bloqueio-do-telegram-leia-a-integra-da-decisao-de-moraes.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -552,7 +555,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2022-mar-30/alexandre-estipula-multa-manda-bloquear-contas-daniel-silveira2/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -580,7 +583,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2023/11/27/relembre-frases-de-flavio-dino.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -607,7 +610,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/derrotamos-bolsonarismo-historico-frases-politicas-barroso/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -634,7 +637,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/coluna/radar/governo-bolsonaro-compra-35-mil-comprimidos-de-viagra-deputado-investiga/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -662,7 +665,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-inquerito-das-fake-news-por-180-dias/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -692,7 +695,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/coluna/radar/governo-bolsonaro-compra-35-mil-comprimidos-de-viagra-deputado-investiga/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -750,7 +753,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-64380490"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -780,7 +783,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=485660&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -838,7 +841,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/fachin-polemicas-declaracoes-publicas-lula-general-lula/"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -894,7 +897,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://mst.org.br/2022/10/06/17-escandalos-de-corrupcao-do-governo-bolsonaro/",
+        "https://www.brasildefato.com.br/2022/06/23/muito-mais-que-o-mec-veja-outros-casos-de-corrupcao-do-governo-bolsonaro/",
+        "https://www.cartacapital.com.br/politica/governo-bolsonaro-acumula-escandalos-de-corrupcao-confira-os-principais/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -969,12 +974,12 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"MPRJ ajuíza ação civil pública contra juiz aposentado compulsoriamente por improbidade administrativa e venda de sentenças.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2022-05/juiz-aposentado-compulsoriamente-e-investigado-por-venda-de-sentencas"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -1010,7 +1015,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/eleicoes/2022/cia-teria-alertado-governo-bolsonaro-a-nao-levantar-duvidas-sobre-as-eleicoes-no-brasil/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1040,7 +1045,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/eleicoes/2022/cia-teria-alertado-governo-bolsonaro-a-nao-levantar-duvidas-sobre-as-eleicoes-no-brasil/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1070,7 +1075,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/caso-wellington-macedo-preso-ordem-alexandre-de-moraes/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1102,7 +1107,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2022/05/18/toffoli-rejeita-pedido-de-investigacao-de-bolsonaro-contra-moraes.ghtml?utm_source=twitter&utm_medium=share-bar-desktop&utm_campaign=materias"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1138,7 +1143,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cvgr28328359d4o"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1167,7 +1172,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/justica/mulher-de-silveira-diz-que-moraes-bloqueou-sua-conta-bancaria/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1199,7 +1204,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://causaoperaria.org.br/2022/moraes-bloqueia-contas-partidarias-nas-vesperas-do-pleito/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1231,7 +1236,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://causaoperaria.org.br/2022/stf-fora-do-controle-popular-e-ditadura/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1320,7 +1325,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-inquerito-das-fake-news-por-180-dias/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1354,7 +1359,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/internacional/4-ministros-do-stf-vao-a-ny-em-evento-com-merval-pereira/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1390,7 +1395,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2022-mar-30/alexandre-estipula-multa-manda-bloquear-contas-daniel-silveira2/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1419,7 +1424,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.agazeta.com.br/es/politica/deputado-do-es-tem-conta-do-instagram-suspensa-por-decisao-do-stf-0722?utm_medium=share-site&utm_source=twitter"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1479,7 +1484,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/brazil-electoral-justice-permanent-program-on-countering-disinformation",
+        "https://eyesonbrasil.com/usaid-and-brazils-2022-elections-a-controversial-intersection/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -1508,7 +1514,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/brazil-electoral-justice-permanent-program-on-countering-disinformation",
+        "https://www.ifes.org/sites/default/files/2022-09/IFES%20Brazil%20FAQs%202022%20General%20Election.pdf"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -1541,7 +1548,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/08/moraes-autoriza-quebra-de-sigilos-de-grupo-bolsonarista-que-defendeu-golpe-em-mensagens-privadas.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1577,7 +1584,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/10/tse-censura-filme-sobre-facada-pune-canais-bolsonaristas-e-intima-carlos-em-acao-contra-fake-news.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1727,7 +1734,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/ideias/seis-traficantes-pcc-soltos-justica-brasileira/",
+        "https://www.metropoles.com/sao-paulo/a-ficha-criminal-do-bando-do-pcc-envolvido-no-plano-de-atentados"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -1764,7 +1772,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/09/moraes-autoriza-quebra-de-sigilos-de-grupo-bolsonarista-que-defendeu-golpe-em-mensagens-privadas.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1797,7 +1805,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/08/moraes-teve-reportagem-como-unica-base-para-decisao-contra-empresarios-bolsonaristas.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1821,12 +1829,12 @@
         "redes-sociais",
         "plataformas"
       ],
-      "descricao": ">",
+      "descricao": "Diversos perfis coordenados por bots e MAVs (Militância em Ambiente Virtual do PT) engajaram em ataques sistemáticos contra opositores do governo, como a advogada Stefanny Papaiano, o jornalista Alexandre Garcia e o deputado Gustavo Gayer.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ainvestigacao.com/p/pt-utiliza-robos-mavs-e-o-novo-ministerio"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1855,7 +1863,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence",
+        "https://dunapress.org/usaid-interference-in-brazil-raises-concerns-about-national-sovereignty/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1883,7 +1892,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://eyesonbrasil.com/usaid-and-brazils-2022-elections-a-controversial-intersection/",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1908,7 +1918,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2022/09/21/cnj-decide-investigar-juiza-que-atacou-ministros-do-stf-e-divulgou-canal-de-bolsonarista-investigado.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1973,7 +1983,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.r7.com/eleicoes-2022/131-delegados-federais-apresentam-queixa-crime-contra-moraes-a-pgr-26092022"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2039,7 +2049,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/",
+        "https://eyesonbrasil.com/usaid-and-brazils-2022-elections-a-controversial-intersection/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2066,7 +2077,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/brazil-electoral-justice-permanent-program-on-countering-disinformation",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -2095,7 +2107,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ainvestigacao.com/p/pt-utiliza-robos-mavs-e-o-novo-ministerio"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -2123,7 +2135,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence",
+        "https://dunapress.org/usaid-interference-in-brazil-raises-concerns-about-national-sovereignty/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2152,7 +2165,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://eyesonbrasil.com/usaid-and-brazils-2022-elections-a-controversial-intersection/",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -2183,12 +2197,14 @@
         "desinformacao",
         "apoio-partidario"
       ],
-      "descricao": ">",
+      "descricao": "\"Durante as eleições presidenciais de 2022, Felipe Neto atuou como influenciador crítico de Jair Bolsonaro, apoiando Lula, com conexões a financiamentos estrangeiros via Instituto Vero, potencialmente configurando interferência em mobilização de eleitores.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence",
+        "https://en.wikipedia.org/wiki/2022_Brazilian_general_election",
+        "https://x.com/MLucchinni/status/1957681374774628730"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2220,12 +2236,13 @@
         "interferencia",
         "financiamento-estrangeiro"
       ],
-      "descricao": ">",
+      "descricao": "\"Instituto Vero apoiou campanhas contra Bolsonaro nas eleições de 2022, com financiamentos estrangeiros, configurando potencial interferência em mobilização eleitoral.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence",
+        "https://en.wikipedia.org/wiki/2022_Brazilian_general_election"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2253,7 +2270,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/brazil-electoral-justice-permanent-program-on-countering-disinformation",
+        "https://www.ainvestigacao.com/p/operation-uncle-joe-us-influence"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -2287,7 +2305,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/",
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/brazil-electoral-justice-permanent-program-on-countering-disinformation"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -2319,7 +2338,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/10/tse-censura-filme-sobre-facada-pune-canais-bolsonaristas-e-intima-carlos-em-acao-contra-fake-news.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2351,7 +2370,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://dunapress.org/usaid-interference-in-brazil-raises-concerns-about-national-sovereignty/",
+        "https://eyesonbrasil.com/usaid-and-brazils-2022-elections-a-controversial-intersection/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -2421,7 +2441,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/10/tse-censura-filme-sobre-facada-pune-canais-bolsonaristas-e-intima-carlos-em-acao-contra-fake-news.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2592,7 +2612,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/11/tse-confirma-desmonetizacao-de-canais-com-conteudo-pro-bolsonaro.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2689,7 +2709,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2023/11/27/relembre-frases-de-flavio-dino.ghtml"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -2716,7 +2736,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/perdeu-mane-derrotamos-o-bolsonarismo-relembre-polemicas-de-luis-roberto-barroso/",
+        "https://www.congressoemfoco.com.br/noticia/8230/pitadas-de-psicopatia-perdeu-mane-cinco-frases-marcantes-de-barroso-novo-presidente-do-stf",
+        "https://jovempan.com.br/noticias/politica/confira-falas-e-frases-polemicas-do-ministro-luis-roberto-barroso-do-stf.html"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -2874,7 +2896,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/internacional/4-ministros-do-stf-vao-a-ny-em-evento-com-merval-pereira/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2906,7 +2928,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://valor.globo.com/politica/noticia/2022/11/17/moraes-manda-bloquear-contas-de-43-pessoas-e-empresas-suspeitas-de-ligacao-com-atos-antidemocraticos.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3047,7 +3069,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/11/tse-confirma-desmonetizacao-de-canais-com-conteudo-pro-bolsonaro.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3077,7 +3099,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/c14zjp3l6d7o"
       ],
       "pessoas_envolvidas": [
         "Ministro"
@@ -3212,7 +3234,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=498946&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3246,7 +3268,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2022/12/moraes-manda-prender-oswaldo-eustaquio-e-socio-de-canal-bolsonarista-pf-procura-dupla.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3280,7 +3302,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2023/05/decisoes-de-moraes-devassaram-dia-a-dia-do-gabinete-de-bolsonaro-com-quebras-de-sigilo.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3313,7 +3335,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/acusado-de-questionar-eleicao-de-2022-cacique-serere-e-preso-novamente-a-mando-de-moraes/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3346,7 +3368,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2025/06/stf-recebe-denuncia-contra-deputado-otoni-de-paula-por-ofensas-a-moraes.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3375,7 +3397,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2022-dez-22/acao-ilicito-repasse-dpvat-prescreve-anos-stj"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3409,7 +3431,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/acusado-de-questionar-eleicao-de-2022-cacique-serere-e-preso-novamente-a-mando-de-moraes/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3442,7 +3464,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cvgr28328359d4o"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3478,12 +3500,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"Crime organizado falsifica alvará para tentar soltar ladrão condenado por roubo de ouro em aeroporto de SP.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/colunas/josmar-jozino/2023/01/11/sp-crime-organizado-falsifica-alvara-para-soltar-ladrao-de-745-kg-de-ouro.htm",
+        "https://www.gazetadopovo.com.br/republica/breves/crime-organizado-falsifica-alvara-para-soltar-ladrao-de-ouro-em-sp/"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -3522,7 +3545,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2024/01/pf-intima-esperanca-es-de-bolsonaro-sobre-abin-paralela-sob-bolsonaro.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3552,7 +3575,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/articles/cer7jndk8ymo",
+        "https://www.brasildefato.com.br/2023/08/28/alem-das-joias-relembre-outros-casos-em-que-bolsonaro-e-alvo-de-investigacoes/"
       ],
       "pessoas_envolvidas": [
         "Governo"

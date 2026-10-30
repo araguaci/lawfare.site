@@ -6,6 +6,7 @@ import { formatDate, formatKicker, categoriaLabel, categoriaColor, relevanciaCol
 import { loadFonteMarkdown } from '../../lib/loadFonteMarkdown';
 import { SITE_URL } from '../../lib/site';
 import data from '../../data/assuntos.json';
+import idChanges from '../../data/id-changes.json';
 
 export const getStaticPaths = (() => {
   return data.assuntos.map(evento => ({
@@ -23,6 +24,8 @@ const publicUrl = `${SITE_URL}/evento/${evento.id}`;
 const catColor = categoriaColor(evento.categoria);
 const relColor = relevanciaColor(evento.relevancia);
 const catLabel = categoriaLabel(evento.categoria);
+// Set when this URL showed another event before the ids were aligned with the timeline
+const idChange = (idChanges as Record<string, { titulo_anterior: string; novo_id: number }>)[String(evento.id)];
 
 // JSON-LD para SEO
 const jsonLd = JSON.stringify({
@@ -62,6 +65,13 @@ const jsonLd = JSON.stringify({
       <span>›</span>
       <span>#{evento.id}</span>
     </nav>
+
+    {idChange && (
+      <p class="id-change" data-pagefind-ignore>
+        Este endereço exibia antes “{idChange.titulo_anterior}”. Esse evento agora está em{' '}
+        <a href={`/evento/${idChange.novo_id}`}>#{idChange.novo_id}</a>.
+      </p>
+    )}
 
     <!-- Header do evento -->
     <header class="evento-header">

@@ -1,9 +1,9 @@
 {
   "total": 59,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2019,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-64380490"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -219,7 +219,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2019/03/14/toffoli-anuncia-inquerito-para-apurar-noticias-fraudulentas-que-ofendam-a-honra-do-stf.ghtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -250,7 +250,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2019-mar-14/toffoli-abre-inquerito-apurar-ameacas-ministros-tribunal/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -282,7 +282,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2019-mar-14/toffoli-abre-inquerito-apurar-ameacas-ministros-tribunal/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -372,7 +372,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://crusoe.uol.com.br/edicoes/50/o-amigo-do-amigo-de-meu-pai/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -402,7 +402,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://crusoe.uol.com.br/edicoes/50/o-amigo-do-amigo-de-meu-pai/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -438,7 +438,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2019/04/ministro-do-stf-censura-sites-e-manda-tirar-do-ar-reportagem-sobre-toffoli.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -473,7 +473,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2019/04/alexandre-de-moraes-manda-bloquear-redes-sociais-de-7-suspeitos-de-atacar-o-stf.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -504,7 +504,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://dcomercio.com.br/categoria/brasil/stf-confronta-decisao-de-dodge"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -538,7 +538,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://dcomercio.com.br/categoria/brasil/stf-confronta-decisao-de-dodge"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -570,7 +570,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/ministro-do-stf-manda-bloquear-redes-sociais-de-general-outros-investigados-subversao-da-ordem-23603050"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -604,7 +604,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/ministro-do-stf-manda-bloquear-redes-sociais-de-general-outros-investigados-subversao-da-ordem-23603050"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -642,7 +642,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2019-abr-16/alexandre-rejeita-arquivamento-inquerito-ameacas-stf/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -673,7 +673,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/stf-faz-licitacao-de-r-11-milhao-para-comprar-lagostas-e-vinhos/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -700,7 +700,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/stf-faz-licitacao-de-r-11-milhao-para-comprar-lagostas-e-vinhos/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -723,7 +723,7 @@
         "financeiro",
         "sp-nacional"
       ],
-      "descricao": ">",
+      "descricao": "Lavagem de aproximadamente R$ 48 milhões via contratos falsos entre Odebrecht e empresa financeira.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -758,7 +758,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/corte-no-orcamento-de-universidades-sera-julgado-por-plenario-do-stf-1.2097921?page=8"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -790,7 +790,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/corte-no-orcamento-de-universidades-sera-julgado-por-plenario-do-stf-1.2097921?page=8"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -822,7 +822,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2019/05/10/rosa-weber-da-cinco-dias-para-bolsonaro-explicar-decreto-que-facilitou-porte-de-armas.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -855,7 +855,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2019/05/10/rosa-weber-da-cinco-dias-para-bolsonaro-explicar-decreto-que-facilitou-porte-de-armas.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -884,7 +884,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-64380490"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -909,7 +909,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2019-jun-12/stf-forma-maioria-derrubar-decreto-extingue-conselhos"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -940,7 +940,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2019-jun-12/stf-forma-maioria-derrubar-decreto-extingue-conselhos"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -972,7 +972,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/barroso-suspende-mp-de-bolsonaro-sobre-demarcacao-de-terras-indigenas/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1003,7 +1003,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/barroso-suspende-mp-de-bolsonaro-sobre-demarcacao-de-terras-indigenas/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1093,7 +1093,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Spoofing",
+        "https://www.bbc.com/portuguese/articles/cn0nv24r346o"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1119,7 +1120,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.podergoias.com.br/materia/989/dias-toffoli-proibe-bolsonaro-de-bloquear-verbas-de-goias-e-da-prazo-de-5-dias-para-caiado-apresentar-solucao"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1149,7 +1150,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/justica/barroso-da-15-dias-para-bolsonaro-explicar-caso-queira-fala-sobre-pai-de-presidente-da-oab/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1178,7 +1179,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2019/10/23/marco-aurelio-determina-soltura-de-suspeito-de-comandar-o-pcc-em-sc.htm",
+        "https://www.gazetadopovo.com.br/ideias/seis-traficantes-pcc-soltos-justica-brasileira/"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -1247,7 +1249,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/politica/stf-da-15-dias-para-bolsonaro-explicar-declaracoes-sobre-dilma/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1395,7 +1397,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=424894"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1427,7 +1429,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://brasil.elpais.com/brasil/2020-08-01/pressionado-por-stf-facebook-bloqueia-globalmente-contas-de-apoiadores-de-bolsonaro.html?ssm=TW_CC"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1458,7 +1460,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://mst.org.br/2022/10/06/17-escandalos-de-corrupcao-do-governo-bolsonaro/",
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2022/06/22/governo-bolsonaro-acumula-escandalos-de-corrupcao-confira-os-principais.htm",
+        "https://www.cartacapital.com.br/politica/governo-bolsonaro-acumula-escandalos-de-corrupcao-confira-os-principais/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -1525,7 +1529,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www12.senado.leg.br/noticias/materias/2019/10/21/gilmar-mendes-suspende-mp-que-dispensa-publicacao-de-editais-na-grande-imprensa"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1629,12 +1633,13 @@
         "gravidade-alta",
         "judiciario"
       ],
-      "descricao": ">",
+      "descricao": "\"PF deflagra Operação Faroeste contra esquema de venda de sentenças no TJ-BA envolvendo desembargadores e juízes.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2019-11/desembargadores-e-juizes-sao-alvos-de-operacao-da-pf-na-bahia",
+        "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2019/11/19/policia-federal-operacao-faroeste-vendas-de-decisoes-judiciais.htm"
       ],
       "pessoas_envolvidas": [
         "Resumo",
@@ -1672,7 +1677,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Faroeste",
+        "https://www.gazetadopovo.com.br/republica/mais-de-duas-dezenas-de-ongs-brasileiras-receberam-r-267-milhoes-da-usaid/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1698,7 +1704,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/justica/carmen-lucia-cobra-explicacoes-de-bolsonaro-sobre-programa-verde-amarelo/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1726,7 +1732,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.mpf.mp.br/pr/sala-de-imprensa/noticias-pr/valor-devolvido-pela-lava-jato-ja-ultrapassa-os-r-4-bilhoes"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1758,7 +1764,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://revistaforum.com.br/politica/rosa-weber-da-prazo-de-dez-dias-para-bolsonaro-se-explicar-sobre-ofensa-a-glenn/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1791,7 +1797,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/alexandre-de-moraes-investigacao-empresarios/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1819,7 +1825,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://estradas.com.br/stf-suspende-mp-de-bolsonaro-sobre-o-fim-do-seguro-dpvat/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",

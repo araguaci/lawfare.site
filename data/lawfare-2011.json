@@ -1,9 +1,9 @@
 {
   "total": 17,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2011,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -48,7 +48,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -75,7 +75,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -102,7 +102,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -129,7 +129,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -156,7 +156,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710",
+        "https://www.bbc.com/portuguese/noticias/2016/04/160415_cronologia_governo_dilma_if",
+        "https://www.em.com.br/app/noticia/politica/2016/10/16/interna_politica,814605/investigacoes-ja-atingem-18-ministros-da-era-petista.shtml"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -183,7 +185,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -208,7 +210,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -235,7 +237,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.em.com.br/app/noticia/politica/2017/08/21/interna_politica,893546/em-crise-farra-licitacoes-brasil-absurdo-cama-cadeira-e-bebida-luxo.shtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -260,7 +262,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -313,7 +315,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -340,7 +342,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -485,7 +487,7 @@
         "financeiro",
         "rs"
       ],
-      "descricao": ">",
+      "descricao": "Manipulação de mercado e fraude contábil para inflar artificialmente o valor das ações da Mundial.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",

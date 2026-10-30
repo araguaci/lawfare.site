@@ -1,9 +1,9 @@
 {
   "total": 13,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2008,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -48,7 +48,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -75,7 +75,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -102,7 +102,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -129,7 +129,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -156,7 +156,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -183,7 +183,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -210,7 +210,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://en.wikipedia.org/wiki/List_of_scandals_in_Brazil"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -264,7 +264,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2010/05/15/tst-gasta-r-19-milhao-para-compra-de-25-carros-de-luxo.htm"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -289,7 +289,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/cotidiano/2023/11/em-7-anos-mais-de-30-chefes-do-pcc-deixaram-a-prisao-pela-porta-da-frente.shtml",
+        "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/em-sete-anos-justica-libera-mais-de-30-integrantes-do-pcc"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -319,7 +320,7 @@
         "financeiro",
         "nacional"
       ],
-      "descricao": ">",
+      "descricao": "Fraudes e corrupção envolvendo o Banco Opportunity em disputas societárias e subornos.",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
@@ -352,7 +353,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Satiagraha",
+        "https://www.bbc.com/portuguese/brasil-64464312"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],

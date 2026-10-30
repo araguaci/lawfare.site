@@ -1,9 +1,9 @@
 {
   "total": 106,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2021,
   "assuntos": [
     {
@@ -133,7 +133,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://mst.org.br/2022/10/06/17-escandalos-de-corrupcao-do-governo-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -166,12 +166,13 @@
         "direitos-humanos",
         "desinformacao"
       ],
-      "descricao": ">",
+      "descricao": "\"Instituto Vero recebeu US$250 mil da Open Society para projetos de direitos humanos e anti-desinformação, com implicações pré-eleições 2022.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.opensocietyfoundations.org/grants",
+        "https://www.fordfoundation.org/work/our-grants/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -203,12 +204,13 @@
         "direitos-humanos",
         "desinformacao"
       ],
-      "descricao": ">",
+      "descricao": "\"Em 2021, o Instituto Vero recebeu US$250 mil da Open Society Foundations, financiado por George Soros, para projetos relacionados a direitos humanos e combate à desinformação, com implicações em influência política pré-eleições de 2022.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/stf-contratou-ex-coordenador-de-ong-de-felipe-neto-para-setor-de-combate-a-desinformacao/",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/quem-george-soros-financia-no-brasil/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -238,7 +240,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-55582616"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -270,7 +272,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jota.info/stf/do-supremo/moraes-prorroga-inquerito-das-milicias-digitais"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -301,7 +303,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/nacional/2021/01/15/lewandowski-determina-a-bolsonaro-que-adote-acoes-urgentes-no-amazonas"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -331,7 +333,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/justica/stf-da-48-horas-para-governo-explicar-relatorios-contra-jornalistas-e-congressistas/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -362,7 +364,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.estadao.com.br/estadao-verifica/gasto-de-r-156-milhoes-em-leite-condensado-e-de-todo-o-executivo-nao-de-bolsonaro/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -388,7 +390,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://brasil.elpais.com/brasil/2021-01-26/stf-autoriza-investigacao-contra-pazuello-para-avaliar-possivel-omissao-no-caos-de-manaus.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -420,7 +422,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://exame.com/brasil/stf-manda-bolsonaro-e-alcolumbre-informarem-sobre-privatizacao-dos-correios/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -457,7 +459,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/02/veja-o-que-se-sabe-contra-investigados-no-inquerito-das-fake-news-do-stf-daniel-silveira-e-um-dos-alvos.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -488,7 +490,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.migalhas.com.br/quentes/340061/lewandowski-da-prazo-para-governo-fixar-prioridade-em-vacinacao"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -517,7 +519,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.oas.org/pt/cidh/relatorios/pdfs/brasil2021-pt.pdf",
+        "https://www.gov.br/mdh/pt-br/assuntos/noticias/2025/fevereiro/observatorio-nacional-dos-direitos-humanos-disponibiliza-dados-sobre-o-sistema-prisional-brasileiro"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -550,7 +553,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.dw.com/pt-br/stf-ordena-apura%C3%A7%C3%A3o-de-gastos-do-governo-federal-com-cloroquina/a-56581443"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -588,7 +591,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/02/veja-o-que-se-sabe-contra-investigados-no-inquerito-das-fake-news-do-stf-daniel-silveira-e-um-dos-alvos.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -623,7 +626,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/02/veja-o-que-se-sabe-contra-investigados-no-inquerito-das-fake-news-do-stf-daniel-silveira-e-um-dos-alvos.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -659,7 +662,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/02/veja-o-que-se-sabe-contra-investigados-no-inquerito-das-fake-news-do-stf-daniel-silveira-e-um-dos-alvos.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -690,7 +693,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiobraziliense.com.br/politica/2021/02/4907877-cloroquina-weber-encaminha-noticia-crime-contra-bolsonaro-a-pgr.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -722,7 +725,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.r7.com/brasil/stf-da-5-dias-para-bolsonaro-explicar-novos-decretos-de-armas-23022021"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -754,7 +757,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.redebrasilatual.com.br/cidadania/2021/02/stf-da-30-dias-para-governo-apresentar-plano-de-protecao-a-quilombolas/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -786,7 +789,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.agoraparana.com.br/noticia/dialogos-de-procuradores-da-lava-jato-revelam-complo-contra-familia-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -816,7 +819,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.abcdoabc.com.br/brasil-mundo/noticia/stf-suspende-julgamento-sobre-imposto-zero-bolsonaro-armas-importadas-118619"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -878,7 +881,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.saopaulo.sp.gov.br/sala-de-imprensa/release/sp-deve-receber-r-245-milhoes-por-mes-do-ministerio-da-saude-para-custeio-de-leitos/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -908,7 +911,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "http://www.saude.ba.gov.br/2021/02/28/stf-atende-pedido-do-estado-da-bahia-e-determina-que-uniao-volte-a-custear-leitos-de-uti-na-bahia/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -939,7 +942,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiobraziliense.com.br/politica/2021/03/4910267-marco-aurelio-envia-queixa-crime-contra-bolsonaro-para-analise-da-camara.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -971,7 +974,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://revistaoeste.com/brasil/stf-mantem-autonomia-de-estados-para-adocao-de-lockdown/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1003,7 +1006,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/03/09/lewandowski-da-5-dias-para-bolsonaro-se-manifestar-em-acao-que-pede-repasse-para-estados-comprarem-vacina.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1033,7 +1036,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/colunas/monicabergamo/2021/03/stf-da-48-horas-para-governo-bolsonaro-explicar-por-que-nao-repassou-r-245-mi-a-utis-em-sp.shtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1065,7 +1068,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.folhape.com.br/politica/rosa-weber-pede-vista-e-suspende-julgamento-de-decretos-de-bolsonaro/176140/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1099,7 +1102,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/03/moraes-do-stf-libera-deputado-daniel-silveira-para-cumprir-prisao-domiciliar.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1130,7 +1133,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.bbc.com/portuguese/brasil-56503701"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1160,7 +1163,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://veja.abril.com.br/saude/stf-confirma-prazo-de-5-dias-para-uniao-detalhar-prioridade-na-vacinacao/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1192,7 +1195,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/04/barroso-do-stf-manda-presidente-do-senado-instalar-cpi-da-pandemia.shtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1270,7 +1273,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2021-abr-09/bolsonaro-stf-espirito-republicano-prevalecer"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1304,7 +1307,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/04/09/moraes-prorroga-inqueritos-do-stf-sobre-disseminacao-de-fake-news-e-atos-antidemocraticos.ghtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1335,7 +1338,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/04/12/rosa-weber-suspende-trechos-dos-decretos-de-armas-de-bolsonaro-que-entram-em-vigor-nesta-terca.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1365,7 +1368,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.scielo.br/j/rdp/a/cxr7tsRvWjPjGNSKRt7v3WK/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1395,7 +1398,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/jornal-nacional/noticia/2021/04/13/stf-da-prazo-de-15-dias-para-bolsonaro-explicar-critica-a-prefeitos-e-governadores-na-pandemia.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1428,7 +1431,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www12.senado.leg.br/noticias/materias/2021/04/14/stf-confirma-liminar-que-mandou-instalar-cpi-da-covid"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1461,7 +1464,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://congressoemfoco.uol.com.br/justica/stf-prazo-lira-impeachment/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1497,7 +1500,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/04/moraes-manda-para-prisao-domiciliar-deputado-daniel-silveira.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1526,7 +1529,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.r7.com/brasil/stf-da-prazo-para-bolsonaro-explicar-ameacas-a-imprensa-19042021"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1558,7 +1561,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/stf-da-5-dias-para-bolsonaro-e-queiroga-esclarecerem-prazos-da-vacina"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1590,7 +1593,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/colunas/rubens-valente/2020/04/22/coronavirus-governo-bolsonaro-supremo.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1620,7 +1623,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.brasil247.com/regionais/brasilia/marco-aurelio-envia-ao-plenario-do-stf-acao-que-aponta-omissao-de-bolsonaro-na-pandemia"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1652,7 +1655,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/04/28/ministro-marco-aurelio-do-stf-determina-que-governo-tome-medidas-para-realizar-o-censo.ghtml?utm_source=twitter&utm_medium=share-bar-desktop&utm_campaign=materias"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1683,7 +1686,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.metropoles.com/brasil/forcas-armadas-gastaram-r-538-mil-em-filé-mignon-e-picanha"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1708,7 +1711,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/05/03/forcas-armadas-gastaram-r-16-milhao-em-leite-condensado-e-r-632-mil-em-chiclete.ghtml"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -1734,7 +1737,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://jovempan.com.br/noticias/brasil/stf-da-48-horas-para-anvisa-explicar-quais-documentos-faltam-para-analise-da-vacina-sputnik-v.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1766,7 +1769,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://revistaoeste.com/brasil/rosa-weber-encaminha-para-pgr-mais-uma-noticia-crime-contra-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1798,7 +1801,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Akuanduba",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/stf-impoe-a-redes-censura-automatica-de-condutas-antidemocraticas/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -1830,7 +1834,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2020/05/pf-cumpre-mandados-de-busca-e-apreensao-em-inquerito-do-supremo-contra-fake-news.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -1861,7 +1865,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.terra.com.br/esportes/stf-da-5-dias-para-bolsonaro-explicar-copa-america-no-brasil,e672c85e6c95c80453b3239faf2ebe45e8hes00h.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1892,7 +1896,9 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cartacapital.com.br/politica/governo-bolsonaro-acumula-escandalos-de-corrupcao-confira-os-principais/",
+        "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2022/06/22/governo-bolsonaro-acumula-escandalos-de-corrupcao-confira-os-principais.htm",
+        "https://www.brasildefato.com.br/2022/06/23/muito-mais-que-o-mec-veja-outros-casos-de-corrupcao-do-governo-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -1922,7 +1928,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://economia.uol.com.br/noticias/reuters/2021/06/01/stf-da-5-dias-para-bolsonaro-explicar-aglomeracoes-e-nao-uso-de-mascaras.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -1952,7 +1958,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://revistaoeste.com/revista/edicao-66/o-triunfo-dos-bandidos/",
+        "https://www1.folha.uol.com.br/poder/2021/12/congresso-e-stf-esvaziaram-lava-jato-entenda-mudancas-em-leis-anticorrupcao.shtml"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -2072,7 +2079,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://gauchazh.clicrbs.com.br/politica/noticia/2021/06/stf-da-prazo-de-cinco-dias-para-bolsonaro-explicar-declaracoes-sobre-leite-ckpfv03vq005e018m8kudud4g.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2105,7 +2112,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://odia.ig.com.br/brasil/2021/06/6170171-rosa-weber-da-5-dias-para-bolsonaro-e-congresso-se-manifestarem-sobre-orcamento-secreto.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2135,7 +2142,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.r7.com/brasil/barroso-determina-que-pf-rastreie-denuncias-em-urnas-eletronicas-18062021"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2167,7 +2174,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.correiobraziliense.com.br/politica/2021/06/4932529-stf-da-5-dias-para-braga-netto-prestar-informacoes-de-sigilo-sobre-pazuello.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2199,7 +2206,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/2021/06/25/gilmar-da-10-dias-para-bolsonaro-explicar-declaracoes-sobre-fraudes-nas-eleicoes"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2259,7 +2266,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=470957&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2290,7 +2297,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Munduruku",
+        "https://www.bbc.com/portuguese/articles/c14zjp3l6d7o"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -2318,7 +2326,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.uol.com.br/vivabem/noticias/agencia-estado/2021/06/30/fachin-da-15-dias-para-governo-bolsonaro-ampliar-vacinacao-em-quilombolas.htm"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2348,7 +2356,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/07/moraes-arquiva-inquerito-dos-atos-antidemocraticos-no-stf-e-abre-outra-investigacao-sobre-ataques-a-democracia-na-internet.shtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2382,7 +2390,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/breves/alexandre-moraes-stf-inqueritos-bolsonaro/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2413,7 +2421,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.jb.com.br/pais/politica/2021/07/1031454-apos-autorizacao-do-stf-pf-abre-inquerito-para-apurar-se-bolsonaro-prevaricou-no-caso-da-covaxin.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2445,7 +2453,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://valor.globo.com/politica/noticia/2021/08/13/carmen-lucia-alerta-bianco-contra-uso-da-agu-para-defender-interesses-privados.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2478,12 +2486,13 @@
         "soros",
         "censura"
       ],
-      "descricao": ">",
+      "descricao": "\"Felipe Neto debateu em evento da Open Society sobre liberdade de expressão, marcando conexão com entidade que financia Instituto Vero.\"",
       "relevancia": "media",
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.opensocietyfoundations.org/",
+        "https://www.gazetadopovo.com.br/ideias/soros-e-governo-biden-estao-por-tras-de-teorias-da-conspiracao-sobre-twitter-files-brasil/"
       ],
       "pessoas_envolvidas": [
         "Violações"
@@ -2511,7 +2520,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.cnnbrasil.com.br/politica/2021/08/16/carmen-lucia-da-24-h-para-pgr-se-manifestar-sobre-noticia-crime-contra-bolsonaro"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2594,7 +2603,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.otempo.com.br/politica/stf-prorroga-prazo-para-inquerito-que-investiga-interferencia-de-bolsonaro-na-pf-1.2515459"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2655,7 +2664,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.poder360.com.br/midia/stf-da-10-dias-para-bolsonaro-explicar-bloqueio-a-jornalistas-no-twitter/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2687,7 +2696,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/08/04/bolsonaro-e-incluido-no-inquerito-das-fake-news-os-principais-pontos-da-decisao-de-moraes.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2723,7 +2732,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/08/04/leia-a-integra-da-decisao-de-alexandre-de-moraes-que-incluiu-bolsonaro-em-inquerito-das-fake-news-por-ataques-as-urnas-eletronicas.ghtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2755,7 +2764,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=470957&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -2786,7 +2795,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.tse.jus.br/comunicacao/noticias/2021/Agosto/corregedor-do-tse-determina-que-plataformas-digitais-suspendam-repasses-financeiros-a-paginas-que-propagam-desinformacao"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2818,7 +2827,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://jovempan.com.br/jorge-serrao/declaracao-de-barroso-de-que-eleicao-nao-se-vence-se-toma-acirra-guerra-com-bolsonaro.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2850,7 +2859,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://g1.globo.com/politica/noticia/2021/08/16/carmen-lucia-considera-graves-ataques-de-bolsonaro-as-urnas-e-ordena-manifestacao-da-pgr-em-24h.ghtml"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2882,7 +2891,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://jovempan.com.br/programas/jornal-da-manha/vivemos-em-uma-especie-de-estado-de-excecao-critica-van-hattem-sobre-stf-e-tse.html"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -2946,7 +2955,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.aosfatos.org/noticias/como-14-canais-punidos-pelo-tse-amplificaram-narrativas-pro-voto-impresso-no-youtube/"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3011,7 +3020,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/08/tse-suspende-repasses-do-youtube-a-canais-bolsonaristas-alvos-de-inquerito.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3045,7 +3054,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www1.folha.uol.com.br/poder/2021/09/moraes-revoga-prisao-de-bolsonarista-oswaldo-eustaquio-e-mantem-ordem-contra-ze-trovao.shtml"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3078,7 +3087,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-busca-e-apreensao-em-enderecos-de-deputado-federal-e-do-cantor-sergio-reis/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3111,7 +3120,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.gazetadopovo.com.br/republica/usaid-e-tse-fizeram-eventos-para-combater-desinformacao-um-ano-antes-das-eleicoes-de-2022/",
+        "https://international.tse.jus.br/en/misinformation-and-fake-news/tse-brazil-counter-disinformation-program-2022.pdf"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -3141,7 +3151,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/PET9935DECISaO.pdf"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3259,7 +3269,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=485660&ori=1"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",
@@ -3290,7 +3300,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://brasil.elpais.com/brasil/2020-08-01/pressionado-por-stf-facebook-bloqueia-globalmente-contas-de-apoiadores-de-bolsonaro.html?ssm=TW_CC"
       ],
       "pessoas_envolvidas": [
         "Data de Publicação",
@@ -3326,7 +3336,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.conjur.com.br/2021-dez-14/alexandre-ordena-prisao-indigena-participou-atos-golpistas/"
       ],
       "pessoas_envolvidas": [
         "Descrição Completa",

@@ -1,9 +1,9 @@
 {
   "total": 9,
-  "data_extração": "2026-10-18",
-  "periodo": "0001-01-01 a 2026-10-07",
+  "data_extração": "2026-10-29",
+  "periodo": "1979-07-01 a 2026-10-07",
   "fonte_original": "D:\\ai-projects\\lawfare-timeline\\_data\\lawfare.json",
-  "nota": "Sync incremental do lawfare-timeline: +521 fichas (id > 1424). IDs existentes não foram sobrescritos.",
+  "nota": "Sync do lawfare-timeline (ids do timeline): +0 fichas, 0 ids reatribuídos, 0 fichas movidas (max_id anterior 2020).",
   "ano": 2009,
   "assuntos": [
     {
@@ -21,7 +21,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/13-escandalos-do-pt-no-poder-18803710"
       ],
       "pessoas_envolvidas": [
         "Governo"
@@ -48,7 +48,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://noticias.uol.com.br/politica/ultimas-noticias/2010/05/15/tst-gasta-r-19-milhao-para-compra-de-25-carros-de-luxo.htm"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -75,7 +75,7 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://oglobo.globo.com/politica/relembre-as-50-frases-mais-polemicas-de-lula-durante-os-oito-anos-de-mandato-2903171"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -131,7 +131,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Castelo_de_Areia",
+        "https://www.conjur.com.br/2022-out-20/decisoes-tse-veiculos-bolsonaristas-nao-sao-censura/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [
@@ -158,7 +159,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.observatoriodeseguranca.org/pesquisas-e-estudos/da-violencia-aos-massacres-reflexoes-sobre-o-fenomeno-das-chacinas-no-brasil/",
+        "https://www.scielo.br/j/cm/a/7MqZLn7r9pSvd66qfjtLMwP/?lang=pt&format=pdf"
       ],
       "pessoas_envolvidas": [
         "Decisão",
@@ -223,7 +225,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Caixa_de_Pandora",
+        "https://www.gazetadopovo.com.br/vida-e-cidadania/um-guia-sobre-a-censura-e-a-perseguicao-contra-a-direita-no-judiciario-brasileiro/"
       ],
       "pessoas_envolvidas": [],
       "instituicoes_envolvidas": [],
@@ -247,7 +250,8 @@
       "impacto_diplomatico": "N/A",
       "tipo_escandalo": "N/A",
       "fontes": [
-        "N/A"
+        "https://www.repositoriodigital.univag.com.br/index.php/rep/article/view/1122/1077",
+        "https://www.cgu.gov.br/assuntos/acordo-leniencia/lei-anticorrupcao"
       ],
       "pessoas_envolvidas": [
         "Decisão",
