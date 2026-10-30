@@ -10,9 +10,17 @@ const { tagSlugAtiva = null } = Astro.props;
 
 const { tagCounts, tagToSlug } = tagRegistry;
 
-const topTags = [...tagCounts.entries()]
-  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'pt-BR'))
-  .slice(0, 32)
+// Editorial picks shown first, even when outside the 32 most frequent tags
+const TAGS_FIXAS = ['usaid'];
+
+const fixas = TAGS_FIXAS.filter(tag => tagCounts.has(tag));
+const topTags = [
+  ...fixas.map(tag => [tag, tagCounts.get(tag)!] as [string, number]),
+  ...[...tagCounts.entries()]
+    .filter(([tag]) => !fixas.includes(tag))
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'pt-BR'))
+    .slice(0, 32),
+]
   .map(([tag, count]) => ({
     tag,
     slug: tagToSlug.get(tag)!,
