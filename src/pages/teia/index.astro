@@ -1,0 +1,861 @@
+---
+import Base from '../../layouts/Base.astro';
+import { MINIMO_EVENTOS } from '../../lib/grafo';
+---
+
+<Base
+  title="Teia de coocorrência — Lawfare Timeline"
+  description="Grafo interativo de figuras públicas, processos judiciais, operações e instituições que aparecem juntos nos mesmos registros do arquivo."
+>
+  <div class="teia-page">
+    <header class="teia-intro">
+      <p class="guide-kicker">Coocorrência</p>
+      <h1 class="page-title">Teia de nomes</h1>
+      <p class="guide-lead">
+        Cada ponto é um nome que aparece nos registros do arquivo: uma figura pública, um processo
+        judicial, uma operação policial ou uma instituição. Dois pontos se ligam quando são citados
+        na mesma ficha. A espessura da linha conta quantas fichas eles dividem.
+      </p>
+      <p class="teia-aviso" role="note">
+        <strong>Leia antes de interpretar.</strong> Uma ligação diz apenas que os dois nomes estão no
+        mesmo registro. Não indica culpa, vínculo causal, parceria nem relação pessoal. Um juiz e um
+        réu, ou um acusador e um acusado, aparecem ligados pelo mesmo motivo. Confira sempre a ficha
+        e as fontes dela.
+      </p>
+    </header>
+
+    <form class="teia-controles" id="teiaControles" onsubmit="return false" aria-label="Filtros da teia">
+      <div class="teia-campo teia-campo--busca">
+        <label for="teiaBusca">Buscar nome</label>
+        <input id="teiaBusca" type="search" placeholder="Ex.: Moraes, Inq 4781, Lava Jato" autocomplete="off"
+          aria-controls="teiaSugestoes" aria-autocomplete="list" />
+        <ul id="teiaSugestoes" class="teia-sugestoes" role="listbox" hidden></ul>
+      </div>
+
+      <fieldset class="teia-campo teia-tipos">
+        <legend>Tipos</legend>
+        <label class="teia-chip" data-tipo="pessoa"><input type="checkbox" name="tipo" value="pessoa" checked /><span class="teia-chip-marca"></span>Pessoas <span class="teia-chip-n" data-n="pessoa"></span></label>
+        <label class="teia-chip" data-tipo="processo"><input type="checkbox" name="tipo" value="processo" checked /><span class="teia-chip-marca"></span>Processos <span class="teia-chip-n" data-n="processo"></span></label>
+        <label class="teia-chip" data-tipo="operacao"><input type="checkbox" name="tipo" value="operacao" checked /><span class="teia-chip-marca"></span>Operações <span class="teia-chip-n" data-n="operacao"></span></label>
+        <label class="teia-chip" data-tipo="instituicao"><input type="checkbox" name="tipo" value="instituicao" /><span class="teia-chip-marca"></span>Instituições <span class="teia-chip-n" data-n="instituicao"></span></label>
+      </fieldset>
+
+      <div class="teia-campo teia-periodo">
+        <span class="teia-rotulo" id="teiaPeriodoRotulo">Período</span>
+        <div class="teia-periodo-linha" role="group" aria-labelledby="teiaPeriodoRotulo">
+          <label class="sr-only" for="teiaDe">De</label>
+          <select id="teiaDe"></select>
+          <span aria-hidden="true">até</span>
+          <label class="sr-only" for="teiaAte">Até</label>
+          <select id="teiaAte"></select>
+        </div>
+      </div>
+
+      <div class="teia-campo">
+        <label for="teiaPeso">Ligação mínima</label>
+        <select id="teiaPeso">
+          <option value="1">1 ficha em comum</option>
+          <option value="2" selected>2 fichas em comum</option>
+          <option value="3">3 fichas em comum</option>
+          <option value="5">5 fichas em comum</option>
+        </select>
+      </div>
+
+      <button type="button" class="share-btn teia-limpar" id="teiaLimpar">Limpar filtros</button>
+    </form>
+
+    <p class="teia-status" id="teiaStatus" aria-live="polite">Carregando a teia…</p>
+
+    <div class="teia-corpo">
+      <div class="teia-grafo" id="teiaGrafo">
+        <svg id="teiaSvg" role="img" aria-label="Grafo de coocorrência. Use a busca ou a lista ao lado para navegar pelo teclado."></svg>
+        <div class="teia-zoom" aria-label="Zoom">
+          <button type="button" class="share-btn" id="teiaZoomMais" aria-label="Aproximar">+</button>
+          <button type="button" class="share-btn" id="teiaZoomMenos" aria-label="Afastar">−</button>
+          <button type="button" class="share-btn" id="teiaZoomAjustar">Ajustar</button>
+        </div>
+      </div>
+
+      <aside class="teia-painel" id="teiaPainel" aria-live="polite">
+        <div class="teia-painel-vazio" id="teiaPainelVazio">
+          <h2>Escolha um nome</h2>
+          <p>Toque ou clique em um ponto, ou use a busca. Aqui aparecem as fichas em que o nome é citado e os nomes que dividem fichas com ele.</p>
+          <h3>Mais citados no período</h3>
+          <ol class="teia-lista-nos" id="teiaTop"></ol>
+        </div>
+        <div id="teiaDetalhe" hidden>
+          <p class="teia-tipo" id="teiaDetalheTipo"></p>
+          <h2 id="teiaDetalheNome"></h2>
+          <p class="teia-meta" id="teiaDetalheMeta"></p>
+          <button type="button" class="share-btn" id="teiaFechar">Fechar</button>
+
+          <h3>Divide fichas com</h3>
+          <ol class="teia-lista-nos" id="teiaVizinhos"></ol>
+
+          <h3 id="teiaEventosTitulo">Fichas</h3>
+          <ul class="teia-eventos" id="teiaEventos"></ul>
+          <button type="button" class="share-btn" id="teiaMais" hidden>Mostrar mais</button>
+        </div>
+      </aside>
+    </div>
+
+    <section class="guide-section teia-metodo">
+      <h2>Como a teia é montada</h2>
+      <p>
+        O grafo é gerado na publicação do site a partir das fichas, sem consulta externa. O arquivo
+        está em <a href="/teia/grafo.json">/teia/grafo.json</a>.
+      </p>
+      <ul class="guide-list">
+        <li><strong>Pessoas</strong>: campo <code>pessoas_envolvidas</code>, com nomes normalizados (sem cargo entre parênteses, sem acento como critério de igualdade) e tags com o nome exato. Rótulos de planilha que vazaram para o campo, como “Fonte”, “URL” ou “Governo”, são descartados por uma lista de exclusão. Mínimo de {MINIMO_EVENTOS.pessoa} fichas.</li>
+        <li><strong>Processos</strong>: classe e número citados no título ou no resumo (ADPF, ADI, Inq, Pet, AP, HC e outras) e tags como <code>adpf-1141</code>. O “inquérito das fake news” conta como Inq 4781. Mínimo de {MINIMO_EVENTOS.processo} fichas. A decisão em si está na ficha; o ponto representa o processo em que ela foi tomada.</li>
+        <li><strong>Operações</strong>: “Operação Nome” no título ou no resumo e tags com o mesmo nome. Mínimo de {MINIMO_EVENTOS.operacao} fichas.</li>
+        <li><strong>Instituições</strong>: campo <code>instituicoes_envolvidas</code>, com siglas unificadas (PF e Polícia Federal, por exemplo). Mínimo de {MINIMO_EVENTOS.instituicao} fichas. Ficam desligadas no início porque o STF aparece em centenas de fichas e puxa todo o desenho para si.</li>
+      </ul>
+      <p>
+        A teia só enxerga o que foi registrado. Um nome ausente, ou uma ligação ausente, não quer dizer
+        que o fato não existiu, e um nome muito citado pode refletir só o foco do arquivo.
+        Grafias diferentes de um mesmo nome podem ter escapado da normalização.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style is:global>
+  .teia-page {
+    width: min(1280px, calc(100vw - 48px));
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .teia-intro { max-width: 800px; }
+  .teia-aviso {
+    margin: -8px 0 24px;
+    padding: 14px 16px;
+    border-left: 3px solid var(--gold);
+    background: var(--bg2);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    color: var(--text-sec);
+    line-height: 1.6;
+    font-size: 14px;
+  }
+  .teia-aviso strong { color: var(--text); }
+
+  .teia-controles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 18px;
+    align-items: flex-end;
+    padding: 16px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .teia-campo { display: flex; flex-direction: column; gap: 6px; min-width: 0; border: 0; padding: 0; margin: 0; }
+  .teia-campo > label:not(.teia-chip), .teia-campo > legend, .teia-rotulo {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 0;
+  }
+  .teia-campo--busca { position: relative; flex: 1 1 240px; }
+  .teia-controles input[type='search'], .teia-controles select {
+    font: inherit;
+    font-size: 14px;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    padding: 8px 10px;
+    min-height: 40px;
+  }
+  .teia-controles input[type='search']:focus-visible, .teia-controles select:focus-visible,
+  .teia-chip:focus-within { outline: 2px solid var(--accent3); outline-offset: 1px; }
+
+  .teia-sugestoes {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    margin: 4px 0 0;
+    padding: 4px;
+    list-style: none;
+    background: var(--bg-card);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  .teia-sugestoes li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text);
+    font-size: 14px;
+  }
+  .teia-sugestoes li[aria-selected='true'], .teia-sugestoes li:hover { background: var(--bg3); }
+  .teia-sugestoes small { margin-left: auto; color: var(--muted); font-family: var(--mono); font-size: 11px; }
+
+  .teia-tipos { flex-direction: row; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .teia-tipos legend { width: 100%; margin-bottom: 6px; }
+  .teia-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    min-height: 36px;
+    border: 1px solid var(--border2);
+    border-radius: var(--radius-full);
+    font-size: 13px;
+    color: var(--muted);
+    cursor: pointer;
+    user-select: none;
+  }
+  .teia-chip input { position: absolute; opacity: 0; pointer-events: none; }
+  .teia-chip:has(input:checked) { color: var(--text); background: var(--bg3); border-color: var(--tipo-cor); }
+  .teia-chip-marca { width: 10px; height: 10px; background: var(--tipo-cor); opacity: 0.35; }
+  .teia-chip:has(input:checked) .teia-chip-marca { opacity: 1; }
+  .teia-chip-n { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+
+  [data-tipo='pessoa'] { --tipo-cor: var(--accent); }
+  [data-tipo='processo'] { --tipo-cor: var(--purple); }
+  [data-tipo='operacao'] { --tipo-cor: var(--accent-cyan); }
+  [data-tipo='instituicao'] { --tipo-cor: var(--gold); }
+  .teia-chip[data-tipo='pessoa'] .teia-chip-marca { border-radius: 50%; }
+  .teia-chip[data-tipo='operacao'] .teia-chip-marca { transform: rotate(45deg) scale(0.85); }
+  .teia-chip[data-tipo='instituicao'] .teia-chip-marca { border-radius: 50%; background: transparent; border: 3px solid var(--tipo-cor); }
+
+  .teia-periodo-linha { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
+  .teia-limpar { min-height: 40px; }
+
+  .teia-status { margin: 12px 2px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+  .teia-corpo { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 16px; align-items: start; }
+  .teia-grafo {
+    position: relative;
+    height: min(72vh, 760px);
+    min-height: 420px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    touch-action: none;
+  }
+  #teiaSvg { width: 100%; height: 100%; display: block; cursor: grab; }
+  #teiaSvg:active { cursor: grabbing; }
+  .teia-zoom { position: absolute; right: 10px; bottom: 10px; display: flex; gap: 6px; }
+  .teia-zoom .share-btn { min-width: 36px; min-height: 36px; font-size: 13px; }
+
+  .teia-aresta { stroke: var(--text-sec); stroke-opacity: 0.18; }
+  .teia-aresta.is-ativa { stroke: var(--accent3); stroke-opacity: 0.75; }
+  .teia-no { cursor: pointer; }
+  .teia-no .teia-forma { fill: var(--tipo-cor); stroke: var(--bg2); stroke-width: 1.5; }
+  .teia-no[data-tipo='instituicao'] .teia-forma { fill: var(--bg2); stroke: var(--tipo-cor); stroke-width: 3; }
+  .teia-no text {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    fill: var(--text);
+    paint-order: stroke;
+    stroke: var(--bg2);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    pointer-events: none;
+    display: none;
+  }
+  .teia-no.mostra-rotulo text { display: block; }
+  .teia-no.is-selecionado .teia-forma { stroke: var(--text); stroke-width: 2.5; }
+  .teia-no:focus-visible { outline: none; }
+  .teia-no:focus-visible .teia-forma { stroke: var(--accent3); stroke-width: 3; }
+  .teia-esmaecido .teia-no:not(.is-vizinho):not(.is-selecionado) { opacity: 0.15; }
+  .teia-esmaecido .teia-aresta:not(.is-ativa) { stroke-opacity: 0.04; }
+
+  .teia-painel {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    max-height: min(72vh, 760px);
+    overflow-y: auto;
+    font-size: 14px;
+    color: var(--text-sec);
+  }
+  .teia-painel h2 { font-family: var(--sans); font-size: 20px; font-weight: 800; color: var(--text); margin: 0 0 6px; letter-spacing: -0.02em; }
+  .teia-painel h3 { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 18px 0 8px; }
+  .teia-tipo { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--tipo-cor); margin: 0 0 4px; }
+  .teia-meta { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+  .teia-lista-nos { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+  .teia-lista-nos button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    min-height: 34px;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+  }
+  .teia-lista-nos button:hover, .teia-lista-nos button:focus-visible { background: var(--bg3); outline: none; }
+  .teia-lista-nos .teia-bolinha { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--tipo-cor); }
+  .teia-lista-nos small { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+  .teia-eventos { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .teia-eventos li { border-left: 2px solid var(--border2); padding-left: 10px; line-height: 1.45; }
+  .teia-eventos time { display: block; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+  .teia-eventos a { color: var(--text); }
+  .teia-eventos a:hover { color: var(--accent3); }
+
+  .teia-metodo { margin-top: 28px; max-width: 800px; }
+  .teia-metodo p { line-height: 1.65; margin-bottom: 10px; }
+  .teia-metodo li { margin-bottom: 8px; line-height: 1.6; }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+  }
+
+  @media (max-width: 900px) {
+    .teia-corpo { grid-template-columns: minmax(0, 1fr); }
+    .teia-painel { max-height: none; }
+  }
+  @media (max-width: 600px) {
+    .teia-page { width: 100%; margin-left: 0; transform: none; }
+    .teia-grafo { height: 62vh; min-height: 340px; }
+    .teia-controles { padding: 12px; gap: 12px; }
+    .teia-campo--busca, .teia-tipos, .teia-periodo { flex-basis: 100%; }
+    .teia-periodo-linha select { flex: 1; }
+  }
+</style>
+
+<script>
+  import { select } from 'd3-selection';
+  import { zoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
+  import { drag } from 'd3-drag';
+  import {
+    forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY,
+    type Simulation, type SimulationNodeDatum, type SimulationLinkDatum,
+  } from 'd3-force';
+
+  type TipoNo = 'pessoa' | 'processo' | 'operacao' | 'instituicao';
+  interface NoJson { id: string; rotulo: string; tipo: TipoNo; ev: number[]; x: number; y: number }
+  interface GrafoJson {
+    eventos: [number, string, string, string][];
+    nos: NoJson[];
+    arestas: [number, number, number[]][];
+  }
+  interface No extends SimulationNodeDatum { i: number; n: NoJson; peso: number; r: number }
+  interface Aresta extends SimulationLinkDatum<No> { source: No; target: No; peso: number }
+
+  const TIPO_ROTULO: Record<TipoNo, string> = {
+    pessoa: 'Pessoa',
+    processo: 'Processo judicial',
+    operacao: 'Operação',
+    instituicao: 'Instituição',
+  };
+  const POR_PAGINA = 30;
+
+  const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+  const statusEl = $('teiaStatus');
+  const svgEl = document.getElementById('teiaSvg') as unknown as SVGSVGElement;
+  const inputBusca = $<HTMLInputElement>('teiaBusca');
+  const sugestoes = $<HTMLUListElement>('teiaSugestoes');
+  const selDe = $<HTMLSelectElement>('teiaDe');
+  const selAte = $<HTMLSelectElement>('teiaAte');
+  const selPeso = $<HTMLSelectElement>('teiaPeso');
+
+  function formatarData(iso: string): string {
+    const [a, m, d] = iso.split('-');
+    return `${d}/${m}/${a}`;
+  }
+
+  function semAcento(s: string): string {
+    return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  }
+
+  function forma(tipo: TipoNo, r: number): string {
+    if (tipo === 'processo') {
+      const s = r * 0.9;
+      return `M${-s},${-s}H${s}V${s}H${-s}Z`;
+    }
+    if (tipo === 'operacao') {
+      const s = r * 1.25;
+      return `M0,${-s}L${s},0L0,${s}L${-s},0Z`;
+    }
+    return `M${r},0A${r},${r} 0 1,1 ${-r},0A${r},${r} 0 1,1 ${r},0Z`;
+  }
+
+  async function iniciar() {
+    let g: GrafoJson;
+    try {
+      const resp = await fetch('/teia/grafo.json');
+      if (!resp.ok) throw new Error(String(resp.status));
+      g = await resp.json();
+    } catch {
+      statusEl.textContent = 'Não foi possível carregar a teia. Recarregue a página.';
+      return;
+    }
+
+    const anos = [...new Set(g.eventos.map((e) => Number(e[1].slice(0, 4))))].sort((a, b) => a - b);
+    const anoMin = anos[0];
+    const anoMax = anos[anos.length - 1];
+    for (let a = anoMin; a <= anoMax; a++) {
+      selDe.add(new Option(String(a), String(a)));
+      selAte.add(new Option(String(a), String(a)));
+    }
+    selDe.value = String(anoMin);
+    selAte.value = String(anoMax);
+
+    const anoEvento = g.eventos.map((e) => Number(e[1].slice(0, 4)));
+    const nos: No[] = g.nos.map((n, i) => ({ i, n, peso: n.ev.length, r: 4, x: n.x, y: n.y }));
+
+    // ---- state ----
+    let tiposAtivos = new Set<TipoNo>(['pessoa', 'processo', 'operacao']);
+    let de = anoMin;
+    let ate = anoMax;
+    let pesoMin = 2;
+    let selecionado: No | null = null;
+    let visiveis: No[] = [];
+    let arestasVisiveis: Aresta[] = [];
+    let vizinhos = new Map<number, number>();
+    let paginaEventos = 1;
+
+    const noPeriodo = (ei: number) => anoEvento[ei] >= de && anoEvento[ei] <= ate;
+    const eventosNoPeriodo = (n: No) => n.n.ev.filter(noPeriodo);
+
+    // ---- svg ----
+    const svg = select(svgEl);
+    const raiz = svg.append('g');
+    const camadaArestas = raiz.append('g');
+    const camadaNos = raiz.append('g');
+
+    const comportamentoZoom: ZoomBehavior<SVGSVGElement, unknown> = zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.15, 6])
+      .on('zoom', (ev) => {
+        raiz.attr('transform', ev.transform.toString());
+        atualizarRotulos(ev.transform.k);
+      });
+    svg.call(comportamentoZoom).on('dblclick.zoom', null);
+    svg.on('click', (ev) => {
+      if (ev.target === svgEl) selecionar(null);
+    });
+
+    let escalaAtual = 1;
+
+    const sim: Simulation<No, Aresta> = forceSimulation<No, Aresta>()
+      .force('charge', forceManyBody<No>().strength(-60))
+      .force('link', forceLink<No, Aresta>().distance(60).strength((l) => Math.min(1, 0.15 + l.peso / 20)))
+      .force('collide', forceCollide<No>().radius((d) => d.r + 3))
+      .force('x', forceX<No>(0).strength(0.03))
+      .force('y', forceY<No>(0).strength(0.03))
+      .alphaDecay(0.05)
+      .stop()
+      .on('tick', desenharPosicoes);
+
+    function recalcular() {
+      // Node weight = events inside the period; edge weight = shared events inside it.
+      for (const no of nos) {
+        no.peso = tiposAtivos.has(no.n.tipo) ? eventosNoPeriodo(no).length : 0;
+        no.r = 4 + Math.sqrt(no.peso) * 1.6;
+      }
+      arestasVisiveis = [];
+      const grau = new Map<number, number>();
+      for (const [a, b, ev] of g.arestas) {
+        if (!nos[a].peso || !nos[b].peso) continue;
+        const peso = ev.reduce((s, ei) => s + (noPeriodo(ei) ? 1 : 0), 0);
+        if (peso < pesoMin) continue;
+        arestasVisiveis.push({ source: nos[a], target: nos[b], peso });
+        grau.set(a, (grau.get(a) ?? 0) + 1);
+        grau.set(b, (grau.get(b) ?? 0) + 1);
+      }
+      visiveis = nos.filter((no) => grau.has(no.i) || no === selecionado);
+      if (selecionado && !selecionado.peso) selecionado = null;
+    }
+
+    function desenhar(reaquecer: boolean) {
+      recalcular();
+
+      const linhas = camadaArestas
+        .selectAll<SVGLineElement, Aresta>('line')
+        .data(arestasVisiveis, (d) => `${d.source.i}-${d.target.i}`);
+      linhas.exit().remove();
+      linhas
+        .enter()
+        .append('line')
+        .attr('class', 'teia-aresta')
+        .merge(linhas)
+        .attr('stroke-width', (d) => Math.min(8, 0.6 + Math.sqrt(d.peso) * 0.7));
+
+      const grupos = camadaNos.selectAll<SVGGElement, No>('g.teia-no').data(visiveis, (d) => d.n.id);
+      grupos.exit().remove();
+      const novos = grupos
+        .enter()
+        .append('g')
+        .attr('class', 'teia-no')
+        .attr('data-tipo', (d) => d.n.tipo)
+        .attr('tabindex', 0)
+        .attr('role', 'button')
+        .on('click', (ev, d) => {
+          ev.stopPropagation();
+          selecionar(d === selecionado ? null : d);
+        })
+        .on('keydown', (ev: KeyboardEvent, d) => {
+          if (ev.key === 'Enter' || ev.key === ' ') {
+            ev.preventDefault();
+            selecionar(d);
+          }
+        })
+        .call(
+          drag<SVGGElement, No>()
+            .clickDistance(4)
+            .on('start', (ev, d) => {
+              if (!ev.active) sim.alphaTarget(0.2).restart();
+              d.fx = d.x;
+              d.fy = d.y;
+            })
+            .on('drag', (ev, d) => {
+              d.fx = ev.x;
+              d.fy = ev.y;
+            })
+            .on('end', (ev, d) => {
+              if (!ev.active) sim.alphaTarget(0);
+              d.fx = null;
+              d.fy = null;
+            }),
+        );
+      novos.append('path').attr('class', 'teia-forma');
+      novos.append('text').attr('dy', '0.32em');
+      novos.append('title');
+
+      const todos = novos.merge(grupos);
+      todos.select('path').attr('d', (d) => forma(d.n.tipo, d.r));
+      todos.select('text').attr('x', (d) => d.r + 4).text((d) => d.n.rotulo);
+      todos.select('title').text((d) => `${d.n.rotulo} · ${d.peso} ficha${d.peso === 1 ? '' : 's'}`);
+      todos.attr('aria-label', (d) => `${d.n.rotulo}, ${TIPO_ROTULO[d.n.tipo]}, ${d.peso} fichas`);
+
+      sim.nodes(visiveis);
+      (sim.force('link') as ReturnType<typeof forceLink<No, Aresta>>).links(arestasVisiveis);
+      if (reaquecer) sim.alpha(0.35).restart();
+      else desenharPosicoes();
+
+      marcarSelecao();
+      atualizarRotulos(escalaAtual);
+      atualizarStatus();
+      atualizarTop();
+      if (selecionado) mostrarDetalhe();
+    }
+
+    function desenharPosicoes() {
+      camadaArestas
+        .selectAll<SVGLineElement, Aresta>('line')
+        .attr('x1', (d) => d.source.x!)
+        .attr('y1', (d) => d.source.y!)
+        .attr('x2', (d) => d.target.x!)
+        .attr('y2', (d) => d.target.y!);
+      camadaNos.selectAll<SVGGElement, No>('g.teia-no').attr('transform', (d) => `translate(${d.x},${d.y})`);
+    }
+
+    function atualizarRotulos(k: number) {
+      escalaAtual = k;
+      // Label the busiest nodes; more labels as the user zooms in.
+      const limite = k >= 2 ? Infinity : k >= 1.2 ? 45 : 20;
+      const fortes = new Set(
+        [...visiveis].sort((a, b) => b.peso - a.peso).slice(0, limite === Infinity ? visiveis.length : limite),
+      );
+      camadaNos
+        .selectAll<SVGGElement, No>('g.teia-no')
+        .classed('mostra-rotulo', (d) =>
+          selecionado ? d === selecionado || vizinhos.has(d.i) : fortes.has(d),
+        );
+    }
+
+    function marcarSelecao() {
+      vizinhos = new Map();
+      if (selecionado) {
+        for (const a of arestasVisiveis) {
+          if (a.source === selecionado) vizinhos.set(a.target.i, a.peso);
+          else if (a.target === selecionado) vizinhos.set(a.source.i, a.peso);
+        }
+      }
+      svg.classed('teia-esmaecido', !!selecionado);
+      camadaNos
+        .selectAll<SVGGElement, No>('g.teia-no')
+        .classed('is-selecionado', (d) => d === selecionado)
+        .classed('is-vizinho', (d) => vizinhos.has(d.i))
+        .attr('aria-pressed', (d) => String(d === selecionado));
+      camadaArestas
+        .selectAll<SVGLineElement, Aresta>('line')
+        .classed('is-ativa', (d) => !!selecionado && (d.source === selecionado || d.target === selecionado));
+    }
+
+    function atualizarStatus() {
+      const nEv = new Set<number>();
+      for (const no of visiveis) for (const ei of no.n.ev) if (noPeriodo(ei)) nEv.add(ei);
+      statusEl.textContent =
+        `${visiveis.length} nomes e ${arestasVisiveis.length} ligações, a partir de ${nEv.size} fichas ` +
+        `entre ${de} e ${ate}.` + (visiveis.length === 0 ? ' Afrouxe os filtros para ver a teia.' : '');
+      for (const tipo of Object.keys(TIPO_ROTULO) as TipoNo[]) {
+        const el = document.querySelector<HTMLElement>(`[data-n="${tipo}"]`);
+        if (el) el.textContent = String(nos.filter((n) => n.n.tipo === tipo && eventosNoPeriodo(n).length).length);
+      }
+    }
+
+    function itemNo(no: No, extra: string, aoClicar: () => void): HTMLLIElement {
+      const li = document.createElement('li');
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.dataset.tipo = no.n.tipo;
+      const bolinha = document.createElement('span');
+      bolinha.className = 'teia-bolinha';
+      const nome = document.createElement('span');
+      nome.textContent = no.n.rotulo;
+      const n = document.createElement('small');
+      n.textContent = extra;
+      btn.append(bolinha, nome, n);
+      btn.addEventListener('click', aoClicar);
+      li.append(btn);
+      return li;
+    }
+
+    function atualizarTop() {
+      const lista = $('teiaTop');
+      lista.replaceChildren(
+        ...[...visiveis]
+          .sort((a, b) => b.peso - a.peso)
+          .slice(0, 12)
+          .map((no) => itemNo(no, String(no.peso), () => selecionar(no, true))),
+      );
+    }
+
+    function mostrarDetalhe() {
+      const no = selecionado!;
+      $('teiaPainelVazio').hidden = true;
+      $('teiaDetalhe').hidden = false;
+      const tipoEl = $('teiaDetalheTipo');
+      tipoEl.dataset.tipo = no.n.tipo;
+      tipoEl.textContent = TIPO_ROTULO[no.n.tipo];
+      $('teiaDetalheNome').textContent = no.n.rotulo;
+      const evs = eventosNoPeriodo(no);
+      $('teiaDetalheMeta').textContent =
+        `${evs.length} ficha${evs.length === 1 ? '' : 's'} entre ${de} e ${ate}` +
+        (evs.length !== no.n.ev.length ? ` (${no.n.ev.length} no arquivo todo)` : '') + '.';
+
+      const viz = [...vizinhos].sort((a, b) => b[1] - a[1]);
+      const listaViz = $('teiaVizinhos');
+      listaViz.replaceChildren(
+        ...viz.slice(0, 15).map(([i, p]) => itemNo(nos[i], `${p} em comum`, () => selecionar(nos[i], true))),
+      );
+      if (!viz.length) {
+        const li = document.createElement('li');
+        li.className = 'teia-meta';
+        li.textContent = 'Nenhuma ligação com os filtros atuais.';
+        listaViz.append(li);
+      }
+
+      const ordenados = [...evs].reverse();
+      const mostrar = ordenados.slice(0, paginaEventos * POR_PAGINA);
+      $('teiaEventosTitulo').textContent = `Fichas (${evs.length})`;
+      $('teiaEventos').replaceChildren(
+        ...mostrar.map((ei) => {
+          const [id, data, titulo] = g.eventos[ei];
+          const li = document.createElement('li');
+          const t = document.createElement('time');
+          t.dateTime = data;
+          t.textContent = formatarData(data);
+          const a = document.createElement('a');
+          a.href = `/evento/${id}`;
+          a.textContent = titulo || `Ficha #${id}`;
+          li.append(t, a);
+          return li;
+        }),
+      );
+      $('teiaMais').hidden = mostrar.length >= ordenados.length;
+    }
+
+    function selecionar(no: No | null, centralizar = false) {
+      paginaEventos = 1;
+      if (no && !visiveis.includes(no)) {
+        // A node picked from search may be filtered out; show it anyway.
+        if (!tiposAtivos.has(no.n.tipo)) {
+          tiposAtivos.add(no.n.tipo);
+          const cb = document.querySelector<HTMLInputElement>(`input[name="tipo"][value="${no.n.tipo}"]`);
+          if (cb) cb.checked = true;
+        }
+        selecionado = no;
+        desenhar(true);
+      } else {
+        selecionado = no;
+      }
+      marcarSelecao();
+      atualizarRotulos(escalaAtual);
+      if (no) {
+        mostrarDetalhe();
+        history.replaceState(null, '', `#${encodeURIComponent(no.n.id)}`);
+        if (centralizar) centralizarEm(no);
+      } else {
+        $('teiaPainelVazio').hidden = false;
+        $('teiaDetalhe').hidden = true;
+        history.replaceState(null, '', location.pathname + location.search);
+      }
+    }
+
+    function centralizarEm(no: No) {
+      const { width, height } = svgEl.getBoundingClientRect();
+      const k = Math.max(escalaAtual, 1.3);
+      svg
+        .transition()
+        .duration(500)
+        .call(comportamentoZoom.transform, zoomIdentity.translate(width / 2, height / 2).scale(k).translate(-no.x!, -no.y!));
+    }
+
+    function ajustar(animado = true) {
+      if (!visiveis.length) return;
+      const { width, height } = svgEl.getBoundingClientRect();
+      // Fit the central 96% so a few stray nodes do not shrink the view.
+      const xs = visiveis.map((d) => d.x!).sort((a, b) => a - b);
+      const ys = visiveis.map((d) => d.y!).sort((a, b) => a - b);
+      const q = (arr: number[], p: number) => arr[Math.min(arr.length - 1, Math.floor(p * arr.length))];
+      const [x0, x1, y0, y1] = [q(xs, 0.02), q(xs, 0.98), q(ys, 0.02), q(ys, 0.98)];
+      const k = Math.min(2, 0.9 / Math.max((x1 - x0 + 40) / width, (y1 - y0 + 40) / height));
+      const t = zoomIdentity.translate(width / 2, height / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2);
+      if (animado) svg.transition().duration(500).call(comportamentoZoom.transform, t);
+      else svg.call(comportamentoZoom.transform, t);
+    }
+
+    // ---- controls ----
+    document.querySelectorAll<HTMLInputElement>('input[name="tipo"]').forEach((cb) =>
+      cb.addEventListener('change', () => {
+        tiposAtivos = new Set(
+          [...document.querySelectorAll<HTMLInputElement>('input[name="tipo"]:checked')].map((c) => c.value as TipoNo),
+        );
+        if (selecionado && !tiposAtivos.has(selecionado.n.tipo)) selecionar(null);
+        desenhar(true);
+      }),
+    );
+    function mudarPeriodo(origem: HTMLSelectElement) {
+      de = Number(selDe.value);
+      ate = Number(selAte.value);
+      if (de > ate) {
+        if (origem === selDe) selAte.value = String((ate = de));
+        else selDe.value = String((de = ate));
+      }
+      desenhar(true);
+    }
+    selDe.addEventListener('change', () => mudarPeriodo(selDe));
+    selAte.addEventListener('change', () => mudarPeriodo(selAte));
+    selPeso.addEventListener('change', () => {
+      pesoMin = Number(selPeso.value);
+      desenhar(true);
+    });
+    $('teiaLimpar').addEventListener('click', () => {
+      selDe.value = String((de = anoMin));
+      selAte.value = String((ate = anoMax));
+      selPeso.value = String((pesoMin = 2));
+      tiposAtivos = new Set(['pessoa', 'processo', 'operacao']);
+      document.querySelectorAll<HTMLInputElement>('input[name="tipo"]').forEach((c) => {
+        c.checked = tiposAtivos.has(c.value as TipoNo);
+      });
+      inputBusca.value = '';
+      fecharSugestoes();
+      selecionar(null);
+      desenhar(true);
+      setTimeout(() => ajustar(), 600);
+    });
+    $('teiaFechar').addEventListener('click', () => selecionar(null));
+    $('teiaMais').addEventListener('click', () => {
+      paginaEventos++;
+      mostrarDetalhe();
+    });
+    $('teiaZoomMais').addEventListener('click', () => svg.transition().duration(250).call(comportamentoZoom.scaleBy, 1.4));
+    $('teiaZoomMenos').addEventListener('click', () => svg.transition().duration(250).call(comportamentoZoom.scaleBy, 1 / 1.4));
+    $('teiaZoomAjustar').addEventListener('click', () => ajustar());
+
+    // ---- search ----
+    const indiceBusca = nos.map((no) => semAcento(no.n.rotulo));
+    let ativo = -1;
+    let resultados: No[] = [];
+
+    function fecharSugestoes() {
+      sugestoes.hidden = true;
+      inputBusca.setAttribute('aria-expanded', 'false');
+      ativo = -1;
+    }
+    function escolher(no: No) {
+      inputBusca.value = no.n.rotulo;
+      fecharSugestoes();
+      selecionar(no, true);
+    }
+    function renderSugestoes() {
+      sugestoes.replaceChildren(
+        ...resultados.map((no, idx) => {
+          const li = document.createElement('li');
+          li.role = 'option';
+          li.id = `teiaSug${idx}`;
+          li.dataset.tipo = no.n.tipo;
+          li.setAttribute('aria-selected', String(idx === ativo));
+          const b = document.createElement('span');
+          b.className = 'teia-bolinha';
+          b.style.cssText = 'width:8px;height:8px;border-radius:50%;background:var(--tipo-cor);flex:none';
+          const nome = document.createElement('span');
+          nome.textContent = no.n.rotulo;
+          const n = document.createElement('small');
+          n.textContent = `${TIPO_ROTULO[no.n.tipo]} · ${no.n.ev.length}`;
+          li.append(b, nome, n);
+          li.addEventListener('mousedown', (ev) => {
+            ev.preventDefault();
+            escolher(no);
+          });
+          return li;
+        }),
+      );
+      if (!resultados.length) {
+        const li = document.createElement('li');
+        li.textContent = 'Nenhum nome encontrado na teia.';
+        li.setAttribute('aria-disabled', 'true');
+        sugestoes.append(li);
+      }
+      sugestoes.hidden = false;
+      inputBusca.setAttribute('aria-expanded', 'true');
+      inputBusca.setAttribute('aria-activedescendant', ativo >= 0 ? `teiaSug${ativo}` : '');
+    }
+    inputBusca.addEventListener('input', () => {
+      const q = semAcento(inputBusca.value.trim());
+      if (q.length < 2) return fecharSugestoes();
+      resultados = nos
+        .filter((_, i) => indiceBusca[i].includes(q))
+        .sort((a, b) => b.n.ev.length - a.n.ev.length)
+        .slice(0, 10);
+      ativo = resultados.length ? 0 : -1;
+      renderSugestoes();
+    });
+    inputBusca.addEventListener('keydown', (ev) => {
+      if (sugestoes.hidden) return;
+      if (ev.key === 'ArrowDown') ativo = Math.min(resultados.length - 1, ativo + 1);
+      else if (ev.key === 'ArrowUp') ativo = Math.max(0, ativo - 1);
+      else if (ev.key === 'Enter' && resultados[ativo]) return escolher(resultados[ativo]);
+      else if (ev.key === 'Escape') return fecharSugestoes();
+      else return;
+      ev.preventDefault();
+      renderSugestoes();
+    });
+    inputBusca.addEventListener('blur', () => setTimeout(fecharSugestoes, 100));
+
+    // ---- start ----
+    desenhar(false);
+    ajustar(false);
+    const inicial = decodeURIComponent(location.hash.slice(1));
+    const doHash = inicial && nos.find((n) => n.n.id === inicial);
+    if (doHash) selecionar(doHash, true);
+  }
+
+  iniciar();
+</script>
