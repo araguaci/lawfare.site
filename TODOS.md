@@ -5,21 +5,23 @@ Backlog estruturado de melhorias, novos recursos e plano de evolução técnica 
 ---
 
 ## 📌 Status Atual do Projeto
-* [x] **Astro 4 SSG**: Geração estática de mais de 3.800 páginas HTML ultra-rápidas.
+* [x] **Astro 7 SSG**: Geração estática de mais de 3.800 páginas HTML.
 * [x] **Multi-Tema**: 4 temas curados (*Obsidian Dark*, *Editorial Light*, *Midnight Navy*, *Cyber Terminal*) com persistência e carregamento anti-FOUC.
 * [x] **Busca Pagefind Extended**: Busca offline em tempo real com filtros por relevância e categoria e atalho de teclado global (`/` ou `Ctrl+K`).
 * [x] **Landing Page Premium**: Bento Grid com métricas dinâmicas ao vivo, cards de categorias e tags.
 * [x] **Toolbar de Compartilhamento no Evento**: Cópia instantânea de link com feedback no clipboard e compartilhamento direto no X.
+* [x] **Teia de Coocorrência (`/teia`)**: grafo d3-force de pessoas, processos, operações e instituições citados nas mesmas fichas.
+* [x] **Sync com o lawfare-timeline**: ids do timeline, reparo de descrição/fontes e auditoria que bloqueia o build (ver `scripts/sync-from-timeline.md`).
+* [x] **OG Images por evento**: geradas no build por `scripts/generate-og.mjs`.
 
 ---
 
 ## 🗺️ Roadmap de Evolução
 
 ### 1. Visualização de Dados & Navegação Interativa
-- [ ] **Grafo de Conexões de Atores (Network Graph)**
-  - *Objetivo:* Visualizar graficamente a teia de relações entre figuras públicas, instituições, delações e inquéritos judiciais.
-  - *Tecnologia sugerida:* D3.js force-directed graph ou Cytoscape.js embutido em página dedicada `/grafos`.
-  - *Entregável:* Filtro por ator (ex: "Gilmar Mendes", "Sergio Moro", "Alexandre de Moraes") exibindo nós interconectados.
+- [x] **Grafo de Conexões de Atores (Network Graph)** — entregue em `/teia`
+  - Grafo de coocorrência gerado no build (`src/lib/grafo.ts`), com busca, filtros por tipo, período e peso, e fichas ligadas a cada nó.
+  - *Próximos passos:* calibrar limiares e listas de exclusão com `node scripts/grafo-relatorio.mjs`; aliases de nomes (ver item de padronização abaixo).
 
 - [ ] **Visualizador Scrollytelling Horizontal por Décadas**
   - *Objetivo:* Modo de exploração contínuo que divide os 45 anos em épocas históricas:
@@ -41,8 +43,8 @@ Backlog estruturado de melhorias, novos recursos e plano de evolução técnica 
 ---
 
 ### 2. Compartilhamento, Social & Distribuição
-- [ ] **Geração Dinâmica de OG Images (Sharecards Automáticos)**
-  - *Objetivo:* Cada um dos 1.400+ eventos ter sua própria imagem de pré-visualização no WhatsApp, Telegram e X.
+- [x] **Geração Dinâmica de OG Images (Sharecards Automáticos)** — feito com `scripts/generate-og.mjs` (resvg), sem satori
+  - *Objetivo:* Cada um dos 1.900+ eventos ter sua própria imagem de pré-visualização no WhatsApp, Telegram e X.
   - *Tecnologia:* `@astrojs/satori` ou geração estática de cartões SVG/PNG com data, categoria, título e selo Lawfare Timeline.
   - *Formato ideal:* Proporção 1200x630px com contraste alto respeitando o tema ativo.
 
@@ -84,11 +86,10 @@ Backlog estruturado de melhorias, novos recursos e plano de evolução técnica 
   - *Objetivo:* Transformar o projeto em um aplicativo instalável para desktop e celular.
   - *Tecnologia:* Manifesto `manifest.json`, favicons dedicados, Service Worker para cache estático e busca utilizável 100% desconectado da internet.
 
-- [ ] **Pipeline CI/CD no GitHub Actions**
-  - *Workflow:*
-    1. `npm run audit`: bloqueia PRs com dados corrompidos ou IDs faltantes.
-    2. `npm run build`: gera os assets estáticos e Pagefind.
-    3. Deploy automatizado para Vercel ou Cloudflare Pages com visualização prévia em branch.
+- [x] **Pipeline CI/CD no GitHub Actions**
+  - `validate.yml`: `pnpm run audit` + `pnpm run build:fast` em pushes e PRs (Node 22, pnpm 10).
+  - Deploy e preview por branch pela integração da Vercel.
+  - *Pendente:* reintroduzir checagem de tipos (`astro check` exige `@astrojs/check`).
 
 - [ ] **Otimização Contínua de Lighthouse (Target: 100/100 em todas as métricas)**
   - Pré-carregamento otimizado de fontes.
@@ -99,6 +100,6 @@ Backlog estruturado de melhorias, novos recursos e plano de evolução técnica 
 ## 💡 Como Contribuir ou Executar Tarefas do Backlog
 
 Para trabalhar em qualquer uma das tarefas acima:
-1. Verifique os scripts em [`scripts/`](file:///d:/ai-projects/lawfare-br/lawfare-astro/scripts) antes de alterar a base [`data/assuntos.json`](file:///d:/ai-projects/lawfare-br/lawfare-astro/data/assuntos.json).
-2. Sempre execute `npm run audit` e `npm run build:only` para garantir que novas alterações não quebrem a integridade estrutural.
+1. Verifique os scripts em [`scripts/`](scripts) antes de alterar a base [`src/data/assuntos.json`](src/data/assuntos.json). Correções de dados vão primeiro para o lawfare-timeline (ver [`scripts/sync-from-timeline.md`](scripts/sync-from-timeline.md)).
+2. Sempre execute `pnpm run audit` e `pnpm run build:only` para garantir que novas alterações não quebrem a integridade estrutural.
 3. Marque a caixa de seleção correspondente neste arquivo ao concluir uma tarefa.
